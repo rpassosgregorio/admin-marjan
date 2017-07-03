@@ -1,0 +1,15 @@
+# Ignore docs files
+.DS_Store
+contributing.md
+license.txt
+node_modules*
+user_guide/
+user_guide/*
+cms_bootstrap
+cms_bootstrap/*
+doc
+doc/*
+public/application/views/backend/assets/node_modules
+public/application/views/backend/assets/node_modules/*
+
+

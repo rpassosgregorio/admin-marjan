@@ -1,0 +1,90 @@
+{	"settings": {
+		"img_path" : "../../imgs/sections/sobre-nos/linha-do-tempo/"
+	},
+	"years" :[
+		{
+			"seq": "1",
+			"year": "1961",
+			"release": "Criação da Marjan<br>Lançamento do Frutoplex – Suplemento energético em casos de convalescença e cuidados pós-operatórios",
+			"img": "fachada.jpg"
+		},
+		{
+			"seq": "2",
+			"year": "1982",
+			"release": "Lançamento do Trivagel focado em Saúde da Mulher",
+			"img": "fachada2.jpg"
+		},
+		{
+			"seq": "3",
+			"year": "1990",
+			"release": "Lançamento do Pasalix - primeiro produto fitoterápico, focado na ansiedade",
+			"img": "fachada3.jpg"
+		},
+		{
+			"seq": "4",
+			"year": "1991",
+			"release": "Lançamento do Endofolin focado em preconcepção",
+			"img": "fachada.jpg"
+		},
+		{
+			"seq": "5",
+			"year": "1994",
+			"release": "Criação da Marjan<br>Lançamento do Frutoplex – Suplemento energético em casos de convalescença e cuidados pós-operatórios",
+			"img": "fachada2.jpg"
+		},
+		{
+			"seq": "7",
+			"year": "2005",
+			"release": "Lançamento do Pasalix - primeiro produto fitoterápico, focado na ansiedade",
+			"img": "fachada3.jpg"
+		},
+		{
+			"seq": "6",
+			"year": "2002",
+			"release": "Lançamento do Trivagel focado em Saúde da Mulher",
+			"img": "fachada.jpg"
+		},		
+		{
+			"seq": "8",
+			"year": "2007",
+			"release": "Lançamento do Endofolin focado em preconcepção",
+			"img": "fachada2.jpg"
+		},		
+		{
+			"seq": "9",
+			"year": "2011",
+			"release": "Lançamento do Viterkids - vitaminas para as crianças. 1º. produto em gomas para a Divisão de suplementos alimentícios",
+			"img": "fachada3.jpg"
+		},		
+		{
+			"seq": "10",
+			"year": "2012",
+			"release": "Lançamento do Caldê Mag - exclusivo suplemento à base de Cálcio e Vitamina D com magnésio 2: 1 para ampliar família Caldê Início de parceria com Sobrafito e ANVISA em educação com Workshops Internacionais",
+			"img": "fachada.jpg"
+		},		
+		{
+			"seq": "11",
+			"year": "2013",
+			"release": "Lançamento do Caldê K2 - exclusivo cálcio e vitamina D com vitamina K2, que evita depósitos de cálcio ou cálcio nas artérias Lançamento do Polivitamínico BariVit para pacientes bariátricos com tecnologia exclusiva de revestimento em comprimidos mastigáveis",
+			"img": "fachada2.jpg"
+		},		
+		{
+			"seq": "12",
+			"year": "2014",
+			"release": "Lançamento do Permear - um complexo fitoterápico focado na osteoartrite Lançamento do Normaten Fit - um laxante probiótico Lançamento do Tenflax - um colágeno hidrolisado",
+			"img": "fachada3.jpg"
+		},		
+		{
+			"seq": "13",
+			"year": "2015",
+			"release": "Lançamento do PreFolin - suplemento Polivitamínico para homens visando a melhoria da qualidade do esperma",
+			"img": "fachada.jpg"
+		},		
+		{
+			"seq": "14",
+			"year": "2016",
+			"release": "Prémio de Marketing pela SINDUSFARMA para Vicog e Magnen B6",
+			"img": "fachada2.jpg"
+		}
+	]
+}

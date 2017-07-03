@@ -1,0 +1,10 @@
+.login-form .form-group{position:relative}.login-form--pass .login-form-pass{display:none}.login-form-pass__btn i{display:none}.login-form-pass__btn.active{color:#dd4b39 !important}.login-form-pass__btn.active i{display:inline-block}.parsley-errors-list{float:right;margin-top:5px;font-size:11px;color:#dd4b39 !important}.parsley-errors-list li{list-style:none}table.dataTable thead>tr>th{padding-right:0}table.dataTable thead>tr>th:first-child{padding:8px}table.dataTable thead>tr>th:first-child input[type="checkbox"]{margin:0 auto;display:block}.feedback{position:fixed;top:0;left:0;width:100%;z-index:9999}.table-striped>tbody>tr:nth-of-type(even){background:white}.table-admin{margin:20px 0}.table-admin th,.table-admin td{padding:5px}.table-admin th{text-transform:uppercase}.table-admin td{border-bottom:1px solid #ccc}.table-admin tbody:nth-child(even) td{background:#ccc}.table-admin .colSubText{padding-left:30px}.table-admin input{display:block;margin:0 auto}.form-group--checkbox span{font-weight:700;margin-right:20px}.form-group--checkbox label{margin-right:20px}.form-group--checkbox label:last-child{margin-right:0}.gallery-container{position:relative}.gallery-container .progress{position:absolute;top:38px;left:0;width:100%}.gallery{padding:20px 0}.gallery ul{margin:0;padding:0}.gallery-item{float:left;list-style:none;width:128px;margin-right:10px;text-align:center}.gallery-item img{display:block;width:100%;margin:0 auto 10px auto}.gallery-item-info{height:128px;margin-bottom:10px;padding-top:40px}.gallery-item-info .fa{display:block;margin:0 auto}@media (max-width:1015px){.gallery-item{width:15%}}@media (max-width:767px){.gallery-item{width:25%}}
+
+.btn-delete-img-modal {
+	display: inline-block;
+	margin-left: 10px;
+	border: 0;
+	width: 22px;
+	height: 30px;
+	background: transparent url('../img/icon-trash.png') no-repeat;
+}

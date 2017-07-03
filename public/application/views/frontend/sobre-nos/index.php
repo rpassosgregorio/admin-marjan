@@ -1,0 +1,1 @@
+<?php die('sobre nós'); ?>
