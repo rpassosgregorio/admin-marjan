@@ -1,0 +1,365 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*Pantone Marjan*/
+
+/*
+Pantone 548 C - Azul escuro (meio e texto do logo)
+    Hex - #003F4F
+    CMYK: C=100 M=58 Y=45 K=45
+Pantone 429 C - Cinza Texto
+    Hex - #9CA8C6
+	CMYK - C=35 M=25 Y=5 K=5
+Pantone 583 C - Verde
+    Hex - #B2C135
+	CMYK - C=35 M=10 Y=100 K=0
+Pantone 429 C - Cor Viva (para esquentar)
+    Hex - #EB5F46
+	CMYK - C=0 M=85 Y=100 K=0
+*/
+
+/*#############################################
+#############################################*/
+
+@media (max-width: 1550px){	
+	.submenu-wrapper {
+		width: 90% !important;
+		margin-left: 10% !important; }
+}
+
+@media (max-width: 1500px) {
+	.first-section-wrapper video {
+		margin-top: -150px !important;
+		min-height: 650px !important;
+	}	
+	
+	.primary-navbar .navbar.col-two-thirdy, .secondary-navbar-wrapper .col-two-thirdy{
+		width: 85% !important;
+	}
+}
+@media (max-width: 1450px) {
+	.primary-navbar .navbar.col-two-thirdy, .secondary-navbar-wrapper .col-two-thirdy{
+		width: 92% !important;
+	}
+	
+	.social-stream-wrapper #social-stream-1 .stream li {
+		width: 96% !important;
+		min-height: 130px !important;
+		left: 3% !important;
+	}
+}
+
+@media (max-width: 1275px) {
+	.first-section-wrapper video {
+    margin-top: 0px !important;
+    position: absolute;
+    /* min-height: 650px !important; */
+    top: 0 !important;
+    height: 710px !important;
+    width: auto !important;
+	}	
+}
+
+@media (max-width: 1350px) {
+	.social-stream-wrapper #social-stream-1 .stream li {
+		width: 85% !important;
+		min-height: 130px !important;
+		left: 10% !important;
+	}
+	
+	.col-pv-01 {
+		padding: 100px 10px 0 20px !important;
+	}
+	
+	.col-pv-02 {
+		padding: 115px 30px 0 40px !important;
+	}
+}
+
+@media (max-width: 1300px) {
+	.primary-navbar .navbar.col-two-thirdy, .secondary-navbar-wrapper .col-two-thirdy{
+		width: 98% !important;
+	}	
+	
+	.close-resp-social-description, .close-health-description {		
+		padding: 1% 0 0 85% !important;		
+	}
+	
+	.form-fv-form {
+		margin-left: 8% !important;
+		width: 84% !important;
+	}
+	
+	.form-col-01 {
+		width: 45% !important;		
+	}
+}
+
+@media (max-width: 1249px) {
+	
+	.colcol{
+		display: flex !important;
+	}
+	.footer-col-3-wrapper {
+		width: 98% !important;
+		margin-left: 2% !important;
+		padding-top: 5px !important;
+	}
+	
+	ul.stream li.stream-home{
+		width: 96% !important;
+		left: 2% !important;
+	}
+	
+	.product-item-medical-info-items ul li div.showlist {		
+		padding-left: 44px;
+		text-align: left;		
+	}
+	.hide-max-1249{
+		display: none !important;
+	}
+	
+	.resp-social-description-text-campaign-01, .resp-social-description-text-campaign-02, .resp-social-description-text-campaign-03, .resp-social-description-text-campaign-04, .health-description-text-campaign-01, .health-description-text-campaign-02, .health-description-text-campaign-03 {
+		padding: 0px 50px !important;
+	}
+	
+	.close-ct-form {	
+		left: 38% !important;
+	}
+	
+	.product-item-row-02-col-01.product-item-col-01>ul {
+		width: 47% !important;
+	}
+	
+	.product-item-medical-info-items ul li {		
+		padding-left: 3.5vw !important;
+	}
+}
+
+@media (max-width: 1200px) {
+	.secondary-navbar .col-two-thirdy ul li a{
+		letter-spacing: 0px !important;
+	}
+}
+
+@media (max-width: 1190px) {
+	.submenu-wrapper{
+		width: 90% !important;
+    	margin-left: 10% !important;
+	}
+}
+
+@media (max-width: 1100px) {	
+	.submenu-wrapper{
+		width: 100% !important;
+    	margin-left: 0% !important;
+	}
+	
+	.primary-navbar .navbar.col-two-thirdy, .secondary-navbar-wrapper .col-two-thirdy{
+		width: 99% !important;
+	}
+	
+	.secondary-navbar .col-two-thirdy ul li {
+    	padding: 25px 0.7% 0px 0.7% !important;
+	}
+	
+	.secondary-navbar .col-two-thirdy ul li:first-child {
+    	padding: 25px 0.7% 0px 0% !important;
+	}
+	
+	.secondary-navbar .col-two-thirdy ul li:last-child {
+    	padding: 25px 0% 0px 0.7% !important;
+	}
+	
+	.col-pv-01 {
+		width: 65% !important;
+	}
+	
+	.col-pv-02 {
+		width: 35% !important;
+	}
+	
+	.sn-video-slide-wrapper {		
+		width: 130% !important;
+		left: -30% !important;
+	}
+	
+	.third-filter-search-input input {
+		width: 24vw !important;		
+	}
+	
+	.main-farmacovigilancia .col-pv-01, .main-farmacovigilancia .col-pv-02{
+		width: 50% !important;
+	}
+}
+
+@media (max-width: 1024px) {
+	
+	.submenu-health-doctors-button button{
+		width: 75% !important;
+	}
+	
+	.mission-value-wrapper {
+		width: 100% !important;
+		height: auto !important;
+	}
+	
+	.mission-wrapper, .value-wrapper{
+		width: 70% !important;
+		overflow: hidden !important;		
+		float: left !important;
+		text-align: center !important;
+		display: grid !important;
+		background-color: #fff !important;
+		margin-left: 15% !important;
+	}
+	
+	.mission-wrapper {		
+		margin-bottom: 10% !important;
+	}
+	
+	.au-indicators-wrapper{
+		padding: 0 1% !important;
+	}
+	
+	.au-indicator-01-wrapper, .au-indicator-02-wrapper, .au-indicator-03-wrapper, .au-indicator-04-wrapper{
+		margin-right: 1% !important;
+	}
+	
+	.product-item-row-01-col-01 {
+		height: 200px !important;
+	}
+	
+	.product_item_row_01, .product_item_row_02{
+		width: 100% !important;
+	}
+	
+	.product-tabs-contents {
+		width: 100% !important;	
+	}
+}
+
+@media (max-width: 1023px) {	
+	.secondary-navbar .col-two-thirdy ul li a{
+		font-size: 12px;
+	}
+	
+}
+
+@media (max-width: 1020px) {	
+	.health-social-footer {
+		height: 110px !important;
+		margin-top: 490px !important;
+	}
+	
+	.resp-social-site-redirect{
+		bottom: 130px !important;
+	}
+	
+	.resp-social-social-footer{
+		height: 110px !important;
+	}
+	
+	.social-network-wrapper {
+		height: 55px !important;		
+	}	
+	
+	.social-network-col01, .social-network-col02 {		
+		float: none !important;
+		width: 100% !important;
+		text-align: center !important;		
+	}
+	
+	.health-site-redirect {
+		margin-top: 420px !important;
+	}
+	
+	.main-farmacovigilancia .col-pv-01, .main-farmacovigilancia .col-pv-02 {
+		width: 100% !important;
+	}
+	
+	.main-farmacovigilancia .col-pv-02{
+		padding: 10px 30px 0 20px !important;
+	}
+	
+	.main-products .second-section-text-wrapper {
+		
+		width: 90% !important;
+		margin-left: 5% !important;
+	}
+	
+	.main-products .first-filter-wrapper, .main-products .second-filter-wrapper, .main-products .fifth-filter-wrapper, .main-products .contact-footer-wrapper{
+		padding: 0 2vw !important;
+	}
+	
+	.main-products .slide-products .slider-container{
+		margin: 0 2vw;
+		width: 94vw;
+	}
+	
+	.main-products .contact-footer-col-01{
+		width: 94vw;
+	}
+	
+	.main-products .fifth-filter-wrapper .fifth-section-col-01, .main-products .fifth-filter-wrapper .fifth-section-col-02, 
+	.main-products .first-filter-wrapper .first-filter-col-01, .main-products .first-filter-wrapper .first-filter-col-02{
+		width: 46vw;
+	}
+	
+	.main-products .second-filter-wrapper .second-filter-col-01{
+		width: 34vw;
+	}
+	
+	.main-products .second-filter-wrapper .second-filter-col-02.col01, .main-products .second-filter-wrapper .second-filter-col-02.col02, .main-products .second-filter-wrapper .second-filter-col-02.col03{
+		width: 18vw;
+	}	
+}
+
+@media (max-width: 900px) {
+	.first-section-wrapper video {
+		margin-top: 0px !important;
+		min-height: 650px !important;
+		left: -30%;
+		 /*width: 125% !important;*/
+	}
+	
+	.sn-video-slide-wrapper {		
+		width: 150% !important;
+		left: -50% !important;
+	}
+	
+	.third-filter-search-input input {
+		width: 30vw !important;		
+	}
+	
+	.filter-options p {
+		line-height: normal !important;
+	}
+	
+	.submenu {
+		display: block !important;
+	}
+	
+	.submenu .col-one-fourth, .submenu .col-three-fourth {
+		width: 100% !important;
+		max-width: 100% !important;
+	}
+}
+@media (max-width: 767px) {
+	.product-item-medical-info-items ul li {		
+		padding-left: 6vw !important;
+	}
+	.list-display-options{
+		display: none !important;
+	}
+	
+	.third-filter-search-input input {
+		width: 40vw !important;		
+	}
+}
+
+@media (max-width: 650px) {
+	.product-item-medical-info-items ul li {		
+		padding-left: 8vw !important;
+	}
+}

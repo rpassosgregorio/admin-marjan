@@ -1,0 +1,36 @@
+{
+    "menus" :
+    {
+        "about_us"              : "Sobre Nós",
+        "social_resp"           : "Responsabilidade Social",
+        "products"              : "Produtos",
+        "healthAndWelfare"      : "Saúde e Bem Estar",
+        "healthDoctors"         : "Profissionais da Saúde",
+        "contact"               : "Contato",
+        "ourProducts"           : "Nossos Produtos",
+        "aToZ"                  : "Todos os Produtos",
+        "underPrescription"     : "Sob Prescrição",
+        "exemptPrescription"    : "Isentos de Prescrição",
+        "foods"                 : "Suplemento Alimentar",
+        "name"                  : "Nome",
+        "specialties"           : "Especialidades",
+        "activePrinciple"       : "Princípio Ativo"
+    },
+    
+    "inputs" : 
+    {
+        "search"                : "Pesquisa"
+    },
+	
+    "buttons" : 
+    {
+        "knowMore" : "Saiba Mais"
+    },
+    
+    "footer" : 
+    {
+        "news" : "Últimas Notícias",
+        "social" : "Social @ Marjan",
+        "contact" : "Contato"
+    }
+}

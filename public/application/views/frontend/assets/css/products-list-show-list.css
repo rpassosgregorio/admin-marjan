@@ -1,0 +1,264 @@
+/* CSS Document */
+
+.third-section-list-products.showlist {
+	padding: 0 5vw;
+    display: inline-block;
+}
+
+.letter-a-indicator.showlist {
+	display: inline-block;
+	text-align: center;
+}
+
+.letter-a-indicator.showlist ul{
+	display: inline-block;
+    text-align: center;
+}
+
+.letter-a-indicator-item.showlist {
+	float: left;
+    height: 27px;
+    padding: 5px 3px;
+    margin-right: 2vw;
+    box-shadow: 1px 1px 5px #888888;
+    max-width: 25px;
+    width: 22px;
+    text-align: center;
+}
+.active-principle-icon.showlist, .presentation-icon.showlist, .specialties-icon.showlist {
+	float: left;
+}
+
+.active-principle-text.showlist, .presentation-text.showlist{
+	margin-right: 0.5vw;
+}
+
+.active-principle-text.showlist, .presentation-text.showlist, .specialties-text.showlist {
+	float: left;
+}
+
+.active-principle-text.showlist p, .presentation-text.showlist p, .specialties-text.showlist p{
+	line-height: 0;
+}
+
+.active-principle-icon.showlist img, .specialties-icon.showlist img{
+	height: 30px;
+}
+
+.presentation-icon.showlist img{
+	height: 24px;
+}
+.products-list-items-wrapper.showlist ul li.prod-list-info{
+	margin-bottom: 10px;
+	float: left;
+    display: inline-block;
+    width: 36%;
+	min-width: 36%;
+	max-width: 36%;
+	padding: 10px 0 0 0;
+	margin-right: 1%;
+}
+
+.products-list-items-wrapper.showlist ul li.prod-list-info.presentation-wrapper{
+    width: 30%;
+    min-width: 30%;
+    max-width: 30%;
+}
+
+
+.products-list-items-wrapper.showlist ul li:first-child{
+	width: 17%;
+	min-width: 17%;
+	max-width: 17%;
+}
+
+.products-list-items-wrapper ul li.prod-list-info.showlist:first-child {
+    margin: 4px 0;
+}
+
+.products-list-items-wrapper.showlist ul li:last-child{
+	width: 15%;
+	min-width: 15%;
+	max-width: 15%;
+	margin-right: 0;
+	padding: 0;
+}
+
+.products-list-items-wrapper.showlist ul p{
+	margin: 5px 0 0 0;
+    line-height: 20px;
+}
+
+.products-list-items-wrapper .product-item-specialties-items.showlist p{
+	margin: 0;
+	line-height: 100%;
+}
+
+.product-item-container.showlist ul{
+	display: flex;
+}
+
+.product-item-container.showlist{
+	display: inline-block;
+    float: inherit;
+    border: #bcbec0 solid;
+    border-width: 1px 1px 1px 1px;
+    padding: 0;
+    word-break: break-word;
+    margin: 2vh 1.5vw 0vh 0;
+	width: 100% !important;
+	max-width: 100% !important;
+	min-width: 100% !important;
+}
+
+.product-item-container.showlist p{
+	color: #818181;
+}
+
+.product-item-col-icon.showlist{
+	float: left;
+	width: 40px;
+}
+
+.product-item-col-icon.showlist{
+	float: left;
+}
+
+.product-item-title.showlist h5{
+	color: #f0623b;
+	font-weight: normal;
+}
+
+.product-item-principle-active-items.showlist ul{
+	display: flex;
+}
+
+.product-item-presentation-icon.showlist{
+	display: inline-block;
+}
+
+.product-item-presentation-items.showlist{
+	display: inline-block;
+}
+
+ul.product-item-presentation-items-ul.showlist{
+	display: flex;
+}
+
+div.product-item-presentation-items-div.showlist{
+	float: left;
+}
+
+div.product-item-presentation-items-div.showlist div{
+	float: left;
+}
+
+.product-item-presentation-items-div.showlist p{
+	float: left;
+}
+
+.product-item-specialties-items-ul.showlist{
+	display: grid;
+}
+
+ul.product-item-specialties-items-ul.showlist li{
+	margin-bottom: 0.2vh;
+}
+.products-list-wrapper.showlist {
+	display: inline-block;
+}
+
+.products-items-row.showlist {
+	display: inline-block;
+}
+
+.products-list-items-wrapper .medical-info-wrapper.showlist {
+	margin: 0;
+}
+
+.product-item-medical-info-items.showlist {
+	background-color: #4d7985;
+	border: solid #4d7985;
+	border-width: 0 1px;
+	height: 100%;
+}
+
+.product-item-medical-info-items.showlist ul{
+	display: table;
+	width: 100%;
+	height: 100%;
+}
+
+.product-item-medical-info-items-ul.showlist span:first-child{
+	width: 100%;
+}
+
+.product-item-medical-info-items-ul.showlist span:last-child{
+	width: 100%;
+}
+
+.product-item-medical-info-items.showlist ul li{
+    margin: 0;
+    text-align: left;
+    color: #fff !important;
+    float: left;
+	height: 100% !important;
+	padding: 0;
+}
+
+.product-item-medical-info-items.showlist ul li:first-child{
+	/* border: solid #fff; */
+	/* border-width: 0px 0px 1px 0px; */
+	width: 100%;
+	min-width: 100%;
+	max-width: 100%;
+}
+
+.product-item-medical-info-items.showlist ul li:last-child{
+	width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+}
+
+.product-item-medical-info-items ul li div.showlist {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    width: 100%;
+    padding-left: 44px;
+    text-align: left;
+}
+
+.products-list-items-wrapper .product-item-medical-info-items.showlist p{
+    color: #fff;
+    line-height: 0;
+    margin: 0;
+    height: 100%;
+}
+
+.ellipsis-overflow.showlist {
+	display: block; /* Fallback for non-webkit */
+	display: -webkit-box;
+	-webkit-line-clamp: 1;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: initial;
+}
+
+.ellipsis-overflow.showlist:hover {
+	-webkit-line-clamp: 10;
+}
+
+.product-item-title{
+    display: inline-block;
+    cursor: pointer;
+}
+
+.leaflet-icon.showlist {
+    background-image: url(../img/sections/produtos/products-list-leaflet-icon.png);
+    background-size: auto 24px;
+    background-repeat: no-repeat;
+    background-position: 10px center;
+}

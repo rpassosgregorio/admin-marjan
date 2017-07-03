@@ -1,0 +1,462 @@
+/* CSS Document */
+
+.first-section-wrapper, .first-section-contact .info-wrapper{	
+    height: 720px;
+}
+
+.first-section-contact .info-container{
+    display: inline-block;    
+    top: 100px;
+	left: 10vw;
+}
+
+.first-section-contact .page-info.title {    	
+	color: #fff;
+	text-align: right;
+}
+
+.first-section-contact .page-info.sub-title {    
+    border-left: #fff 2px solid;    
+	color: #fff;
+}
+
+.second-section-text-wrapper, .third-section-text-wrapper {
+	text-align: center;
+	width: 100%;
+	margin: 0;
+}
+
+.second-section-contact .second-section-text{	
+	font-family: 'HelveticaNeueLight';
+	color: #003F50;	
+	padding: 64px 0px;
+    font-weight: bold;
+}
+
+.third-section-col-01-subtitle {
+	margin-top: 20px;
+	display: inline-block;
+	width: 100%;
+    text-align: center;
+}
+
+.third-section-col-01-button {
+	margin-top: 50px;
+	display: inline-block;
+}
+
+.third-section-contact {
+	margin-bottom: 0px;
+}
+
+.third-section-contact .contact-form-input{
+	display: inline-block;
+}
+
+.third-section-col-01-title2{
+	margin: 50px 0 20px;
+	color: #003f50;
+	text-align: center;
+}
+
+.third-filter-wrapper {	
+    overflow: hidden;	
+	display: flex;
+}
+
+.contact-form-wrapper {	
+    overflow: hidden;	
+	display: flex;
+}
+
+.third-section-col-01-title h3, .third-section-col-01-title h4, .third-section-col-01-subtitle h4,
+.third-section-col-01-title h5, .third-section-col-01-subtitle h5, .third-section-col-01-title h6, .third-section-col-01-subtitle h6{
+    color: #003f50;
+}
+
+.third-section-col-01-button button{
+	border: #003f50 solid 1px;
+    background: none;
+    color: #f26522;
+    padding: 15px 65px;
+    font-size: 1vw;
+    background-color: none;
+}
+
+.third-section-col-01 {    
+	width: 50%;  
+    float: left;
+	overflow: hidden;
+	border: solid #003f50;
+    border-width: 0;
+}
+
+.third-section-col-02 {
+    width: 100%;    
+    float: left;
+    text-align: center;    
+	padding: 110px 0;
+	overflow: hidden;
+	background-color: #fff;
+	border: solid #003f50;
+    border-width: 0;
+}
+
+.contact-social-net-call-to-action .third-section-col-02{
+	padding: 60px 0;
+}
+
+.border-top-right{
+    border: solid #003f50;
+    border-width: 1px 1px 0 0;
+}
+
+.border-top-left{
+    border: solid #003f50;
+    border-width: 1px 0 0 1px;
+}
+
+.border-left{    
+    border-width: 0 0 0 1px;
+}
+
+.border-right{    
+    border-width: 0 1px 0 0;
+}
+
+.border-bottom-left{
+    border: solid #003f50;
+    border-width: 0 0 1px 1px;
+}
+
+.border-bottom-right{
+    border: solid #003f50;
+    border-width: 0 1px 1px 0;
+}
+
+.third-section-col-01 img{
+	width: 100%;
+}
+
+.health-social-footer {
+    z-index: 0;
+}
+
+.social-network-wrapper {
+    display: inline-block;
+}
+
+.social-network-col01, .social-network-col02, .social-network-col03 {
+    height: 100%;
+    text-align: left;    
+}
+
+.fb-logo, .ig-logo, .in-logo {
+    background-size: 42px 42px;
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 42px;
+    display: inline-block;
+    float: left;
+    margin-right: 10px;
+}
+
+.fb-link, .ig-link, .in-link {
+    display: inline-block;
+    vertical-align: middle;
+    float: left;
+}
+
+.fb-link span, .ig-link span, .in-link span {
+    height: 50px;
+    line-height: 50px;
+}
+
+.fb-link a, .ig-link a, .in-link a {
+    color: #003f50;
+    letter-spacing: 2px;
+}
+
+.contact-form-wrapper .third-section-col-02 {
+	padding: 40px 0;
+	background-color: rgba(255,255,255,0.95);
+}
+
+.third-section-col-01-form {	
+	width: 100%;
+	display: inline-block;
+}
+
+.third-section-contact.contact-form-input{
+    
+    width: 100%;    
+    overflow: hidden;
+	border: rgba(0,63,80,0.8) solid 1px;
+	
+}
+
+.contact-form-wrapper .third-section-col-01 {    
+	background-color: rgba(0,63,80, 0.9);
+	opacity: 0.9;
+}
+
+.third-section-col-01-form ul{
+	display: inline-block;
+    float: left;
+	margin-top: 15px;
+}
+
+.third-section-col-01-form ul li{
+	display: flex;
+	margin-bottom: 15px;
+}
+
+.third-section-col-01-form ul.form-caption li p{
+	float: left;
+    line-height: 0;
+	color: #003f50;
+}
+
+.third-section-col-01-form ul.form-caption{
+	text-align: center;
+}
+
+.third-section-col-01-form input, .third-section-col-01-form select, .third-section-col-01-form textarea{
+	width: 30vw;
+	max-width: 30vw;
+	float: left;
+	margin-left: 10px;
+	border-color: #3a6a78;
+}
+
+.third-section-col-01-form textarea{
+	height: 100px;
+}
+
+.third-section-col-01-button-form{
+	margin-top: 10px;
+}
+
+.third-section-col-01-button-form button{
+	border: #003f50 solid 1px;
+    background: none;
+    color: #f26522;
+    padding: 6px 65px;
+    font-size: 1vw;
+    background-color: none;
+}
+
+.form-inputs li input, .form-inputs li select, .third-section-col-01-button-form button.send-user-form, input[type="submit"]{
+    background-color: #fff;
+    padding: 6px 10px;
+    border: #f26522 solid 1px;
+    color: #f26522;
+}
+input[type="submit"]{
+	width: auto;
+    float: none;
+	cursor: pointer;
+}
+
+@media (max-width: 1000px) {	
+	.third-filter-wrapper {
+		overflow: hidden !important;
+		display: inline-grid !important;
+		width: 100% !important;
+		/* -webkit-box-ordinal-group: 1 !important; */
+	}
+
+	.third-section-col-01 {
+		width: 100% !important;
+		/* float: left !important; */
+		overflow: hidden !important;
+		border: solid #003f50 !important;
+		border-width: 0 !important;
+		padding: 190px 0 !important;
+		display: flex !important;
+		order: 1 !important;
+	}
+	.third-section-col-02 {
+		width: 100% !important;
+		/* float: left !important; */
+		text-align: center !important;
+		padding: 68px 0 !important;
+		overflow: hidden !important;
+		background-color: #fff !important;
+		border: solid #003f50 !important;
+		border-width: 0 !important;
+		/* display: flex !important; */
+		order: 2 !important;
+	}
+	
+	.third-section-col-01-title {
+		width: 100% !important;
+		float: none !important;
+		text-align: center !important;
+	}
+	
+	.third-section-col-01-button {
+		margin-top: 50px !important;
+		/* display: grid !important; */
+		width: 100% !important;		
+		order: 2 !important;
+		float: none !important;
+	}
+}
+.col-pv-01, .col-pv-02{
+	width: 50%;
+    height: 100%;
+    float: left;	
+	text-align: left;
+}
+
+.col-pv-01{	
+    padding: 100px 40px 0 150px;
+}
+
+.col-pv-02{	
+    padding: 100px 150px 0 40px;
+}
+
+.col-pv-01 p, .col-pv-02 p{
+	margin-left: 2vw;
+	letter-spacing: 1px;
+	color: #A7A9AC;
+}
+
+.col-pv-01 h4, .col-pv-02 h4{
+	color: #666;
+}
+
+.second-section-contact, .second-section-wrapper, .second-section-text-wrapper {
+	display: inline-block;
+}
+
+.second-section-contact{
+	margin-bottom: 50px;
+}
+
+.col-pv-02-btn-wp {
+	width: 100%;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.col-pv-02-btn-wp button{
+	padding: 10px 30px;
+}
+
+.form-fv {
+    position: fixed;
+    width: 90%;
+    left: 5%;
+    top: 0;
+    height: 100%;    
+	overflow-y: auto;
+	overflow-x: hidden;
+	z-index: 9999;
+	display: none;
+}
+
+.form-fv::-webkit-scrollbar{
+	width: 0px !important;
+	opacity: 0 !important;
+	visibility: hidden !important;
+} 
+
+.form-fv h4{
+	margin-bottom: 30px;
+}
+
+.form-fv button{
+	padding: 10px 45px;
+	color: #fff;
+	border-color: #fff;
+}
+
+.form-fv-filter-wrapper {
+	position: absolute;
+    width: 100%;
+    left: 0%;
+    display: inline-block;
+    top: 150px;
+    background-color: rgba(0,63,80, 0.9);
+    text-align: center;
+    padding: 50px 50px;
+    color: #fff;
+}
+
+.form-fv-filter {
+	margin-bottom: 50px;
+}
+
+.form-col-01 {
+	width: 30%;
+	display: inline-flex;
+	float: left;
+}
+
+.form-col-02 {
+	/* width: 60%; */
+	display: inline-flex;
+	/* float: left; */
+}
+
+.form-fv-form {
+    margin-left: 17%;
+    width: 66%;
+}
+
+.form-mask {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-color: rgba(0,0,0,0.5);
+	z-index: 9998;
+	display: none;
+}
+
+.close-fv-form {
+	position: absolute;
+	right: 2vw;
+	top: 2vw;
+	color: #fff;	
+}
+
+.form-contact-auth {
+    display: inline-block;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.form-contact-auth select{
+	width: 100%;
+	max-width: 100% !important;
+	margin-left: 0;
+	background-color: #fff;
+}
+
+.form-fv-health-doctor{
+/*	height: 0;*/
+	display: none;
+}
+
+.form-fv-patient {
+	display: none;
+}
+
+.required-field-form {
+	color: #f26522;
+	font-weight: bold;
+}
+
+.form-required-obs {
+	font-size: 14px;
+}
+
+.form-col-01.no-width {
+	width: auto !important;
+	float: none !important;
+}

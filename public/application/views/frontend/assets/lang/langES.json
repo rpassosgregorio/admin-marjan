@@ -1,0 +1,36 @@
+﻿{
+    "menus" : 
+    {
+        "about_us"              : "About Us",
+        "social_resp"           : "Social Responsability",
+        "products"              : "Products",
+        "healthAndWelfare"      : "Health And Welfare",
+        "healthDoctors"         : "Health Doctors",
+        "contact"               : "Contacts",
+        "ourProducts"           : "Our Products",
+        "aToZ"                  : "From A to Z",
+        "underPrescription"     : "Under prescription",
+        "exemptPrescription"    : "Exempt from prescription",
+        "foods"                 : "Suplemento Alimenticio",
+        "name"                  : "Name",
+        "specialties"           : "Specialties",
+        "activePrinciple"       : "Active Principle"
+    },
+    
+    "inputs" : 
+    {
+        "search"                : "Search"
+    },
+	
+    "buttons" : 
+    {
+        "knowMore" : "Know More"
+    },
+    
+    "footer" : 
+    {
+        "news" : "Latest News",
+        "social" : "Social @ Marjan",
+        "contact" : "Contact"
+    }
+}

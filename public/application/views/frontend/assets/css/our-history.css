@@ -1,0 +1,91 @@
+.first-section-wrapper{
+    height: 500px !important;
+}
+
+.first-section-health-doctors .info-wrapper{	
+    height: 400px !important;
+}
+
+.first-section-health-doctors .info-container{	
+    display: inline-block !important;
+    top: 130px !important;
+	left: 6vw;
+}
+
+.first-section-health-doctors .page-info.title {    	
+	color: #fff !important;
+	text-align: right !important;
+}
+
+.first-section-health-doctors .page-info.sub-title {    
+    border-left: #fff 2px solid !important;    
+	color: #fff !important;
+}
+
+.second-section-text-wrapper, .third-section-text-wrapper {
+	text-align: center !important;
+	width: 100% !important;
+	margin: 0 !important;
+	padding: 0 7vw;
+}
+
+.second-section-health-doctors .second-section-text{	
+	font-family: 'HelveticaNeueLTPro-Th' !important;
+	color: #003F50 !important;	
+	padding: 64px 0px;    
+}
+
+/*.third-section-col-01-subtitle {
+	margin-top: 20px;
+	display: inline-block;
+	width: 100%;
+    text-align: center;
+}
+
+.third-section-col-01-button {
+	margin-top: 50px;
+	display: inline-block;
+}*/
+
+.third-section-col-01-title{
+	/*display: inline-block;*/
+}
+
+/*.third-filter-wrapper {	
+    overflow: hidden;	
+	display: flex;
+}
+
+.third-section-col-01-title h3, .third-section-col-01-title h4, .third-section-col-01-subtitle h4{
+    color: #fff;
+}
+
+.third-section-col-01-button button{
+	border: #fff solid 1px;
+    background: none;
+    color: #fff;
+    padding: 15px 65px;
+    font-size: 1vw;
+    background-color: none;
+}
+
+.third-section-col-01 {
+    border: none;
+	width: 50%;  
+    float: left;
+	overflow: hidden;
+}
+
+.third-section-col-02 {    
+    width: 50%;    
+    float: left;
+    text-align: center;    
+	padding: 110px 0;
+	overflow: hidden;
+	background-color: #003F50;
+}
+
+.third-section-col-01 img{
+	width: 100%;
+}*/
+

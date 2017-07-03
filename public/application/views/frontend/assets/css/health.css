@@ -1,0 +1,229 @@
+/* CSS Document */
+
+.first-section-wrapper, .first-section-health .info-wrapper {
+    height: 720px;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+35&0.48+0,0+35,0+100 */
+background: -moz-linear-gradient(left, rgba(0,0,0,0.48) 0%, rgba(0,0,0,0) 35%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, rgba(0,0,0,0.48) 0%,rgba(0,0,0,0) 35%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, rgba(0,0,0,0.48) 0%,rgba(0,0,0,0) 35%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7a000000', endColorstr='#00000000',GradientType=1 ); /* IE6-9 */
+}
+
+.first-section-health .info-container{
+	top: 200px;
+	left: 6vw;
+}
+
+.first-section-health .page-info.title {    	
+	color: #fff;
+}
+
+.first-section-health .page-info.sub-title {
+    border-left: #fff 2px solid;    
+	color: #fff;
+}
+
+.second-section-text-wrapper {
+	text-align: center;
+    width: 96%; 
+	margin-left: 2%;
+}
+
+.second-section-text {
+	color: #003F50;
+	padding: 64px 0px;
+}
+
+.health-wrapper {
+	width: 100%;
+	height: 600px;
+	/*display: flex;*/
+}
+
+.health-wrapper p, .health-wrapper h1, .health-wrapper h2, .health-wrapper h3, .health-wrapper h4, .health-wrapper h5, .health-wrapper h6{
+	color: #fff;
+	letter-spacing: 2px;
+    line-height: 130%;
+}
+
+.health-wrapper a{
+	color: #fff;
+	letter-spacing: 2px;
+}
+
+.health-col01-wrapper {
+	width: 18%;
+	height: 600px;
+	background-color: #267988;
+	float: left;
+}
+
+.health-col02-wrapper {
+	width: 82%;
+	height: 600px;
+	background-color: #fff;	
+	float: left;
+	overflow: hidden;
+}
+
+.health-campaign-short-text {
+    height: 380px;
+    padding: 50px 10px 0;
+    text-align: center;
+    overflow-x: hidden;
+    overflow-y: auto;
+    margin-bottom: 20px;
+}
+
+.health-campaign-short-text p{
+	padding: 0 40px;
+}
+
+.health-campaign-short-text p, .health-campaign-short-text h4{
+	color: #fff;
+}
+
+.health-campaign-logo {
+	height: 130px;
+	text-align: center;
+}
+
+.health-campaign-logo img{
+	max-height: 120px;
+	max-width: 250px;
+}
+
+.health-campaign-btn {
+	text-align: center;
+	height: 70px;
+}
+
+.btn-health-know-more {
+	cursor: pointer;
+    border: 1px #fff solid;
+    padding: 10px 20px;
+    margin: 0 70px;
+    color: #fff;
+}
+
+.btn-health-know-more p {
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+}
+
+.health-description{
+    width: 100%;
+    height: 600px;    
+	background: rgba(0,63,80,0.8);
+}
+
+.health-social-footer{
+	width: 82%;
+    height: 50px;
+    background: rgba(0,63,80,0.7);
+    position: absolute;
+    margin-top: 550px;
+    z-index: 0;
+}
+
+.health-site-redirect{
+	width: 82%;
+    height: 50px;
+    text-align: center;
+    position: absolute;
+    margin-top: 465px;
+}
+
+.health-description-campaign-01, .health-description-campaign-03, .health-description-campaign-05, .health-description-campaign-07,
+.health-description-campaign-09, .health-description-campaign-11, .health-description-campaign-13, .health-description-campaign-15{
+	margin-left: -100%;
+}
+
+.health-description-campaign-02, .health-description-campaign-04, .health-description-campaign-06, .health-description-campaign-08,
+.health-description-campaign-10, .health-description-campaign-12, .health-description-campaign-14, .health-description-campaign-16{
+	margin-left: 100%;
+}
+
+.health-description-text-campaign-01, .health-description-text-campaign-02, .health-description-text-campaign-03{
+    margin-top: 5px;
+    height: 385px;
+    padding: 0 150px;
+	overflow-x:hidden;
+	overflow-y: auto;
+}
+
+.close-health-description {	
+	cursor: pointer;
+    height: 40px;
+    padding: 1% 0 0 94%;
+    margin: 0;
+}
+
+.btn-go-to-campaign {
+    color: #fff;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    height: 80px;
+	display: none !important;
+}
+
+.btn-go-to-campaign a{
+    border: 1px #fff solid;
+    padding: 10px 30px;
+    color: #fff;
+}
+
+.health-site-redirect-wrapper {	
+    height: 50px;
+    /* border: rgba(255,255,255,0.5) 1px solid; */
+    display: inline-block;
+    padding: 0 40px;
+    background-color: rgba(0,0,0,0.25);
+    border-radius: 10px;
+}
+
+.health-site-redirect-wrapper span{
+	height: 50px;
+	line-height: 50px;
+}
+
+.social-network-wrapper {
+	width: 100%;
+	height: 50px;	
+}
+
+.social-network-col01, .social-network-col02 {
+	height: 100%;
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+.fb-logo, .ig-logo {	    
+    background-size: 42px 42px;
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 42px;
+    display: inline-block;
+    float: left;
+	margin-right: 10px;
+}
+
+.fb-link, .ig-link {
+	display: inline-block;
+	vertical-align: middle;
+	float: left;
+}
+
+.fb-link a, .ig-link a{
+	color: #fff;
+	letter-spacing: 2px;
+}
+
+.fb-link span, .ig-link span{
+	height: 50px;
+	line-height: 50px;
+}

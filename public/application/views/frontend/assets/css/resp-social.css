@@ -1,0 +1,254 @@
+/* CSS Document */
+
+
+.first-section-wrapper, .first-section-resp-social .info-wrapper {
+    height: 470px;
+}
+
+.first-section-resp-social .info-container{
+	top: 150px;
+	left: 5vw;
+}
+
+.first-section-resp-social .page-info.title {
+	color: #fff;
+}
+
+.first-section-resp-social .page-info.sub-title {
+    border-left: #fff 2px solid;
+	color: #fff;
+}
+
+.second-section-text-wrapper {
+	text-align: center;
+}
+
+.second-section-text {
+	color: #003F50;
+	padding: 64px 0px;
+}
+
+
+.resp-social-wrapper, .resp-social-col01-wrapper, .resp-social-col02-wrapper, .resp-social-description, .video-resp-social-campaigns, .resp-social-video-wrapper{
+	height: 600px;
+	min-height: 600px;
+}
+.resp-social-wrapper {
+	width: 100%;
+}
+
+.resp-social-wrapper p, .resp-social-wrapper h1, .resp-social-wrapper h2, .resp-social-wrapper h3, .resp-social-wrapper h4, .resp-social-wrapper h5, .resp-social-wrapper h6{
+	color: #fff;
+	letter-spacing: 2px;
+    line-height: 130%;
+}
+
+.resp-social-wrapper a{
+	color: #fff;
+	letter-spacing: 2px;
+}
+
+.resp-social-col01-wrapper {
+	width: 18%;
+	background-color: #267988;
+	float: left;
+}
+
+.resp-social-col02-wrapper {
+    width: 82%;
+    float: left;
+    overflow: hidden;
+}
+
+.resp-social-campaign-short-text {
+    height: 380px;
+    padding: 50px 10px 0;
+    text-align: center;
+    overflow-x: hidden;
+    overflow-y: auto;
+    margin-bottom: 20px;
+}
+
+.resp-social-campaign-short-text p{
+	padding: 0 40px;
+}
+
+.resp-social-campaign-short-text p, .resp-social-campaign-short-text h4{
+	color: #fff;
+}
+
+.resp-social-campaign-logo {
+	height: 130px;
+	text-align: center;
+}
+
+.resp-social-campaign-logo img{
+	max-height: 120px;
+	max-width: 250px;
+}
+
+.resp-social-campaign-btn {
+	text-align: center;
+	height: 70px;
+}
+
+.btn-resp-social-know-more {
+	cursor: pointer;
+    border: 1px #fff solid;
+    padding: 10px 20px;
+    margin: 0 70px;
+    color: #fff;
+}
+.btn-resp-social-know-more p{
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+}
+
+.resp-social-description{
+    width: 100%;
+    background: rgba(0,63,80,0.8);
+    position: absolute;
+}
+
+.resp-social-social-footer{
+	width: 82%;
+	height: 50px;
+	background: rgba(0,63,80,0.7);
+	position: absolute;
+	bottom: 0;
+	z-index: +1;
+}
+
+.resp-social-site-redirect{
+	width: 82%;
+	height: 50px;
+	text-align: center;
+	position: absolute;
+	/* margin-top: 465px; */
+	z-index: +1;
+	bottom: 70px;
+}
+
+.resp-social-campaign-02 .resp-social-site-redirect{
+	margin-top: 445px;
+}
+
+.resp-social-description-campaign-01, .resp-social-description-campaign-03, .resp-social-description-campaign-05, .resp-social-description-campaign-07,
+.resp-social-description-campaign-09, .resp-social-description-campaign-11, .resp-social-description-campaign-13, .resp-social-description-campaign-15{
+	margin-left: -100%;
+}
+
+.resp-social-description-campaign-02, .resp-social-description-campaign-04, .resp-social-description-campaign-06, .resp-social-description-campaign-08,
+.resp-social-description-campaign-10, .resp-social-description-campaign-12, .resp-social-description-campaign-14, .resp-social-description-campaign-16{
+	margin-left: 100%;
+}
+
+.resp-social-description-text-campaign-01, .resp-social-description-text-campaign-02, .resp-social-description-text-campaign-03, .resp-social-description-text-campaign-04{
+    margin-top: 5px;
+    height: 385px;
+    padding: 0 150px;
+	overflow-x:hidden;
+	overflow-y: auto;
+}
+
+.close-resp-social-description {
+	cursor: pointer;
+    height: 40px;
+    padding: 1% 0 0 94%;
+    margin: 0;
+}
+
+.btn-go-to-campaign {
+    color: #fff;
+    /*display: inline-block;*/
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    height: 80px;
+	display: none;
+}
+
+.btn-go-to-campaign a{
+    border: 1px #fff solid;
+    padding: 10px 30px;
+    color: #fff;
+}
+
+.resp-social-site-redirect-wrapper {
+    height: 50px;
+    display: inline-block;
+    padding: 0 40px;
+    background-color: rgba(0,0,0,0.25);
+    border-radius: 10px;
+}
+
+.resp-social-site-redirect-wrapper span{
+	height: 50px;
+	line-height: 50px;
+}
+
+.social-network-wrapper {
+	width: 100%;
+	height: 50px;
+}
+
+.social-network-col01, .social-network-col02 {
+	height: 100%;
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+.fb-logo, .ig-logo {
+    background-size: 42px 42px;
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 42px;
+    display: inline-block;
+    float: left;
+	margin-right: 10px;
+}
+
+.fb-link, .ig-link {
+	display: inline-block;
+	vertical-align: middle;
+	float: left;
+}
+
+.fb-link a, .ig-link a{
+	color: #fff;
+	letter-spacing: 2px;
+}
+
+.fb-link span, .ig-link span{
+	height: 50px;
+	line-height: 50px;
+}
+
+.video-resp-social-campaigns {
+    /*background-color: #003f50;*/
+	position: absolute;
+}
+
+.resp-social-video-wrapper {
+	position: absolute;
+	/* z-index: -1; */
+	background-image: url(../../img/sections/responsabilidade-social/resp-social-scm.jpg);
+	background-position: center center;
+	overflow: hidden;
+}
+
+.video-resp-social-agv {
+	background-color: #e5e4da;
+}
+
+.video-resp-social-scm {
+	background-color: #fff;
+}
+
+.pos-absolute {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
