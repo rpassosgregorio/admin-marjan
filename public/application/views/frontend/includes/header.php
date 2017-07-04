@@ -38,7 +38,7 @@
 	<script src="<?php echo base_url(PATH_ASSETS.'/js/home.js'); ?>"></script> <!-- js customizado da página -->
 </head>
 
-<body class="no-home body-mj">
+<body class="no-home body-mj" data-base="<?php echo base_url(); ?>">
 
 <header ng-controller="menuController" class="fixed-menu menu">
 
