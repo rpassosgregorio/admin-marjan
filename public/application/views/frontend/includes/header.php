@@ -23,11 +23,12 @@
 	<link href="<?php echo base_url(PATH_ASSETS.'/css/know-more-about-mj.css'); ?>" rel="stylesheet" type="text/css">
 	<link href="<?php echo base_url(PATH_ASSETS.'/css/page-header.css'); ?>" rel="stylesheet" type="text/css">
 
+    <script src="<?php echo base_url(PATH_ASSETS.'/js/libs/jquery/jquery-3.2.1.min.js'); ?>"></script>
 	<script src="<?php echo base_url(PATH_ASSETS.'/js/jquery.social.stream.1.6.1.js'); ?>"></script>
 	<script src="<?php echo base_url(PATH_ASSETS.'/js/jquery.social.stream.wall.1.8.js'); ?>"></script>
 	<script src="<?php echo base_url(PATH_ASSETS.'/js/libs/greensock-js/TweenMax.js'); ?>"></script>
 	<script src="<?php echo base_url(PATH_ASSETS.'/js/libs/greensock-js/plugins/ScrollToPlugin.js'); ?>"></script>
-	<script src="<?php echo base_url(PATH_ASSETS.'/js/libs/jquery/jquery-3.2.1.min.js'); ?>"></script>
+	
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-route.js"></script>
 
@@ -35,6 +36,7 @@
 	<script src="<?php echo base_url(PATH_ASSETS.'/js/controllers.js'); ?>"></script>
 	<script src="<?php echo base_url(PATH_ASSETS.'/js/application.js'); ?>"></script>
 	<script src="<?php echo base_url(PATH_ASSETS.'/js/menu.js'); ?>"></script>
+    <script src="<?php echo base_url(PATH_ASSETS.'/js/slider.js'); ?>"></script>
 	<script src="<?php echo base_url(PATH_ASSETS.'/js/home.js'); ?>"></script> <!-- js customizado da página -->
 </head>
 
@@ -112,7 +114,7 @@
 						<li><p><a href="<?php echo base_url('contato'); ?>">Contato</a></p></li>
 					</ul>
   				</div>
-  				<div class="submenu-columns submenu-heigth submenu-column-02-right" style="background-image: url("<?php echo base_url(PATH_ASSETS.'/img/menu/submenus/menu-sobre-nos.jpg')?>); background-position: center">
+  				<div class="submenu-columns submenu-heigth submenu-column-02-right" style="background-image: url('<?php echo base_url(PATH_ASSETS.'/img/menu/submenus/menu-sobre-nos.jpg'); ?>'); background-position: center">
   					<div class="submenu-img-mask"></div>
   					<div class="submenu-desc-input submenu-health-doctors-button"><a href="<?php echo base_url('sobre-nos'); ?>#nossa-historia.html"><button class="">Nossa<br>história</button></a></div>
   				</div>
@@ -140,7 +142,7 @@
 						<div><p><a><img src="<?php echo base_url(PATH_ASSETS.'/img/sections/responsabilidade-social/logo-agv.png'); ?>" /></a></p></div>-->
 					</div>
   				</div>
-  				<div class="submenu-columns submenu-heigth submenu-column-02-right" style="background-image: url("<?php echo base_url(PATH_ASSETS.'/img/menu/submenus/menu-resp-social.jpg')?>); background-position: right bottom">
+  				<div class="submenu-columns submenu-heigth submenu-column-02-right" style="background-image: url('<?php echo base_url(PATH_ASSETS.'/img/menu/submenus/menu-resp-social.jpg'); ?>'); background-position: right bottom">
   					<div class="submenu-img-mask"></div>
   					<div class="submenu-desc-input submenu-health-doctors-button"><a href="<?php echo base_url('responsabilidade-social'); ?>"><button class="">Projetos, Campanhas e<br>Parceiros</button></a></div>
   				</div>
@@ -173,7 +175,7 @@
 						</div>
 					</div>
   				</div>
-  				<div class="submenu-columns submenu-heigth submenu-column-02-right" style="background-image: url("<?php echo base_url(PATH_ASSETS.'/img/menu/submenus/menu-prof-saude.jpg')?>); background-position: center">  		<div class="submenu-img-mask"></div>
+  				<div class="submenu-columns submenu-heigth submenu-column-02-right" style="background-image: url('<?php echo base_url(PATH_ASSETS.'/img/menu/submenus/menu-prof-saude.jpg'); ?>'); background-position: center">  		<div class="submenu-img-mask"></div>
   					 <div class="submenu-desc-input submenu-health-doctors-button"><a href="<?php echo base_url('profissionais-da-saude'); ?>"><button class="">Profissionais de<br>saúde</button></a></div>
   				</div>
   			</div>
@@ -200,7 +202,7 @@
 						<div><p><a><img src="<?php echo base_url(PATH_ASSETS.'/img/sections/saude-e-bem-estar/logo_colageno-color-circle.png'); ?>" /></a></p></div>-->
 					</div>
   				</div>
-  				<div class="submenu-columns submenu-heigth submenu-column-02-right" style="background-image: url("<?php echo base_url(PATH_ASSETS.'/img/menu/submenus/menu-saude-bem-estar.jpg')?>); background-position: center">
+  				<div class="submenu-columns submenu-heigth submenu-column-02-right" style="background-image: url('<?php echo base_url(PATH_ASSETS.'/img/menu/submenus/menu-saude-bem-estar.jpg'); ?>'); background-position: center">
   					<div class="submenu-img-mask"></div>
   					<div class="submenu-desc-input submenu-health-doctors-button"><a href="<?php echo base_url('saude-e-bem-estar'); ?>"><button class="">Incentivo à saúde e ao<br>bem-estar</button></a></div>
   				</div>
@@ -225,7 +227,7 @@
 						<li><p><a href="<?php echo base_url('contato'); ?>">Contato</a></p></li>
 					</ul>
   				</div>
-  				<div class="submenu-columns submenu-heigth submenu-column-02-right" style="background-image: url("<?php echo base_url(PATH_ASSETS.'/img/menu/submenus/menu-prof-saude.jpg')?>); background-position: center">
+  				<div class="submenu-columns submenu-heigth submenu-column-02-right" style="background-image: url('<?php echo base_url(PATH_ASSETS.'/img/menu/submenus/menu-prof-saude.jpg'); ?>'); background-position: center">
   					<div class="submenu-img-mask"></div>
   					<div class="submenu-desc-input submenu-health-doctors-button"><a href="http://www.marjanmedicalnews.com.br/" target="_blank"><button class="">Acesse nosso<br>"Medical News"</button></a></div>
   				</div>
@@ -251,7 +253,7 @@
 						<li><p>SAC: 0800-55-4545</p></li>
 					</ul>
   				</div>
-  				<div class="submenu-columns submenu-heigth submenu-column-02-right" style="background-image: url("<?php echo base_url(PATH_ASSETS.'/img/menu/submenus/menus-contato-pags-topo.jpg')?>); background-position: left top">
+  				<div class="submenu-columns submenu-heigth submenu-column-02-right" style="background-image: url('<?php echo base_url(PATH_ASSETS.'/img/menu/submenus/menus-contato-pags-topo.jpg'); ?>'); background-position: left top">
   					<div class="submenu-img-mask"></div>
   					<div class="submenu-desc-input submenu-health-doctors-button"><a href="<?php echo base_url('farmacovigilancia'); ?>"><button class="">Reações ou eventos<br>adversos?</button></a></div>
   				</div>

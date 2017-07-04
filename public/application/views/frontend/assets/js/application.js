@@ -11,11 +11,14 @@ var Application = {
 	isHomePage: true,
 	updateView: false,
 	windowInitialWidth: 0,
-	screenWidth: 0,
-	productsJSONUrl: "../produtos/products.json",	
+	screenWidth: 0,   
+	productsJSONUrl: "",	
 	isPortrait: false,
 	
 	config: {
+        baseURL: "",
+        frontendViewURL: "application/views/frontend/",
+        assetsURLExtension: "assets/",
 		defaultLang: "pt", // pt, en or es
 		langURLPrefix: "",
 		langEN: "lang/langEN.json",
@@ -32,12 +35,10 @@ var Application = {
         isMobile        : !!navigator.userAgent.match(/iPhone/i) || !!navigator.userAgent.match(/iPod/i) || (!!navigator.userAgent.match(/Android/i) && !!navigator.userAgent.match(/Mobile/i))
 	},
 	
-	documentReady: function(){
-		
-		if(Application.config.isMobile){
-			window.location.href = "../portal/embreve.html";
-		}
-		
+	documentReady: function(){		
+        
+		Application.config.baseURL = $("body")[0].dataset.base;
+        
 		if(Application.config.isMobile || Application.config.isAndroidTablet || Application.config.isIPad){
 			$("video").hide();	
 			$(".secondary-navbar-wrapper .navbar-resp-social a").html("RESPONSABILIDADE<br>SOCIAL");
@@ -46,6 +47,8 @@ var Application = {
 			$(".secondary-navbar-wrapper .navbar-item a").css("line-height", "100%");		
 			$(".secondary-navbar-wrapper .navbar-link-container").css("display", "inline-flex");
 		}
+        
+        
 		
 		this.windowInitialWidth = $(window).width();
 		this.screenWidth = screen.width;
@@ -144,10 +147,6 @@ var Application = {
 	beforeStart: function(isHome){
 		this.isHomePage = isHome;
 		
-		if(isHome){
-			this.productsJSONUrl = "sections/produtos/products.json";
-		}
-		
 		this.getProducts();
 		this.SetLanguage();
 		this.LoadUserEvents();
@@ -170,7 +169,10 @@ var Application = {
 		
 	},
 	
-	getProducts: function(){		
+	getProducts: function(){	
+        
+        this.productsJSONUrl = Application.config.baseURL + Application.config.frontendViewURL + "produtos/products.json";
+        
 		this.products = $.parseJSON(
 			$.ajax({
 				url: this.productsJSONUrl,
@@ -210,15 +212,15 @@ var Application = {
 			isHomePage = false;
 		}*/
 		
-		if(this.isHomePage){
+		/*if(this.isHomePage){
 			this.config.langURLPrefix = "./";
 		} else {
 			this.config.langURLPrefix = "../../";
-		}
+		}*/
 		
-		this.config.langEN = this.config.langURLPrefix + "lang/langEN.json";
-    	this.config.langPT = this.config.langURLPrefix + "lang/langPT.json";
-    	this.config.langES = this.config.langURLPrefix + "lang/langES.json";
+		this.config.langEN = Application.config.baseURL + Application.config.frontendViewURL + Application.config.assetsURLExtension + "lang/langEN.json";
+    	this.config.langPT = Application.config.baseURL + Application.config.frontendViewURL + Application.config.assetsURLExtension + "lang/langPT.json";
+    	this.config.langES = Application.config.baseURL + Application.config.frontendViewURL + Application.config.assetsURLExtension + "lang/langES.json";
 		
 		if (this.config.defaultLang == 'en') {
 			this.langUrl = this.config.langEN;

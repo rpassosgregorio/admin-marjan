@@ -1,4 +1,14 @@
-<main class="main-home" id="main_home">
+<main class="main-home" id="main_home">    
+    <div class="home slider-controller" id="slider_controller">
+        <ul>		
+            <li class="slider-controller-1"><a><img src="<?php echo base_url(PATH_ASSETS.'/img/home/slider/01/slide_thumb.png')?>"></a></li>
+            <li class="slider-controller-2"><a><img src="<?php echo base_url(PATH_ASSETS.'/img/home/slider/02/slide_thumb.png')?>"></a></li>
+            <li class="slider-controller-3"><a><img src="<?php echo base_url(PATH_ASSETS.'/img/home/slider/03/slide_thumb.png')?>"></a></li>
+            <li class="slider-controller-4"><a><img src="<?php echo base_url(PATH_ASSETS.'/img/home/slider/04/slide_thumb.png')?>"></a></li>
+            <li class="slider-controller-5"><a><img src="<?php echo base_url(PATH_ASSETS.'/img/home/slider/05/slide_thumb.png')?>"></a></li>        
+        </ul>
+    </div>
+
 	<section>
 		<div class="slider-container" id="slider_container">
 			<div class="slider-items slide-number-1" id="slider_items_1">

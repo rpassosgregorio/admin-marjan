@@ -39,7 +39,7 @@ var home_fns = {
 					text: 'content',
 					comments: 0,
 					image_width: 3, //3 = 600 4 = 480 5 = 320 6 = 180,
-					url: 'facebook.php',
+					url: Application.config.baseURL + Application.config.frontendViewURL + Application.config.assetsURLExtension + 'social_stream_includes/facebook.php',
 					feed: 'feed',
 					icon: 'facebook.png'
 				}/*,
@@ -75,7 +75,7 @@ var home_fns = {
 					text: 'content',
 					comments: 0,
 					image_width: 3, //3 = 600 4 = 480 5 = 320 6 = 180,
-					url: 'facebook.php',
+					url: Application.config.baseURL + Application.config.frontendViewURL + Application.config.assetsURLExtension + 'social_stream_includes/facebook.php',
 					feed: 'feed',
 					icon: 'facebook.png'
 				}/*,
@@ -192,7 +192,7 @@ var home_fns = {
 		$( window ).resize((function(){
 			if(!Application.config.isMobile && !Application.config.isIPad){
 				$("#slider_controller").css("top", ($( window ).height()/2 - $("#slider_controller").height()/2) + "px");			
-				commonFns.ResizeBackgroundImageByClass("slide-item-container");
+				//commonFns.ResizeBackgroundImageByClass("slide-item-container");
 			}
 			
 			$(".slider-container video").css({
