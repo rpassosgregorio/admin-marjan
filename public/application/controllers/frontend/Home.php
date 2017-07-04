@@ -6,11 +6,14 @@ class Home extends MY_Controller {
 	public function __construct(){
 
 		parent::__construct();
+		$this->view_data['controller_module'] = 'home';
 
 	}
 
 	public function index(){
+
 		$this->load_template('home/index');
+
 	}
 
 }

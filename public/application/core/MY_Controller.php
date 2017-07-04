@@ -33,6 +33,8 @@ class MY_Controller extends CI_Controller {
 			$this->lang_selected = $this->lang_default;
 		}
 
+		$this->view_data['controller_module'] = '';
+
 	}
 
 
@@ -270,18 +272,18 @@ class MY_Controller extends CI_Controller {
 
 	}
 
-	public function load_template($view_file_name, $data_array = array(), $keep_template_default = TRUE) {
+	public function load_template($view_file_name, $keep_template_default = TRUE) {
 
 		$ci = &get_instance();
 
-		if($keep_template_default){
+		if($keep_template_default) {
 
-			$ci->load->view($this->public_view_dir.'/includes/header', $data_array);
-			$ci->load->view($this->public_view_dir.'/'.$view_file_name, $data_array);
-			$ci->load->view($this->public_view_dir.'/includes/footer', $data_array);
+			$ci->load->view($this->public_view_dir.'/includes/header', $this->view_data);
+			$ci->load->view($this->public_view_dir.'/'.$view_file_name, $this->view_data);
+			$ci->load->view($this->public_view_dir.'/includes/footer', $this->view_data);
 
 		}else{
-			$ci->load->view($this->public_view_dir.'/'.$view_file_name, $data_array);
+			$ci->load->view($this->public_view_dir.'/'.$view_file_name, $this->view_data);
 		}
 
 	}
