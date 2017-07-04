@@ -74,7 +74,7 @@
     	<div class="secondary-navbar" id="secondary-navbar">
     		<div class="navbar col-one-thirdy">
     			<a href="../../index.html">
-		    		<img class="logo" src="../../img/_logos/logo-marjan.png" alt=""/>
+		    		<img class="logo" src="<?php echo base_url(PATH_ASSETS.'/img/_logos/logo-marjan.png'); ?>" alt=""/>
 		    	</a>
 			</div>
 		    <div class="navbar col-two-thirdy">
