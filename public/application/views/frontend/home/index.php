@@ -1,11 +1,11 @@
-<main class="main-home" id="main_home">    
+<main class="main-home" id="main_home">
     <div class="home slider-controller" id="slider_controller">
-        <ul>		
+        <ul>
             <li class="slider-controller-1"><a><img src="<?php echo base_url(PATH_ASSETS.'/img/home/slider/01/slide_thumb.png')?>"></a></li>
             <li class="slider-controller-2"><a><img src="<?php echo base_url(PATH_ASSETS.'/img/home/slider/02/slide_thumb.png')?>"></a></li>
             <li class="slider-controller-3"><a><img src="<?php echo base_url(PATH_ASSETS.'/img/home/slider/03/slide_thumb.png')?>"></a></li>
             <li class="slider-controller-4"><a><img src="<?php echo base_url(PATH_ASSETS.'/img/home/slider/04/slide_thumb.png')?>"></a></li>
-            <li class="slider-controller-5"><a><img src="<?php echo base_url(PATH_ASSETS.'/img/home/slider/05/slide_thumb.png')?>"></a></li>        
+            <li class="slider-controller-5"><a><img src="<?php echo base_url(PATH_ASSETS.'/img/home/slider/05/slide_thumb.png')?>"></a></li>
         </ul>
     </div>
 
@@ -40,14 +40,6 @@
 					<div class="slide-sub_title"><h3>A Marjan Farma é tudo isso</h3></div>
 				</div>
 			</div>
-      		<!--<div class="slider-items slide-number-3" id="slider_items_3">
-				<div class="slide-item-container slide-item-container-3" id="slide_item_container-3" style="background-image: url(img/home/slider/03/slide_img.jpg); background-position: right center;">
-				</div>
-				<div class="slide-item-caption-container" style="background-image: url(img/home/slider/03/lane.png); background-position: left center; background-size: contain">
-					<div class="slide-title"><h1>Cuidado e carinho essenciais</h1></div>
-					<div class="slide-sub_title"><h3>A Marjan Farma é tudo isso</h3></div>
-				</div>
-			</div>-->
        		<div class="slider-items slide-number-4" id="slider_items_4">
 				<div class="slide-item-container slide-item-container-4" id="slide_item_container-4" data-halign="right" style="background-image: url(<?php echo base_url(PATH_ASSETS.'/img/home/slider/04/slide_img.jpg')?>); background-position: right top;">
 				</div>
