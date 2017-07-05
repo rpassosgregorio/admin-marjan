@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Jun 23, 2017 at 10:50 PM
+-- Generation Time: Jul 05, 2017 at 03:23 PM
 -- Server version: 10.1.21-MariaDB
 -- PHP Version: 5.6.30
 
@@ -491,7 +491,7 @@ CREATE TABLE `ws_admin_user` (
 --
 
 INSERT INTO `ws_admin_user` (`id`, `code`, `name`, `email`, `password`, `avatar`, `deleted`, `order`, `date_last_login`, `inserted_by`, `date_last_update`, `date_insertion`, `active`) VALUES
-(1, '8399e6d730b4ca936f2498364cf2d111be849ac2', 'André Smolianinoff', 'andre.ninoff@gmail.com', '128b71e8c9e4a91a36e17169be20ec960784705e', '', 0, 0, '2017-06-23 10:11:13', 0, '2017-06-23 18:11:13', '2016-11-11 06:00:00', 1),
+(1, '8399e6d730b4ca936f2498364cf2d111be849ac2', 'André Smolianinoff', 'andre.ninoff@gmail.com', '128b71e8c9e4a91a36e17169be20ec960784705e', '', 0, 0, '2017-07-05 14:37:37', 0, '2017-06-23 18:11:13', '2016-11-11 06:00:00', 1),
 (2, 'c378866dd5a6bf0893c282e3c38990d02fdf4798', 'Administrador', 'admin@apptecbr.com', '601f1889667efaebb33b8c12572835da3f027f78', '', 0, 0, '2017-06-23 10:11:19', 1, '2017-06-23 18:11:19', '2017-05-12 22:17:10', 1);
 
 -- --------------------------------------------------------
@@ -916,7 +916,7 @@ CREATE TABLE `ws_home` (
 --
 
 INSERT INTO `ws_home` (`id`, `slide1_title`, `slide1_subtitle`, `slide1_thumb`, `slide1_video`, `slide1_image`, `slide1_image_horizontal_align`, `slide1_image_vertical_align`, `slide1_band`, `slide1_image_mobile`, `slide1_image_tablet`, `slide2_title`, `slide2_subtitle`, `slide2_thumb`, `slide2_video`, `slide2_image`, `slide2_image_horizontal_align`, `slide2_image_vertical_align`, `slide2_band`, `slide2_image_mobile`, `slide2_image_tablet`, `slide3_title`, `slide3_subtitle`, `slide3_thumb`, `slide3_video`, `slide3_image`, `slide3_image_horizontal_align`, `slide3_image_vertical_align`, `slide3_band`, `slide3_image_mobile`, `slide3_image_tablet`, `slide4_title`, `slide4_subtitle`, `slide4_thumb`, `slide4_video`, `slide4_image`, `slide4_image_horizontal_align`, `slide4_image_vertical_align`, `slide4_band`, `slide4_image_mobile`, `slide4_image_tablet`, `slide5_title`, `slide5_subtitle`, `slide5_thumb`, `slide5_video`, `slide5_image`, `slide5_image_horizontal_align`, `slide5_image_vertical_align`, `slide5_band`, `slide5_image_mobile`, `slide5_image_tablet`, `deleted`, `order`, `inserted_by`, `date_last_update`, `date_insertion`, `active`) VALUES
-(1, 'Cuidado e carinho essenciais', 'A Marjan Farma é tudo isso', 'slide_thumb-1-9TUTC5P4WR', '3-U2URUA5ABH', 'slide_img-DCNECWDKJX', 'center', 'top', 'lane-8CVKGW8M9H', 'slide_img-NMH1E4RVBP', 'slide_img-ACGBCSGU8T', 'Um futuro saudável para várias gerações', 'A Marjan Farma é tudo isso', 'slide_thumb-1-EQ5BD7H29N', NULL, 'slide_img-1-U8DUQHY658', 'center', 'bottom', 'lane-2-5WA8HQG7MB', 'slide_img-1-VA8EQJZ1C4', 'slide_img-1-KGHFJMCTDC', 'Pesquisa e inovação sempre', 'A Marjan Farma é tudo isso', 'slide_thumb-2-PQZBWT2J8E', NULL, 'slide_img-3-A2SGCUJWFH', 'right', 'center', 'lane-3-JSC2YFK84S', 'slide_img-3-3DZY68JY7C', 'slide_img-3-HMT5NGPERM', 'Respeito ao meio-ambiente', 'A Marjan Farma é tudo isso', 'slide_thumb-3-2FESVB76BH', NULL, 'slide_img-2-C66H355Q9Q', 'left', 'top', 'lane-1-4CFYM8UFPT', 'slide_img-2-5Q75FK3PQM', 'slide_img-2-BFTFWCHV9J', 'Cuidado e carinho essenciais', 'A Marjan Farma é tudo isso', 'slide_thumb-4-PCU1FZF86U', NULL, 'slide_img-3-KX3MKWGP4J', 'center', 'bottom', 'lane-4-TYWKB99HN4', 'slide_img-3-ES2UE2TJWF', 'slide_img-3-9BJU2RF8PC', 0, 0, 1, '2017-05-11 12:43:43', '2017-05-11 17:43:43', 1);
+(1, 'Um futuro sem limites para a saúde', 'A Marjan Farma é tudo isso', '1-thumb-M23DX56TR2', '3-U2URUA5ABH', '1-7UH4JMWZ13', 'center', 'top', '1-line-KAJT4T5TEX', '1-WPJEHMZNFG', '1-XT9PXVHTCY', 'Um futuro saudável para várias gerações', 'A Marjan Farma é tudo isso', '2-thumb-N4U9PAXHUK', '2-8J5TPY7AZ6', '2-AQNVX31RGS', 'center', 'bottom', '2-line-E8U9S7WP8M', '2-PAY8AD9XMT', '2-7N8J7UCW9J', 'Pesquisa e inovação sempre', 'A Marjan Farma é tudo isso', '3-thumb-K49V9G6XUC', 'video-news-RVK3FQESGG', 'slide_img-3-A2SGCUJWFH', 'right', 'center', 'lane-3-JSC2YFK84S', 'slide_img-3-3DZY68JY7C', 'slide_img-3-HMT5NGPERM', 'Respeito ao meio-ambiente', 'A Marjan Farma é tudo isso', 'slide_thumb-3-2FESVB76BH', NULL, 'slide_img-2-C66H355Q9Q', 'left', 'top', 'lane-1-4CFYM8UFPT', 'slide_img-2-5Q75FK3PQM', 'slide_img-2-BFTFWCHV9J', 'Cuidado e carinho essenciais', 'A Marjan Farma é tudo isso', '5-thumb-7HP9PBGEJA', NULL, '5-849SVJT41X', 'center', 'bottom', '5-line-ZHHXY36HZX', '5-JXBU12MCTT', '5-WQ1BQEDZJP', 0, 0, 1, '2017-05-11 12:43:43', '2017-05-11 17:43:43', 1);
 
 -- --------------------------------------------------------
 
