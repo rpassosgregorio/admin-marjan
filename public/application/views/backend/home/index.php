@@ -280,8 +280,8 @@
 
 											<div class="col-xs-6">
 
-												<?php if(isset($object->id) && My_Controller_CMS::get_path_file('home/video', $object->slide1_video)){ ?>
-													<span><img src='<?php echo My_Controller_CMS::get_path_file('home/video', $object->slide1_video); ?>' width='50' alt=''><button type="button" class="btn-delete-img-modal" data-url="">Deletar</button></span>
+												<?php if(isset($object->id) && My_Controller_CMS::get_path_file('home', $object->slide1_video)){ ?>
+													<span><img src='<?php echo My_Controller_CMS::get_path_file('home', $object->slide1_video); ?>' width='50' alt=''><button type="button" class="btn-delete-img-modal" data-url="">Deletar</button></span>
 												<?php }else if(isset($object->id) && My_Controller_CMS::get_path_file('home', $object->slide1_image)){ ?>
 													<span><img src='<?php echo My_Controller_CMS::get_path_file('home', $object->slide1_image); ?>' width='50' alt=''><button type="button" class="btn-delete-img-modal" data-url="">Deletar</button></span>
 												<?php }else{ ?>
@@ -453,8 +453,8 @@
 
 										<div class="col-xs-6">
 
-											<?php if(isset($object->id) && My_Controller_CMS::get_path_file('home/video', $object->slide2_video)){ ?>
-												<span><img src='<?php echo My_Controller_CMS::get_path_file('home/video', $object->slide2_video); ?>' width='50' alt=''></span>
+											<?php if(isset($object->id) && My_Controller_CMS::get_path_file('home', $object->slide2_video)){ ?>
+												<span><img src='<?php echo My_Controller_CMS::get_path_file('home', $object->slide2_video); ?>' width='50' alt=''></span>
 											<?php }else if(isset($object->id) && My_Controller_CMS::get_path_file('home', $object->slide2_image)){ ?>
 												<span><img src='<?php echo My_Controller_CMS::get_path_file('home', $object->slide2_image); ?>' width='50' alt=''></span>
 											<?php }else{ ?>
@@ -603,8 +603,8 @@
 
 										<div class="col-xs-6">
 
-											<?php if(isset($object->id) && My_Controller_CMS::get_path_file('home/video', $object->slide3_video)){ ?>
-												<span><img src='<?php echo My_Controller_CMS::get_path_file('home/video', $object->slide3_video); ?>' width='50' alt=''></span>
+											<?php if(isset($object->id) && My_Controller_CMS::get_path_file('home', $object->slide3_video)){ ?>
+												<span><img src='<?php echo My_Controller_CMS::get_path_file('home', $object->slide3_video); ?>' width='50' alt=''></span>
 											<?php }else if(isset($object->id) && My_Controller_CMS::get_path_file('home', $object->slide3_image)){ ?>
 												<span><img src='<?php echo My_Controller_CMS::get_path_file('home', $object->slide3_image); ?>' width='50' alt=''></span>
 											<?php }else{ ?>
@@ -752,8 +752,8 @@
 
 										<div class="col-xs-6">
 
-											<?php if(isset($object->id) && My_Controller_CMS::get_path_file('home/video', $object->slide4_video)){ ?>
-												<span><img src='<?php echo My_Controller_CMS::get_path_file('home/video', $object->slide4_video); ?>' width='50' alt=''></span>
+											<?php if(isset($object->id) && My_Controller_CMS::get_path_file('home', $object->slide4_video)){ ?>
+												<span><img src='<?php echo My_Controller_CMS::get_path_file('home', $object->slide4_video); ?>' width='50' alt=''></span>
 											<?php }else if(isset($object->id) && My_Controller_CMS::get_path_file('home', $object->slide4_image)){ ?>
 												<span><img src='<?php echo My_Controller_CMS::get_path_file('home', $object->slide4_image); ?>' width='50' alt=''></span>
 											<?php }else{ ?>
@@ -901,8 +901,8 @@
 
 										<div class="col-xs-6">
 
-											<?php if(isset($object->id) && My_Controller_CMS::get_path_file('home/video', $object->slide5_video)){ ?>
-												<span><img src='<?php echo My_Controller_CMS::get_path_file('home/video', $object->slide5_video); ?>' width='50' alt=''></span>
+											<?php if(isset($object->id) && My_Controller_CMS::get_path_file('home', $object->slide5_video)){ ?>
+												<span><img src='<?php echo My_Controller_CMS::get_path_file('home', $object->slide5_video); ?>' width='50' alt=''></span>
 											<?php }else if(isset($object->id) && My_Controller_CMS::get_path_file('home', $object->slide5_image)){ ?>
 												<span><img src='<?php echo My_Controller_CMS::get_path_file('home', $object->slide5_image); ?>' width='50' alt=''></span>
 											<?php }else{ ?>

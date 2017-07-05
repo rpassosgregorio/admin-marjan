@@ -420,7 +420,7 @@ class MY_Controller extends CI_Controller {
 
 	public static function get_path_file($folder, $id, $type = 'base'){
 
-		$allowed_file_extensions = array('jpg', 'jpeg', 'png');
+		$allowed_file_extensions = array('jpg', 'jpeg', 'png', 'mp4');
 
 		foreach ($allowed_file_extensions as $extension) {
 

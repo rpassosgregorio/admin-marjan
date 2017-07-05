@@ -237,7 +237,7 @@ class MY_Controller_CMS extends CI_Controller {
 
 
 
-	protected function upload($name_input_file = 'file', $filename = 'filename', $folder = '', $allowed_types = 'gif|jpg|jpeg|png|pdf', $config = array()){
+	protected function upload($name_input_file = 'file', $filename = 'filename', $folder = '', $allowed_types = 'gif|jpg|jpeg|png|pdf|mp4', $config = array()){
 
 		$data = array();
 
@@ -260,7 +260,7 @@ class MY_Controller_CMS extends CI_Controller {
 
 	}
 
-	protected function upload_multiple($name_input_file = array(), $filename = array(), $folder = '', $allowed_types = 'gif|jpg|jpeg|png|pdf', $config = array()){
+	protected function upload_multiple($name_input_file = array(), $filename = array(), $folder = '', $allowed_types = 'gif|jpg|jpeg|png|pdf|mp4', $config = array()){
 
 		$data = array();
 
