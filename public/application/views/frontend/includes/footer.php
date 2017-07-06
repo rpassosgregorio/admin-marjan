@@ -26,19 +26,19 @@
 						<div class="sub-footer-col-1-content sub-footer-content">
 							<div class="footer-col-3-wrapper">
 								<ul>
-									<li style="background-image: url(<?php echo base_url(PATH_ASSETS.'/img/home/home-footer-02.png')?>); background-size: 34px; background-position: left center"><p>Para dúvidas e sugestões entre em contato<br>com o Serviço de Atendimento ao Cliente</p></li>
+									<li style="background-image: url(<?php echo base_url(PATH_ASSETS.'/img/home/home-footer-02.png')?>); background-size: 34px; background-position: left center"><p><?php echo $general_settings->footer_sac_text; ?></p></li>
 								</ul>
 								<ul>
-									<li style="background-image: url(<?php echo base_url(PATH_ASSETS.'/img/home/home-footer-03.png')?>); background-size: 34px; background-position: left center"><p>0800-55-4545</p></li>
+									<li style="background-image: url(<?php echo base_url(PATH_ASSETS.'/img/home/home-footer-03.png')?>); background-size: 34px; background-position: left center"><p><?php echo $general_settings->phone_sac; ?></p></li>
 								</ul>
 								<ul class="margin-bottom-10">
-									<li style="background-image: url(<?php echo base_url(PATH_ASSETS.'/img/home/home-footer-04.png')?>); background-size: 34px; background-position: left center"><p>sac@marjan.com.br</p></li>
+									<li style="background-image: url(<?php echo base_url(PATH_ASSETS.'/img/home/home-footer-04.png')?>); background-size: 34px; background-position: left center"><p><?php echo $general_settings->email_sac; ?></p></li>
 								</ul>
 								<ul class="margin-bottom-10">
-									<li><p class="margin-0">© Copyright 2017 Marjan Farma Indústria<br>Todos os Direitos Reservados</p></li>
+									<li><p class="margin-0"><?php echo $general_settings->footer_copyright_text; ?></p></li>
 								</ul>
 								<ul class="padding-0 margin-0">
-									<li><p class="margin-0">Política de privacidade</p></li>
+									<li><p class="margin-0"><a href="<?php echo $general_settings->footer_terms_link; ?>"><?php echo $general_settings->footer_terms_text; ?></a></p></li>
 								</ul>
 							</div>
 						</div>
@@ -168,6 +168,17 @@
 					home_fns.Initialize();
 				}
 				$(document).ready(Application.documentReady);
+			</script>
+
+		<?php elseif ($controller_module  == 'contact'): ?>
+
+			<script language="javascript">
+				window.onload = function(){
+					Application.beforeStart(false);
+					menu_fns.Initialize(false);
+					contact_fns.Initialize();
+				}
+			$(document).ready(Application.documentReady);
 			</script>
 
 		<?php endif ?>

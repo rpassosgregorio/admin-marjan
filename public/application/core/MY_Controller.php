@@ -35,6 +35,8 @@ class MY_Controller extends CI_Controller {
 
 		$this->view_data['controller_module'] = '';
 
+		$this->footer();
+
 	}
 
 
@@ -446,6 +448,13 @@ class MY_Controller extends CI_Controller {
 		}
 
 		return false;
+
+	}
+
+	private function footer() {
+
+		$this->load->model('GeneralSettings_model', '', TRUE);
+		$this->view_data['general_settings'] = $this->GeneralSettings_model->find_unique(array(), array(), '', array(), array(), 1, 1);
 
 	}
 

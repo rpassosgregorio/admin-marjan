@@ -19,6 +19,10 @@
 	<link href="<?php echo base_url(PATH_ASSETS.'/css/footer.css'); ?>" rel="stylesheet" type="text/css">
 	<link href="<?php echo base_url(PATH_ASSETS.'/css/libs/dcsns_wall.css'); ?>" rel="stylesheet" type="text/css">
 
+	<?php if ($controller_module == 'contact'): ?>
+		<link href="<?php echo base_url(PATH_ASSETS.'/css/contact.css'); ?>" rel="stylesheet" type="text/css">
+	<?php endif ?>
+
 	<link href="<?php echo base_url(PATH_ASSETS.'/css/home.css'); ?>" rel="stylesheet" type="text/css"> <!-- css customizado da página -->
 	<link href="<?php echo base_url(PATH_ASSETS.'/css/know-more-about-mj.css'); ?>" rel="stylesheet" type="text/css">
 	<link href="<?php echo base_url(PATH_ASSETS.'/css/page-header.css'); ?>" rel="stylesheet" type="text/css">
@@ -28,7 +32,7 @@
 	<script src="<?php echo base_url(PATH_ASSETS.'/js/jquery.social.stream.wall.1.8.js'); ?>"></script>
 	<script src="<?php echo base_url(PATH_ASSETS.'/js/libs/greensock-js/TweenMax.js'); ?>"></script>
 	<script src="<?php echo base_url(PATH_ASSETS.'/js/libs/greensock-js/plugins/ScrollToPlugin.js'); ?>"></script>
-	
+
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-route.js"></script>
 
@@ -107,16 +111,16 @@
   					<div class="submenu-desc-title text-left width-100"><h4>NOSSA HISTÓRIA</h4></div>
 					<ul class="submenu-desc-summary text-left">
 						<li><p><a href="<?php echo base_url('sobre-nos'); ?>">Sobre Nós</a></p></li>
-						<li><p><a href="<?php echo base_url('sobre-nos'); ?>#mission-value-section">Missão</a> | <a href="../../sections/sobre-nos/home.html#mission-value-section">Valores</a></p></li>
-						<li><p><a href="<?php echo base_url('sobre-nos'); ?>#inovacao.html">Inovação</a> | <a href="../../sections/sobre-nos/qualidade.html">Qualidade</a> | <a href="../../sections/sobre-nos/meio-ambiente.html">Meio Ambiente</a></p></li>
-						<li><p><a href="<?php echo base_url('sobre-nos'); ?>#novos-negocios.html">Novos Negócios e Parcerias</a></p></li>
-						<li><p><a href="<?php echo base_url('sobre-nos'); ?>#nossa-historia.html">Conheça nossa história</a></p></li>
+						<li><p><a href="<?php echo base_url('sobre-nos'); ?>#mission-value-section">Missão</a> | <a href="<?php echo base_url('sobre-nos'); ?>#mission-value-section">Valores</a></p></li>
+						<li><p><a href="<?php echo base_url('sobre-nos'); ?>#inovacao">Inovação</a> | <a href="<?php echo base_url('sobre-nos'); ?>#qualidade">Qualidade</a> | <a href="<?php echo base_url('sobre-nos'); ?>#meio-ambiente">Meio Ambiente</a></p></li>
+						<li><p><a href="<?php echo base_url('sobre-nos'); ?>#novos-negocios">Novos Negócios e Parcerias</a></p></li>
+						<li><p><a href="<?php echo base_url('sobre-nos'); ?>#nossa-historia">Conheça nossa história</a></p></li>
 						<li><p><a href="<?php echo base_url('contato'); ?>">Contato</a></p></li>
 					</ul>
   				</div>
   				<div class="submenu-columns submenu-heigth submenu-column-02-right" style="background-image: url('<?php echo base_url(PATH_ASSETS.'/img/menu/submenus/menu-sobre-nos.jpg'); ?>'); background-position: center">
   					<div class="submenu-img-mask"></div>
-  					<div class="submenu-desc-input submenu-health-doctors-button"><a href="<?php echo base_url('sobre-nos'); ?>#nossa-historia.html"><button class="">Nossa<br>história</button></a></div>
+  					<div class="submenu-desc-input submenu-health-doctors-button"><a href="<?php echo base_url('sobre-nos'); ?>#nossa-historia"><button class="">Nossa<br>história</button></a></div>
   				</div>
   			</div>
         </div>
