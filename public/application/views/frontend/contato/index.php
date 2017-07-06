@@ -1,14 +1,14 @@
 <main class="main-contact">
 
 	<section class="first-section-contact">
-		<div class="first-section-wrapper" id="first_section_wrapper" style="background-image: url(<?php echo base_url(PATH_ASSETS.'/img/sections/contato/header-img.jpg'); ?>); background-position: center;">
+		<div class="first-section-wrapper" id="first_section_wrapper" style="background-image: url(<?php echo My_Controller_CMS::get_path_file('contact_us', $object->principal_image); ?>); background-position: center;">
 			<div class="info-wrapper">
 				<div class="info-container">
 					<div class="page-info text title" id="title_about_us_values" >
-						<h4 class="pre-line">FALE<br>CONOSCO</h4>
+						<h4 class="pre-line"><?php echo $object->principal_left_text; ?></h4>
 					</div>
 					<div class="page-info text sub-title" id="text_about_us_values" >
-						<h4 class="pre-line">Tire suas<br>dúvidas, participe<br>e dê sugestões</h4>
+						<h4 class="pre-line"><?php echo $object->principal_right_text; ?></h4>
 					</div>
 				</div>
 			</div>
@@ -16,14 +16,14 @@
 		</div>
 
 		<div class="call-to-next" id="call_to_next">
-			<img src="<?php echo base_url(PATH_ASSETS.'/img/sections/contato/call-to-next.png'); ?>" />
+			<img src="<?php echo My_Controller_CMS::get_path_file('contact_us', $object->calltonext_section_image); ?>" />
 		</div>
 	</section>
 
 	<section class="second-section-contact call-to-next-anchor">
 		<div class="second-section-wrapper" id="second_section_wrapper">
 			<div class="second-section-text-wrapper">
-				<h4 class="second-section-text">A Marjan Farma está pronta para atendê-lo<br>da melhor forma possível</h4>
+				<h4 class="second-section-text"><?php echo $object->call_text_secion; ?></h4>
 			</div>
 		</div>
 	</section>
@@ -31,11 +31,11 @@
 	<section class="third-section-contact contact-sac-call-to-action">
 		<div class="third-section-wrapper" id="third_section_wrapper_contact_sac">
 			<div class="third-filter-wrapper">
-				<div class="third-section-col-01 border-top-left" id="third-section-col-01" style="background-image: url(<?php echo base_url(PATH_ASSETS.'/img/sections/contato/contato-2.jpg'); ?>); background-position: center;">
+				<div class="third-section-col-01 border-top-left" id="third-section-col-01" style="background-image: url(<?php echo My_Controller_CMS::get_path_file('contact_us', $object->section1_image); ?>); background-position: center;">
 				</div>
 				<div class="third-section-col-02 border-top-right">
 					<div class="third-section-col-01-title center-text">
-						<h4>PARA DÚVIDAS E SUGESTÕES,<br>ENTRE EM CONTATO CONOSCO</h4>
+						<h4><?php echo $object->section1_title; ?></h4>
 					</div>
 					<div class="third-section-col-01-button center-text">
 						<button><h6>SERVIÇO DE ATENDIMENTO AO CLIENTE<br>0800 55 4545</h6></button>

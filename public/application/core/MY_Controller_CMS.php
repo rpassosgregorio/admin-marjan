@@ -590,5 +590,9 @@ class MY_Controller_CMS extends CI_Controller {
 
 	}
 
+	public function nl2br_str($string) {
+		return str_replace(["\r\n", "\r", "\n"], '<br/>', $string);
+	}
+
 
 }

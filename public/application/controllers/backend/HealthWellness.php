@@ -78,7 +78,7 @@ class HealthWellness extends MY_Controller_CMS {
 			foreach ($post as $key => $value) {
 
 				if(!empty($key) && !empty($value)){
-					$this->HealthWellness_model->update(array($key => nl2br($this->security->xss_clean($value))), array('id' => $object->id));
+					$this->HealthWellness_model->update(array($key => $this->nl2br_str($this->security->xss_clean($value))), array('id' => $object->id));
 				}
 
 			}

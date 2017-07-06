@@ -213,29 +213,14 @@
 									<span>Clique aqui para editar esse conteúdo</span>
 								</a>
 
-								<div class="admingrid-item-image" style="background-image: url( <?php echo My_Controller_CMS::get_path_file('contact_us', $object->section3_image); ?> )">
-								</div>
-
+								<div class="admingrid-item-image" style="background-image: url( <?php echo My_Controller_CMS::get_path_file('contact_us', $object->section3_image); ?> )"></div>
 								<div class="admingrid-item-col">
 									<div class="admingrid-item-col-wrapper">
 										<div class="admingrid-item-text">
-											<h4><?php echo !empty($object->section3_title) ? $object->section3_title : 'lorem ipsum'; ?></h4>
-										</div>
-										<br/>
-										<div class="admingrid-item-link admingrid-item-link--0">
-											<p>
-												<img src="<?php echo My_Controller_CMS::get_path_file('contact_us', $object->section3_social_media3_icon); ?>" width="30" heigth="30" alt=""> <?php echo !empty($object->section3_social_media3_text_link) ? $object->section3_social_media3_text_link : 'lorem ipsum dolor' ?>
-											</p>
-										</div>
-										<div class="admingrid-item-link admingrid-item-link--3">
-											<p>
-												<img src="<?php echo My_Controller_CMS::get_path_file('contact_us', $object->section3_social_media2_icon); ?>" width="30" heigth="30" alt=""> <?php echo !empty($object->section3_social_media2_text_link) ? $object->section3_social_media2_text_link : 'lorem ipsum dolor' ?>
-											</p>
-										</div>
-										<div class="admingrid-item-link admingrid-item-link--2">
-											<p>
-												<img src="<?php echo My_Controller_CMS::get_path_file('contact_us', $object->section3_social_media3_icon); ?>" width="30" heigth="30" alt=""> <?php echo !empty($object->section3_social_media3_text_link) ? $object->section3_social_media3_text_link : 'lorem ipsum dolor' ?>
-											</p>
+											<h3><?php echo !empty($object->section3_title) ? $object->section3_title : 'lorem ipsum'; ?></h3>
+											<span class="admingrid-item-btn">
+												<?php echo !empty($object->section3_text) ? $object->section3_text : 'lorem ipsum dolor sit amet?'; ?>
+											</span>
 										</div>
 									</div>
 								</div>
@@ -252,6 +237,68 @@
 								</a>
 
 								<div class="admingrid-item-image" style="background-image: url(URL_AQUI)"></div>
+								<div class="admingrid-item-col">
+									<div class="admingrid-item-col-wrapper">
+										<div class="admingrid-item-text">
+											<h3>lorem ipsum</h3>
+											<span class="admingrid-item-btn">
+												lorem ipsum dolor sit amet<br/>
+												000000
+											</span>
+										</div>
+										<img src="http://i.imgur.com/ZdJ3pMy.jpg" alt="">
+									</div>
+								</div>
+
+								<div class="admingrid-clear"></div>
+
+							</article>
+
+						<?php } ?>
+
+						<?php if(isset($object->id)){ ?>
+
+							<article class="admingrid-item admingrid-item--fullbanner admingrid-item--fullbanner4" >
+								<a href="#" class="admingrid-edit-btn" data-open-modal="#fullbanner4">
+									<span>Clique aqui para editar esse conteúdo</span>
+								</a>
+
+								<div class="admingrid-item-col">
+									<div class="admingrid-item-col-wrapper">
+										<div class="admingrid-item-text">
+											<h4><?php echo !empty($object->section4_title) ? $object->section4_title : 'lorem ipsum'; ?></h4>
+										</div>
+										<br/>
+										<div class="admingrid-item-link admingrid-item-link--0">
+											<p>
+												<img src="<?php echo My_Controller_CMS::get_path_file('contact_us', $object->section4_social_media1_icon); ?>" width="40" heigth="40" alt=""> <?php echo !empty($object->section4_social_media1_text_link) ? $object->section4_social_media1_text_link : 'lorem ipsum dolor' ?>
+											</p>
+										</div>
+										<div class="admingrid-item-link admingrid-item-link--1">
+											<p>
+												<img src="<?php echo My_Controller_CMS::get_path_file('contact_us', $object->section4_social_media2_icon); ?>" width="40" heigth="40" alt=""> <?php echo !empty($object->section4_social_media2_text_link) ? $object->section4_social_media2_text_link : 'lorem ipsum dolor' ?>
+											</p>
+										</div>
+										<div class="admingrid-item-link admingrid-item-link--2">
+											<p>
+												<img src="<?php echo My_Controller_CMS::get_path_file('contact_us', $object->section4_social_media3_icon); ?>" width="40" heigth="40" alt=""> <?php echo !empty($object->section4_social_media3_text_link) ? $object->section4_social_media3_text_link : 'lorem ipsum dolor' ?>
+											</p>
+										</div>
+									</div>
+								</div>
+
+								<div class="admingrid-item-image" style="background-image: url( <?php echo My_Controller_CMS::get_path_file('contact_us', $object->section4_image); ?> )">
+								</div>
+								<div class="admingrid-clear"></div>
+
+							</article>
+
+						<?php }else{ ?>
+
+							<article class="admingrid-item admingrid-item--fullbanner admingrid-item--fullbanner4" >
+								<a href="#" class="admingrid-edit-btn" data-open-modal="#fullbanner4">
+									<span>Clique aqui para editar esse conteúdo</span>
+								</a>
 
 								<div class="admingrid-item-col">
 									<div class="admingrid-item-col-wrapper">
@@ -261,23 +308,25 @@
 										</div>
 										<div class="admingrid-item-link admingrid-item-link--0">
 											<p>
-												<img src="" width="30" heigth="30" alt=""> Lorem ipsum dolor
+												<img src="" width="40" heigth="40" alt=""> Lorem ipsum dolor
 											</p>
 										</div>
-										<div class="admingrid-item-link admingrid-item-link--3">
+										<div class="admingrid-item-link admingrid-item-link--4">
 											<p>
-												<img src="" width="30" heigth="30" alt=""> Lorem ipsum dolor
+												<img src="" width="40" heigth="40" alt=""> Lorem ipsum dolor
 											</p>
 										</div>
 										<div class="admingrid-item-link admingrid-item-link--2">
 											<p>
-												<img src="" width="30" heigth="30" alt=""> Lorem ipsum dolor
+												<img src="" width="40" heigth="40" alt=""> Lorem ipsum dolor
 											</p>
 										</div>
 									</div>
 								</div>
 
+								<div class="admingrid-item-image" style="background-image: url(URL_AQUI)"></div>
 								<div class="admingrid-clear"></div>
+
 
 							</article>
 
@@ -455,8 +504,8 @@
 
 										<div class="col-xs-6">
 											<div class="form-group">
-												<label>Título da Campnha</label>
-												<input type="text" class="form-control" name="section1_title" value="<?php echo isset($object->id) ? strip_tags($object->section1_title) : ''; ?>">
+												<label>Título da Campanha</label>
+												<textarea class="form-control" name="section1_title" placeholder="Texto esquerda"><?php echo isset($object->id) ? strip_tags($object->section1_title) : ''; ?></textarea>
 											</div>
 										</div>
 
@@ -564,7 +613,7 @@
 										<div class="col-xs-6">
 											<div class="form-group">
 												<label>Título</label>
-												<input type="text" class="form-control" name="section2_title" value="<?php echo isset($object->id) ? strip_tags($object->section2_title) : ''; ?>">
+												<textarea class="form-control" name="section2_title" placeholder="..."><?php echo isset($object->id) ? strip_tags($object->section2_title) : ''; ?></textarea>
 											</div>
 										</div>
 
@@ -648,7 +697,7 @@
 										<div class="col-xs-12">
 											<div class="form-group">
 												<label>Texto</label>
-												<textarea class="form-control" name="section2_text" placeholder="Texto esquerda"><?php echo isset($object->id) ? strip_tags($object->section2_text) : ''; ?></textarea>
+												<textarea class="form-control" name="section2_text" placeholder="..."><?php echo isset($object->id) ? strip_tags($object->section2_text) : ''; ?></textarea>
 											</div>
 										</div>
 
@@ -667,12 +716,13 @@
 								<button class="admingrid-modal-close__btn">Fechar</button>
 								<form action="<?php echo base_url($this->base_cms.'/'.$this->controller_module.'/save'); ?>" method="post" role="form" class="admingrid-modal-form" enctype="multipart/form-data" data-parsley-validate>
 
+
 									<div class="row">
 
 										<div class="col-xs-6">
 											<div class="form-group">
-												<label>Título</label>
-												<input type="text" class="form-control" name="section3_title" value="<?php echo isset($object->id) ? strip_tags($object->section3_title) : ''; ?>">
+												<label>Título da Campanha</label>
+												<textarea class="form-control" name="section3_title" placeholder="..."><?php echo isset($object->id) ? strip_tags($object->section3_title) : ''; ?></textarea>
 											</div>
 										</div>
 
@@ -681,7 +731,7 @@
 									<div class="row">
 
 										<div class="col-xs-6">
-											<?php if(isset($object->id) && My_Controller_CMS::get_path_file('contact_us', $object->section3_image_mobile)){ ?>
+											<?php if(isset($object->id) && My_Controller_CMS::get_path_file('contact_us', $object->section3_image)){ ?>
 												<span><img src='<?php echo My_Controller_CMS::get_path_file('contact_us', $object->section3_image); ?>' width='50' alt=''></span>
 											<?php }else{ ?>
 												<span><img src='https://dummyimage.com/50x50' alt=''></span>
@@ -752,15 +802,123 @@
 									</div>
 
 									<div class="row">
+
+										<div class="col-xs-32">
+											<div class="form-group">
+												<label>Texto</label>
+												<textarea class="form-control" name="section3_text" placeholder="..."><?php echo isset($object->id) ? strip_tags($object->section3_text) : ''; ?></textarea>
+											</div>
+										</div>
+
+									</div>
+
+									<div class="box-footer text-center">
+										<button type="submit" class="btn btn-primary margin">Salvar</button>
+									</div>
+
+								</form>
+							</div>
+						</div>
+
+						<div class="admingrid-modal" data-modal="fullbanner4">
+							<div class="admingrid-modal-wrapper">
+								<button class="admingrid-modal-close__btn">Fechar</button>
+								<form action="<?php echo base_url($this->base_cms.'/'.$this->controller_module.'/save'); ?>" method="post" role="form" class="admingrid-modal-form" enctype="multipart/form-data" data-parsley-validate>
+
+									<div class="row">
+
 										<div class="col-xs-6">
-											<?php if(isset($object->id) && My_Controller_CMS::get_path_file('contact_us', $object->section3_social_media1_icon)){ ?>
-												<span><img src='<?php echo My_Controller_CMS::get_path_file('contact_us', $object->section3_social_media1_icon); ?>' width='50' alt=''></span>
+											<div class="form-group">
+												<label>Título</label>
+												<textarea class="form-control" name="section4_title" placeholder="..."><?php echo isset($object->id) ? strip_tags($object->section4_title) : ''; ?></textarea>
+											</div>
+										</div>
+
+									</div>
+
+									<div class="row">
+
+										<div class="col-xs-6">
+											<?php if(isset($object->id) && My_Controller_CMS::get_path_file('contact_us', $object->section4_image_mobile)){ ?>
+												<span><img src='<?php echo My_Controller_CMS::get_path_file('contact_us', $object->section4_image); ?>' width='50' alt=''></span>
+											<?php }else{ ?>
+												<span><img src='https://dummyimage.com/50x50' alt=''></span>
+											<?php } ?>
+											<div class="form-group">
+												<label>Imagem</label>
+												<input type="file" class="form-control" name="section4_image" placeholder="Imagem">
+											</div>
+										</div>
+
+									</div>
+
+									<div class="row">
+										<div class="col-xs-6">
+											<div class="form-group">
+												<label>Alinhamento Horizontal</label><br/>
+												<label style="margin-right: 40px;">
+													<input type="radio" name="section4_image_horizontal_align" class="minimal" value="center" <?php if(isset($object->id) && $object->section4_image_horizontal_align == 'center'){ ?> checked <?php } ?>> Center
+												</label>
+												<label style="margin-right: 40px;">
+													<input type="radio" name="section4_image_horizontal_align" class="minimal" value="left" <?php if(isset($object->id) && $object->section4_image_horizontal_align == 'left'){ ?> checked <?php } ?>> Left
+												</label>
+												<label>
+													<input type="radio" name="section4_image_horizontal_align" class="minimal" value="right" <?php if(isset($object->id) && $object->section4_image_horizontal_align == 'right'){ ?> checked <?php } ?>> Right
+												</label>
+											</div>
+										</div>
+										<div class="col-xs-6">
+											<div class="form-group">
+												<label>Alinhamento Vertical</label><br/>
+												<label style="margin-right: 40px">
+													<input type="radio" name="section4_image_vertical_align" class="minimal" value="center" <?php if(isset($object->id) && $object->section4_image_vertical_align == 'center'){ ?> checked <?php } ?>> Center
+												</label>
+												<label style="margin-right: 40px">
+													<input type="radio" name="section4_image_vertical_align" class="minimal" value="top" <?php if(isset($object->id) && $object->section4_image_vertical_align == 'top'){ ?> checked <?php } ?>> Top
+												</label>
+												<label>
+													<input type="radio" name="section4_image_vertical_align" class="minimal" value="bottom" <?php if(isset($object->id) && $object->section4_image_vertical_align == 'bottom'){ ?> checked <?php } ?>> Bottom
+												</label>
+											</div>
+										</div>
+									</div>
+
+									<div class="row">
+										<div class="col-xs-6">
+											<?php if(isset($object->id) && My_Controller_CMS::get_path_file('contact_us', $object->section4_image_mobile)){ ?>
+												<span><img src='<?php echo My_Controller_CMS::get_path_file('contact_us', $object->section4_image_mobile); ?>' width='50' alt=''></span>
+											<?php }else{ ?>
+												<span><img src='https://dummyimage.com/50x50' alt=''></span>
+											<?php } ?>
+											<div class="form-group">
+												<label>Imagem Mobile</label>
+												<input type="file" class="form-control" name="section4_image_mobile" placeholder="Imagem Mobile">
+											</div>
+										</div>
+
+										<div class="col-xs-6">
+											<?php if(isset($object->id) && My_Controller_CMS::get_path_file('contact_us', $object->section4_image_tablet)){ ?>
+												<span><img src='<?php echo My_Controller_CMS::get_path_file('contact_us', $object->section4_image_tablet); ?>' width='50' alt=''></span>
+											<?php }else{ ?>
+												<span><img src='https://dummyimage.com/50x50' alt=''></span>
+											<?php } ?>
+											<div class="form-group">
+												<label>Imagem Tablet</label>
+												<input type="file" class="form-control" name="section4_image_tablet" placeholder="Imagem Tablet">
+											</div>
+										</div>
+									</div>
+
+									<div class="row">
+										<div class="col-xs-6">
+											<?php if(isset($object->id) && My_Controller_CMS::get_path_file('contact_us', $object->section4_social_media1_icon)){ ?>
+												<span><img src='<?php echo My_Controller_CMS::get_path_file('contact_us', $object->section4_social_media1_icon); ?>' width='50' alt=''></span>
 											<?php }else{ ?>
 												<span><img src='https://dummyimage.com/50x50' alt=''></span>
 											<?php } ?>
 											<div class="form-group">
 												<label>Ícone da Rede Social (1)</label>
-												<input type="file" class="form-control" name="section3_social_media1_icon">
+												<input type="file" class="form-control" name="section4_social_media1_icon">
 											</div>
 										</div>
 									</div>
@@ -770,14 +928,14 @@
 										<div class="col-xs-6">
 											<div class="form-group">
 												<label>Texto do Link da Rede Social (1)</label>
-												<input type="text" class="form-control" name="section3_social_media1_text_link" value="<?php echo isset($object->id) ? strip_tags($object->section3_social_media1_text_link) : ''; ?>">
+												<input type="text" class="form-control" name="section4_social_media1_text_link" value="<?php echo isset($object->id) ? strip_tags($object->section4_social_media1_text_link) : ''; ?>">
 											</div>
 										</div>
 
 										<div class="col-xs-6">
 											<div class="form-group">
 												<label>Link da Rede Social (1)</label>
-												<input type="text" class="form-control" name="section3_social_media1_link" value="<?php echo isset($object->id) ? strip_tags($object->section3_social_media1_link) : ''; ?>">
+												<input type="text" class="form-control" name="section4_social_media1_link" value="<?php echo isset($object->id) ? strip_tags($object->section4_social_media1_link) : ''; ?>">
 											</div>
 										</div>
 
@@ -785,14 +943,14 @@
 
 									<div class="row">
 										<div class="col-xs-6">
-											<?php if(isset($object->id) && My_Controller_CMS::get_path_file('contact_us', $object->section3_social_media2_icon)){ ?>
-												<span><img src='<?php echo My_Controller_CMS::get_path_file('contact_us', $object->section3_social_media2_icon); ?>' width='50' alt=''></span>
+											<?php if(isset($object->id) && My_Controller_CMS::get_path_file('contact_us', $object->section4_social_media2_icon)){ ?>
+												<span><img src='<?php echo My_Controller_CMS::get_path_file('contact_us', $object->section4_social_media2_icon); ?>' width='50' alt=''></span>
 											<?php }else{ ?>
 												<span><img src='https://dummyimage.com/50x50' alt=''></span>
 											<?php } ?>
 											<div class="form-group">
 												<label>Ícone da Rede Social (2)</label>
-												<input type="file" class="form-control" name="section3_social_media2_icon">
+												<input type="file" class="form-control" name="section4_social_media2_icon">
 											</div>
 										</div>
 									</div>
@@ -802,14 +960,14 @@
 										<div class="col-xs-6">
 											<div class="form-group">
 												<label>Texto do Link da Rede Social (2)</label>
-												<input type="text" class="form-control" name="section3_social_media2_text_link" value="<?php echo isset($object->id) ? strip_tags($object->section3_social_media2_text_link) : ''; ?>">
+												<input type="text" class="form-control" name="section4_social_media2_text_link" value="<?php echo isset($object->id) ? strip_tags($object->section4_social_media2_text_link) : ''; ?>">
 											</div>
 										</div>
 
 										<div class="col-xs-6">
 											<div class="form-group">
 												<label>Link da Rede Social (2)</label>
-												<input type="text" class="form-control" name="section3_social_media2_link" value="<?php echo isset($object->id) ? strip_tags($object->section3_social_media2_link) : ''; ?>">
+												<input type="text" class="form-control" name="section4_social_media2_link" value="<?php echo isset($object->id) ? strip_tags($object->section4_social_media2_link) : ''; ?>">
 											</div>
 										</div>
 
@@ -817,14 +975,14 @@
 
 									<div class="row">
 										<div class="col-xs-6">
-											<?php if(isset($object->id) && My_Controller_CMS::get_path_file('contact_us', $object->section3_social_media3_icon)){ ?>
-												<span><img src='<?php echo My_Controller_CMS::get_path_file('contact_us', $object->section3_social_media3_icon); ?>' width='50' alt=''></span>
+											<?php if(isset($object->id) && My_Controller_CMS::get_path_file('contact_us', $object->section4_social_media3_icon)){ ?>
+												<span><img src='<?php echo My_Controller_CMS::get_path_file('contact_us', $object->section4_social_media3_icon); ?>' width='50' alt=''></span>
 											<?php }else{ ?>
 												<span><img src='https://dummyimage.com/50x50' alt=''></span>
 											<?php } ?>
 											<div class="form-group">
 												<label>Ícone da Rede Social (3)</label>
-												<input type="file" class="form-control" name="section3_social_media3_icon">
+												<input type="file" class="form-control" name="section4_social_media3_icon">
 											</div>
 										</div>
 									</div>
@@ -834,14 +992,14 @@
 										<div class="col-xs-6">
 											<div class="form-group">
 												<label>Texto do Link da Rede Social (3)</label>
-												<input type="text" class="form-control" name="section3_social_media3_text_link" value="<?php echo isset($object->id) ? strip_tags($object->section3_social_media3_text_link) : ''; ?>">
+												<input type="text" class="form-control" name="section4_social_media3_text_link" value="<?php echo isset($object->id) ? strip_tags($object->section4_social_media3_text_link) : ''; ?>">
 											</div>
 										</div>
 
 										<div class="col-xs-6">
 											<div class="form-group">
 												<label>Link da Rede Social (3)</label>
-												<input type="text" class="form-control" name="section3_social_media3_link" value="<?php echo isset($object->id) ? strip_tags($object->section3_social_media3_link) : ''; ?>">
+												<input type="text" class="form-control" name="section4_social_media3_link" value="<?php echo isset($object->id) ? strip_tags($object->section4_social_media3_link) : ''; ?>">
 											</div>
 										</div>
 

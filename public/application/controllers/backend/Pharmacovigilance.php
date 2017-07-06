@@ -78,7 +78,7 @@ class Pharmacovigilance extends MY_Controller_CMS {
 			foreach ($post as $key => $value) {
 
 				if(!empty($key) && !empty($value)){
-					$this->Pharmacovigilance_model->update(array($key => strstr($this->security->xss_clean($value), '<p>') ? $this->security->xss_clean($value) : nl2br($this->security->xss_clean($value))), array('id' => $object->id));
+					$this->Pharmacovigilance_model->update(array($key => strstr($this->security->xss_clean($value), '<p>') ? $this->security->xss_clean($value) : $this->nl2br_str($this->security->xss_clean($value))), array('id' => $object->id));
 				}
 
 			}

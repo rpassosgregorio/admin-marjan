@@ -115,6 +115,9 @@
 										<div class="admingrid-item-text">
 											<h1><?php echo !empty($object->section1_title) ? $object->section1_title : 'lorem ipsum'; ?></h1>
 											<p><?php echo !empty($object->section1_text) ? $object->section1_text : 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores unde assumenda tenetur nisi quisquam aspernatur eveniet error architecto doloremque blanditiis?'; ?></p>
+											<span class="admingrid-item-btn">
+												<?php echo !empty($object->section1_button_text) ? $object->section1_button_text : 'lorem ipsum'; ?>
+											</span>
 										</div>
 									</div>
 								</div>
@@ -137,8 +140,10 @@
 										<div class="admingrid-item-text">
 											<h1>lorem ipsum</h1>
 											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos quia nihil eligendi vel laboriosam non, minima praesentium debitis animi enim.</p>
+											<span class="admingrid-item-btn">
+												lorem ipsum
+											</span>
 										</div>
-										<img src="http://i.imgur.com/ZdJ1pMy.jpg" alt="">
 									</div>
 								</div>
 
@@ -197,6 +202,7 @@
 
 						<?php if(isset($object->id)){ ?>
 
+
 							<article class="admingrid-item admingrid-item--fullbanner admingrid-item--fullbanner3" >
 								<a href="#" class="admingrid-edit-btn" data-open-modal="#fullbanner3">
 									<span>Clique aqui para editar esse conteúdo</span>
@@ -205,11 +211,8 @@
 								<div class="admingrid-item-col">
 									<div class="admingrid-item-col-wrapper">
 										<div class="admingrid-item-text">
-											<h4><?php echo !empty($object->section3_title) ? $object->section3_title : 'lorem ipsum'; ?></h4>
+											<h3><?php echo !empty($object->section3_title) ? $object->section3_title : 'lorem ipsum'; ?></h3>
 											<p><?php echo !empty($object->section3_text) ? $object->section3_text : 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores unde assumenda tenetur nisi quisquam aspernatur eveniet error architecto doloremque blanditiis?'; ?></p>
-											<span class="admingrid-item-btn">
-												<?php echo !empty($object->section3_button_text) ? $object->section3_button_text : 'lorem ipsum'; ?>
-											</span>
 										</div>
 									</div>
 								</div>
@@ -230,6 +233,59 @@
 								<div class="admingrid-item-col">
 									<div class="admingrid-item-col-wrapper">
 										<div class="admingrid-item-text">
+											<h3>lorem ipsum</h3>
+											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos quia nihil eligendi vel laboriosam non, minima praesentium debitis animi enim.</p>
+										</div>
+									</div>
+								</div>
+
+								<div class="admingrid-item-image" style="background-image: url(URL_AQUI)"></div>
+
+								<div class="admingrid-clear"></div>
+
+							</article>
+
+
+						<?php } ?>
+
+						<?php if(isset($object->id)){ ?>
+
+							<article class="admingrid-item admingrid-item--fullbanner admingrid-item--fullbanner4" >
+								<a href="#" class="admingrid-edit-btn" data-open-modal="#fullbanner4">
+									<span>Clique aqui para editar esse conteúdo</span>
+								</a>
+
+								<div class="admingrid-item-image" style="background-image: url( <?php echo My_Controller_CMS::get_path_file('career', $object->section4_image); ?> )"></div>
+
+
+								<div class="admingrid-item-col">
+									<div class="admingrid-item-col-wrapper">
+										<div class="admingrid-item-text">
+											<h4><?php echo !empty($object->section4_title) ? $object->section4_title : 'lorem ipsum'; ?></h4>
+											<p><?php echo !empty($object->section4_text) ? $object->section4_text : 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores unde assumenda tenetur nisi quisquam aspernatur eveniet error architecto doloremque blanditiis?'; ?></p>
+											<span class="admingrid-item-btn">
+												<?php echo !empty($object->section4_button_text) ? $object->section4_button_text : 'lorem ipsum'; ?>
+											</span>
+										</div>
+									</div>
+								</div>
+
+								<div class="admingrid-clear"></div>
+
+							</article>
+
+						<?php }else{ ?>
+
+							<article class="admingrid-item admingrid-item--fullbanner admingrid-item--fullbanner4" >
+								<a href="#" class="admingrid-edit-btn" data-open-modal="#fullbanner4">
+									<span>Clique aqui para editar esse conteúdo</span>
+								</a>
+
+								<div class="admingrid-item-image" style="background-image: url(URL_AQUI)"></div>
+
+								<div class="admingrid-item-col">
+									<div class="admingrid-item-col-wrapper">
+										<div class="admingrid-item-text">
 											<h4>lorem ipsum</h4>
 											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores unde assumenda tenetur nisi quisquam aspernatur eveniet error architecto doloremque blanditiis</p>
 											<span class="admingrid-item-btn">
@@ -239,7 +295,6 @@
 									</div>
 								</div>
 
-								<div class="admingrid-item-image" style="background-image: url(URL_AQUI)"></div>
 
 								<div class="admingrid-clear"></div>
 
@@ -331,7 +386,7 @@
 										<div class="col-xs-6">
 											<div class="form-group">
 												<label>Texto Esquerda</label>
-												<textarea class="form-control" name="principal_left_text" placeholder="Texto esquerda"><?php echo isset($object->id) ? strip_tags($object->principal_left_text) : ''; ?></textarea>
+												<textarea class="form-control" name="principal_left_text" placeholder="..."><?php echo isset($object->id) ? strip_tags($object->principal_left_text) : ''; ?></textarea>
 											</div>
 										</div>
 
@@ -420,7 +475,7 @@
 										<div class="col-xs-6">
 											<div class="form-group">
 												<label>Título</label>
-												<textarea class="form-control" name="section1_title" placeholder="Texto esquerda"><?php echo isset($object->id) ? strip_tags($object->section1_title) : ''; ?></textarea>
+												<textarea class="form-control" name="section1_title" placeholder="..."><?php echo isset($object->id) ? strip_tags($object->section1_title) : ''; ?></textarea>
 											</div>
 										</div>
 
@@ -504,7 +559,25 @@
 										<div class="col-xs-12">
 											<div class="form-group">
 												<label>Texto</label>
-												<textarea class="form-control" name="section1_text" placeholder="Texto esquerda"><?php echo isset($object->id) ? strip_tags($object->section1_text) : ''; ?></textarea>
+												<textarea class="form-control" name="section1_text" placeholder="..."><?php echo isset($object->id) ? strip_tags($object->section1_text) : ''; ?></textarea>
+											</div>
+										</div>
+
+									</div>
+
+									<div class="row">
+
+										<div class="col-xs-6">
+											<div class="form-group">
+												<label>Título do Botão</label>
+												<input type="text" class="form-control" name="section1_button_text" value="<?php echo isset($object->id) ? strip_tags($object->section1_button_text) : ''; ?>">
+											</div>
+										</div>
+
+										<div class="col-xs-6">
+											<div class="form-group">
+												<label>Link do Botão</label>
+												<input type="text" class="form-control" name="section1_button_link" value="<?php echo isset($object->id) ? strip_tags($object->section1_button_link) : ''; ?>">
 											</div>
 										</div>
 
@@ -528,7 +601,7 @@
 										<div class="col-xs-6">
 											<div class="form-group">
 												<label>Título</label>
-												<textarea class="form-control" name="section2_title" placeholder="Texto esquerda"><?php echo isset($object->id) ? strip_tags($object->section2_title) : ''; ?></textarea>
+												<textarea class="form-control" name="section2_title" placeholder="..."><?php echo isset($object->id) ? strip_tags($object->section2_title) : ''; ?></textarea>
 											</div>
 										</div>
 
@@ -612,7 +685,7 @@
 										<div class="col-xs-12">
 											<div class="form-group">
 												<label>Texto</label>
-												<textarea class="form-control" name="section2_text" placeholder="Texto esquerda"><?php echo isset($object->id) ? strip_tags($object->section2_text) : ''; ?></textarea>
+												<textarea class="form-control" name="section2_text" placeholder="..."><?php echo isset($object->id) ? strip_tags($object->section2_text) : ''; ?></textarea>
 											</div>
 										</div>
 
@@ -631,12 +704,13 @@
 								<button class="admingrid-modal-close__btn">Fechar</button>
 								<form action="<?php echo base_url($this->base_cms.'/'.$this->controller_module.'/save'); ?>" method="post" role="form" class="admingrid-modal-form" enctype="multipart/form-data" data-parsley-validate>
 
+
 									<div class="row">
 
 										<div class="col-xs-6">
 											<div class="form-group">
 												<label>Título</label>
-												<textarea class="form-control" name="section3_title" placeholder="Texto esquerda"><?php echo isset($object->id) ? strip_tags($object->section3_title) : ''; ?></textarea>
+												<textarea class="form-control" name="section3_title" placeholder="..."><?php echo isset($object->id) ? strip_tags($object->section3_title) : ''; ?></textarea>
 											</div>
 										</div>
 
@@ -645,7 +719,7 @@
 									<div class="row">
 
 										<div class="col-xs-6">
-											<?php if(isset($object->id) && My_Controller_CMS::get_path_file('career', $object->section3_image_mobile)){ ?>
+											<?php if(isset($object->id) && My_Controller_CMS::get_path_file('career', $object->section3_image)){ ?>
 												<span><img src='<?php echo My_Controller_CMS::get_path_file('career', $object->section3_image); ?>' width='50' alt=''></span>
 											<?php }else{ ?>
 												<span><img src='https://dummyimage.com/50x50' alt=''></span>
@@ -717,10 +791,118 @@
 
 									<div class="row">
 
+										<div class="col-xs-32">
+											<div class="form-group">
+												<label>Texto</label>
+												<textarea class="form-control" name="section3_text" placeholder="..."><?php echo isset($object->id) ? strip_tags($object->section3_text) : ''; ?></textarea>
+											</div>
+										</div>
+
+									</div>
+
+									<div class="box-footer text-center">
+										<button type="submit" class="btn btn-primary margin">Salvar</button>
+									</div>
+
+								</form>
+							</div>
+						</div>
+
+						<div class="admingrid-modal" data-modal="fullbanner4">
+							<div class="admingrid-modal-wrapper">
+								<button class="admingrid-modal-close__btn">Fechar</button>
+								<form action="<?php echo base_url($this->base_cms.'/'.$this->controller_module.'/save'); ?>" method="post" role="form" class="admingrid-modal-form" enctype="multipart/form-data" data-parsley-validate>
+
+									<div class="row">
+
+										<div class="col-xs-6">
+											<div class="form-group">
+												<label>Título</label>
+												<textarea class="form-control" name="section4_title" placeholder="..."><?php echo isset($object->id) ? strip_tags($object->section4_title) : ''; ?></textarea>
+											</div>
+										</div>
+
+									</div>
+
+									<div class="row">
+
+										<div class="col-xs-6">
+											<?php if(isset($object->id) && My_Controller_CMS::get_path_file('career', $object->section4_image_mobile)){ ?>
+												<span><img src='<?php echo My_Controller_CMS::get_path_file('career', $object->section4_image); ?>' width='50' alt=''></span>
+											<?php }else{ ?>
+												<span><img src='https://dummyimage.com/50x50' alt=''></span>
+											<?php } ?>
+											<div class="form-group">
+												<label>Imagem</label>
+												<input type="file" class="form-control" name="section4_image" placeholder="Imagem">
+											</div>
+										</div>
+
+									</div>
+
+									<div class="row">
+										<div class="col-xs-6">
+											<div class="form-group">
+												<label>Alinhamento Horizontal</label><br/>
+												<label style="margin-right: 30px;">
+													<input type="radio" name="section4_image_horizontal_align" class="minimal" value="center" <?php if(isset($object->id) && $object->section4_image_horizontal_align == 'center'){ ?> checked <?php } ?>> Center
+												</label>
+												<label style="margin-right: 30px;">
+													<input type="radio" name="section4_image_horizontal_align" class="minimal" value="left" <?php if(isset($object->id) && $object->section4_image_horizontal_align == 'left'){ ?> checked <?php } ?>> Left
+												</label>
+												<label>
+													<input type="radio" name="section4_image_horizontal_align" class="minimal" value="right" <?php if(isset($object->id) && $object->section4_image_horizontal_align == 'right'){ ?> checked <?php } ?>> Right
+												</label>
+											</div>
+										</div>
+										<div class="col-xs-6">
+											<div class="form-group">
+												<label>Alinhamento Vertical</label><br/>
+												<label style="margin-right: 30px">
+													<input type="radio" name="section4_image_vertical_align" class="minimal" value="center" <?php if(isset($object->id) && $object->section4_image_vertical_align == 'center'){ ?> checked <?php } ?>> Center
+												</label>
+												<label style="margin-right: 30px">
+													<input type="radio" name="section4_image_vertical_align" class="minimal" value="top" <?php if(isset($object->id) && $object->section4_image_vertical_align == 'top'){ ?> checked <?php } ?>> Top
+												</label>
+												<label>
+													<input type="radio" name="section4_image_vertical_align" class="minimal" value="bottom" <?php if(isset($object->id) && $object->section4_image_vertical_align == 'bottom'){ ?> checked <?php } ?>> Bottom
+												</label>
+											</div>
+										</div>
+									</div>
+
+									<div class="row">
+										<div class="col-xs-6">
+											<?php if(isset($object->id) && My_Controller_CMS::get_path_file('career', $object->section4_image_mobile)){ ?>
+												<span><img src='<?php echo My_Controller_CMS::get_path_file('career', $object->section4_image_mobile); ?>' width='50' alt=''></span>
+											<?php }else{ ?>
+												<span><img src='https://dummyimage.com/50x50' alt=''></span>
+											<?php } ?>
+											<div class="form-group">
+												<label>Imagem Mobile</label>
+												<input type="file" class="form-control" name="section4_image_mobile" placeholder="Imagem Mobile">
+											</div>
+										</div>
+
+										<div class="col-xs-6">
+											<?php if(isset($object->id) && My_Controller_CMS::get_path_file('career', $object->section4_image_tablet)){ ?>
+												<span><img src='<?php echo My_Controller_CMS::get_path_file('career', $object->section4_image_tablet); ?>' width='50' alt=''></span>
+											<?php }else{ ?>
+												<span><img src='https://dummyimage.com/50x50' alt=''></span>
+											<?php } ?>
+											<div class="form-group">
+												<label>Imagem Tablet</label>
+												<input type="file" class="form-control" name="section4_image_tablet" placeholder="Imagem Tablet">
+											</div>
+										</div>
+									</div>
+
+									<div class="row">
+
 										<div class="col-xs-12">
 											<div class="form-group">
 												<label>Texto</label>
-												<textarea class="form-control" name="section3_text" placeholder="Texto"><?php echo isset($object->id) ? strip_tags($object->section3_text) : ''; ?></textarea>
+												<textarea class="form-control" name="section4_text" placeholder="Texto"><?php echo isset($object->id) ? strip_tags($object->section4_text) : ''; ?></textarea>
 											</div>
 										</div>
 
@@ -731,14 +913,14 @@
 										<div class="col-xs-6">
 											<div class="form-group">
 												<label>Título do Botão</label>
-												<input type="text" class="form-control" name="section3_button_text" value="<?php echo isset($object->id) ? strip_tags($object->section3_button_text) : ''; ?>">
+												<input type="text" class="form-control" name="section4_button_text" value="<?php echo isset($object->id) ? strip_tags($object->section4_button_text) : ''; ?>">
 											</div>
 										</div>
 
 										<div class="col-xs-6">
 											<div class="form-group">
 												<label>Link do Botão</label>
-												<input type="text" class="form-control" name="section3_button_link" value="<?php echo isset($object->id) ? strip_tags($object->section3_button_link) : ''; ?>">
+												<input type="text" class="form-control" name="section4_button_link" value="<?php echo isset($object->id) ? strip_tags($object->section4_button_link) : ''; ?>">
 											</div>
 										</div>
 

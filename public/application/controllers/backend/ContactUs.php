@@ -66,10 +66,10 @@ class ContactUs extends MY_Controller_CMS {
 			if (!$object) {
 
 				$last_id = $this->ContactUs_model->insert(array('active' 		=> 1,
-				                                                           'deleted' 		=> 0,
-				                                                           'order' 			=> 0,
-				                                                           'inserted_by' 	=> $this->admin_logged->id,
-				                                                           'date_insertion' => date('Y-m-d H:i:s')));
+	                                                            'deleted' 		=> 0,
+	                                                            'order' 		=> 0,
+	                                                            'inserted_by' 	=> $this->admin_logged->id,
+	                                                            'date_insertion'=> date('Y-m-d H:i:s')));
 
 				$object = $this->ContactUs_model->find_unique(array(), array('id = ' => $last_id, 'active = ' => 1, 'deleted = ' => 0));
 
@@ -78,7 +78,7 @@ class ContactUs extends MY_Controller_CMS {
 			foreach ($post as $key => $value) {
 
 				if(!empty($key) && !empty($value)){
-					$this->ContactUs_model->update(array($key => nl2br($this->security->xss_clean($value))), array('id' => $object->id));
+					$this->ContactUs_model->update(array($key => $this->nl2br_str($this->security->xss_clean($value))), array('id' => $object->id));
 				}
 
 			}
