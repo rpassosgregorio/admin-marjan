@@ -23,7 +23,11 @@ class AdminSubmodule_model extends MY_Model {
 	const pharmacovigilance = 18;
 	const socialRoom = 19;
 	const generalSettings = 20;
-	const newBusiness = 21;
+	const aboutUsNewBusiness = 21;
+	const aboutUsInnovation = 22;
+	const aboutUsQuality = 23;
+	const aboutUsEnvironment = 24;
+	const aboutUsOurHistory = 25;
 
 	public $id;
 	public $id_module;

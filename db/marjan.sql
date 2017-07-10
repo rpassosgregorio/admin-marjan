@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Jul 05, 2017 at 03:23 PM
+-- Generation Time: Jul 10, 2017 at 08:57 PM
 -- Server version: 10.1.21-MariaDB
 -- PHP Version: 5.6.30
 
@@ -161,6 +161,194 @@ INSERT INTO `ws_about_us` (`id`, `principal_video`, `principal_image`, `principa
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `ws_about_us_environment`
+--
+
+CREATE TABLE `ws_about_us_environment` (
+  `id` int(11) NOT NULL,
+  `principal_image` varchar(50) DEFAULT NULL,
+  `principal_image_horizontal_align` varchar(20) DEFAULT NULL,
+  `principal_image_vertical_align` varchar(20) DEFAULT NULL,
+  `principal_image_mobile` varchar(50) DEFAULT NULL,
+  `principal_image_tablet` varchar(50) DEFAULT NULL,
+  `principal_left_text` varchar(50) DEFAULT NULL,
+  `principal_right_text` varchar(300) DEFAULT NULL,
+  `calltonext_section_image` varchar(500) DEFAULT NULL,
+  `call_text_secion` text,
+  `deleted` tinyint(4) DEFAULT '0',
+  `order` int(11) DEFAULT '0',
+  `inserted_by` int(11) DEFAULT NULL,
+  `date_last_update` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
+  `date_insertion` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
+  `active` tinyint(4) DEFAULT '1'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `ws_about_us_environment`
+--
+
+INSERT INTO `ws_about_us_environment` (`id`, `principal_image`, `principal_image_horizontal_align`, `principal_image_vertical_align`, `principal_image_mobile`, `principal_image_tablet`, `principal_left_text`, `principal_right_text`, `calltonext_section_image`, `call_text_secion`, `deleted`, `order`, `inserted_by`, `date_last_update`, `date_insertion`, `active`) VALUES
+(1, 'meio-ambiente-X58VZU3R4J', 'center', 'bottom', 'meio-ambiente-1TA843A4FX', 'meio-ambiente-NKHCCJTXTU', 'MEIO<br/>AMBIENTE', 'Cuidar e preservar o meioambiente, um compromissopara minimizar o impactono meio ambiente', 'call-to-next-meio-ambiente-K66E8UNWVF', 'A Marjan Farma tem como seu maior compromisso suprir consumidores, pacientes e classe médica com produtos e serviços que efetivamente possam contribuir para a melhoria da qualidade de vida, minimizando o impacto ambiental de suas operações.<br/><br/>Para tanto, adota política da qualidade e meio amb', 0, 0, 1, '2017-06-23 16:26:17', '2017-06-23 21:26:17', 1);
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `ws_about_us_innovation`
+--
+
+CREATE TABLE `ws_about_us_innovation` (
+  `id` int(11) NOT NULL,
+  `principal_image` varchar(50) DEFAULT NULL,
+  `principal_image_horizontal_align` varchar(20) DEFAULT NULL,
+  `principal_image_vertical_align` varchar(20) DEFAULT NULL,
+  `principal_image_mobile` varchar(50) DEFAULT NULL,
+  `principal_image_tablet` varchar(50) DEFAULT NULL,
+  `principal_left_text` varchar(50) DEFAULT NULL,
+  `principal_right_text` varchar(300) DEFAULT NULL,
+  `calltonext_section_image` varchar(500) DEFAULT NULL,
+  `call_text_secion` text,
+  `deleted` tinyint(4) DEFAULT '0',
+  `order` int(11) DEFAULT '0',
+  `inserted_by` int(11) DEFAULT NULL,
+  `date_last_update` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
+  `date_insertion` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
+  `active` tinyint(4) DEFAULT '1'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `ws_about_us_innovation`
+--
+
+INSERT INTO `ws_about_us_innovation` (`id`, `principal_image`, `principal_image_horizontal_align`, `principal_image_vertical_align`, `principal_image_mobile`, `principal_image_tablet`, `principal_left_text`, `principal_right_text`, `calltonext_section_image`, `call_text_secion`, `deleted`, `order`, `inserted_by`, `date_last_update`, `date_insertion`, `active`) VALUES
+(1, 'inovacao-C4TKENUTMF', 'center', 'bottom', 'inovacao-GAKR1WA3KK', 'inovacao-BG9Y7X3JT1', 'INOVAÇÃO', 'Em produtos parao bem-estar dahumanidade', 'call-to-next-inovacao-WVUG5YUPH6', 'Visando atender às expectativas da Classe Médica, a Marjan Farma constantemente realiza pesquisas de novas tecnologias para potencializar a ação terapêutica de drogas já existentes.<br/><br/>Sempre pioneira no lançamento de produtos inovadores com novas concepções tecnológicas, a Marjan Farma ocupa ', 0, 0, 1, '2017-06-23 16:26:17', '2017-06-23 21:26:17', 1);
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `ws_about_us_new_business`
+--
+
+CREATE TABLE `ws_about_us_new_business` (
+  `id` int(11) NOT NULL,
+  `principal_image` varchar(50) DEFAULT NULL,
+  `principal_image_horizontal_align` varchar(20) DEFAULT NULL,
+  `principal_image_vertical_align` varchar(20) DEFAULT NULL,
+  `principal_image_mobile` varchar(50) DEFAULT NULL,
+  `principal_image_tablet` varchar(50) DEFAULT NULL,
+  `principal_left_text` varchar(50) DEFAULT NULL,
+  `principal_right_text` varchar(300) DEFAULT NULL,
+  `calltonext_section_image` varchar(500) DEFAULT NULL,
+  `call_text_secion` text,
+  `deleted` tinyint(4) DEFAULT '0',
+  `order` int(11) DEFAULT '0',
+  `inserted_by` int(11) DEFAULT NULL,
+  `date_last_update` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
+  `date_insertion` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
+  `active` tinyint(4) DEFAULT '1'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `ws_about_us_new_business`
+--
+
+INSERT INTO `ws_about_us_new_business` (`id`, `principal_image`, `principal_image_horizontal_align`, `principal_image_vertical_align`, `principal_image_mobile`, `principal_image_tablet`, `principal_left_text`, `principal_right_text`, `calltonext_section_image`, `call_text_secion`, `deleted`, `order`, `inserted_by`, `date_last_update`, `date_insertion`, `active`) VALUES
+(1, 'negocios-YWN53Y77RN', 'center', 'bottom', 'negocios-FVPG2BY81J', 'negocios-H9D3Y2P2QN', 'NOVOS<br />\r\nNEGÓCIOS', 'Vislumbramos a introdução<br />\r\nde novos negócios eo<br />\r\nparcerias com empresaso<br />\r\nbrasileiras, estrangeiras,o<br />\r\nfornecedores...', 'call-to-next-novos-negocios-7W57SB5TYG', 'A Marjan Farma vislumbra a introdução de novos negócios e novas parcerias com Empresas Nacionais e Estrangeiras, Fornecedores, Instituições de Pesquisa Científica e Universidades.<br />\r\n<br />\r\nCaso tenha interesse em ser um parceiro de negócios da Marjan Farma, preencha o formulário abaixo e em br', 0, 0, 1, '2017-06-23 13:26:17', '2017-06-23 18:26:17', 1);
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `ws_about_us_new_business_form`
+--
+
+CREATE TABLE `ws_about_us_new_business_form` (
+  `id` int(11) NOT NULL,
+  `company_name` varchar(300) DEFAULT NULL,
+  `occupation_area` varchar(300) DEFAULT NULL,
+  `contact_name` varchar(300) DEFAULT NULL,
+  `office` varchar(300) DEFAULT NULL,
+  `email` varchar(300) DEFAULT NULL,
+  `phone` varchar(300) DEFAULT NULL,
+  `branch` varchar(300) DEFAULT NULL,
+  `country` varchar(300) DEFAULT NULL,
+  `city` varchar(300) DEFAULT NULL,
+  `state` varchar(300) DEFAULT NULL,
+  `address` varchar(300) DEFAULT NULL,
+  `subject` text,
+  `deleted` tinyint(4) DEFAULT '0',
+  `order` int(11) DEFAULT '0',
+  `inserted_by` int(11) DEFAULT NULL,
+  `date_last_update` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
+  `date_insertion` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
+  `active` tinyint(4) DEFAULT '1'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `ws_about_us_our_history`
+--
+
+CREATE TABLE `ws_about_us_our_history` (
+  `id` int(11) NOT NULL,
+  `principal_image` varchar(50) DEFAULT NULL,
+  `principal_image_horizontal_align` varchar(20) DEFAULT NULL,
+  `principal_image_vertical_align` varchar(20) DEFAULT NULL,
+  `principal_image_mobile` varchar(50) DEFAULT NULL,
+  `principal_image_tablet` varchar(50) DEFAULT NULL,
+  `principal_left_text` varchar(50) DEFAULT NULL,
+  `principal_right_text` varchar(300) DEFAULT NULL,
+  `calltonext_section_image` varchar(500) DEFAULT NULL,
+  `call_text_secion` text,
+  `deleted` tinyint(4) DEFAULT '0',
+  `order` int(11) DEFAULT '0',
+  `inserted_by` int(11) DEFAULT NULL,
+  `date_last_update` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
+  `date_insertion` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
+  `active` tinyint(4) DEFAULT '1'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `ws_about_us_our_history`
+--
+
+INSERT INTO `ws_about_us_our_history` (`id`, `principal_image`, `principal_image_horizontal_align`, `principal_image_vertical_align`, `principal_image_mobile`, `principal_image_tablet`, `principal_left_text`, `principal_right_text`, `calltonext_section_image`, `call_text_secion`, `deleted`, `order`, `inserted_by`, `date_last_update`, `date_insertion`, `active`) VALUES
+(1, 'nossa-historia-topo-DQ3YCNTTF3', 'center', 'bottom', 'nossa-historia-topo-VDGHNHWQAJ', 'nossa-historia-topo-8U9M21XKDJ', 'NOSSA <br/>HISTÓRIA', 'Desde 1961 a marjan vemfazendo a diferença. conheçanossa história', 'call-to-next-C1DH2QFP3G', 'Desde 1961 a Marjan Farma caminha com o compromisso de atuar a favor da melhoria da qualidade de vida. Ao longo de sua trajetória, orgulha-se de ter construído uma empresa 100% nacional, fundamentada na integridade, ética e transparência em seus relacionamentos, seja com seus colaboradores, classe médica, comunidade ou parceiros de negócios.<br/><br/>Em sintonia com as novas tecnologias, a empresa prepara seu lugar no futuro. Futuro que se faz presente a cada dia, tal a rapidez com que as novas descobertas científicas transformam-se em novos produtos.', 0, 0, 1, '2017-06-23 16:26:17', '2017-06-23 21:26:17', 1);
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `ws_about_us_quality`
+--
+
+CREATE TABLE `ws_about_us_quality` (
+  `id` int(11) NOT NULL,
+  `principal_image` varchar(50) DEFAULT NULL,
+  `principal_image_horizontal_align` varchar(20) DEFAULT NULL,
+  `principal_image_vertical_align` varchar(20) DEFAULT NULL,
+  `principal_image_mobile` varchar(50) DEFAULT NULL,
+  `principal_image_tablet` varchar(50) DEFAULT NULL,
+  `principal_left_text` varchar(50) DEFAULT NULL,
+  `principal_right_text` varchar(300) DEFAULT NULL,
+  `calltonext_section_image` varchar(500) DEFAULT NULL,
+  `call_text_secion` text,
+  `deleted` tinyint(4) DEFAULT '0',
+  `order` int(11) DEFAULT '0',
+  `inserted_by` int(11) DEFAULT NULL,
+  `date_last_update` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
+  `date_insertion` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
+  `active` tinyint(4) DEFAULT '1'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `ws_about_us_quality`
+--
+
+INSERT INTO `ws_about_us_quality` (`id`, `principal_image`, `principal_image_horizontal_align`, `principal_image_vertical_align`, `principal_image_mobile`, `principal_image_tablet`, `principal_left_text`, `principal_right_text`, `calltonext_section_image`, `call_text_secion`, `deleted`, `order`, `inserted_by`, `date_last_update`, `date_insertion`, `active`) VALUES
+(1, 'qualidade-ERPHP15J4U', 'center', 'bottom', 'qualidade-9XHN5D21SS', 'qualidade-CDHD3FV8JN', 'QUALIDADE', 'Padrões internacionaisde boas práticasde fabricação', 'call-to-next-qualidade-DQ7NR4SV1S', 'A adoção de padrões internacionais de boas práticas de fabricação é prova contundente do investimento que a Marjan Farma aplica na busca pela qualidade. Soma-se a esta conquista o empenho e comprometimento efetivo de seus colaboradores, visando preservar a qualidade já alcançada e buscar uma melhori', 0, 0, 1, '2017-06-23 16:26:17', '2017-06-23 21:26:17', 1);
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `ws_admin_access`
 --
 
@@ -178,27 +366,6 @@ CREATE TABLE `ws_admin_access` (
 --
 
 INSERT INTO `ws_admin_access` (`id`, `id_admin`, `id_submodule`, `deleted`, `order`, `active`) VALUES
-(341, 1, 1, 0, 0, 1),
-(342, 1, 2, 0, 0, 1),
-(343, 1, 3, 0, 0, 1),
-(344, 1, 4, 0, 0, 1),
-(345, 1, 5, 0, 0, 1),
-(346, 1, 6, 0, 0, 1),
-(347, 1, 7, 0, 0, 1),
-(348, 1, 8, 0, 0, 1),
-(349, 1, 9, 0, 0, 1),
-(350, 1, 10, 0, 0, 1),
-(351, 1, 11, 0, 0, 1),
-(352, 1, 12, 0, 0, 1),
-(353, 1, 13, 0, 0, 1),
-(354, 1, 14, 0, 0, 1),
-(355, 1, 15, 0, 0, 1),
-(356, 1, 16, 0, 0, 1),
-(357, 1, 17, 0, 0, 1),
-(358, 1, 18, 0, 0, 1),
-(359, 1, 19, 0, 0, 1),
-(360, 1, 20, 0, 0, 1),
-(361, 1, 21, 0, 0, 1),
 (362, 2, 1, 0, 0, 1),
 (363, 2, 2, 0, 0, 1),
 (364, 2, 3, 0, 0, 1),
@@ -219,7 +386,32 @@ INSERT INTO `ws_admin_access` (`id`, `id_admin`, `id_submodule`, `deleted`, `ord
 (379, 2, 18, 0, 0, 1),
 (380, 2, 19, 0, 0, 1),
 (381, 2, 20, 0, 0, 1),
-(382, 2, 21, 0, 0, 1);
+(382, 2, 21, 0, 0, 1),
+(383, 1, 1, 0, 0, 1),
+(384, 1, 2, 0, 0, 1),
+(385, 1, 3, 0, 0, 1),
+(386, 1, 12, 0, 0, 1),
+(387, 1, 21, 0, 0, 1),
+(388, 1, 22, 0, 0, 1),
+(389, 1, 23, 0, 0, 1),
+(390, 1, 24, 0, 0, 1),
+(391, 1, 25, 0, 0, 1),
+(392, 1, 13, 0, 0, 1),
+(393, 1, 6, 0, 0, 1),
+(394, 1, 7, 0, 0, 1),
+(395, 1, 8, 0, 0, 1),
+(396, 1, 9, 0, 0, 1),
+(397, 1, 10, 0, 0, 1),
+(398, 1, 11, 0, 0, 1),
+(399, 1, 14, 0, 0, 1),
+(400, 1, 17, 0, 0, 1),
+(401, 1, 15, 0, 0, 1),
+(402, 1, 4, 0, 0, 1),
+(403, 1, 5, 0, 0, 1),
+(404, 1, 16, 0, 0, 1),
+(405, 1, 19, 0, 0, 1),
+(406, 1, 18, 0, 0, 1),
+(407, 1, 20, 0, 0, 1);
 
 -- --------------------------------------------------------
 
@@ -381,7 +573,8 @@ INSERT INTO `ws_admin_log` (`id`, `id_admin`, `action`, `table`, `json`, `delete
 (126, 1, 'edit', 'products', '{\n    \"new_object\": {\n        \"id\": \"1\",\n        \"id_category\": \"2\",\n        \"slug\": \"novo-produto-teste\",\n        \"name\": \"novo produto teste\",\n        \"cientific_name\": \"cientifico test\",\n        \"how_to_use\": \"<p>modo de uso<\\/p>\\r\\n\",\n        \"indication\": \"<p>indicacao<\\/p>\\r\\n\",\n        \"therapeutic_class\": \"<p>classe terapeutica<\\/p>\\r\\n\",\n        \"ingredients\": \"<p>ingredientes<\\/p>\\r\\n\",\n        \"product_info\": \"\",\n        \"product_keywords\": \"produto tag\",\n        \"nutritional_info\": \"dd5fcf089ff0cbd4be677d4b53a1976fbcc49b9e_1\",\n        \"nutritional_info_obs\": \"<p>obs<\\/p>\\r\\n\",\n        \"is_under_prescription\": \"1\",\n        \"product_image\": \"caf15153ccd2b89e4b68d2c53fb7c3e412aefdda_1\",\n        \"product_image_mobile\": \"c713a54be34777b948fb7e75040bacaae4292cef_1\",\n        \"product_image_tablet\": \"96b68fc5d0a4faef744fb9babfb12f04608de192_1\",\n        \"product_image_horizontal_align\": \"left\",\n        \"product_image_vertical_align\": \"center\",\n        \"product_release_image\": \"1441055e68aeeb7392dd20b635624a3dc623822d_2\",\n        \"drug_leaflet_patient_pdf\": \"bd05fd2f9a4a4d9a9310ad1aa05813677a9828f7_1\",\n        \"drug_leaflet_healthcare_professional_pdf\": \"ccb9da3b94809d547b30afa6dbb313759543715f_1\",\n        \"deleted\": \"0\",\n        \"order\": \"0\",\n        \"inserted_by\": \"1\",\n        \"date_last_update\": \"2017-06-23 14:16:54\",\n        \"date_insertion\": \"2017-05-21 11:19:35\",\n        \"active\": \"1\",\n        \"category\": {\n            \"id\": \"2\",\n            \"title\": \"Categoria\",\n            \"is_food\": \"0\",\n            \"deleted\": \"0\",\n            \"order\": \"0\",\n            \"inserted_by\": \"1\",\n            \"date_last_update\": \"2017-05-21 09:36:33\",\n            \"date_insertion\": \"2017-05-21 09:36:33\",\n            \"active\": \"1\"\n        },\n        \"specialties\": [\n            {\n                \"id\": \"37\",\n                \"id_product\": \"1\",\n                \"id_specialty\": \"1\",\n                \"deleted\": \"0\",\n                \"order\": \"0\",\n                \"inserted_by\": \"1\",\n                \"date_last_update\": \"2017-05-31 16:36:23\",\n                \"date_insertion\": \"2017-05-31 16:36:23\",\n                \"active\": \"1\"\n            },\n            {\n                \"id\": \"38\",\n                \"id_product\": \"1\",\n                \"id_specialty\": \"2\",\n                \"deleted\": \"0\",\n                \"order\": \"0\",\n                \"inserted_by\": \"1\",\n                \"date_last_update\": \"2017-05-31 16:36:23\",\n                \"date_insertion\": \"2017-05-31 16:36:23\",\n                \"active\": \"1\"\n            }\n        ],\n        \"presentations\": [\n            {\n                \"id\": \"30\",\n                \"id_product\": \"1\",\n                \"id_presentation\": \"2\",\n                \"deleted\": \"0\",\n                \"order\": \"0\",\n                \"inserted_by\": \"1\",\n                \"date_last_update\": \"2017-05-31 16:36:23\",\n                \"date_insertion\": \"2017-05-31 16:36:23\",\n                \"active\": \"1\"\n            }\n        ],\n        \"active_principles\": [\n            {\n                \"id\": \"36\",\n                \"id_product\": \"1\",\n                \"id_active_principle\": \"1\",\n                \"deleted\": \"0\",\n                \"order\": \"0\",\n                \"inserted_by\": \"1\",\n                \"date_last_update\": \"2017-05-31 16:36:23\",\n                \"date_insertion\": \"2017-05-31 16:36:23\",\n                \"active\": \"1\"\n            },\n            {\n                \"id\": \"37\",\n                \"id_product\": \"1\",\n                \"id_active_principle\": \"2\",\n                \"deleted\": \"0\",\n                \"order\": \"0\",\n                \"inserted_by\": \"1\",\n                \"date_last_update\": \"2017-05-31 16:36:23\",\n                \"date_insertion\": \"2017-05-31 16:36:23\",\n                \"active\": \"1\"\n            }\n        ]\n    },\n    \"old_object\": {\n        \"id\": \"1\",\n        \"id_category\": \"2\",\n        \"slug\": \"novo-produto-teste\",\n        \"name\": \"novo produto teste\",\n        \"cientific_name\": \"cientifico test\",\n        \"how_to_use\": \"<p>modo de uso<\\/p>\\r\\n\",\n        \"indication\": \"<p>indicacao<\\/p>\\r\\n\",\n        \"therapeutic_class\": \"<p>classe terapeutica<\\/p>\\r\\n\",\n        \"ingredients\": \"<p>ingredientes<\\/p>\\r\\n\",\n        \"product_info\": null,\n        \"product_keywords\": null,\n        \"nutritional_info\": \"dd5fcf089ff0cbd4be677d4b53a1976fbcc49b9e_1\",\n        \"nutritional_info_obs\": \"<p>obs<\\/p>\\r\\n\",\n        \"is_under_prescription\": \"1\",\n        \"product_image\": \"caf15153ccd2b89e4b68d2c53fb7c3e412aefdda_1\",\n        \"product_image_mobile\": \"c713a54be34777b948fb7e75040bacaae4292cef_1\",\n        \"product_image_tablet\": \"96b68fc5d0a4faef744fb9babfb12f04608de192_1\",\n        \"product_image_horizontal_align\": \"left\",\n        \"product_image_vertical_align\": \"center\",\n        \"product_release_image\": \"1441055e68aeeb7392dd20b635624a3dc623822d_2\",\n        \"drug_leaflet_patient_pdf\": \"bd05fd2f9a4a4d9a9310ad1aa05813677a9828f7_1\",\n        \"drug_leaflet_healthcare_professional_pdf\": \"ccb9da3b94809d547b30afa6dbb313759543715f_1\",\n        \"deleted\": \"0\",\n        \"order\": \"0\",\n        \"inserted_by\": \"1\",\n        \"date_last_update\": \"2017-05-31 21:36:23\",\n        \"date_insertion\": \"2017-05-21 11:19:35\",\n        \"active\": \"1\",\n        \"category\": {\n            \"id\": \"2\",\n            \"title\": \"Categoria\",\n            \"is_food\": \"0\",\n            \"deleted\": \"0\",\n            \"order\": \"0\",\n            \"inserted_by\": \"1\",\n            \"date_last_update\": \"2017-05-21 09:36:33\",\n            \"date_insertion\": \"2017-05-21 09:36:33\",\n            \"active\": \"1\"\n        },\n        \"specialties\": [\n            {\n                \"id\": \"37\",\n                \"id_product\": \"1\",\n                \"id_specialty\": \"1\",\n                \"deleted\": \"0\",\n                \"order\": \"0\",\n                \"inserted_by\": \"1\",\n                \"date_last_update\": \"2017-05-31 16:36:23\",\n                \"date_insertion\": \"2017-05-31 16:36:23\",\n                \"active\": \"1\"\n            },\n            {\n                \"id\": \"38\",\n                \"id_product\": \"1\",\n                \"id_specialty\": \"2\",\n                \"deleted\": \"0\",\n                \"order\": \"0\",\n                \"inserted_by\": \"1\",\n                \"date_last_update\": \"2017-05-31 16:36:23\",\n                \"date_insertion\": \"2017-05-31 16:36:23\",\n                \"active\": \"1\"\n            }\n        ],\n        \"presentations\": [\n            {\n                \"id\": \"30\",\n                \"id_product\": \"1\",\n                \"id_presentation\": \"2\",\n                \"deleted\": \"0\",\n                \"order\": \"0\",\n                \"inserted_by\": \"1\",\n                \"date_last_update\": \"2017-05-31 16:36:23\",\n                \"date_insertion\": \"2017-05-31 16:36:23\",\n                \"active\": \"1\"\n            }\n        ],\n        \"active_principles\": [\n            {\n                \"id\": \"36\",\n                \"id_product\": \"1\",\n                \"id_active_principle\": \"1\",\n                \"deleted\": \"0\",\n                \"order\": \"0\",\n                \"inserted_by\": \"1\",\n                \"date_last_update\": \"2017-05-31 16:36:23\",\n                \"date_insertion\": \"2017-05-31 16:36:23\",\n                \"active\": \"1\"\n            },\n            {\n                \"id\": \"37\",\n                \"id_product\": \"1\",\n                \"id_active_principle\": \"2\",\n                \"deleted\": \"0\",\n                \"order\": \"0\",\n                \"inserted_by\": \"1\",\n                \"date_last_update\": \"2017-05-31 16:36:23\",\n                \"date_insertion\": \"2017-05-31 16:36:23\",\n                \"active\": \"1\"\n            }\n        ]\n    }\n}', 0, 0, '2017-06-23 12:16:54', '2017-06-23 12:16:54', 1),
 (127, 1, 'edit', 'products', '{\n    \"new_object\": {\n        \"id\": \"1\",\n        \"id_category\": \"2\",\n        \"slug\": \"novo-produto-teste\",\n        \"name\": \"novo produto teste\",\n        \"cientific_name\": \"cientifico test\",\n        \"how_to_use\": \"<p>modo de uso<\\/p>\\r\\n\",\n        \"indication\": \"<p>indicacao<\\/p>\\r\\n\",\n        \"therapeutic_class\": \"<p>classe terapeutica<\\/p>\\r\\n\",\n        \"ingredients\": \"<p>ingredientes<\\/p>\\r\\n\",\n        \"product_info\": \"\",\n        \"product_keywords\": \"produto tag,ok\",\n        \"nutritional_info\": \"dd5fcf089ff0cbd4be677d4b53a1976fbcc49b9e_1\",\n        \"nutritional_info_obs\": \"<p>obs<\\/p>\\r\\n\",\n        \"is_under_prescription\": \"1\",\n        \"product_image\": \"caf15153ccd2b89e4b68d2c53fb7c3e412aefdda_1\",\n        \"product_image_mobile\": \"c713a54be34777b948fb7e75040bacaae4292cef_1\",\n        \"product_image_tablet\": \"96b68fc5d0a4faef744fb9babfb12f04608de192_1\",\n        \"product_image_horizontal_align\": \"left\",\n        \"product_image_vertical_align\": \"center\",\n        \"product_release_image\": \"1441055e68aeeb7392dd20b635624a3dc623822d_2\",\n        \"drug_leaflet_patient_pdf\": \"bd05fd2f9a4a4d9a9310ad1aa05813677a9828f7_1\",\n        \"drug_leaflet_healthcare_professional_pdf\": \"ccb9da3b94809d547b30afa6dbb313759543715f_1\",\n        \"deleted\": \"0\",\n        \"order\": \"0\",\n        \"inserted_by\": \"1\",\n        \"date_last_update\": \"2017-06-23 14:16:59\",\n        \"date_insertion\": \"2017-05-21 11:19:35\",\n        \"active\": \"1\",\n        \"category\": {\n            \"id\": \"2\",\n            \"title\": \"Categoria\",\n            \"is_food\": \"0\",\n            \"deleted\": \"0\",\n            \"order\": \"0\",\n            \"inserted_by\": \"1\",\n            \"date_last_update\": \"2017-05-21 09:36:33\",\n            \"date_insertion\": \"2017-05-21 09:36:33\",\n            \"active\": \"1\"\n        },\n        \"specialties\": [\n            {\n                \"id\": \"39\",\n                \"id_product\": \"1\",\n                \"id_specialty\": \"1\",\n                \"deleted\": \"0\",\n                \"order\": \"0\",\n                \"inserted_by\": \"1\",\n                \"date_last_update\": \"2017-06-23 09:16:54\",\n                \"date_insertion\": \"2017-06-23 09:16:54\",\n                \"active\": \"1\"\n            },\n            {\n                \"id\": \"40\",\n                \"id_product\": \"1\",\n                \"id_specialty\": \"2\",\n                \"deleted\": \"0\",\n                \"order\": \"0\",\n                \"inserted_by\": \"1\",\n                \"date_last_update\": \"2017-06-23 09:16:54\",\n                \"date_insertion\": \"2017-06-23 09:16:54\",\n                \"active\": \"1\"\n            }\n        ],\n        \"presentations\": [\n            {\n                \"id\": \"31\",\n                \"id_product\": \"1\",\n                \"id_presentation\": \"2\",\n                \"deleted\": \"0\",\n                \"order\": \"0\",\n                \"inserted_by\": \"1\",\n                \"date_last_update\": \"2017-06-23 09:16:55\",\n                \"date_insertion\": \"2017-06-23 09:16:55\",\n                \"active\": \"1\"\n            }\n        ],\n        \"active_principles\": [\n            {\n                \"id\": \"38\",\n                \"id_product\": \"1\",\n                \"id_active_principle\": \"1\",\n                \"deleted\": \"0\",\n                \"order\": \"0\",\n                \"inserted_by\": \"1\",\n                \"date_last_update\": \"2017-06-23 09:16:55\",\n                \"date_insertion\": \"2017-06-23 09:16:55\",\n                \"active\": \"1\"\n            },\n            {\n                \"id\": \"39\",\n                \"id_product\": \"1\",\n                \"id_active_principle\": \"2\",\n                \"deleted\": \"0\",\n                \"order\": \"0\",\n                \"inserted_by\": \"1\",\n                \"date_last_update\": \"2017-06-23 09:16:55\",\n                \"date_insertion\": \"2017-06-23 09:16:55\",\n                \"active\": \"1\"\n            }\n        ]\n    },\n    \"old_object\": {\n        \"id\": \"1\",\n        \"id_category\": \"2\",\n        \"slug\": \"novo-produto-teste\",\n        \"name\": \"novo produto teste\",\n        \"cientific_name\": \"cientifico test\",\n        \"how_to_use\": \"<p>modo de uso<\\/p>\\r\\n\",\n        \"indication\": \"<p>indicacao<\\/p>\\r\\n\",\n        \"therapeutic_class\": \"<p>classe terapeutica<\\/p>\\r\\n\",\n        \"ingredients\": \"<p>ingredientes<\\/p>\\r\\n\",\n        \"product_info\": \"\",\n        \"product_keywords\": \"produto tag\",\n        \"nutritional_info\": \"dd5fcf089ff0cbd4be677d4b53a1976fbcc49b9e_1\",\n        \"nutritional_info_obs\": \"<p>obs<\\/p>\\r\\n\",\n        \"is_under_prescription\": \"1\",\n        \"product_image\": \"caf15153ccd2b89e4b68d2c53fb7c3e412aefdda_1\",\n        \"product_image_mobile\": \"c713a54be34777b948fb7e75040bacaae4292cef_1\",\n        \"product_image_tablet\": \"96b68fc5d0a4faef744fb9babfb12f04608de192_1\",\n        \"product_image_horizontal_align\": \"left\",\n        \"product_image_vertical_align\": \"center\",\n        \"product_release_image\": \"1441055e68aeeb7392dd20b635624a3dc623822d_2\",\n        \"drug_leaflet_patient_pdf\": \"bd05fd2f9a4a4d9a9310ad1aa05813677a9828f7_1\",\n        \"drug_leaflet_healthcare_professional_pdf\": \"ccb9da3b94809d547b30afa6dbb313759543715f_1\",\n        \"deleted\": \"0\",\n        \"order\": \"0\",\n        \"inserted_by\": \"1\",\n        \"date_last_update\": \"2017-06-23 14:16:54\",\n        \"date_insertion\": \"2017-05-21 11:19:35\",\n        \"active\": \"1\",\n        \"category\": {\n            \"id\": \"2\",\n            \"title\": \"Categoria\",\n            \"is_food\": \"0\",\n            \"deleted\": \"0\",\n            \"order\": \"0\",\n            \"inserted_by\": \"1\",\n            \"date_last_update\": \"2017-05-21 09:36:33\",\n            \"date_insertion\": \"2017-05-21 09:36:33\",\n            \"active\": \"1\"\n        },\n        \"specialties\": [\n            {\n                \"id\": \"39\",\n                \"id_product\": \"1\",\n                \"id_specialty\": \"1\",\n                \"deleted\": \"0\",\n                \"order\": \"0\",\n                \"inserted_by\": \"1\",\n                \"date_last_update\": \"2017-06-23 09:16:54\",\n                \"date_insertion\": \"2017-06-23 09:16:54\",\n                \"active\": \"1\"\n            },\n            {\n                \"id\": \"40\",\n                \"id_product\": \"1\",\n                \"id_specialty\": \"2\",\n                \"deleted\": \"0\",\n                \"order\": \"0\",\n                \"inserted_by\": \"1\",\n                \"date_last_update\": \"2017-06-23 09:16:54\",\n                \"date_insertion\": \"2017-06-23 09:16:54\",\n                \"active\": \"1\"\n            }\n        ],\n        \"presentations\": [\n            {\n                \"id\": \"31\",\n                \"id_product\": \"1\",\n                \"id_presentation\": \"2\",\n                \"deleted\": \"0\",\n                \"order\": \"0\",\n                \"inserted_by\": \"1\",\n                \"date_last_update\": \"2017-06-23 09:16:55\",\n                \"date_insertion\": \"2017-06-23 09:16:55\",\n                \"active\": \"1\"\n            }\n        ],\n        \"active_principles\": [\n            {\n                \"id\": \"38\",\n                \"id_product\": \"1\",\n                \"id_active_principle\": \"1\",\n                \"deleted\": \"0\",\n                \"order\": \"0\",\n                \"inserted_by\": \"1\",\n                \"date_last_update\": \"2017-06-23 09:16:55\",\n                \"date_insertion\": \"2017-06-23 09:16:55\",\n                \"active\": \"1\"\n            },\n            {\n                \"id\": \"39\",\n                \"id_product\": \"1\",\n                \"id_active_principle\": \"2\",\n                \"deleted\": \"0\",\n                \"order\": \"0\",\n                \"inserted_by\": \"1\",\n                \"date_last_update\": \"2017-06-23 09:16:55\",\n                \"date_insertion\": \"2017-06-23 09:16:55\",\n                \"active\": \"1\"\n            }\n        ]\n    }\n}', 0, 0, '2017-06-23 12:16:59', '2017-06-23 12:16:59', 1),
 (128, 1, 'edit', 'admin_user', '{\n    \"new_object\": {\n        \"id\": \"1\",\n        \"code\": \"8399e6d730b4ca936f2498364cf2d111be849ac2\",\n        \"name\": \"Andr\\u00e9 Smolianinoff\",\n        \"email\": \"andre.ninoff@gmail.com\",\n        \"password\": \"128b71e8c9e4a91a36e17169be20ec960784705e\",\n        \"avatar\": \"\",\n        \"deleted\": \"0\",\n        \"order\": \"0\",\n        \"date_last_login\": \"2017-06-23 10:11:13\",\n        \"inserted_by\": \"0\",\n        \"date_last_update\": \"2017-06-23 15:11:13\",\n        \"date_insertion\": \"2016-11-11 03:00:00\",\n        \"active\": \"1\"\n    },\n    \"old_object\": {\n        \"id\": \"1\",\n        \"code\": \"2dad8e35810439b9127ca8a7aae4308ce5bc3a47\",\n        \"name\": \"Andr\\u00e9 Smolianinoff\",\n        \"email\": \"andre.ninoff@gmail.com\",\n        \"password\": \"128b71e8c9e4a91a36e17169be20ec960784705e\",\n        \"avatar\": \"\",\n        \"deleted\": \"0\",\n        \"order\": \"0\",\n        \"date_last_login\": \"2017-06-23 14:08:14\",\n        \"inserted_by\": \"0\",\n        \"date_last_update\": \"2017-06-12 19:37:53\",\n        \"date_insertion\": \"2016-11-11 03:00:00\",\n        \"active\": \"1\"\n    }\n}', 0, 0, '2017-06-23 13:11:13', '2017-06-23 13:11:13', 1),
-(129, 1, 'edit', 'admin_user', '{\n    \"new_object\": {\n        \"id\": \"2\",\n        \"code\": \"c378866dd5a6bf0893c282e3c38990d02fdf4798\",\n        \"name\": \"Administrador\",\n        \"email\": \"admin@apptecbr.com\",\n        \"password\": \"601f1889667efaebb33b8c12572835da3f027f78\",\n        \"avatar\": \"\",\n        \"deleted\": \"0\",\n        \"order\": \"0\",\n        \"date_last_login\": \"2017-06-23 10:11:19\",\n        \"inserted_by\": \"1\",\n        \"date_last_update\": \"2017-06-23 15:11:19\",\n        \"date_insertion\": \"2017-05-12 19:17:10\",\n        \"active\": \"1\"\n    },\n    \"old_object\": {\n        \"id\": \"2\",\n        \"code\": \"dcee01e0a44a874cb122ca6155d3b4740955b8e5\",\n        \"name\": \"Administrador\",\n        \"email\": \"admin@apptecbr.com\",\n        \"password\": \"601f1889667efaebb33b8c12572835da3f027f78\",\n        \"avatar\": \"\",\n        \"deleted\": \"0\",\n        \"order\": \"0\",\n        \"date_last_login\": \"2017-05-13 00:19:36\",\n        \"inserted_by\": \"1\",\n        \"date_last_update\": \"2017-05-12 19:17:10\",\n        \"date_insertion\": \"2017-05-12 19:17:10\",\n        \"active\": \"1\"\n    }\n}', 0, 0, '2017-06-23 13:11:19', '2017-06-23 13:11:19', 1);
+(129, 1, 'edit', 'admin_user', '{\n    \"new_object\": {\n        \"id\": \"2\",\n        \"code\": \"c378866dd5a6bf0893c282e3c38990d02fdf4798\",\n        \"name\": \"Administrador\",\n        \"email\": \"admin@apptecbr.com\",\n        \"password\": \"601f1889667efaebb33b8c12572835da3f027f78\",\n        \"avatar\": \"\",\n        \"deleted\": \"0\",\n        \"order\": \"0\",\n        \"date_last_login\": \"2017-06-23 10:11:19\",\n        \"inserted_by\": \"1\",\n        \"date_last_update\": \"2017-06-23 15:11:19\",\n        \"date_insertion\": \"2017-05-12 19:17:10\",\n        \"active\": \"1\"\n    },\n    \"old_object\": {\n        \"id\": \"2\",\n        \"code\": \"dcee01e0a44a874cb122ca6155d3b4740955b8e5\",\n        \"name\": \"Administrador\",\n        \"email\": \"admin@apptecbr.com\",\n        \"password\": \"601f1889667efaebb33b8c12572835da3f027f78\",\n        \"avatar\": \"\",\n        \"deleted\": \"0\",\n        \"order\": \"0\",\n        \"date_last_login\": \"2017-05-13 00:19:36\",\n        \"inserted_by\": \"1\",\n        \"date_last_update\": \"2017-05-12 19:17:10\",\n        \"date_insertion\": \"2017-05-12 19:17:10\",\n        \"active\": \"1\"\n    }\n}', 0, 0, '2017-06-23 13:11:19', '2017-06-23 13:11:19', 1),
+(130, 1, 'edit', 'admin_user', '{\n    \"new_object\": {\n        \"id\": \"1\",\n        \"code\": \"e78cb21adced6f0787b6ef6c1d80499e8dd1f000\",\n        \"name\": \"Andr\\u00e9 Smolianinoff\",\n        \"email\": \"andre.ninoff@gmail.com\",\n        \"password\": \"128b71e8c9e4a91a36e17169be20ec960784705e\",\n        \"avatar\": \"\",\n        \"deleted\": \"0\",\n        \"order\": \"0\",\n        \"date_last_login\": \"2017-07-10 14:24:09\",\n        \"inserted_by\": \"0\",\n        \"date_last_update\": \"2017-07-10 19:24:09\",\n        \"date_insertion\": \"2016-11-11 03:00:00\",\n        \"active\": \"1\"\n    },\n    \"old_object\": {\n        \"id\": \"1\",\n        \"code\": \"8399e6d730b4ca936f2498364cf2d111be849ac2\",\n        \"name\": \"Andr\\u00e9 Smolianinoff\",\n        \"email\": \"andre.ninoff@gmail.com\",\n        \"password\": \"128b71e8c9e4a91a36e17169be20ec960784705e\",\n        \"avatar\": \"\",\n        \"deleted\": \"0\",\n        \"order\": \"0\",\n        \"date_last_login\": \"2017-07-10 19:17:29\",\n        \"inserted_by\": \"0\",\n        \"date_last_update\": \"2017-06-23 15:11:13\",\n        \"date_insertion\": \"2016-11-11 03:00:00\",\n        \"active\": \"1\"\n    }\n}', 0, 0, '2017-07-10 17:24:09', '2017-07-10 17:24:09', 1);
 
 -- --------------------------------------------------------
 
@@ -417,7 +610,7 @@ INSERT INTO `ws_admin_modules` (`id`, `title`, `icon`, `deleted`, `order`, `date
 (11, 'Farmacovigilância', '', 0, 11, '2017-06-08 21:15:59', 1),
 (12, 'Sala Social', '', 0, 10, '2017-06-08 21:18:06', 1),
 (13, 'Configurações Gerais', '', 0, 13, '2017-06-12 17:37:28', 1),
-(14, 'Novos Negócios', '', 0, 12, '2017-06-23 13:10:53', 1);
+(14, 'Novos Negócios', '', 1, 12, '2017-06-23 13:10:53', 1);
 
 -- --------------------------------------------------------
 
@@ -462,7 +655,11 @@ INSERT INTO `ws_admin_submodules` (`id`, `id_module`, `title`, `icon`, `controll
 (18, 11, 'Farmacovigilância', '', 'pharmacovigilance', 0, 0, '2017-06-08 21:16:28', 1),
 (19, 12, 'Sala Social', '', 'socialRoom', 0, 0, '2017-06-08 21:18:21', 1),
 (20, 13, 'Configurações Gerais', '', 'generalSettings', 0, 0, '2017-06-12 17:37:45', 1),
-(21, 14, 'Novos Negócios', '', 'newBusiness', 0, 0, '2017-06-23 13:11:05', 1);
+(21, 5, 'Novos Negócios', '', 'aboutUsNewBusiness', 0, 0, '2017-06-23 13:11:05', 1),
+(22, 5, 'Inovação', '', 'aboutUsInnovation', 0, 1, '2017-07-10 17:22:55', 1),
+(23, 5, 'Qualidade', '', 'aboutUsQuality', 0, 2, '2017-07-10 17:22:55', 1),
+(24, 5, 'Meio Ambiente', '', 'aboutUsEnvironment', 0, 3, '2017-07-10 17:24:01', 1),
+(25, 5, 'Nossa História', '', 'aboutUsOurHistory', 0, 4, '2017-07-10 17:24:01', 1);
 
 -- --------------------------------------------------------
 
@@ -491,7 +688,7 @@ CREATE TABLE `ws_admin_user` (
 --
 
 INSERT INTO `ws_admin_user` (`id`, `code`, `name`, `email`, `password`, `avatar`, `deleted`, `order`, `date_last_login`, `inserted_by`, `date_last_update`, `date_insertion`, `active`) VALUES
-(1, '8399e6d730b4ca936f2498364cf2d111be849ac2', 'André Smolianinoff', 'andre.ninoff@gmail.com', '128b71e8c9e4a91a36e17169be20ec960784705e', '', 0, 0, '2017-07-05 14:37:37', 0, '2017-06-23 18:11:13', '2016-11-11 06:00:00', 1),
+(1, 'e78cb21adced6f0787b6ef6c1d80499e8dd1f000', 'André Smolianinoff', 'andre.ninoff@gmail.com', '128b71e8c9e4a91a36e17169be20ec960784705e', '', 0, 0, '2017-07-10 14:24:09', 0, '2017-07-10 22:24:09', '2016-11-11 06:00:00', 1),
 (2, 'c378866dd5a6bf0893c282e3c38990d02fdf4798', 'Administrador', 'admin@apptecbr.com', '601f1889667efaebb33b8c12572835da3f027f78', '', 0, 0, '2017-06-23 10:11:19', 1, '2017-06-23 18:11:19', '2017-05-12 22:17:10', 1);
 
 -- --------------------------------------------------------
@@ -518,6 +715,8 @@ CREATE TABLE `ws_career` (
   `section1_image_tablet` varchar(50) DEFAULT NULL,
   `section1_title` varchar(100) DEFAULT NULL,
   `section1_text` varchar(300) DEFAULT NULL,
+  `section1_button_text` varchar(200) DEFAULT NULL,
+  `section1_button_link` varchar(400) DEFAULT NULL,
   `section2_image` varchar(50) DEFAULT NULL,
   `section2_image_horizontal_align` varchar(20) DEFAULT NULL,
   `section2_image_vertical_align` varchar(20) DEFAULT NULL,
@@ -532,8 +731,15 @@ CREATE TABLE `ws_career` (
   `section3_image_tablet` varchar(50) DEFAULT NULL,
   `section3_title` varchar(100) DEFAULT NULL,
   `section3_text` varchar(600) DEFAULT NULL,
-  `section3_button_text` varchar(200) DEFAULT NULL,
-  `section3_button_link` varchar(400) DEFAULT NULL,
+  `section4_image` varchar(50) DEFAULT NULL,
+  `section4_image_horizontal_align` varchar(20) DEFAULT NULL,
+  `section4_image_vertical_align` varchar(20) DEFAULT NULL,
+  `section4_image_mobile` varchar(50) DEFAULT NULL,
+  `section4_image_tablet` varchar(50) DEFAULT NULL,
+  `section4_title` varchar(100) DEFAULT NULL,
+  `section4_text` varchar(600) DEFAULT NULL,
+  `section4_button_text` varchar(200) DEFAULT NULL,
+  `section4_button_link` varchar(400) DEFAULT NULL,
   `order` int(11) DEFAULT '0',
   `inserted_by` int(11) DEFAULT NULL,
   `date_last_update` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
@@ -545,8 +751,8 @@ CREATE TABLE `ws_career` (
 -- Dumping data for table `ws_career`
 --
 
-INSERT INTO `ws_career` (`id`, `principal_image`, `principal_image_horizontal_align`, `principal_image_vertical_align`, `principal_image_mobile`, `principal_image_tablet`, `principal_left_text`, `principal_right_text`, `calltonext_section_image`, `call_text_secion`, `section1_image`, `section1_image_horizontal_align`, `section1_image_vertical_align`, `section1_image_mobile`, `section1_image_tablet`, `section1_title`, `section1_text`, `section2_image`, `section2_image_horizontal_align`, `section2_image_vertical_align`, `section2_image_mobile`, `section2_image_tablet`, `section2_title`, `section2_text`, `section3_image`, `section3_image_horizontal_align`, `section3_image_vertical_align`, `section3_image_mobile`, `section3_image_tablet`, `section3_title`, `section3_text`, `section3_button_text`, `section3_button_link`, `order`, `inserted_by`, `date_last_update`, `date_insertion`, `active`) VALUES
-(1, 'header-img-UTWWZUAWZP', 'right', 'top', 'header-img-QX5364FCJP', 'header-img-4YW7P2Q21H', 'CARREIRA', 'Porque trabalhar<br />\r\nna Marjan?', 'call-to-next-253U6BS8HZ', 'Na Marjan Farma respeitamos a diversidade em todos os níveis de nossa<br />\r\nempresa. Nos dedicamos ao crescimento de nossos times e os ajudamos<br />\r\na atingir seus potenciais.', 'contato-2-T3TC14WFFE', 'right', 'center', 'contato-2-EEJ2B1N3EE', 'contato-2-K3DMS1TKD4', 'PORQUE TRABALHAR NA<br />\r\nMARJAN FARMA', 'Somos um time comprometido com os nossos objetivos, trabalhando em um ambiente saudável permeado por relações de transparência, confiança e respeito.<br />\r\n<br />\r\nCuidamos do meio ambiente, da comunidade e das pessoas, que são o nosso maior valor.<br />\r\n<br />\r\nNossas lideranças são a inspiração ', 'contato-3-2MCH9HPQE8', 'left', 'top', 'contato-3-EPGJ7S9REC', 'contato-3-27CXF35MHF', 'DESENVOLVIMENTO DE<br />\r\nTALENTOS', 'Na Marjan Farma acreditamos no desenvolvimento e reconhecimento de talentos.', 'farmacovigilancia-81GF86QH59', 'right', 'center', 'farmacovigilancia-KBJ11ZNT4T', 'farmacovigilancia-R7NYXYJ42U', 'BENEFÍCIOS EM TRABALHAR<br />\r\nNA MARJAN FARMA', 'São diversos benefícios em trabalhar conosco. Veja nossas ofertas de vagas e confira todos os benefícios.', 'Vagas.com', 'www.google.com', 0, 1, '2017-05-31 18:36:25', '2017-05-31 23:36:25', 1);
+INSERT INTO `ws_career` (`id`, `principal_image`, `principal_image_horizontal_align`, `principal_image_vertical_align`, `principal_image_mobile`, `principal_image_tablet`, `principal_left_text`, `principal_right_text`, `calltonext_section_image`, `call_text_secion`, `section1_image`, `section1_image_horizontal_align`, `section1_image_vertical_align`, `section1_image_mobile`, `section1_image_tablet`, `section1_title`, `section1_text`, `section1_button_text`, `section1_button_link`, `section2_image`, `section2_image_horizontal_align`, `section2_image_vertical_align`, `section2_image_mobile`, `section2_image_tablet`, `section2_title`, `section2_text`, `section3_image`, `section3_image_horizontal_align`, `section3_image_vertical_align`, `section3_image_mobile`, `section3_image_tablet`, `section3_title`, `section3_text`, `section4_image`, `section4_image_horizontal_align`, `section4_image_vertical_align`, `section4_image_mobile`, `section4_image_tablet`, `section4_title`, `section4_text`, `section4_button_text`, `section4_button_link`, `order`, `inserted_by`, `date_last_update`, `date_insertion`, `active`) VALUES
+(1, '1-J7258DGAMB', 'right', 'top', '1-X87UHY7VBS', '1-5QDKNKXBGR', 'CARREIRA', 'Porque trabalhar<br/>na Marjan?', '2-1RPTMNZTP8', '\"Na Marjan Farma criamos um ambiente encorajador, baseado no respeito e na valorização das pessoas. Oferecemos um ambiente favorável ao seu crescimento profissional e pessoal.\"', '3-2P69M8TVVK', 'right', 'center', '3-9XY4C66Q1R', '3-CUBNQ5N36Y', 'PORQUE TRABALHAR NAMARJAN FARMA', 'Somos um time dedicado, inspirado e comprometido, que dá sustentação a nossa missão, de desenvolver continuamente produtos, investindo em novas tecnologias, visando a qualidade de vida das pessoas.Cuidamos do meio-ambiente, da comunidade e das pessoas, que são nossos maiores valores.', 'Vagas.com', 'www.google.com', '4-XCAQC78VQH', 'left', 'top', '4-XZ3XMPEV4Q', '4-1YQJDBQDW7', 'DESENVOLVIMENTO DETALENTOS', 'Na Marjan Farma acreditamos no desenvolvimento e reconhecimento de talentos.<br/><br/>Nossas lideranças são a inspiração para o crescimento, compartilhando ideias e encorajando o desenvolvimento individual.<br/><br/>Investimos no crescimento das pessoas através de uma avaliação de competências, como', '5-CT72PT1QBP', 'right', 'center', '5-9W1GMXUNKK', '5-2TERQ3TSHK', 'NOSSAS COMPETÊNCIAS', '- Comprometimento Organizacional<br/>- Planejamento e organização<br/>- Comunicação<br/>- Resolução de Problemas<br/>- Visão do todo<br/>- Trabalho em equipe<br/>- Conhecimento e Capacidade Funcional<br/>- Foco no Cliente<br/>- Foco em Resultados<br/>- Gestão de Equipes', '6-C4EJKWUMY9', 'left', 'top', '6-G5B3S3HHB5', '6-TUVR3WVRTV', 'BENEFÍCIOS EM TRABALHAR<br/>NA MARJAN FARMA', 'Nossos benefícios e práticas salariais são compatíveis com o mercado. Demostramos preocupação com a qualidade de vida de nossas pessoas, respeitando jornada de trabalho, alimentação de qualidade, espaço para cuidar da saúde e do seu bem-estar.<br/><br/>Esta é a Marjan.', 'VAGAS.COM', 'http://www.google.com', 0, 1, '2017-05-31 18:36:25', '2017-05-31 23:36:25', 1);
 
 -- --------------------------------------------------------
 
@@ -598,15 +804,22 @@ CREATE TABLE `ws_contact_us` (
   `section3_image_mobile` varchar(50) DEFAULT NULL,
   `section3_image_tablet` varchar(50) DEFAULT NULL,
   `section3_title` varchar(100) DEFAULT NULL,
-  `section3_social_media1_icon` varchar(50) DEFAULT NULL,
-  `section3_social_media1_text_link` varchar(200) DEFAULT NULL,
-  `section3_social_media1_link` varchar(400) DEFAULT NULL,
-  `section3_social_media2_icon` varchar(50) DEFAULT NULL,
-  `section3_social_media2_text_link` varchar(200) DEFAULT NULL,
-  `section3_social_media2_link` varchar(400) DEFAULT NULL,
-  `section3_social_media3_icon` varchar(50) DEFAULT NULL,
-  `section3_social_media3_text_link` varchar(200) DEFAULT NULL,
-  `section3_social_media3_link` varchar(400) DEFAULT NULL,
+  `section3_text` varchar(300) DEFAULT NULL,
+  `section4_image` varchar(50) NOT NULL,
+  `section4_image_horizontal_align` varchar(20) DEFAULT NULL,
+  `section4_image_vertical_align` varchar(20) DEFAULT NULL,
+  `section4_image_mobile` varchar(50) DEFAULT NULL,
+  `section4_image_tablet` varchar(50) DEFAULT NULL,
+  `section4_title` varchar(100) DEFAULT NULL,
+  `section4_social_media1_icon` varchar(50) DEFAULT NULL,
+  `section4_social_media1_text_link` varchar(200) DEFAULT NULL,
+  `section4_social_media1_link` varchar(400) DEFAULT NULL,
+  `section4_social_media2_icon` varchar(50) DEFAULT NULL,
+  `section4_social_media2_text_link` varchar(200) DEFAULT NULL,
+  `section4_social_media2_link` varchar(400) DEFAULT NULL,
+  `section4_social_media3_icon` varchar(50) DEFAULT NULL,
+  `section4_social_media3_text_link` varchar(200) DEFAULT NULL,
+  `section4_social_media3_link` varchar(255) DEFAULT NULL,
   `deleted` tinyint(4) DEFAULT '0',
   `order` int(11) DEFAULT '0',
   `inserted_by` int(11) DEFAULT NULL,
@@ -619,8 +832,8 @@ CREATE TABLE `ws_contact_us` (
 -- Dumping data for table `ws_contact_us`
 --
 
-INSERT INTO `ws_contact_us` (`id`, `principal_image`, `principal_image_horizontal_align`, `principal_image_vertical_align`, `principal_image_mobile`, `principal_image_tablet`, `principal_left_text`, `principal_right_text`, `calltonext_section_image`, `call_text_secion`, `section1_image`, `section1_image_horizontal_align`, `section1_image_vertical_align`, `section1_image_mobile`, `section1_image_tablet`, `section1_title`, `section1_text`, `section2_image`, `section2_image_horizontal_align`, `section2_image_vertical_align`, `section2_image_mobile`, `section2_image_tablet`, `section2_title`, `section2_text`, `section3_image`, `section3_image_horizontal_align`, `section3_image_vertical_align`, `section3_image_mobile`, `section3_image_tablet`, `section3_title`, `section3_social_media1_icon`, `section3_social_media1_text_link`, `section3_social_media1_link`, `section3_social_media2_icon`, `section3_social_media2_text_link`, `section3_social_media2_link`, `section3_social_media3_icon`, `section3_social_media3_text_link`, `section3_social_media3_link`, `deleted`, `order`, `inserted_by`, `date_last_update`, `date_insertion`, `active`) VALUES
-(1, 'header-img-UTWWZUAWZP', 'right', 'top', 'header-img-QX5364FCJP', 'header-img-4YW7P2Q21H', 'FALE<br />\r\nCONOSCO', 'Tire suas<br />\r\ndúvidas, participe<br />\r\ne dê sugestões', 'call-to-next-253U6BS8HZ', 'Na Marjan Farma respeitamos a diversidade em todos os níveis de nossa<br />\r\nempresa. Nos dedicamos ao crescimento de nossos times e os ajudamos<br />\r\na atingir seus potenciais.', 'contato-2-T3TC14WFFE', 'right', 'center', 'contato-2-EEJ2B1N3EE', 'contato-2-K3DMS1TKD4', 'PORQUE TRABALHAR NA MARJAN FARMA', 'Somos um time comprometido com os nossos objetivos, trabalhando em um ambiente saudável permeado por relações de transparência, confiança e respeito.<br />\r\n<br />\r\nCuidamos do meio ambiente, da comunidade e das pessoas, que são o nosso maior valor.<br />\r\n<br />\r\nNossas lideranças são a inspiração ', 'contato-3-2MCH9HPQE8', 'left', 'top', 'contato-3-EPGJ7S9REC', 'contato-3-27CXF35MHF', 'PREENCHA O FORMULÁRIO E ENTRE EM CONTATO', 'PREENCHER<br />\r\nFORMULÁRIO', 'farmacovigilancia-81GF86QH59', 'right', 'center', 'farmacovigilancia-KBJ11ZNT4T', 'farmacovigilancia-R7NYXYJ42U', 'CONHEÇA NOSSAS REDES SOCIAIS', 'fb-org-BYKJ6HEKSA', 'facebook.com/arvoregenerosa', 'http://www.facebook.com/arvoregenerosa', 'ig-org-K2BUT2F5J9', 'instagram.com/arvoregenerosa', 'http://www.instagram.com/arvoregenerosa', 'fb-org-P171QUQYNG', 'facebook.com/arvoregenerosa', 'http://www.facebook.com/arvoregenerosa', 0, 0, 1, '2017-05-31 15:36:25', '2017-05-31 20:36:25', 1);
+INSERT INTO `ws_contact_us` (`id`, `principal_image`, `principal_image_horizontal_align`, `principal_image_vertical_align`, `principal_image_mobile`, `principal_image_tablet`, `principal_left_text`, `principal_right_text`, `calltonext_section_image`, `call_text_secion`, `section1_image`, `section1_image_horizontal_align`, `section1_image_vertical_align`, `section1_image_mobile`, `section1_image_tablet`, `section1_title`, `section1_text`, `section2_image`, `section2_image_horizontal_align`, `section2_image_vertical_align`, `section2_image_mobile`, `section2_image_tablet`, `section2_title`, `section2_text`, `section3_image`, `section3_image_horizontal_align`, `section3_image_vertical_align`, `section3_image_mobile`, `section3_image_tablet`, `section3_title`, `section3_text`, `section4_image`, `section4_image_horizontal_align`, `section4_image_vertical_align`, `section4_image_mobile`, `section4_image_tablet`, `section4_title`, `section4_social_media1_icon`, `section4_social_media1_text_link`, `section4_social_media1_link`, `section4_social_media2_icon`, `section4_social_media2_text_link`, `section4_social_media2_link`, `section4_social_media3_icon`, `section4_social_media3_text_link`, `section4_social_media3_link`, `deleted`, `order`, `inserted_by`, `date_last_update`, `date_insertion`, `active`) VALUES
+(1, 'header-img-UTWWZUAWZP', 'right', 'top', 'header-img-QX5364FCJP', 'header-img-4YW7P2Q21H', 'FALE<br/>CONOSCO', 'Tire suas<br/>dúvidas, participe<br/>e dê sugestões', 'call-to-next-253U6BS8HZ', 'Na Marjan Farma respeitamos a diversidade em todos os níveis de nossa<br/>empresa. Nos dedicamos ao crescimento de nossos times e os ajudamos<br/>a atingir seus potenciais.', 'contato-2-T3TC14WFFE', 'right', 'center', 'contato-2-EEJ2B1N3EE', 'contato-2-K3DMS1TKD4', 'PARA DÚVIDAS E SUGESTÕES,<br/>ENTRE EM CONTATO CONOSCO', 'SERVIÇO DE ATENDIMENTO AO CLIENTE0800 55 4545', 'contato-3-ESHWRDX7F1', 'left', 'top', 'contato-3-XRTB6DB2F5', 'contato-3-UJ5WFAG9W2', 'ENTRE EM CONTATO CONOSCO TAMBÉM<br/>ATRAVÉS DO FORMULÁRIO ABAIXO', 'PREENCHER<br/>FORMULÁRIO', 'farmacovigilancia-81GF86QH59', 'right', 'center', 'farmacovigilancia-KBJ11ZNT4T', 'farmacovigilancia-R7NYXYJ42U', 'REAÇÕES OU EVENTOS ADVERSOS<br/>PARA NOTIFICAR?', 'IR PARA A ÁREA DE<br/>FARMACOVILÂNCIA', 'contato-social-CW89KRYJ1G', 'left', 'center', 'contato-social-Q1UV34JA1Y', 'contato-social-KFGTXV9GU3', 'CONHEÇA NOSSAS<br/>REDES SOCIAIS', 'fb-org-9ZS8X2QMBE', 'facebook.com/marjanfarma', 'http://www.facebook.com/marjanfarma', 'ig-org-TR6CBW7KYZ', 'instagram.com/marjanfarma', 'http://www.instagram.com/marjanfarma', 'in-org-AA4HUQ3UXN', 'linkedin.com/marjanfarma', 'http://www.linkedin.com/marjanfarma', 0, 0, 1, '2017-05-31 15:36:25', '2017-05-31 20:36:25', 1);
 
 -- --------------------------------------------------------
 
@@ -720,7 +933,7 @@ CREATE TABLE `ws_general_settings` (
 --
 
 INSERT INTO `ws_general_settings` (`id`, `name`, `logo`, `logo_retina`, `social_name`, `public_place`, `number`, `complement`, `city`, `state`, `zip_code`, `phone1`, `phone2`, `phone_sac`, `email_sac`, `email_contact`, `email_alternative`, `facebook`, `twitter`, `instagram`, `youtube`, `linkedin`, `google_plus`, `know_more_section_title`, `know_more1_title`, `know_more1_img`, `know_more2_title`, `know_more2_img`, `know_more3_title`, `know_more3_img`, `know_more4_title`, `know_more4_img`, `common_page_title`, `common_page_text`, `footer_copyright_text`, `footer_terms_text`, `footer_terms_link`, `footer_sac_text`, `deleted`, `order`, `inserted_by`, `date_last_update`, `date_insertion`, `active`) VALUES
-(1, '', 'header-img-QZZYT3PHFX', '6-4AK1SJMK7D', '', '', '', '', '', '', '', '', '', '', '', '', '', '', NULL, '', '', '', NULL, '', '', NULL, '', 'sala-de-noticias-topo-FSEVNARQU6', 'aaa', NULL, '', NULL, 'xxx', 'yyy', 'aaaa', '', '', '', 0, 0, 1, '2017-06-12 18:02:08', '2017-06-12 23:02:08', 1);
+(1, '', 'logo-marjan-BBSBZQCSPZ', 'logo-marjan-T5YG3NNEVR', '', '', '', '', '', '', '', '', '', '0800-55-4545', 'sac@marjan.com.br', '', '', '', NULL, '', '', '', NULL, '', '', NULL, '', 'sala-de-noticias-topo-FSEVNARQU6', 'aaa', NULL, '', NULL, 'xxx', 'yyy', '© Copyright 2017 Marjan Farma Indústria Todos os Direitos Reservados', 'Política de privacidade', '', 'Para dúvidas e sugestões entre em contato com o Serviço de Atendimento ao Cliente', 0, 0, 1, '2017-06-12 18:02:08', '2017-06-12 23:02:08', 1);
 
 -- --------------------------------------------------------
 
@@ -950,66 +1163,6 @@ INSERT INTO `ws_news` (`id`, `slug`, `title`, `subtitle`, `call_text`, `image`, 
 (1, 'primeira-noticia', 'primeira noticia', 'sub', 'chamada', 'b05639019751b44226d7b992efbb109a5f864eb5_2', '<p>texto</p>\r\n', '2017-05-11', '10:00', 0, 0, 1, '2017-05-12 00:03:23', '2017-05-11 18:50:48', 1),
 (2, 'segunda-noticia', 'segunda noticia', 'sub', 'chama', 'c4fdebf06399b890d798834113fb22c27f51954b_1', '<p>asdada</p>\r\n', '2017-05-13', '00:09', 0, 0, 1, '2017-05-16 22:26:04', '2017-05-12 22:09:32', 1),
 (3, 'lorem-ipsum-simplesmente-uma-simula-o-de-texto-da-ind-stria-tipogr-fica', 'Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica', 'É um fato conhecido de todos que um leitor se distrairá com o conteúdo de texto legível de uma página quando estiver examinando sua diagramação.', 'Existem muitas variações disponíveis de passagens de Lorem Ipsum, mas a maioria sofreu algum tipo de alteração, seja por inserção de passagens com humor, ou palavras aleatórias que não parecem nem um pouco convincentes. Se você pretende usar uma passagem de Lorem Ipsum', '628abc775e59ee59c661c81d65fc139205927edd_2', '<h2><span xss=removed>O que é Lorem Ipsum?</span></h2>\r\n\r\n<p><strong>Lorem Ipsum</strong> é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.</p>\r\n\r\n<h2>Porque nós o usamos?</h2>\r\n\r\n<p>É um fato conhecido de todos que um leitor se distrairá com o conteúdo de texto legível de uma página quando estiver examinando sua diagramação. A vantagem de usar Lorem Ipsum é que ele tem uma distribuição normal de letras, ao contrário de \"Conteúdo aqui, conteúdo aqui\", fazendo com que ele tenha uma aparência similar a de um texto legível. Muitos softwares de publicação e editores de páginas na internet agora usam Lorem Ipsum como texto-modelo padrão, e uma rápida busca por &#39;lorem ipsum&#39; mostra vários websites ainda em sua fase de construção. Várias versões novas surgiram ao longo dos anos, eventualmente por acidente, e às vezes de propósito (injetando humor, e coisas do gênero).</p>\r\n\r\n<p> </p>\r\n\r\n<h2>De onde ele vem?</h2>\r\n\r\n<p>Ao contrário do que se acredita, Lorem Ipsum não é simplesmente um texto randômico. Com mais de 2000 anos, suas raízes podem ser encontradas em uma obra de literatura latina clássica datada de 45 AC. Richard McClintock, um professor de latim do Hampden-Sydney College na Virginia, pesquisou uma das mais obscuras palavras em latim, consectetur, oriunda de uma passagem de Lorem Ipsum, e, procurando por entre citações da palavra na literatura clássica, descobriu a sua indubitável origem. Lorem Ipsum vem das seções 1.10.32 e 1.10.33 do \"de Finibus Bonorum et Malorum\" (Os Extremos do Bem e do Mal), de Cícero, escrito em 45 AC. Este livro é um tratado de teoria da ética muito popular na época da Renascença. A primeira linha de Lorem Ipsum, \"Lorem Ipsum dolor sit amet...\" vem de uma linha na seção 1.10.32.</p>\r\n\r\n<p>O trecho padrão original de Lorem Ipsum, usado desde o século XVI, está reproduzido abaixo para os interessados. Seções 1.10.32 e 1.10.33 de \"de Finibus Bonorum et Malorum\" de Cicero também foram reproduzidas abaixo em sua forma exata original, acompanhada das versões para o inglês da tradução feita por H. Rackham em 1914.</p>\r\n', '2017-05-15', '18:40', 0, 0, 1, '2017-06-01 00:42:39', '2017-05-16 19:35:16', 1);
-
--- --------------------------------------------------------
-
---
--- Table structure for table `ws_new_businee_form`
---
-
-CREATE TABLE `ws_new_businee_form` (
-  `id` int(11) NOT NULL,
-  `company_name` varchar(300) DEFAULT NULL,
-  `occupation_area` varchar(300) DEFAULT NULL,
-  `contact_name` varchar(300) DEFAULT NULL,
-  `office` varchar(300) DEFAULT NULL,
-  `email` varchar(300) DEFAULT NULL,
-  `phone` varchar(300) DEFAULT NULL,
-  `branch` varchar(300) DEFAULT NULL,
-  `country` varchar(300) DEFAULT NULL,
-  `city` varchar(300) DEFAULT NULL,
-  `state` varchar(300) DEFAULT NULL,
-  `address` varchar(300) DEFAULT NULL,
-  `subject` text,
-  `deleted` tinyint(4) DEFAULT '0',
-  `order` int(11) DEFAULT '0',
-  `inserted_by` int(11) DEFAULT NULL,
-  `date_last_update` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
-  `date_insertion` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
-  `active` tinyint(4) DEFAULT '1'
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-
--- --------------------------------------------------------
-
---
--- Table structure for table `ws_new_business`
---
-
-CREATE TABLE `ws_new_business` (
-  `id` int(11) NOT NULL,
-  `principal_image` varchar(50) DEFAULT NULL,
-  `principal_image_horizontal_align` varchar(20) DEFAULT NULL,
-  `principal_image_vertical_align` varchar(20) DEFAULT NULL,
-  `principal_image_mobile` varchar(50) DEFAULT NULL,
-  `principal_image_tablet` varchar(50) DEFAULT NULL,
-  `principal_left_text` varchar(50) DEFAULT NULL,
-  `principal_right_text` varchar(300) DEFAULT NULL,
-  `calltonext_section_image` varchar(500) DEFAULT NULL,
-  `call_text_secion` varchar(300) DEFAULT NULL,
-  `deleted` tinyint(4) DEFAULT '0',
-  `order` int(11) DEFAULT '0',
-  `inserted_by` int(11) DEFAULT NULL,
-  `date_last_update` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
-  `date_insertion` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
-  `active` tinyint(4) DEFAULT '1'
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-
---
--- Dumping data for table `ws_new_business`
---
-
-INSERT INTO `ws_new_business` (`id`, `principal_image`, `principal_image_horizontal_align`, `principal_image_vertical_align`, `principal_image_mobile`, `principal_image_tablet`, `principal_left_text`, `principal_right_text`, `calltonext_section_image`, `call_text_secion`, `deleted`, `order`, `inserted_by`, `date_last_update`, `date_insertion`, `active`) VALUES
-(1, 'negocios-YWN53Y77RN', 'center', 'bottom', 'negocios-FVPG2BY81J', 'negocios-H9D3Y2P2QN', 'NOVOS<br />\r\nNEGÓCIOS', 'Vislumbramos a introdução<br />\r\nde novos negócios eo<br />\r\nparcerias com empresaso<br />\r\nbrasileiras, estrangeiras,o<br />\r\nfornecedores...', 'call-to-next-novos-negocios-7W57SB5TYG', 'A Marjan Farma vislumbra a introdução de novos negócios e novas parcerias com Empresas Nacionais e Estrangeiras, Fornecedores, Instituições de Pesquisa Científica e Universidades.<br />\r\n<br />\r\nCaso tenha interesse em ser um parceiro de negócios da Marjan Farma, preencha o formulário abaixo e em br', 0, 0, 1, '2017-06-23 13:26:17', '2017-06-23 18:26:17', 1);
 
 -- --------------------------------------------------------
 
@@ -1591,6 +1744,42 @@ ALTER TABLE `ws_about_us`
   ADD PRIMARY KEY (`id`);
 
 --
+-- Indexes for table `ws_about_us_environment`
+--
+ALTER TABLE `ws_about_us_environment`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `ws_about_us_innovation`
+--
+ALTER TABLE `ws_about_us_innovation`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `ws_about_us_new_business`
+--
+ALTER TABLE `ws_about_us_new_business`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `ws_about_us_new_business_form`
+--
+ALTER TABLE `ws_about_us_new_business_form`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `ws_about_us_our_history`
+--
+ALTER TABLE `ws_about_us_our_history`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `ws_about_us_quality`
+--
+ALTER TABLE `ws_about_us_quality`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Indexes for table `ws_admin_access`
 --
 ALTER TABLE `ws_admin_access`
@@ -1685,18 +1874,6 @@ ALTER TABLE `ws_home`
 ALTER TABLE `ws_news`
   ADD PRIMARY KEY (`id`),
   ADD KEY `slug` (`slug`(255));
-
---
--- Indexes for table `ws_new_businee_form`
---
-ALTER TABLE `ws_new_businee_form`
-  ADD PRIMARY KEY (`id`);
-
---
--- Indexes for table `ws_new_business`
---
-ALTER TABLE `ws_new_business`
-  ADD PRIMARY KEY (`id`);
 
 --
 -- Indexes for table `ws_pharmacovigilance`
@@ -1812,15 +1989,45 @@ ALTER TABLE `ws_top_news_featured`
 ALTER TABLE `ws_about_us`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 --
+-- AUTO_INCREMENT for table `ws_about_us_environment`
+--
+ALTER TABLE `ws_about_us_environment`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+--
+-- AUTO_INCREMENT for table `ws_about_us_innovation`
+--
+ALTER TABLE `ws_about_us_innovation`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+--
+-- AUTO_INCREMENT for table `ws_about_us_new_business`
+--
+ALTER TABLE `ws_about_us_new_business`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+--
+-- AUTO_INCREMENT for table `ws_about_us_new_business_form`
+--
+ALTER TABLE `ws_about_us_new_business_form`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+--
+-- AUTO_INCREMENT for table `ws_about_us_our_history`
+--
+ALTER TABLE `ws_about_us_our_history`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+--
+-- AUTO_INCREMENT for table `ws_about_us_quality`
+--
+ALTER TABLE `ws_about_us_quality`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+--
 -- AUTO_INCREMENT for table `ws_admin_access`
 --
 ALTER TABLE `ws_admin_access`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=383;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=408;
 --
 -- AUTO_INCREMENT for table `ws_admin_log`
 --
 ALTER TABLE `ws_admin_log`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=130;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=131;
 --
 -- AUTO_INCREMENT for table `ws_admin_modules`
 --
@@ -1830,7 +2037,7 @@ ALTER TABLE `ws_admin_modules`
 -- AUTO_INCREMENT for table `ws_admin_submodules`
 --
 ALTER TABLE `ws_admin_submodules`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=22;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=26;
 --
 -- AUTO_INCREMENT for table `ws_admin_user`
 --
@@ -1881,16 +2088,6 @@ ALTER TABLE `ws_home`
 --
 ALTER TABLE `ws_news`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
---
--- AUTO_INCREMENT for table `ws_new_businee_form`
---
-ALTER TABLE `ws_new_businee_form`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
---
--- AUTO_INCREMENT for table `ws_new_business`
---
-ALTER TABLE `ws_new_business`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 --
 -- AUTO_INCREMENT for table `ws_pharmacovigilance`
 --

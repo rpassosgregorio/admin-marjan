@@ -1,11 +1,11 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class NewBusiness extends MY_Controller_CMS {
+class AboutUsOurHistory extends MY_Controller_CMS {
 
-	public $folder_view = 'new_business';
-	public $title_module = 'Novos Negócios';
-	public $controller_module = 'newBusiness';
+	public $folder_view = 'about_us_our_history';
+	public $title_module = 'Nossa História';
+	public $controller_module = 'aboutUsOurHistory';
 
 	public $field_order = array();
 	public $field_search = '';
@@ -18,14 +18,14 @@ class NewBusiness extends MY_Controller_CMS {
 
 		parent::__construct();
 
-		$this->load->model('NewBusiness_model', '', TRUE);
-		$this->table_module = $this->NewBusiness_model->table_default;
+		$this->load->model('AboutUsOurHistory_model', '', TRUE);
+		$this->table_module = $this->AboutUsOurHistory_model->table_default;
 
 		if(empty($this->menu_allowed_admin)){
 			$this->redirect_login();
 		}
 
-		$this->id_subomdule = AdminSubmodule_model::newBusiness;
+		$this->id_subomdule = AdminSubmodule_model::aboutUsOurHistory;
 
 		if(!in_array($this->id_subomdule, $this->id_sumodules_allowed_admin)){
 			$this->redirect_login();
@@ -47,7 +47,7 @@ class NewBusiness extends MY_Controller_CMS {
 	public function index(){
 
 
-		$this->view_data['object'] = $this->NewBusiness_model->find_unique(array(), array(), '', array(), array(), 1, 1);
+		$this->view_data['object'] = $this->AboutUsOurHistory_model->find_unique(array(), array(), '', array(), array(), 1, 1);
 
 		$this->lang->load('texts_index_cms', $this->lang_selected);
 
@@ -61,29 +61,29 @@ class NewBusiness extends MY_Controller_CMS {
 
 			$post = $this->input->post();
 
-			$object = $this->NewBusiness_model->find_unique(array(), array(), '', array(), array(), 1, 1);
+			$object = $this->AboutUsOurHistory_model->find_unique(array(), array(), '', array(), array(), 1, 1);
 
 			if (!$object) {
 
-				$last_id = $this->NewBusiness_model->insert(array('active' 		=> 1,
+				$last_id = $this->AboutUsOurHistory_model->insert(array('active' 		=> 1,
 				                                                           'deleted' 		=> 0,
 				                                                           'order' 			=> 0,
 				                                                           'inserted_by' 	=> $this->admin_logged->id,
 				                                                           'date_insertion' => date('Y-m-d H:i:s')));
 
-				$object = $this->NewBusiness_model->find_unique(array(), array('id = ' => $last_id, 'active = ' => 1, 'deleted = ' => 0));
+				$object = $this->AboutUsOurHistory_model->find_unique(array(), array('id = ' => $last_id, 'active = ' => 1, 'deleted = ' => 0));
 
 			}
 
 			foreach ($post as $key => $value) {
 
 				if(!empty($key) && !empty($value)){
-					$this->NewBusiness_model->update(array($key => $this->nl2br_str($this->security->xss_clean($value))), array('id' => $object->id));
+					$this->AboutUsOurHistory_model->update(array($key => $this->nl2br_str($this->security->xss_clean($value))), array('id' => $object->id));
 				}
 
 			}
 
-			$this->upload_file('new_business', $object->id);
+			$this->upload_file('our_history', $object->id);
 
 			$this->set_feedback('success', 'Registro atualizado!');
 
@@ -97,18 +97,18 @@ class NewBusiness extends MY_Controller_CMS {
 
 	}
 
-	public function upload_file($folder = 'new_business', $id = ''){
+	public function upload_file($folder = 'our_history', $id = ''){
 
-		if($folder != 'new_business') {
-			$folder = 'new_business/'.$folder;
+		if($folder != 'our_history') {
+			$folder = 'our_history/'.$folder;
 		}
 
 		if (empty($id)) {
 
-			$item = $this->NewBusiness_model->find_unique(array('id'), array(), '', array(), array(), 1, 1);
+			$item = $this->AboutUsOurHistory_model->find_unique(array('id'), array(), '', array(), array(), 1, 1);
 
 			if (!$item) {
-				$id = $this->NewBusiness_model->insert(array('deleted' 		=> 0,
+				$id = $this->AboutUsOurHistory_model->insert(array('deleted' 		=> 0,
 				                                                      'order' 			=> 0,
 				                                                      'inserted_by' 	=> $this->admin_logged->id,
 				                                                      'date_insertion' 	=> date('Y-m-d H:i:s')));
@@ -155,7 +155,7 @@ class NewBusiness extends MY_Controller_CMS {
 				$file_field = key($upload);
 				$name_file = $upload[$file_field];
 
-				$this->NewBusiness_model->update(array($file_field => $name_file), array('id' => $id));
+				$this->AboutUsOurHistory_model->update(array($file_field => $name_file), array('id' => $id));
 
 			}
 
