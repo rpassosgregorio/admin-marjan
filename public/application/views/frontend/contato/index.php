@@ -1,7 +1,7 @@
 <main class="main-contact">
 
 	<section class="first-section-contact">
-		<div class="first-section-wrapper" id="first_section_wrapper" style="background-image: url(<?php echo My_Controller_CMS::get_path_file('contact_us', $object->principal_image); ?>); background-position: center;">
+		<div class="first-section-wrapper" id="first_section_wrapper" style="background-image: url(<?php echo MY_Controller_CMS::get_path_file('contact_us', $object->principal_image); ?>); background-position: center;">
 			<div class="info-wrapper">
 				<div class="info-container">
 					<div class="page-info text title" id="title_about_us_values" >
@@ -16,7 +16,7 @@
 		</div>
 
 		<div class="call-to-next" id="call_to_next">
-			<img src="<?php echo My_Controller_CMS::get_path_file('contact_us', $object->calltonext_section_image); ?>" />
+			<img src="<?php echo MY_Controller_CMS::get_path_file('contact_us', $object->calltonext_section_image); ?>" />
 		</div>
 	</section>
 
@@ -31,7 +31,7 @@
 	<section class="third-section-contact contact-sac-call-to-action">
 		<div class="third-section-wrapper" id="third_section_wrapper_contact_sac">
 			<div class="third-filter-wrapper">
-				<div class="third-section-col-01 border-top-left" id="third-section-col-01" style="background-image: url(<?php echo My_Controller_CMS::get_path_file('contact_us', $object->section1_image); ?>); background-position: center;">
+				<div class="third-section-col-01 border-top-left" id="third-section-col-01" style="background-image: url(<?php echo MY_Controller_CMS::get_path_file('contact_us', $object->section1_image); ?>); background-position: center;">
 				</div>
 				<div class="third-section-col-02 border-top-right">
 					<div class="third-section-col-01-title center-text">
@@ -56,7 +56,7 @@
 						<button class="btn-show-form"><h6><?php echo $object->section2_text; ?></h6></button>
 					</div>
 				</div>
-				<div class="third-section-col-01 border-right" style="background-image: url(<?php echo My_Controller_CMS::get_path_file('contact_us', $object->section2_image); ?>); background-position: center;">
+				<div class="third-section-col-01 border-right" style="background-image: url(<?php echo MY_Controller_CMS::get_path_file('contact_us', $object->section2_image); ?>); background-position: center;">
 				</div>
 			</div>
 		</div>
@@ -118,7 +118,7 @@
 	<section class="third-section-contact contact-farm-vigil-call-to-action">
 		<div class="third-section-wrapper" id="third_section_wrapper_contact_farm_vigil">
 			<div class="third-filter-wrapper">
-				<div class="third-section-col-01 border-left" style="background-image: url(<?php echo My_Controller_CMS::get_path_file('contact_us', $object->section3_image); ?>); background-position: right center;">
+				<div class="third-section-col-01 border-left" style="background-image: url(<?php echo MY_Controller_CMS::get_path_file('contact_us', $object->section3_image); ?>); background-position: right center;">
 				</div>
 				<div class="third-section-col-02 border-right">
 					<div class="third-section-col-01-title center-text">
@@ -145,19 +145,19 @@
 							<div class="social-network-wrapper">
 								<div class="social-network-col01">
 									<div class="display-inline-block">
-										<div class="fb-logo" style="background-image: url(<?php echo My_Controller_CMS::get_path_file('contact_us', $object->section4_social_media1_icon); ?>); background-position: center"></div>
+										<div class="fb-logo" style="background-image: url(<?php echo MY_Controller_CMS::get_path_file('contact_us', $object->section4_social_media1_icon); ?>); background-position: center"></div>
 										<div class="fb-link"><span><a href="<?php echo $object->section4_social_media1_link; ?>" target="_blank"><?php echo $object->section4_social_media1_text_link; ?></a></span></div>
 									</div>
 								</div>
 								<div class="social-network-col02">
 									<div class="display-inline-block">
-										<div class="ig-logo" style="background-image: url(<?php echo My_Controller_CMS::get_path_file('contact_us', $object->section4_social_media2_icon); ?>); background-position: center"></div>
+										<div class="ig-logo" style="background-image: url(<?php echo MY_Controller_CMS::get_path_file('contact_us', $object->section4_social_media2_icon); ?>); background-position: center"></div>
 										<div class="ig-link"><span><a href="<?php echo $object->section4_social_media2_link; ?>" target="_blank"><?php echo $object->section4_social_media2_text_link; ?></a></span></div>
 									</div>
 								</div>
 								<div class="social-network-col03">
 									<div class="display-inline-block">
-										<div class="in-logo" style="background-image: url(<?php echo My_Controller_CMS::get_path_file('contact_us', $object->section4_social_media3_icon); ?>); background-position: center"></div>
+										<div class="in-logo" style="background-image: url(<?php echo MY_Controller_CMS::get_path_file('contact_us', $object->section4_social_media3_icon); ?>); background-position: center"></div>
 										<div class="in-link"><span><a href="<?php echo $object->section4_social_media3_link; ?>" target="_blank"><?php echo $object->section4_social_media3_text_link; ?></a></span></div>
 									</div>
 								</div>
@@ -165,7 +165,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="third-section-col-01 border-bottom-right" id="third-section-col-01" style="background-image: url(<?php echo My_Controller_CMS::get_path_file('contact_us', $object->section4_image); ?>); background-position: left center;">
+				<div class="third-section-col-01 border-bottom-right" id="third-section-col-01" style="background-image: url(<?php echo MY_Controller_CMS::get_path_file('contact_us', $object->section4_image); ?>); background-position: left center;">
 				</div>
 			</div>
 		</div>

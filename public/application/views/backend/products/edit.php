@@ -171,8 +171,8 @@
 		               	<div class="row">
 
 							<div class="col-md-3 change-file-product_release_image">
-								<?php if (!empty(My_Controller_CMS::get_path_file('products', $object->product_release_image))) { ?>
-									<span><img src='<?php echo My_Controller_CMS::get_path_file('products', $object->product_release_image); ?>' width='200' height='200'></span>
+								<?php if (!empty(MY_Controller_CMS::get_path_file('products', $object->product_release_image))) { ?>
+									<span><img src='<?php echo MY_Controller_CMS::get_path_file('products', $object->product_release_image); ?>' width='200' height='200'></span>
 								<?php } ?>
 								<div class="form-group">
 									<label for="product_release_image">IMAGEM RELEASE</label>
@@ -185,8 +185,8 @@
 		               	<div class="row">
 
 							<div class="col-md-3 change-file-product_image">
-								<?php if (!empty(My_Controller_CMS::get_path_file('products', $object->product_image))) { ?>
-									<span><img src='<?php echo My_Controller_CMS::get_path_file('products', $object->product_image); ?>' width='200' height='200'></span>
+								<?php if (!empty(MY_Controller_CMS::get_path_file('products', $object->product_image))) { ?>
+									<span><img src='<?php echo MY_Controller_CMS::get_path_file('products', $object->product_image); ?>' width='200' height='200'></span>
 								<?php } ?>
 								<div class="form-group">
 									<label for="product_image">IMAGEM</label>
@@ -195,8 +195,8 @@
 							</div>
 
 							<div class="col-md-3 change-file-product_image_mobile">
-								<?php if (!empty(My_Controller_CMS::get_path_file('products', $object->product_image_mobile))) { ?>
-									<span><img src='<?php echo My_Controller_CMS::get_path_file('products', $object->product_image_mobile); ?>' width='200' height='200'></span>
+								<?php if (!empty(MY_Controller_CMS::get_path_file('products', $object->product_image_mobile))) { ?>
+									<span><img src='<?php echo MY_Controller_CMS::get_path_file('products', $object->product_image_mobile); ?>' width='200' height='200'></span>
 								<?php } ?>
 								<div class="form-group">
 									<label for="product_image_mobile">IMAGEM (MOBILE)</label>
@@ -205,8 +205,8 @@
 							</div>
 
 							<div class="col-md-3 change-file-product_image_tablet">
-								<?php if (!empty(My_Controller_CMS::get_path_file('products', $object->product_image_tablet))) { ?>
-									<span><img src='<?php echo My_Controller_CMS::get_path_file('products', $object->product_image_tablet); ?>' width='200' height='200'></span>
+								<?php if (!empty(MY_Controller_CMS::get_path_file('products', $object->product_image_tablet))) { ?>
+									<span><img src='<?php echo MY_Controller_CMS::get_path_file('products', $object->product_image_tablet); ?>' width='200' height='200'></span>
 								<?php } ?>
 								<div class="form-group">
 									<label for="product_image_tablet">IMAGEM (TABLET)</label>
@@ -295,8 +295,8 @@
 			               	<div class="row">
 
 								<div class="col-md-3 change-file-nutritional_info">
-									<?php if (!empty(My_Controller_CMS::get_path_file('products', $object->nutritional_info))) { ?>
-										<span><img src='<?php echo My_Controller_CMS::get_path_file('products', $object->nutritional_info); ?>' width='200' height='200'></span>
+									<?php if (!empty(MY_Controller_CMS::get_path_file('products', $object->nutritional_info))) { ?>
+										<span><img src='<?php echo MY_Controller_CMS::get_path_file('products', $object->nutritional_info); ?>' width='200' height='200'></span>
 									<?php } ?>
 									<div class="form-group">
 										<label for="nutritional_info">IMAGEM INFORMAÇÃO NUTRICIONAL</label>

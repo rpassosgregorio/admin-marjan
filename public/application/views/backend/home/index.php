@@ -23,20 +23,20 @@
 								<!-- SLIDE 1 -->
 								<?php if(isset($object->id)){ ?>
 
-									<div class="admingrid-fullbanner-item" data-thumb-image="<?php echo My_Controller_CMS::get_path_file('home', $object->slide1_thumb);; ?>">
+									<div class="admingrid-fullbanner-item" data-thumb-image="<?php echo MY_Controller_CMS::get_path_file('home', $object->slide1_thumb);; ?>">
 										<a href="#" class="admingrid-edit-btn" data-open-modal="#fullbanner1">
 											<span>Clique para editar esse conteúdo</span>
 										</a>
 
-										<?php $bandImg = My_Controller_CMS::get_path_file('home', $object->slide1_band); ?>
+										<?php $bandImg = MY_Controller_CMS::get_path_file('home', $object->slide1_band); ?>
 
 										<header class="admingrid-fullbanner-item-header"<?php if(isset($bandImg) && !empty($bandImg)) { ?> style="background-image: url(<?php echo $bandImg; ?>);"<?php }?>>
 											<h2><?php echo !empty($object->slide1_title) ? $object->slide1_title : 'Título aqui'; ?></h2>
 											<h3><?php echo !empty($object->slide1_subtitle) ? $object->slide1_subtitle : 'Subtítulo aqui'; ?></h3>
 										</header>
 
-										<?php if (My_Controller_CMS::get_path_file('home', $object->slide1_image)) { ?>
-											<img src='<?php echo My_Controller_CMS::get_path_file('home', $object->slide1_image); ?>'>
+										<?php if (MY_Controller_CMS::get_path_file('home', $object->slide1_image)) { ?>
+											<img src='<?php echo MY_Controller_CMS::get_path_file('home', $object->slide1_image); ?>'>
 										<?php } ?>
 
 									</div>
@@ -63,20 +63,20 @@
 								<!-- SLIDE 2 -->
 								<?php if(isset($object->id)){ ?>
 
-									<div class="admingrid-fullbanner-item" data-thumb-image="<?php echo My_Controller_CMS::get_path_file('home', $object->slide2_thumb);; ?>">
+									<div class="admingrid-fullbanner-item" data-thumb-image="<?php echo MY_Controller_CMS::get_path_file('home', $object->slide2_thumb);; ?>">
 										<a href="#" class="admingrid-edit-btn" data-open-modal="#fullbanner2">
 											<span>Clique para editar esse conteúdo</span>
 										</a>
 
-										<?php $bandImg = My_Controller_CMS::get_path_file('home', $object->slide2_band); ?>
+										<?php $bandImg = MY_Controller_CMS::get_path_file('home', $object->slide2_band); ?>
 
 										<header class="admingrid-fullbanner-item-header"<?php if(isset($bandImg) && !empty($bandImg)) { ?> style="background-image: url(<?php echo $bandImg; ?>);"<?php }?>>
 											<h2><?php echo !empty($object->slide2_title) ? $object->slide2_title : 'Título aqui'; ?></h2>
 											<h3><?php echo !empty($object->slide2_subtitle) ? $object->slide2_subtitle : 'Subtítulo aqui'; ?></h3>
 										</header>
 
-										<?php if (!empty(My_Controller_CMS::get_path_file('home', $object->slide2_image))) { ?>
-											<img src='<?php echo My_Controller_CMS::get_path_file('home', $object->slide2_image); ?>'>
+										<?php if (!empty(MY_Controller_CMS::get_path_file('home', $object->slide2_image))) { ?>
+											<img src='<?php echo MY_Controller_CMS::get_path_file('home', $object->slide2_image); ?>'>
 										<?php } ?>
 
 									</div>
@@ -103,20 +103,20 @@
 								<!-- SLIDE 3 -->
 								<?php if(isset($object->id)){ ?>
 
-									<div class="admingrid-fullbanner-item" data-thumb-image="<?php echo My_Controller_CMS::get_path_file('home', $object->slide3_thumb);; ?>">
+									<div class="admingrid-fullbanner-item" data-thumb-image="<?php echo MY_Controller_CMS::get_path_file('home', $object->slide3_thumb);; ?>">
 										<a href="#" class="admingrid-edit-btn" data-open-modal="#fullbanner3">
 											<span>Clique para editar esse conteúdo</span>
 										</a>
 
-										<?php $bandImg = My_Controller_CMS::get_path_file('home', $object->slide3_band); ?>
+										<?php $bandImg = MY_Controller_CMS::get_path_file('home', $object->slide3_band); ?>
 
 										<header class="admingrid-fullbanner-item-header"<?php if(isset($bandImg) && !empty($bandImg)) { ?> style="background-image: url(<?php echo $bandImg; ?>);"<?php }?>>
 											<h2><?php echo !empty($object->slide3_title) ? $object->slide3_title : 'Título aqui'; ?></h2>
 											<h3><?php echo !empty($object->slide3_subtitle) ? $object->slide3_subtitle : 'Subtítulo aqui'; ?></h3>
 										</header>
 
-										<?php if (!empty(My_Controller_CMS::get_path_file('home', $object->slide3_image))) { ?>
-											<img src='<?php echo My_Controller_CMS::get_path_file('home', $object->slide3_image); ?>' width='3370' height='630'>
+										<?php if (!empty(MY_Controller_CMS::get_path_file('home', $object->slide3_image))) { ?>
+											<img src='<?php echo MY_Controller_CMS::get_path_file('home', $object->slide3_image); ?>' width='3370' height='630'>
 										<?php } ?>
 
 									</div>
@@ -144,20 +144,20 @@
 
 								<?php if(isset($object->id)){ ?>
 
-									<div class="admingrid-fullbanner-item" data-thumb-image="<?php echo My_Controller_CMS::get_path_file('home', $object->slide4_thumb);; ?>">
+									<div class="admingrid-fullbanner-item" data-thumb-image="<?php echo MY_Controller_CMS::get_path_file('home', $object->slide4_thumb);; ?>">
 										<a href="#" class="admingrid-edit-btn" data-open-modal="#fullbanner4">
 											<span>Clique para editar esse conteúdo</span>
 										</a>
 
-										<?php $bandImg = My_Controller_CMS::get_path_file('home', $object->slide4_band); ?>
+										<?php $bandImg = MY_Controller_CMS::get_path_file('home', $object->slide4_band); ?>
 
 										<header class="admingrid-fullbanner-item-header"<?php if(isset($bandImg) && !empty($bandImg)) { ?> style="background-image: url(<?php echo $bandImg; ?>);"<?php }?>>
 											<h2><?php echo !empty($object->slide4_title) ? $object->slide4_title : 'Título aqui'; ?></h2>
 											<h3><?php echo !empty($object->slide4_subtitle) ? $object->slide4_subtitle : 'Subtítulo aqui'; ?></h3>
 										</header>
 
-										<?php if (!empty(My_Controller_CMS::get_path_file('home', $object->slide4_image))) { ?>
-											<img src='<?php echo My_Controller_CMS::get_path_file('home', $object->slide4_image); ?>' width='1170' height='630'>
+										<?php if (!empty(MY_Controller_CMS::get_path_file('home', $object->slide4_image))) { ?>
+											<img src='<?php echo MY_Controller_CMS::get_path_file('home', $object->slide4_image); ?>' width='1170' height='630'>
 										<?php } ?>
 
 									</div>
@@ -185,20 +185,20 @@
 
 								<?php if(isset($object->id)){ ?>
 
-									<div class="admingrid-fullbanner-item" data-thumb-image="<?php echo My_Controller_CMS::get_path_file('home', $object->slide5_thumb);; ?>">
+									<div class="admingrid-fullbanner-item" data-thumb-image="<?php echo MY_Controller_CMS::get_path_file('home', $object->slide5_thumb);; ?>">
 										<a href="#" class="admingrid-edit-btn" data-open-modal="#fullbanner5">
 											<span>Clique para editar esse conteúdo</span>
 										</a>
 
-										<?php $bandImg = My_Controller_CMS::get_path_file('home', $object->slide5_band); ?>
+										<?php $bandImg = MY_Controller_CMS::get_path_file('home', $object->slide5_band); ?>
 
 										<header class="admingrid-fullbanner-item-header"<?php if(isset($bandImg) && !empty($bandImg)) { ?> style="background-image: url(<?php echo $bandImg; ?>);"<?php }?>>
 											<h2><?php echo !empty($object->slide5_title) ? $object->slide5_title : 'Título aqui'; ?></h2>
 											<h3><?php echo !empty($object->slide5_subtitle) ? $object->slide5_subtitle : 'Subtítulo aqui'; ?></h3>
 										</header>
 
-										<?php if (!empty(My_Controller_CMS::get_path_file('home', $object->slide5_image))) { ?>
-											<img src='<?php echo My_Controller_CMS::get_path_file('home', $object->slide5_image); ?>' width='1170' height='630'>
+										<?php if (!empty(MY_Controller_CMS::get_path_file('home', $object->slide5_image))) { ?>
+											<img src='<?php echo MY_Controller_CMS::get_path_file('home', $object->slide5_image); ?>' width='1170' height='630'>
 										<?php } ?>
 
 									</div>
@@ -251,8 +251,8 @@
 
 										<div class="row">
 											<div class="col-xs-6">
-												<?php if(isset($object->id) && My_Controller_CMS::get_path_file('home', $object->slide1_thumb)){ ?>
-													<span><img src='<?php echo My_Controller_CMS::get_path_file('home', $object->slide1_thumb); ?>' width='50' alt=''><button type="button" class="btn-delete-img-modal" data-url="">Deletar</button></span>
+												<?php if(isset($object->id) && MY_Controller_CMS::get_path_file('home', $object->slide1_thumb)){ ?>
+													<span><img src='<?php echo MY_Controller_CMS::get_path_file('home', $object->slide1_thumb); ?>' width='50' alt=''><button type="button" class="btn-delete-img-modal" data-url="">Deletar</button></span>
 												<?php }else{ ?>
 													<span><img src='https://dummyimage.com/50x50' alt=''></span>
 												<?php } ?>
@@ -266,8 +266,8 @@
 										<div class="row">
 
 											<div class="col-xs-6">
-												<?php if(isset($object->id) && My_Controller_CMS::get_path_file('home', $object->slide1_image)){ ?>
-													<span><img src='<?php echo My_Controller_CMS::get_path_file('home', $object->slide1_image); ?>' width='50' alt=''><button type="button" class="btn-delete-img-modal" data-url="">Deletar</button></span>
+												<?php if(isset($object->id) && MY_Controller_CMS::get_path_file('home', $object->slide1_image)){ ?>
+													<span><img src='<?php echo MY_Controller_CMS::get_path_file('home', $object->slide1_image); ?>' width='50' alt=''><button type="button" class="btn-delete-img-modal" data-url="">Deletar</button></span>
 												<?php }else{ ?>
 													<span><img src='https://dummyimage.com/50x50' alt=''></span>
 												<?php } ?>
@@ -280,10 +280,10 @@
 
 											<div class="col-xs-6">
 
-												<?php if(isset($object->id) && My_Controller_CMS::get_path_file('home', $object->slide1_video)){ ?>
-													<span><img src='<?php echo My_Controller_CMS::get_path_file('home', $object->slide1_video); ?>' width='50' alt=''><button type="button" class="btn-delete-img-modal" data-url="">Deletar</button></span>
-												<?php }else if(isset($object->id) && My_Controller_CMS::get_path_file('home', $object->slide1_image)){ ?>
-													<span><img src='<?php echo My_Controller_CMS::get_path_file('home', $object->slide1_image); ?>' width='50' alt=''><button type="button" class="btn-delete-img-modal" data-url="">Deletar</button></span>
+												<?php if(isset($object->id) && MY_Controller_CMS::get_path_file('home', $object->slide1_video)){ ?>
+													<span><img src='<?php echo MY_Controller_CMS::get_path_file('home', $object->slide1_video); ?>' width='50' alt=''><button type="button" class="btn-delete-img-modal" data-url="">Deletar</button></span>
+												<?php }else if(isset($object->id) && MY_Controller_CMS::get_path_file('home', $object->slide1_image)){ ?>
+													<span><img src='<?php echo MY_Controller_CMS::get_path_file('home', $object->slide1_image); ?>' width='50' alt=''><button type="button" class="btn-delete-img-modal" data-url="">Deletar</button></span>
 												<?php }else{ ?>
 													<span><img src='https://dummyimage.com/50x50' alt=''></span>
 												<?php } ?>
@@ -354,8 +354,8 @@
 										<div class="row">
 
 											<div class="col-xs-6">
-												<?php if(isset($object->id) && My_Controller_CMS::get_path_file('home', $object->slide1_image_mobile)){ ?>
-													<span><img src='<?php echo My_Controller_CMS::get_path_file('home', $object->slide1_image_mobile); ?>' width='50' alt=''><button type="button" class="btn-delete-img-modal" data-url="">Deletar</button></span>
+												<?php if(isset($object->id) && MY_Controller_CMS::get_path_file('home', $object->slide1_image_mobile)){ ?>
+													<span><img src='<?php echo MY_Controller_CMS::get_path_file('home', $object->slide1_image_mobile); ?>' width='50' alt=''><button type="button" class="btn-delete-img-modal" data-url="">Deletar</button></span>
 												<?php }else{ ?>
 													<span><img src='https://dummyimage.com/50x50' alt=''></span>
 												<?php } ?>
@@ -366,8 +366,8 @@
 											</div>
 
 											<div class="col-xs-6">
-												<?php if(isset($object->id) && My_Controller_CMS::get_path_file('home', $object->slide1_image_tablet)){ ?>
-													<span><img src='<?php echo My_Controller_CMS::get_path_file('home', $object->slide1_image_tablet); ?>' width='50' alt=''><button type="button" class="btn-delete-img-modal" data-url="">Deletar</button></span>
+												<?php if(isset($object->id) && MY_Controller_CMS::get_path_file('home', $object->slide1_image_tablet)){ ?>
+													<span><img src='<?php echo MY_Controller_CMS::get_path_file('home', $object->slide1_image_tablet); ?>' width='50' alt=''><button type="button" class="btn-delete-img-modal" data-url="">Deletar</button></span>
 												<?php }else{ ?>
 													<span><img src='https://dummyimage.com/50x50' alt=''></span>
 												<?php } ?>
@@ -381,8 +381,8 @@
 
 										<div class="row">
 											<div class="col-xs-6">
-												<?php if(isset($object->id) && My_Controller_CMS::get_path_file('home', $object->slide1_band)){ ?>
-													<span><img src='<?php echo My_Controller_CMS::get_path_file('home', $object->slide1_band); ?>' width='50' alt=''><button type="button" class="btn-delete-img-modal" data-url="">Deletar</button></span>
+												<?php if(isset($object->id) && MY_Controller_CMS::get_path_file('home', $object->slide1_band)){ ?>
+													<span><img src='<?php echo MY_Controller_CMS::get_path_file('home', $object->slide1_band); ?>' width='50' alt=''><button type="button" class="btn-delete-img-modal" data-url="">Deletar</button></span>
 												<?php }else{ ?>
 													<span><img src='https://dummyimage.com/50x50' alt=''></span>
 												<?php } ?>
@@ -425,8 +425,8 @@
 
 									<div class="row">
 										<div class="col-xs-6">
-											<?php if(isset($object->id) && My_Controller_CMS::get_path_file('home', $object->slide2_thumb)){ ?>
-												<span><img src='<?php echo My_Controller_CMS::get_path_file('home', $object->slide2_thumb); ?>' width='50' alt=''></span>
+											<?php if(isset($object->id) && MY_Controller_CMS::get_path_file('home', $object->slide2_thumb)){ ?>
+												<span><img src='<?php echo MY_Controller_CMS::get_path_file('home', $object->slide2_thumb); ?>' width='50' alt=''></span>
 											<?php }else{ ?>
 												<span><img src='https://dummyimage.com/50x50' alt=''></span>
 											<?php } ?>
@@ -440,8 +440,8 @@
 									<div class="row">
 
 										<div class="col-xs-6">
-											<?php if(isset($object->id) && My_Controller_CMS::get_path_file('home', $object->slide2_image)){ ?>
-												<span><img src='<?php echo My_Controller_CMS::get_path_file('home', $object->slide2_image); ?>' width='50' alt=''></span>
+											<?php if(isset($object->id) && MY_Controller_CMS::get_path_file('home', $object->slide2_image)){ ?>
+												<span><img src='<?php echo MY_Controller_CMS::get_path_file('home', $object->slide2_image); ?>' width='50' alt=''></span>
 											<?php }else{ ?>
 												<span><img src='https://dummyimage.com/50x50' alt=''></span>
 											<?php } ?>
@@ -453,10 +453,10 @@
 
 										<div class="col-xs-6">
 
-											<?php if(isset($object->id) && My_Controller_CMS::get_path_file('home', $object->slide2_video)){ ?>
-												<span><img src='<?php echo My_Controller_CMS::get_path_file('home', $object->slide2_video); ?>' width='50' alt=''></span>
-											<?php }else if(isset($object->id) && My_Controller_CMS::get_path_file('home', $object->slide2_image)){ ?>
-												<span><img src='<?php echo My_Controller_CMS::get_path_file('home', $object->slide2_image); ?>' width='50' alt=''></span>
+											<?php if(isset($object->id) && MY_Controller_CMS::get_path_file('home', $object->slide2_video)){ ?>
+												<span><img src='<?php echo MY_Controller_CMS::get_path_file('home', $object->slide2_video); ?>' width='50' alt=''></span>
+											<?php }else if(isset($object->id) && MY_Controller_CMS::get_path_file('home', $object->slide2_image)){ ?>
+												<span><img src='<?php echo MY_Controller_CMS::get_path_file('home', $object->slide2_image); ?>' width='50' alt=''></span>
 											<?php }else{ ?>
 												<span><img src='https://dummyimage.com/50x50' alt=''></span>
 											<?php } ?>
@@ -503,8 +503,8 @@
 									<div class="row">
 
 										<div class="col-xs-6">
-											<?php if(isset($object->id) && My_Controller_CMS::get_path_file('home', $object->slide2_image_mobile)){ ?>
-												<span><img src='<?php echo My_Controller_CMS::get_path_file('home', $object->slide2_image_mobile); ?>' width='50' alt=''></span>
+											<?php if(isset($object->id) && MY_Controller_CMS::get_path_file('home', $object->slide2_image_mobile)){ ?>
+												<span><img src='<?php echo MY_Controller_CMS::get_path_file('home', $object->slide2_image_mobile); ?>' width='50' alt=''></span>
 											<?php }else{ ?>
 												<span><img src='https://dummyimage.com/50x50' alt=''></span>
 											<?php } ?>
@@ -515,8 +515,8 @@
 										</div>
 
 										<div class="col-xs-6">
-											<?php if(isset($object->id) && My_Controller_CMS::get_path_file('home', $object->slide2_image_tablet)){ ?>
-												<span><img src='<?php echo My_Controller_CMS::get_path_file('home', $object->slide2_image_tablet); ?>' width='50' alt=''></span>
+											<?php if(isset($object->id) && MY_Controller_CMS::get_path_file('home', $object->slide2_image_tablet)){ ?>
+												<span><img src='<?php echo MY_Controller_CMS::get_path_file('home', $object->slide2_image_tablet); ?>' width='50' alt=''></span>
 											<?php }else{ ?>
 												<span><img src='https://dummyimage.com/50x50' alt=''></span>
 											<?php } ?>
@@ -530,8 +530,8 @@
 
 									<div class="row">
 										<div class="col-xs-6">
-											<?php if(isset($object->id) && My_Controller_CMS::get_path_file('home', $object->slide2_band)){ ?>
-												<span><img src='<?php echo My_Controller_CMS::get_path_file('home', $object->slide2_band); ?>' width='50' alt=''></span>
+											<?php if(isset($object->id) && MY_Controller_CMS::get_path_file('home', $object->slide2_band)){ ?>
+												<span><img src='<?php echo MY_Controller_CMS::get_path_file('home', $object->slide2_band); ?>' width='50' alt=''></span>
 											<?php }else{ ?>
 												<span><img src='https://dummyimage.com/50x50' alt=''></span>
 											<?php } ?>
@@ -575,8 +575,8 @@
 
 									<div class="row">
 										<div class="col-xs-6">
-											<?php if(isset($object->id) && My_Controller_CMS::get_path_file('home', $object->slide3_thumb)){ ?>
-												<span><img src='<?php echo My_Controller_CMS::get_path_file('home', $object->slide3_thumb); ?>' width='50' alt=''></span>
+											<?php if(isset($object->id) && MY_Controller_CMS::get_path_file('home', $object->slide3_thumb)){ ?>
+												<span><img src='<?php echo MY_Controller_CMS::get_path_file('home', $object->slide3_thumb); ?>' width='50' alt=''></span>
 											<?php }else{ ?>
 												<span><img src='https://dummyimage.com/50x50' alt=''></span>
 											<?php } ?>
@@ -590,8 +590,8 @@
 									<div class="row">
 
 										<div class="col-xs-6">
-											<?php if(isset($object->id) && My_Controller_CMS::get_path_file('home', $object->slide3_image)){ ?>
-												<span><img src='<?php echo My_Controller_CMS::get_path_file('home', $object->slide3_image); ?>' width='50' alt=''></span>
+											<?php if(isset($object->id) && MY_Controller_CMS::get_path_file('home', $object->slide3_image)){ ?>
+												<span><img src='<?php echo MY_Controller_CMS::get_path_file('home', $object->slide3_image); ?>' width='50' alt=''></span>
 											<?php }else{ ?>
 												<span><img src='https://dummyimage.com/50x50' alt=''></span>
 											<?php } ?>
@@ -603,10 +603,10 @@
 
 										<div class="col-xs-6">
 
-											<?php if(isset($object->id) && My_Controller_CMS::get_path_file('home', $object->slide3_video)){ ?>
-												<span><img src='<?php echo My_Controller_CMS::get_path_file('home', $object->slide3_video); ?>' width='50' alt=''></span>
-											<?php }else if(isset($object->id) && My_Controller_CMS::get_path_file('home', $object->slide3_image)){ ?>
-												<span><img src='<?php echo My_Controller_CMS::get_path_file('home', $object->slide3_image); ?>' width='50' alt=''></span>
+											<?php if(isset($object->id) && MY_Controller_CMS::get_path_file('home', $object->slide3_video)){ ?>
+												<span><img src='<?php echo MY_Controller_CMS::get_path_file('home', $object->slide3_video); ?>' width='50' alt=''></span>
+											<?php }else if(isset($object->id) && MY_Controller_CMS::get_path_file('home', $object->slide3_image)){ ?>
+												<span><img src='<?php echo MY_Controller_CMS::get_path_file('home', $object->slide3_image); ?>' width='50' alt=''></span>
 											<?php }else{ ?>
 												<span><img src='https://dummyimage.com/50x50' alt=''></span>
 											<?php } ?>
@@ -653,8 +653,8 @@
 									<div class="row">
 
 										<div class="col-xs-6">
-											<?php if(isset($object->id) && My_Controller_CMS::get_path_file('home', $object->slide3_image_mobile)){ ?>
-												<span><img src='<?php echo My_Controller_CMS::get_path_file('home', $object->slide3_image_mobile); ?>' width='50' alt=''></span>
+											<?php if(isset($object->id) && MY_Controller_CMS::get_path_file('home', $object->slide3_image_mobile)){ ?>
+												<span><img src='<?php echo MY_Controller_CMS::get_path_file('home', $object->slide3_image_mobile); ?>' width='50' alt=''></span>
 											<?php }else{ ?>
 												<span><img src='https://dummyimage.com/50x50' alt=''></span>
 											<?php } ?>
@@ -665,8 +665,8 @@
 										</div>
 
 										<div class="col-xs-6">
-											<?php if(isset($object->id) && My_Controller_CMS::get_path_file('home', $object->slide3_image_tablet)){ ?>
-												<span><img src='<?php echo My_Controller_CMS::get_path_file('home', $object->slide3_image_tablet); ?>' width='50' alt=''></span>
+											<?php if(isset($object->id) && MY_Controller_CMS::get_path_file('home', $object->slide3_image_tablet)){ ?>
+												<span><img src='<?php echo MY_Controller_CMS::get_path_file('home', $object->slide3_image_tablet); ?>' width='50' alt=''></span>
 											<?php }else{ ?>
 												<span><img src='https://dummyimage.com/50x50' alt=''></span>
 											<?php } ?>
@@ -680,8 +680,8 @@
 
 									<div class="row">
 										<div class="col-xs-6">
-											<?php if(isset($object->id) && My_Controller_CMS::get_path_file('home', $object->slide3_band)){ ?>
-												<span><img src='<?php echo My_Controller_CMS::get_path_file('home', $object->slide3_band); ?>' width='50' alt=''></span>
+											<?php if(isset($object->id) && MY_Controller_CMS::get_path_file('home', $object->slide3_band)){ ?>
+												<span><img src='<?php echo MY_Controller_CMS::get_path_file('home', $object->slide3_band); ?>' width='50' alt=''></span>
 											<?php }else{ ?>
 												<span><img src='https://dummyimage.com/50x50' alt=''></span>
 											<?php } ?>
@@ -724,8 +724,8 @@
 
 									<div class="row">
 										<div class="col-xs-6">
-											<?php if(isset($object->id) && My_Controller_CMS::get_path_file('home', $object->slide4_thumb)){ ?>
-												<span><img src='<?php echo My_Controller_CMS::get_path_file('home', $object->slide4_thumb); ?>' width='50' alt=''></span>
+											<?php if(isset($object->id) && MY_Controller_CMS::get_path_file('home', $object->slide4_thumb)){ ?>
+												<span><img src='<?php echo MY_Controller_CMS::get_path_file('home', $object->slide4_thumb); ?>' width='50' alt=''></span>
 											<?php }else{ ?>
 												<span><img src='https://dummyimage.com/50x50' alt=''></span>
 											<?php } ?>
@@ -739,8 +739,8 @@
 									<div class="row">
 
 										<div class="col-xs-6">
-											<?php if(isset($object->id) && My_Controller_CMS::get_path_file('home', $object->slide4_image)){ ?>
-												<span><img src='<?php echo My_Controller_CMS::get_path_file('home', $object->slide4_image); ?>' width='50' alt=''></span>
+											<?php if(isset($object->id) && MY_Controller_CMS::get_path_file('home', $object->slide4_image)){ ?>
+												<span><img src='<?php echo MY_Controller_CMS::get_path_file('home', $object->slide4_image); ?>' width='50' alt=''></span>
 											<?php }else{ ?>
 												<span><img src='https://dummyimage.com/50x50' alt=''></span>
 											<?php } ?>
@@ -752,10 +752,10 @@
 
 										<div class="col-xs-6">
 
-											<?php if(isset($object->id) && My_Controller_CMS::get_path_file('home', $object->slide4_video)){ ?>
-												<span><img src='<?php echo My_Controller_CMS::get_path_file('home', $object->slide4_video); ?>' width='50' alt=''></span>
-											<?php }else if(isset($object->id) && My_Controller_CMS::get_path_file('home', $object->slide4_image)){ ?>
-												<span><img src='<?php echo My_Controller_CMS::get_path_file('home', $object->slide4_image); ?>' width='50' alt=''></span>
+											<?php if(isset($object->id) && MY_Controller_CMS::get_path_file('home', $object->slide4_video)){ ?>
+												<span><img src='<?php echo MY_Controller_CMS::get_path_file('home', $object->slide4_video); ?>' width='50' alt=''></span>
+											<?php }else if(isset($object->id) && MY_Controller_CMS::get_path_file('home', $object->slide4_image)){ ?>
+												<span><img src='<?php echo MY_Controller_CMS::get_path_file('home', $object->slide4_image); ?>' width='50' alt=''></span>
 											<?php }else{ ?>
 												<span><img src='https://dummyimage.com/50x50' alt=''></span>
 											<?php } ?>
@@ -802,8 +802,8 @@
 									<div class="row">
 
 										<div class="col-xs-6">
-											<?php if(isset($object->id) && My_Controller_CMS::get_path_file('home', $object->slide4_image_mobile)){ ?>
-												<span><img src='<?php echo My_Controller_CMS::get_path_file('home', $object->slide4_image_mobile); ?>' width='50' alt=''></span>
+											<?php if(isset($object->id) && MY_Controller_CMS::get_path_file('home', $object->slide4_image_mobile)){ ?>
+												<span><img src='<?php echo MY_Controller_CMS::get_path_file('home', $object->slide4_image_mobile); ?>' width='50' alt=''></span>
 											<?php }else{ ?>
 												<span><img src='https://dummyimage.com/50x50' alt=''></span>
 											<?php } ?>
@@ -814,8 +814,8 @@
 										</div>
 
 										<div class="col-xs-6">
-											<?php if(isset($object->id) && My_Controller_CMS::get_path_file('home', $object->slide4_image_tablet)){ ?>
-												<span><img src='<?php echo My_Controller_CMS::get_path_file('home', $object->slide4_image_tablet); ?>' width='50' alt=''></span>
+											<?php if(isset($object->id) && MY_Controller_CMS::get_path_file('home', $object->slide4_image_tablet)){ ?>
+												<span><img src='<?php echo MY_Controller_CMS::get_path_file('home', $object->slide4_image_tablet); ?>' width='50' alt=''></span>
 											<?php }else{ ?>
 												<span><img src='https://dummyimage.com/50x50' alt=''></span>
 											<?php } ?>
@@ -829,8 +829,8 @@
 
 									<div class="row">
 										<div class="col-xs-6">
-											<?php if(isset($object->id) && My_Controller_CMS::get_path_file('home', $object->slide4_band)){ ?>
-												<span><img src='<?php echo My_Controller_CMS::get_path_file('home', $object->slide4_band); ?>' width='50' alt=''></span>
+											<?php if(isset($object->id) && MY_Controller_CMS::get_path_file('home', $object->slide4_band)){ ?>
+												<span><img src='<?php echo MY_Controller_CMS::get_path_file('home', $object->slide4_band); ?>' width='50' alt=''></span>
 											<?php }else{ ?>
 												<span><img src='https://dummyimage.com/50x50' alt=''></span>
 											<?php } ?>
@@ -873,8 +873,8 @@
 
 									<div class="row">
 										<div class="col-xs-6">
-											<?php if(isset($object->id) && My_Controller_CMS::get_path_file('home', $object->slide5_thumb)){ ?>
-												<span><img src='<?php echo My_Controller_CMS::get_path_file('home', $object->slide5_thumb); ?>' width='50' alt=''></span>
+											<?php if(isset($object->id) && MY_Controller_CMS::get_path_file('home', $object->slide5_thumb)){ ?>
+												<span><img src='<?php echo MY_Controller_CMS::get_path_file('home', $object->slide5_thumb); ?>' width='50' alt=''></span>
 											<?php }else{ ?>
 												<span><img src='https://dummyimage.com/50x50' alt=''></span>
 											<?php } ?>
@@ -888,8 +888,8 @@
 									<div class="row">
 
 										<div class="col-xs-6">
-											<?php if(isset($object->id) && My_Controller_CMS::get_path_file('home', $object->slide5_image)){ ?>
-												<span><img src='<?php echo My_Controller_CMS::get_path_file('home', $object->slide5_image); ?>' width='50' alt=''></span>
+											<?php if(isset($object->id) && MY_Controller_CMS::get_path_file('home', $object->slide5_image)){ ?>
+												<span><img src='<?php echo MY_Controller_CMS::get_path_file('home', $object->slide5_image); ?>' width='50' alt=''></span>
 											<?php }else{ ?>
 												<span><img src='https://dummyimage.com/50x50' alt=''></span>
 											<?php } ?>
@@ -901,10 +901,10 @@
 
 										<div class="col-xs-6">
 
-											<?php if(isset($object->id) && My_Controller_CMS::get_path_file('home', $object->slide5_video)){ ?>
-												<span><img src='<?php echo My_Controller_CMS::get_path_file('home', $object->slide5_video); ?>' width='50' alt=''></span>
-											<?php }else if(isset($object->id) && My_Controller_CMS::get_path_file('home', $object->slide5_image)){ ?>
-												<span><img src='<?php echo My_Controller_CMS::get_path_file('home', $object->slide5_image); ?>' width='50' alt=''></span>
+											<?php if(isset($object->id) && MY_Controller_CMS::get_path_file('home', $object->slide5_video)){ ?>
+												<span><img src='<?php echo MY_Controller_CMS::get_path_file('home', $object->slide5_video); ?>' width='50' alt=''></span>
+											<?php }else if(isset($object->id) && MY_Controller_CMS::get_path_file('home', $object->slide5_image)){ ?>
+												<span><img src='<?php echo MY_Controller_CMS::get_path_file('home', $object->slide5_image); ?>' width='50' alt=''></span>
 											<?php }else{ ?>
 												<span><img src='https://dummyimage.com/50x50' alt=''></span>
 											<?php } ?>
@@ -951,8 +951,8 @@
 									<div class="row">
 
 										<div class="col-xs-6">
-											<?php if(isset($object->id) && My_Controller_CMS::get_path_file('home', $object->slide5_image_mobile)){ ?>
-												<span><img src='<?php echo My_Controller_CMS::get_path_file('home', $object->slide5_image_mobile); ?>' width='50' alt=''></span>
+											<?php if(isset($object->id) && MY_Controller_CMS::get_path_file('home', $object->slide5_image_mobile)){ ?>
+												<span><img src='<?php echo MY_Controller_CMS::get_path_file('home', $object->slide5_image_mobile); ?>' width='50' alt=''></span>
 											<?php }else{ ?>
 												<span><img src='https://dummyimage.com/50x50' alt=''></span>
 											<?php } ?>
@@ -963,8 +963,8 @@
 										</div>
 
 										<div class="col-xs-6">
-											<?php if(isset($object->id) && My_Controller_CMS::get_path_file('home', $object->slide5_image_tablet)){ ?>
-												<span><img src='<?php echo My_Controller_CMS::get_path_file('home', $object->slide5_image_tablet); ?>' width='50' alt=''></span>
+											<?php if(isset($object->id) && MY_Controller_CMS::get_path_file('home', $object->slide5_image_tablet)){ ?>
+												<span><img src='<?php echo MY_Controller_CMS::get_path_file('home', $object->slide5_image_tablet); ?>' width='50' alt=''></span>
 											<?php }else{ ?>
 												<span><img src='https://dummyimage.com/50x50' alt=''></span>
 											<?php } ?>
@@ -978,8 +978,8 @@
 
 									<div class="row">
 										<div class="col-xs-6">
-											<?php if(isset($object->id) && My_Controller_CMS::get_path_file('home', $object->slide5_band)){ ?>
-												<span><img src='<?php echo My_Controller_CMS::get_path_file('home', $object->slide5_band); ?>' width='50' alt=''></span>
+											<?php if(isset($object->id) && MY_Controller_CMS::get_path_file('home', $object->slide5_band)){ ?>
+												<span><img src='<?php echo MY_Controller_CMS::get_path_file('home', $object->slide5_band); ?>' width='50' alt=''></span>
 											<?php }else{ ?>
 												<span><img src='https://dummyimage.com/50x50' alt=''></span>
 											<?php } ?>

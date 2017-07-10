@@ -61,8 +61,8 @@
 		               	<div class="row">
 
 							<div class="col-md-3 change-file-image">
-								<?php if (!empty(My_Controller_CMS::get_path_file('news', $object->image))) { ?>
-									<span><img src='<?php echo My_Controller_CMS::get_path_file('news', $object->image); ?>' width='200' height='200'></span>
+								<?php if (!empty(MY_Controller_CMS::get_path_file('news', $object->image))) { ?>
+									<span><img src='<?php echo MY_Controller_CMS::get_path_file('news', $object->image); ?>' width='200' height='200'></span>
 								<?php } ?>
 								<div class="form-group">
 									<label for="image">IMAGEM</label>

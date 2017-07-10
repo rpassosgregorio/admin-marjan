@@ -57,7 +57,7 @@
 
 if(strstr($_SERVER['SERVER_NAME'], 'localhost')){
 	define('ENVIRONMENT', 'development');
-}else if(strstr($_SERVER['SERVER_NAME'], '.grafikonstruct.com.br')){
+}else if(strstr($_SERVER['SERVER_NAME'], '.apptecbr.com.br')){
 	define('ENVIRONMENT', 'testing');
 }else{
 	define('ENVIRONMENT', 'production');

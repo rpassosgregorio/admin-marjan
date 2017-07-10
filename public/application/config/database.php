@@ -105,10 +105,10 @@ switch (ENVIRONMENT)
 
 		$db['default'] = array(
 			'dsn'	=> '',
-			'hostname' => 'localhost',
-			'username' => 'root',
-			'password' => '',
-			'database' => 'marjan',
+			'hostname' => 'marjan-portal.mysql.uhserver.com',
+			'username' => 'mrj_dev_1',
+			'password' => 'Marjan@135',
+			'database' => 'marjan_portal',
 			'dbdriver' => 'mysqli',
 			'dbprefix' => 'ws_',
 			'pconnect' => FALSE,

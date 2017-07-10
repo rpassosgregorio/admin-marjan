@@ -18,9 +18,9 @@
 
 					<section class="admingrid">
 
-						<?php if(isset($object->id) && My_Controller_CMS::get_path_file('products/home', $object->principal_image)){ ?>
+						<?php if(isset($object->id) && MY_Controller_CMS::get_path_file('products/home', $object->principal_image)){ ?>
 
-							<div class="admingrid-item admingrid-item--0" style="background-image: url(<?php echo My_Controller_CMS::get_path_file('products/home', $object->principal_image) ?>)">
+							<div class="admingrid-item admingrid-item--0" style="background-image: url(<?php echo MY_Controller_CMS::get_path_file('products/home', $object->principal_image) ?>)">
 								<a href="#" class="admingrid-edit-btn" data-open-modal="#item0">
 								<span>Clique para editar esse conteúdo</span>
 								</a>
@@ -36,9 +36,9 @@
 
 						<?php } ?>
 
-						<?php if(isset($object->id) && My_Controller_CMS::get_path_file('products/home', $object->calltonext_section_image)){ ?>
+						<?php if(isset($object->id) && MY_Controller_CMS::get_path_file('products/home', $object->calltonext_section_image)){ ?>
 
-							<div class="admingrid-item admingrid-item--1" style="background-image: url(<?php echo My_Controller_CMS::get_path_file('products/home', $object->calltonext_section_image) ?>)">
+							<div class="admingrid-item admingrid-item--1" style="background-image: url(<?php echo MY_Controller_CMS::get_path_file('products/home', $object->calltonext_section_image) ?>)">
 								<a href="#" class="admingrid-edit-btn" data-open-modal="#item1">
 								<span>Clique para editar esse conteúdo</span>
 								</a>
@@ -93,7 +93,7 @@
 						</div>
 
 
-						<?php if(isset($object->id) && My_Controller_CMS::get_path_file('products/home', $object->filter_under_prescription_image)){ ?>
+						<?php if(isset($object->id) && MY_Controller_CMS::get_path_file('products/home', $object->filter_under_prescription_image)){ ?>
 
 							<div class="admingrid-item admingrid-item--6">
 								<a href="#" class="admingrid-edit-btn" data-open-modal="#item6">
@@ -101,7 +101,7 @@
 								</a>
 								<p><?php echo isset($object->id) && $object->filter_under_prescription_text ? $object->filter_under_prescription_text : 'Lorem ipsum dolor sit amet...' ?></p>
 
-								<img src="<?php echo My_Controller_CMS::get_path_file('products/home', $object->filter_under_prescription_image) ?>" alt="">
+								<img src="<?php echo MY_Controller_CMS::get_path_file('products/home', $object->filter_under_prescription_image) ?>" alt="">
 							</div>
 
 						<?php }else{ ?>
@@ -117,7 +117,7 @@
 						<?php } ?>
 
 
-						<?php if(isset($object->id) && My_Controller_CMS::get_path_file('products/home', $object->filter_no_prescription_image)){ ?>
+						<?php if(isset($object->id) && MY_Controller_CMS::get_path_file('products/home', $object->filter_no_prescription_image)){ ?>
 
 							<div class="admingrid-item admingrid-item--7">
 								<a href="#" class="admingrid-edit-btn" data-open-modal="#item7">
@@ -125,7 +125,7 @@
 								</a>
 								<p><?php echo isset($object->id) && $object->filter_no_prescription_text ? $object->filter_no_prescription_text : 'Lorem ipsum dolor sit amet...' ?></p>
 
-								<img src="<?php echo My_Controller_CMS::get_path_file('products/home', $object->filter_no_prescription_image) ?>" alt="">
+								<img src="<?php echo MY_Controller_CMS::get_path_file('products/home', $object->filter_no_prescription_image) ?>" alt="">
 							</div>
 
 						<?php }else{ ?>
@@ -141,14 +141,14 @@
 						<?php } ?>
 
 
-						<?php if(isset($object->id) && My_Controller_CMS::get_path_file('products/home', $object->filter_foods_image)){ ?>
+						<?php if(isset($object->id) && MY_Controller_CMS::get_path_file('products/home', $object->filter_foods_image)){ ?>
 
 							<div class="admingrid-item admingrid-item--8">
 								<a href="#" class="admingrid-edit-btn" data-open-modal="#item8">
 									<span>Clique para editar esse conteúdo</span>
 								</a>
 								<p><?php echo isset($object->id) && $object->filter_foods_text ? $object->filter_foods_text : 'Lorem ipsum dolor sit amet...' ?></p>
-								<img src="<?php echo My_Controller_CMS::get_path_file('products/home', $object->filter_foods_image) ?>" alt="">
+								<img src="<?php echo MY_Controller_CMS::get_path_file('products/home', $object->filter_foods_image) ?>" alt="">
 							</div>
 
 						<?php }else{ ?>
@@ -171,13 +171,13 @@
 							</div>
 						</div>
 
-						<?php if(isset($object->id) && My_Controller_CMS::get_path_file('products/home', $object->healthcare_professional_box_side_image)){ ?>
+						<?php if(isset($object->id) && MY_Controller_CMS::get_path_file('products/home', $object->healthcare_professional_box_side_image)){ ?>
 
 							<div class="admingrid-item admingrid-item--10">
 								<a href="#" class="admingrid-edit-btn" data-open-modal="#item10">
 									<span>Clique para editar esse conteúdo</span>
 								</a>
-								<div class="admingrid-item-bg" style="background-image: url(<?php echo My_Controller_CMS::get_path_file('products/home', $object->healthcare_professional_box_side_image); ?>)"></div>
+								<div class="admingrid-item-bg" style="background-image: url(<?php echo MY_Controller_CMS::get_path_file('products/home', $object->healthcare_professional_box_side_image); ?>)"></div>
 								<div class="admingrid-item-col">
 									<div class="admingrid-item-info">
 										<h3><?php echo isset($object->id) && $object->healthcare_professional_box_title ? $object->healthcare_professional_box_title : 'Lorem ipsum dolor sit amet...'; ?></h3>
@@ -214,8 +214,8 @@
 									<div class="row">
 
 										<div class="col-xs-6">
-											<?php if(isset($object->id) && My_Controller_CMS::get_path_file('products/home', $object->principal_image)){ ?>
-												<span><img src='<?php echo My_Controller_CMS::get_path_file('products/home', $object->principal_image); ?>' width='50' alt=''></span>
+											<?php if(isset($object->id) && MY_Controller_CMS::get_path_file('products/home', $object->principal_image)){ ?>
+												<span><img src='<?php echo MY_Controller_CMS::get_path_file('products/home', $object->principal_image); ?>' width='50' alt=''></span>
 											<?php }else{ ?>
 												<span><img src='https://dummyimage.com/100x100' alt=''></span>
 											<?php } ?>
@@ -261,8 +261,8 @@
 									<div class="row">
 
 										<div class="col-xs-6">
-											<?php if(isset($object->id) && My_Controller_CMS::get_path_file('products/home', $object->principal_image_mobile)){ ?>
-												<span><img src='<?php echo My_Controller_CMS::get_path_file('products/home', $object->principal_image_mobile); ?>' width='50' alt=''></span>
+											<?php if(isset($object->id) && MY_Controller_CMS::get_path_file('products/home', $object->principal_image_mobile)){ ?>
+												<span><img src='<?php echo MY_Controller_CMS::get_path_file('products/home', $object->principal_image_mobile); ?>' width='50' alt=''></span>
 											<?php }else{ ?>
 												<span><img src='https://dummyimage.com/100x100' alt=''></span>
 											<?php } ?>
@@ -273,8 +273,8 @@
 										</div>
 
 										<div class="col-xs-6">
-											<?php if(isset($object->id) && My_Controller_CMS::get_path_file('products/home', $object->principal_image_tablet)){ ?>
-												<span><img src='<?php echo My_Controller_CMS::get_path_file('products/home', $object->principal_image_tablet); ?>' width='50' alt=''></span>
+											<?php if(isset($object->id) && MY_Controller_CMS::get_path_file('products/home', $object->principal_image_tablet)){ ?>
+												<span><img src='<?php echo MY_Controller_CMS::get_path_file('products/home', $object->principal_image_tablet); ?>' width='50' alt=''></span>
 											<?php }else{ ?>
 												<span><img src='https://dummyimage.com/100x100' alt=''></span>
 											<?php } ?>
@@ -303,8 +303,8 @@
 								<form action="<?php echo base_url($this->base_cms.'/'.$this->controller_module.'/save'); ?>" method="post" role="form" class="admingrid-modal-form" enctype="multipart/form-data" data-parsley-validate>
 
 									<div class="row">
-										<?php if(isset($object->id) && My_Controller_CMS::get_path_file('products/home', $object->calltonext_section_image)){ ?>
-											<span><img src='<?php echo My_Controller_CMS::get_path_file('products/home', $object->calltonext_section_image); ?>' width='50' alt=''></span>
+										<?php if(isset($object->id) && MY_Controller_CMS::get_path_file('products/home', $object->calltonext_section_image)){ ?>
+											<span><img src='<?php echo MY_Controller_CMS::get_path_file('products/home', $object->calltonext_section_image); ?>' width='50' alt=''></span>
 										<?php }else{ ?>
 											<span><img src='https://dummyimage.com/100x100' alt=''></span>
 										<?php } ?>
@@ -443,8 +443,8 @@
 									<div class="row">
 
 										<div class="col-xs-6">
-											<?php if(isset($object->id) && My_Controller_CMS::get_path_file('products/home', $object->filter_under_prescription_image)){ ?>
-												<span><img src='<?php echo My_Controller_CMS::get_path_file('products/home', $object->filter_under_prescription_image); ?>' width='50' alt=''></span>
+											<?php if(isset($object->id) && MY_Controller_CMS::get_path_file('products/home', $object->filter_under_prescription_image)){ ?>
+												<span><img src='<?php echo MY_Controller_CMS::get_path_file('products/home', $object->filter_under_prescription_image); ?>' width='50' alt=''></span>
 											<?php }else{ ?>
 												<span><img src='https://dummyimage.com/100x100' alt=''></span>
 											<?php } ?>
@@ -482,8 +482,8 @@
 									<div class="row">
 
 										<div class="col-xs-6">
-											<?php if(isset($object->id) && My_Controller_CMS::get_path_file('products/home', $object->filter_no_prescription_image)){ ?>
-												<span><img src='<?php echo My_Controller_CMS::get_path_file('products/home', $object->filter_no_prescription_image); ?>' width='50' alt=''></span>
+											<?php if(isset($object->id) && MY_Controller_CMS::get_path_file('products/home', $object->filter_no_prescription_image)){ ?>
+												<span><img src='<?php echo MY_Controller_CMS::get_path_file('products/home', $object->filter_no_prescription_image); ?>' width='50' alt=''></span>
 											<?php }else{ ?>
 												<span><img src='https://dummyimage.com/100x100' alt=''></span>
 											<?php } ?>
@@ -521,8 +521,8 @@
 									<div class="row">
 
 										<div class="col-xs-6">
-											<?php if(isset($object->id) && My_Controller_CMS::get_path_file('products/home', $object->filter_foods_image)){ ?>
-												<span><img src='<?php echo My_Controller_CMS::get_path_file('products/home', $object->filter_foods_image); ?>' width='50' alt=''></span>
+											<?php if(isset($object->id) && MY_Controller_CMS::get_path_file('products/home', $object->filter_foods_image)){ ?>
+												<span><img src='<?php echo MY_Controller_CMS::get_path_file('products/home', $object->filter_foods_image); ?>' width='50' alt=''></span>
 											<?php }else{ ?>
 												<span><img src='https://dummyimage.com/100x100' alt=''></span>
 											<?php } ?>
@@ -577,8 +577,8 @@
 									<div class="row">
 
 										<div class="col-xs-6">
-											<?php if(isset($object->id) && My_Controller_CMS::get_path_file('products/home', $object->healthcare_professional_box_side_image)){ ?>
-												<span><img src='<?php echo My_Controller_CMS::get_path_file('products/home', $object->healthcare_professional_box_side_image); ?>' width='50' alt=''></span>
+											<?php if(isset($object->id) && MY_Controller_CMS::get_path_file('products/home', $object->healthcare_professional_box_side_image)){ ?>
+												<span><img src='<?php echo MY_Controller_CMS::get_path_file('products/home', $object->healthcare_professional_box_side_image); ?>' width='50' alt=''></span>
 											<?php }else{ ?>
 												<span><img src='https://dummyimage.com/100x100' alt=''></span>
 											<?php } ?>
@@ -626,8 +626,8 @@
 									<div class="row">
 
 										<div class="col-xs-6">
-											<?php if(isset($object->id) && My_Controller_CMS::get_path_file('products/home', $object->healthcare_professional_box_side_image_mobile)){ ?>
-												<span><img src='<?php echo My_Controller_CMS::get_path_file('products/home', $object->healthcare_professional_box_side_image_mobile); ?>' width='50' alt=''></span>
+											<?php if(isset($object->id) && MY_Controller_CMS::get_path_file('products/home', $object->healthcare_professional_box_side_image_mobile)){ ?>
+												<span><img src='<?php echo MY_Controller_CMS::get_path_file('products/home', $object->healthcare_professional_box_side_image_mobile); ?>' width='50' alt=''></span>
 											<?php }else{ ?>
 												<span><img src='https://dummyimage.com/100x100' alt=''></span>
 											<?php } ?>
@@ -638,8 +638,8 @@
 										</div>
 
 										<div class="col-xs-6">
-											<?php if(isset($object->id) && My_Controller_CMS::get_path_file('products/home', $object->healthcare_professional_box_side_image_tablet)){ ?>
-												<span><img src='<?php echo My_Controller_CMS::get_path_file('products/home', $object->healthcare_professional_box_side_image_tablet); ?>' width='50' alt=''></span>
+											<?php if(isset($object->id) && MY_Controller_CMS::get_path_file('products/home', $object->healthcare_professional_box_side_image_tablet)){ ?>
+												<span><img src='<?php echo MY_Controller_CMS::get_path_file('products/home', $object->healthcare_professional_box_side_image_tablet); ?>' width='50' alt=''></span>
 											<?php }else{ ?>
 												<span><img src='https://dummyimage.com/100x100' alt=''></span>
 											<?php } ?>

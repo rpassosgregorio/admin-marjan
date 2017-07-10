@@ -12,10 +12,10 @@
 	<section>
 		<div class="slider-container" id="slider_container">
 			<div class="slider-items slide-number-1" id="slider_items_1">
-				<div class="slide-item-container slide-item-container-1" id="slide_item_container-1" data-halign="right" style="background-image: url(<?php echo My_Controller_CMS::get_path_file('home', $object->slide1_image); ?>); background-position: right center;">
+				<div class="slide-item-container slide-item-container-1" id="slide_item_container-1" data-halign="right" style="background-image: url(<?php echo MY_Controller_CMS::get_path_file('home', $object->slide1_image); ?>); background-position: right center;">
 				</div>
 
-				<?php $media_slide1 = My_Controller_CMS::get_path_file('home', $object->slide1_video); ?>
+				<?php $media_slide1 = MY_Controller_CMS::get_path_file('home', $object->slide1_video); ?>
 
 				<?php if (!empty($media_slide1)): ?>
 
@@ -33,10 +33,10 @@
 				</div>
 			</div>
        		<div class="slider-items slide-number-2" id="slider_items_2">
-				<div class="slide-item-container slide-item-container-2" id="slide_item_container-2" data-halign="left" style="background-image: url(<?php echo My_Controller_CMS::get_path_file('home', $object->slide2_image); ?>); background-position: left  top;">
+				<div class="slide-item-container slide-item-container-2" id="slide_item_container-2" data-halign="left" style="background-image: url(<?php echo MY_Controller_CMS::get_path_file('home', $object->slide2_image); ?>); background-position: left  top;">
 				</div>
 
-				<?php $media_slide2 = My_Controller_CMS::get_path_file('home', $object->slide2_video); ?>
+				<?php $media_slide2 = MY_Controller_CMS::get_path_file('home', $object->slide2_video); ?>
 
 				<?php if (!empty($media_slide2)): ?>
 
@@ -54,10 +54,10 @@
 				</div>
 			</div>
        		<div class="slider-items slide-number-3" id="slider_items_3">
-				<div class="slide-item-container slide-item-container-3" id="slide_item_container-3" data-halign="right" style="background-image: url(<?php echo My_Controller_CMS::get_path_file('home', $object->slide3_image); ?>); background-position: right center;">
+				<div class="slide-item-container slide-item-container-3" id="slide_item_container-3" data-halign="right" style="background-image: url(<?php echo MY_Controller_CMS::get_path_file('home', $object->slide3_image); ?>); background-position: right center;">
 				</div>
 
-				<?php $media_slide3 = My_Controller_CMS::get_path_file('home', $object->slide3_video); ?>
+				<?php $media_slide3 = MY_Controller_CMS::get_path_file('home', $object->slide3_video); ?>
 
 				<?php if (!empty($media_slide3)): ?>
 
@@ -75,10 +75,10 @@
 				</div>
 			</div>
        		<div class="slider-items slide-number-4" id="slider_items_4">
-				<div class="slide-item-container slide-item-container-4" id="slide_item_container-4" data-halign="right" style="background-image: url(<?php echo My_Controller_CMS::get_path_file('home', $object->slide4_image); ?>); background-position: right top;">
+				<div class="slide-item-container slide-item-container-4" id="slide_item_container-4" data-halign="right" style="background-image: url(<?php echo MY_Controller_CMS::get_path_file('home', $object->slide4_image); ?>); background-position: right top;">
 				</div>
 
-				<?php $media_slide4 = My_Controller_CMS::get_path_file('home', $object->slide4_video); ?>
+				<?php $media_slide4 = MY_Controller_CMS::get_path_file('home', $object->slide4_video); ?>
 
 				<?php if (!empty($media_slide4)): ?>
 
@@ -96,10 +96,10 @@
 				</div>
 			</div>
        		<div class="slider-items slide-number-5" id="slider_items_5">
-				<div class="slide-item-container slide-item-container-5" id="slide_item_container-5" data-halign="right" style="background-image: url(<?php echo My_Controller_CMS::get_path_file('home', $object->slide5_image); ?>); background-position: right top;">
+				<div class="slide-item-container slide-item-container-5" id="slide_item_container-5" data-halign="right" style="background-image: url(<?php echo MY_Controller_CMS::get_path_file('home', $object->slide5_image); ?>); background-position: right top;">
 				</div>
 
-				<?php $media_slide5 = My_Controller_CMS::get_path_file('home', $object->slide5_video); ?>
+				<?php $media_slide5 = MY_Controller_CMS::get_path_file('home', $object->slide5_video); ?>
 
 				<?php if (!empty($media_slide5)): ?>
 

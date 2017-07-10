@@ -52,8 +52,8 @@
 					               	<div class="row">
 
 										<div class="col-md-5">
-											<?php if (isset($object->id) && My_Controller_CMS::get_path_file('general_settings', $object->logo)) { ?>
-												<span><img src='<?php echo My_Controller_CMS::get_path_file('general_settings', $object->logo); ?>' width='100' height='100'></span>
+											<?php if (isset($object->id) && MY_Controller_CMS::get_path_file('general_settings', $object->logo)) { ?>
+												<span><img src='<?php echo MY_Controller_CMS::get_path_file('general_settings', $object->logo); ?>' width='100' height='100'></span>
 											<?php }else{ ?>
 												<span><img src='https://dummyimage.com/100x100' alt=''></span>
 											<?php } ?>
@@ -64,8 +64,8 @@
 										</div>
 
 										<div class="col-md-5">
-											<?php if (isset($object->id) && My_Controller_CMS::get_path_file('general_settings', $object->logo_retina)) { ?>
-												<span><img src='<?php echo My_Controller_CMS::get_path_file('general_settings', $object->logo_retina); ?>' width='100' height='100'></span>
+											<?php if (isset($object->id) && MY_Controller_CMS::get_path_file('general_settings', $object->logo_retina)) { ?>
+												<span><img src='<?php echo MY_Controller_CMS::get_path_file('general_settings', $object->logo_retina); ?>' width='100' height='100'></span>
 											<?php }else{ ?>
 												<span><img src='https://dummyimage.com/100x100' alt=''></span>
 											<?php } ?>
@@ -330,8 +330,8 @@
 									<div class="row">
 
 										<div class="col-md-5">
-											<?php if (isset($object->id) && My_Controller_CMS::get_path_file('general_settings', $object->know_more1_img)) { ?>
-												<span><img src='<?php echo My_Controller_CMS::get_path_file('general_settings', $object->know_more1_img); ?>' width='100' height='100'></span>
+											<?php if (isset($object->id) && MY_Controller_CMS::get_path_file('general_settings', $object->know_more1_img)) { ?>
+												<span><img src='<?php echo MY_Controller_CMS::get_path_file('general_settings', $object->know_more1_img); ?>' width='100' height='100'></span>
 											<?php }else{ ?>
 												<span><img src='https://dummyimage.com/100x100' alt=''></span>
 											<?php } ?>
@@ -357,8 +357,8 @@
 									<div class="row">
 
 										<div class="col-md-5">
-											<?php if (isset($object->id) && My_Controller_CMS::get_path_file('general_settings', $object->know_more2_img)) { ?>
-												<span><img src='<?php echo My_Controller_CMS::get_path_file('general_settings', $object->know_more2_img); ?>' width='100' height='100'></span>
+											<?php if (isset($object->id) && MY_Controller_CMS::get_path_file('general_settings', $object->know_more2_img)) { ?>
+												<span><img src='<?php echo MY_Controller_CMS::get_path_file('general_settings', $object->know_more2_img); ?>' width='100' height='100'></span>
 											<?php }else{ ?>
 												<span><img src='https://dummyimage.com/100x100' alt=''></span>
 											<?php } ?>
@@ -384,8 +384,8 @@
 									<div class="row">
 
 										<div class="col-md-5">
-											<?php if (isset($object->id) && My_Controller_CMS::get_path_file('general_settings', $object->know_more3_img)) { ?>
-												<span><img src='<?php echo My_Controller_CMS::get_path_file('general_settings', $object->know_more3_img); ?>' width='100' height='100'></span>
+											<?php if (isset($object->id) && MY_Controller_CMS::get_path_file('general_settings', $object->know_more3_img)) { ?>
+												<span><img src='<?php echo MY_Controller_CMS::get_path_file('general_settings', $object->know_more3_img); ?>' width='100' height='100'></span>
 											<?php }else{ ?>
 												<span><img src='https://dummyimage.com/100x100' alt=''></span>
 											<?php } ?>
@@ -411,8 +411,8 @@
 									<div class="row">
 
 										<div class="col-md-5">
-											<?php if (isset($object->id) && My_Controller_CMS::get_path_file('general_settings', $object->know_more4_img)) { ?>
-												<span><img src='<?php echo My_Controller_CMS::get_path_file('general_settings', $object->know_more4_img); ?>' width='100' height='100'></span>
+											<?php if (isset($object->id) && MY_Controller_CMS::get_path_file('general_settings', $object->know_more4_img)) { ?>
+												<span><img src='<?php echo MY_Controller_CMS::get_path_file('general_settings', $object->know_more4_img); ?>' width='100' height='100'></span>
 											<?php }else{ ?>
 												<span><img src='https://dummyimage.com/100x100' alt=''></span>
 											<?php } ?>

@@ -956,15 +956,15 @@ class Products extends MY_Controller_CMS {
 					                   'indication'									=> $item->indication,
 					                   'therapeutic_class'							=> $item->therapeutic_class,
 					                   'ingredients'								=> $item->ingredients,
-					                   'nutritional_info'							=> My_Controller_CMS::get_path_file('products', $item->nutritional_info),
+					                   'nutritional_info'							=> MY_Controller_CMS::get_path_file('products', $item->nutritional_info),
 					                   'nutritional_info_obs'						=> $item->nutritional_info_obs,
 					                   'is_food_supplement' 						=> $is_food_supplement,
 					                   'isUnderPrescription' 						=> $item->is_under_prescription ? TRUE : FALSE,
 					                   'presentation'								=> $presentations,
-					                   'product_image'								=> My_Controller_CMS::get_path_file('products', $item->product_image),
+					                   'product_image'								=> MY_Controller_CMS::get_path_file('products', $item->product_image),
 					                   'product_image_horizontal_align'				=> $item->product_image_horizontal_align,
 					                   'product_image_vertical_align'				=> $item->product_image_vertical_align,
-					                   'product_release_image'						=> My_Controller_CMS::get_path_file('products', $item->product_release_image),
+					                   'product_release_image'						=> MY_Controller_CMS::get_path_file('products', $item->product_release_image),
 					                   'specialties'								=> $specialties,
 					                   'specialties_separator'						=> ',');
 

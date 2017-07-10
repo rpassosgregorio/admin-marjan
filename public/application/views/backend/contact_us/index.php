@@ -20,7 +20,7 @@
 
 						<?php if(isset($object->id)){ ?>
 
-							<article class="admingrid-item admingrid-item--0" style="background-image: url( <?php echo My_Controller_CMS::get_path_file('contact_us', $object->principal_image); ?> )">
+							<article class="admingrid-item admingrid-item--0" style="background-image: url( <?php echo MY_Controller_CMS::get_path_file('contact_us', $object->principal_image); ?> )">
 
 								<a href="#" class="admingrid-edit-btn" data-open-modal="#item0">
 									<span>Clique aqui para editar esse conteúdo</span>
@@ -61,7 +61,7 @@
 
 						<?php if(isset($object->id)){ ?>
 
-							<article class="admingrid-item admingrid-item--1" style="background-image: url( <?php echo My_Controller_CMS::get_path_file('contact_us', $object->calltonext_section_image); ?> )">
+							<article class="admingrid-item admingrid-item--1" style="background-image: url( <?php echo MY_Controller_CMS::get_path_file('contact_us', $object->calltonext_section_image); ?> )">
 								<a href="#" class="admingrid-edit-btn" data-open-modal="#item1">
 									<span>Clique para editar esse conteúdo</span>
 								</a>
@@ -109,7 +109,7 @@
 									<span>Clique aqui para editar esse conteúdo</span>
 								</a>
 
-								<div class="admingrid-item-image" style="background-image: url( <?php echo My_Controller_CMS::get_path_file('contact_us', $object->section1_image); ?> )"></div>
+								<div class="admingrid-item-image" style="background-image: url( <?php echo MY_Controller_CMS::get_path_file('contact_us', $object->section1_image); ?> )"></div>
 								<div class="admingrid-item-col">
 									<div class="admingrid-item-col-wrapper">
 										<div class="admingrid-item-text">
@@ -172,7 +172,7 @@
 									</div>
 								</div>
 
-								<div class="admingrid-item-image" style="background-image: url( <?php echo My_Controller_CMS::get_path_file('contact_us', $object->section2_image); ?> )"></div>
+								<div class="admingrid-item-image" style="background-image: url( <?php echo MY_Controller_CMS::get_path_file('contact_us', $object->section2_image); ?> )"></div>
 
 								<div class="admingrid-clear"></div>
 
@@ -213,7 +213,7 @@
 									<span>Clique aqui para editar esse conteúdo</span>
 								</a>
 
-								<div class="admingrid-item-image" style="background-image: url( <?php echo My_Controller_CMS::get_path_file('contact_us', $object->section3_image); ?> )"></div>
+								<div class="admingrid-item-image" style="background-image: url( <?php echo MY_Controller_CMS::get_path_file('contact_us', $object->section3_image); ?> )"></div>
 								<div class="admingrid-item-col">
 									<div class="admingrid-item-col-wrapper">
 										<div class="admingrid-item-text">
@@ -271,23 +271,23 @@
 										<br/>
 										<div class="admingrid-item-link admingrid-item-link--0">
 											<p>
-												<img src="<?php echo My_Controller_CMS::get_path_file('contact_us', $object->section4_social_media1_icon); ?>" width="40" heigth="40" alt=""> <?php echo !empty($object->section4_social_media1_text_link) ? $object->section4_social_media1_text_link : 'lorem ipsum dolor' ?>
+												<img src="<?php echo MY_Controller_CMS::get_path_file('contact_us', $object->section4_social_media1_icon); ?>" width="40" heigth="40" alt=""> <?php echo !empty($object->section4_social_media1_text_link) ? $object->section4_social_media1_text_link : 'lorem ipsum dolor' ?>
 											</p>
 										</div>
 										<div class="admingrid-item-link admingrid-item-link--1">
 											<p>
-												<img src="<?php echo My_Controller_CMS::get_path_file('contact_us', $object->section4_social_media2_icon); ?>" width="40" heigth="40" alt=""> <?php echo !empty($object->section4_social_media2_text_link) ? $object->section4_social_media2_text_link : 'lorem ipsum dolor' ?>
+												<img src="<?php echo MY_Controller_CMS::get_path_file('contact_us', $object->section4_social_media2_icon); ?>" width="40" heigth="40" alt=""> <?php echo !empty($object->section4_social_media2_text_link) ? $object->section4_social_media2_text_link : 'lorem ipsum dolor' ?>
 											</p>
 										</div>
 										<div class="admingrid-item-link admingrid-item-link--2">
 											<p>
-												<img src="<?php echo My_Controller_CMS::get_path_file('contact_us', $object->section4_social_media3_icon); ?>" width="40" heigth="40" alt=""> <?php echo !empty($object->section4_social_media3_text_link) ? $object->section4_social_media3_text_link : 'lorem ipsum dolor' ?>
+												<img src="<?php echo MY_Controller_CMS::get_path_file('contact_us', $object->section4_social_media3_icon); ?>" width="40" heigth="40" alt=""> <?php echo !empty($object->section4_social_media3_text_link) ? $object->section4_social_media3_text_link : 'lorem ipsum dolor' ?>
 											</p>
 										</div>
 									</div>
 								</div>
 
-								<div class="admingrid-item-image" style="background-image: url( <?php echo My_Controller_CMS::get_path_file('contact_us', $object->section4_image); ?> )">
+								<div class="admingrid-item-image" style="background-image: url( <?php echo MY_Controller_CMS::get_path_file('contact_us', $object->section4_image); ?> )">
 								</div>
 								<div class="admingrid-clear"></div>
 
@@ -342,8 +342,8 @@
 									<div class="row">
 
 										<div class="col-xs-6">
-											<?php if(isset($object->id) && My_Controller_CMS::get_path_file('contact_us', $object->principal_image)){ ?>
-												<span><img src='<?php echo My_Controller_CMS::get_path_file('contact_us', $object->principal_image); ?>' width='50' alt=''></span>
+											<?php if(isset($object->id) && MY_Controller_CMS::get_path_file('contact_us', $object->principal_image)){ ?>
+												<span><img src='<?php echo MY_Controller_CMS::get_path_file('contact_us', $object->principal_image); ?>' width='50' alt=''></span>
 											<?php }else{ ?>
 												<span><img src='https://dummyimage.com/50x50' alt=''></span>
 											<?php } ?>
@@ -388,8 +388,8 @@
 
 									<div class="row">
 										<div class="col-xs-6">
-											<?php if(isset($object->id) && My_Controller_CMS::get_path_file('contact_us', $object->principal_image_mobile)){ ?>
-												<span><img src='<?php echo My_Controller_CMS::get_path_file('contact_us', $object->principal_image_mobile); ?>' width='50' alt=''></span>
+											<?php if(isset($object->id) && MY_Controller_CMS::get_path_file('contact_us', $object->principal_image_mobile)){ ?>
+												<span><img src='<?php echo MY_Controller_CMS::get_path_file('contact_us', $object->principal_image_mobile); ?>' width='50' alt=''></span>
 											<?php }else{ ?>
 												<span><img src='https://dummyimage.com/50x50' alt=''></span>
 											<?php } ?>
@@ -400,8 +400,8 @@
 										</div>
 
 										<div class="col-xs-6">
-											<?php if(isset($object->id) && My_Controller_CMS::get_path_file('contact_us', $object->principal_image_tablet)){ ?>
-												<span><img src='<?php echo My_Controller_CMS::get_path_file('contact_us', $object->principal_image_tablet); ?>' width='50' alt=''></span>
+											<?php if(isset($object->id) && MY_Controller_CMS::get_path_file('contact_us', $object->principal_image_tablet)){ ?>
+												<span><img src='<?php echo MY_Controller_CMS::get_path_file('contact_us', $object->principal_image_tablet); ?>' width='50' alt=''></span>
 											<?php }else{ ?>
 												<span><img src='https://dummyimage.com/50x50' alt=''></span>
 											<?php } ?>
@@ -446,8 +446,8 @@
 									<div class="row">
 
 										<div class="col-xs-6">
-											<?php if(isset($object->id) && My_Controller_CMS::get_path_file('contact_us', $object->calltonext_section_image)){ ?>
-												<span><img src='<?php echo My_Controller_CMS::get_path_file('contact_us', $object->calltonext_section_image); ?>' width='50' alt=''></span>
+											<?php if(isset($object->id) && MY_Controller_CMS::get_path_file('contact_us', $object->calltonext_section_image)){ ?>
+												<span><img src='<?php echo MY_Controller_CMS::get_path_file('contact_us', $object->calltonext_section_image); ?>' width='50' alt=''></span>
 											<?php }else{ ?>
 												<span><img src='https://dummyimage.com/50x50' alt=''></span>
 											<?php } ?>
@@ -514,8 +514,8 @@
 									<div class="row">
 
 										<div class="col-xs-6">
-											<?php if(isset($object->id) && My_Controller_CMS::get_path_file('contact_us', $object->section1_image)){ ?>
-												<span><img src='<?php echo My_Controller_CMS::get_path_file('contact_us', $object->section1_image); ?>' width='50' alt=''></span>
+											<?php if(isset($object->id) && MY_Controller_CMS::get_path_file('contact_us', $object->section1_image)){ ?>
+												<span><img src='<?php echo MY_Controller_CMS::get_path_file('contact_us', $object->section1_image); ?>' width='50' alt=''></span>
 											<?php }else{ ?>
 												<span><img src='https://dummyimage.com/50x50' alt=''></span>
 											<?php } ?>
@@ -560,8 +560,8 @@
 
 									<div class="row">
 										<div class="col-xs-6">
-											<?php if(isset($object->id) && My_Controller_CMS::get_path_file('contact_us', $object->section1_image_mobile)){ ?>
-												<span><img src='<?php echo My_Controller_CMS::get_path_file('contact_us', $object->section1_image_mobile); ?>' width='50' alt=''></span>
+											<?php if(isset($object->id) && MY_Controller_CMS::get_path_file('contact_us', $object->section1_image_mobile)){ ?>
+												<span><img src='<?php echo MY_Controller_CMS::get_path_file('contact_us', $object->section1_image_mobile); ?>' width='50' alt=''></span>
 											<?php }else{ ?>
 												<span><img src='https://dummyimage.com/50x50' alt=''></span>
 											<?php } ?>
@@ -572,8 +572,8 @@
 										</div>
 
 										<div class="col-xs-6">
-											<?php if(isset($object->id) && My_Controller_CMS::get_path_file('contact_us', $object->section1_image_tablet)){ ?>
-												<span><img src='<?php echo My_Controller_CMS::get_path_file('contact_us', $object->section1_image_tablet); ?>' width='50' alt=''></span>
+											<?php if(isset($object->id) && MY_Controller_CMS::get_path_file('contact_us', $object->section1_image_tablet)){ ?>
+												<span><img src='<?php echo MY_Controller_CMS::get_path_file('contact_us', $object->section1_image_tablet); ?>' width='50' alt=''></span>
 											<?php }else{ ?>
 												<span><img src='https://dummyimage.com/50x50' alt=''></span>
 											<?php } ?>
@@ -622,8 +622,8 @@
 									<div class="row">
 
 										<div class="col-xs-6">
-											<?php if(isset($object->id) && My_Controller_CMS::get_path_file('contact_us', $object->section2_image)){ ?>
-												<span><img src='<?php echo My_Controller_CMS::get_path_file('contact_us', $object->section2_image); ?>' width='50' alt=''></span>
+											<?php if(isset($object->id) && MY_Controller_CMS::get_path_file('contact_us', $object->section2_image)){ ?>
+												<span><img src='<?php echo MY_Controller_CMS::get_path_file('contact_us', $object->section2_image); ?>' width='50' alt=''></span>
 											<?php }else{ ?>
 												<span><img src='https://dummyimage.com/50x50' alt=''></span>
 											<?php } ?>
@@ -668,8 +668,8 @@
 
 									<div class="row">
 										<div class="col-xs-6">
-											<?php if(isset($object->id) && My_Controller_CMS::get_path_file('contact_us', $object->section2_image_mobile)){ ?>
-												<span><img src='<?php echo My_Controller_CMS::get_path_file('contact_us', $object->section2_image_mobile); ?>' width='50' alt=''></span>
+											<?php if(isset($object->id) && MY_Controller_CMS::get_path_file('contact_us', $object->section2_image_mobile)){ ?>
+												<span><img src='<?php echo MY_Controller_CMS::get_path_file('contact_us', $object->section2_image_mobile); ?>' width='50' alt=''></span>
 											<?php }else{ ?>
 												<span><img src='https://dummyimage.com/50x50' alt=''></span>
 											<?php } ?>
@@ -680,8 +680,8 @@
 										</div>
 
 										<div class="col-xs-6">
-											<?php if(isset($object->id) && My_Controller_CMS::get_path_file('contact_us', $object->section2_image_tablet)){ ?>
-												<span><img src='<?php echo My_Controller_CMS::get_path_file('contact_us', $object->section2_image_tablet); ?>' width='50' alt=''></span>
+											<?php if(isset($object->id) && MY_Controller_CMS::get_path_file('contact_us', $object->section2_image_tablet)){ ?>
+												<span><img src='<?php echo MY_Controller_CMS::get_path_file('contact_us', $object->section2_image_tablet); ?>' width='50' alt=''></span>
 											<?php }else{ ?>
 												<span><img src='https://dummyimage.com/50x50' alt=''></span>
 											<?php } ?>
@@ -731,8 +731,8 @@
 									<div class="row">
 
 										<div class="col-xs-6">
-											<?php if(isset($object->id) && My_Controller_CMS::get_path_file('contact_us', $object->section3_image)){ ?>
-												<span><img src='<?php echo My_Controller_CMS::get_path_file('contact_us', $object->section3_image); ?>' width='50' alt=''></span>
+											<?php if(isset($object->id) && MY_Controller_CMS::get_path_file('contact_us', $object->section3_image)){ ?>
+												<span><img src='<?php echo MY_Controller_CMS::get_path_file('contact_us', $object->section3_image); ?>' width='50' alt=''></span>
 											<?php }else{ ?>
 												<span><img src='https://dummyimage.com/50x50' alt=''></span>
 											<?php } ?>
@@ -777,8 +777,8 @@
 
 									<div class="row">
 										<div class="col-xs-6">
-											<?php if(isset($object->id) && My_Controller_CMS::get_path_file('contact_us', $object->section3_image_mobile)){ ?>
-												<span><img src='<?php echo My_Controller_CMS::get_path_file('contact_us', $object->section3_image_mobile); ?>' width='50' alt=''></span>
+											<?php if(isset($object->id) && MY_Controller_CMS::get_path_file('contact_us', $object->section3_image_mobile)){ ?>
+												<span><img src='<?php echo MY_Controller_CMS::get_path_file('contact_us', $object->section3_image_mobile); ?>' width='50' alt=''></span>
 											<?php }else{ ?>
 												<span><img src='https://dummyimage.com/50x50' alt=''></span>
 											<?php } ?>
@@ -789,8 +789,8 @@
 										</div>
 
 										<div class="col-xs-6">
-											<?php if(isset($object->id) && My_Controller_CMS::get_path_file('contact_us', $object->section3_image_tablet)){ ?>
-												<span><img src='<?php echo My_Controller_CMS::get_path_file('contact_us', $object->section3_image_tablet); ?>' width='50' alt=''></span>
+											<?php if(isset($object->id) && MY_Controller_CMS::get_path_file('contact_us', $object->section3_image_tablet)){ ?>
+												<span><img src='<?php echo MY_Controller_CMS::get_path_file('contact_us', $object->section3_image_tablet); ?>' width='50' alt=''></span>
 											<?php }else{ ?>
 												<span><img src='https://dummyimage.com/50x50' alt=''></span>
 											<?php } ?>
@@ -839,8 +839,8 @@
 									<div class="row">
 
 										<div class="col-xs-6">
-											<?php if(isset($object->id) && My_Controller_CMS::get_path_file('contact_us', $object->section4_image_mobile)){ ?>
-												<span><img src='<?php echo My_Controller_CMS::get_path_file('contact_us', $object->section4_image); ?>' width='50' alt=''></span>
+											<?php if(isset($object->id) && MY_Controller_CMS::get_path_file('contact_us', $object->section4_image_mobile)){ ?>
+												<span><img src='<?php echo MY_Controller_CMS::get_path_file('contact_us', $object->section4_image); ?>' width='50' alt=''></span>
 											<?php }else{ ?>
 												<span><img src='https://dummyimage.com/50x50' alt=''></span>
 											<?php } ?>
@@ -885,8 +885,8 @@
 
 									<div class="row">
 										<div class="col-xs-6">
-											<?php if(isset($object->id) && My_Controller_CMS::get_path_file('contact_us', $object->section4_image_mobile)){ ?>
-												<span><img src='<?php echo My_Controller_CMS::get_path_file('contact_us', $object->section4_image_mobile); ?>' width='50' alt=''></span>
+											<?php if(isset($object->id) && MY_Controller_CMS::get_path_file('contact_us', $object->section4_image_mobile)){ ?>
+												<span><img src='<?php echo MY_Controller_CMS::get_path_file('contact_us', $object->section4_image_mobile); ?>' width='50' alt=''></span>
 											<?php }else{ ?>
 												<span><img src='https://dummyimage.com/50x50' alt=''></span>
 											<?php } ?>
@@ -897,8 +897,8 @@
 										</div>
 
 										<div class="col-xs-6">
-											<?php if(isset($object->id) && My_Controller_CMS::get_path_file('contact_us', $object->section4_image_tablet)){ ?>
-												<span><img src='<?php echo My_Controller_CMS::get_path_file('contact_us', $object->section4_image_tablet); ?>' width='50' alt=''></span>
+											<?php if(isset($object->id) && MY_Controller_CMS::get_path_file('contact_us', $object->section4_image_tablet)){ ?>
+												<span><img src='<?php echo MY_Controller_CMS::get_path_file('contact_us', $object->section4_image_tablet); ?>' width='50' alt=''></span>
 											<?php }else{ ?>
 												<span><img src='https://dummyimage.com/50x50' alt=''></span>
 											<?php } ?>
@@ -911,8 +911,8 @@
 
 									<div class="row">
 										<div class="col-xs-6">
-											<?php if(isset($object->id) && My_Controller_CMS::get_path_file('contact_us', $object->section4_social_media1_icon)){ ?>
-												<span><img src='<?php echo My_Controller_CMS::get_path_file('contact_us', $object->section4_social_media1_icon); ?>' width='50' alt=''></span>
+											<?php if(isset($object->id) && MY_Controller_CMS::get_path_file('contact_us', $object->section4_social_media1_icon)){ ?>
+												<span><img src='<?php echo MY_Controller_CMS::get_path_file('contact_us', $object->section4_social_media1_icon); ?>' width='50' alt=''></span>
 											<?php }else{ ?>
 												<span><img src='https://dummyimage.com/50x50' alt=''></span>
 											<?php } ?>
@@ -943,8 +943,8 @@
 
 									<div class="row">
 										<div class="col-xs-6">
-											<?php if(isset($object->id) && My_Controller_CMS::get_path_file('contact_us', $object->section4_social_media2_icon)){ ?>
-												<span><img src='<?php echo My_Controller_CMS::get_path_file('contact_us', $object->section4_social_media2_icon); ?>' width='50' alt=''></span>
+											<?php if(isset($object->id) && MY_Controller_CMS::get_path_file('contact_us', $object->section4_social_media2_icon)){ ?>
+												<span><img src='<?php echo MY_Controller_CMS::get_path_file('contact_us', $object->section4_social_media2_icon); ?>' width='50' alt=''></span>
 											<?php }else{ ?>
 												<span><img src='https://dummyimage.com/50x50' alt=''></span>
 											<?php } ?>
@@ -975,8 +975,8 @@
 
 									<div class="row">
 										<div class="col-xs-6">
-											<?php if(isset($object->id) && My_Controller_CMS::get_path_file('contact_us', $object->section4_social_media3_icon)){ ?>
-												<span><img src='<?php echo My_Controller_CMS::get_path_file('contact_us', $object->section4_social_media3_icon); ?>' width='50' alt=''></span>
+											<?php if(isset($object->id) && MY_Controller_CMS::get_path_file('contact_us', $object->section4_social_media3_icon)){ ?>
+												<span><img src='<?php echo MY_Controller_CMS::get_path_file('contact_us', $object->section4_social_media3_icon); ?>' width='50' alt=''></span>
 											<?php }else{ ?>
 												<span><img src='https://dummyimage.com/50x50' alt=''></span>
 											<?php } ?>
