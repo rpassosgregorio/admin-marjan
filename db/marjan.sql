@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Jul 10, 2017 at 08:57 PM
+-- Generation Time: Jul 11, 2017 at 08:07 PM
 -- Server version: 10.1.21-MariaDB
 -- PHP Version: 5.6.30
 
@@ -188,7 +188,7 @@ CREATE TABLE `ws_about_us_environment` (
 --
 
 INSERT INTO `ws_about_us_environment` (`id`, `principal_image`, `principal_image_horizontal_align`, `principal_image_vertical_align`, `principal_image_mobile`, `principal_image_tablet`, `principal_left_text`, `principal_right_text`, `calltonext_section_image`, `call_text_secion`, `deleted`, `order`, `inserted_by`, `date_last_update`, `date_insertion`, `active`) VALUES
-(1, 'meio-ambiente-X58VZU3R4J', 'center', 'bottom', 'meio-ambiente-1TA843A4FX', 'meio-ambiente-NKHCCJTXTU', 'MEIO<br/>AMBIENTE', 'Cuidar e preservar o meioambiente, um compromissopara minimizar o impactono meio ambiente', 'call-to-next-meio-ambiente-K66E8UNWVF', 'A Marjan Farma tem como seu maior compromisso suprir consumidores, pacientes e classe médica com produtos e serviços que efetivamente possam contribuir para a melhoria da qualidade de vida, minimizando o impacto ambiental de suas operações.<br/><br/>Para tanto, adota política da qualidade e meio amb', 0, 0, 1, '2017-06-23 16:26:17', '2017-06-23 21:26:17', 1);
+(1, 'meio-ambiente-X58VZU3R4J', 'center', 'bottom', 'meio-ambiente-1TA843A4FX', 'meio-ambiente-NKHCCJTXTU', 'MEIO<br/>AMBIENTE', 'Cuidar e preservar o meio<br/>ambiente, um compromisso<br/>para minimizar o impacto<br/>no meio ambiente', 'call-to-next-meio-ambiente-K66E8UNWVF', 'A Marjan Farma tem como seu maior compromisso suprir consumidores, pacientes e classe médica com produtos e serviços que efetivamente possam contribuir para a melhoria da qualidade de vida, minimizando o impacto ambiental de suas operações.<br/><br/>Para tanto, adota política da qualidade e meio ambiente, desenvolvendo continuamente os recursos humanos e a consciência ambiental dos colaboradores, incentivando os fornecedores e parceiros a agirem da mesma forma.<br/><br/>Além disso, investe em instalações, equipamentos e recursos operacionais adequados aos processos de fabricação, prevenindo a poluição e fazendo uso consciente dos recursos.', 0, 0, 1, '2017-06-23 16:26:17', '2017-06-23 21:26:17', 1);
 
 -- --------------------------------------------------------
 
@@ -220,7 +220,7 @@ CREATE TABLE `ws_about_us_innovation` (
 --
 
 INSERT INTO `ws_about_us_innovation` (`id`, `principal_image`, `principal_image_horizontal_align`, `principal_image_vertical_align`, `principal_image_mobile`, `principal_image_tablet`, `principal_left_text`, `principal_right_text`, `calltonext_section_image`, `call_text_secion`, `deleted`, `order`, `inserted_by`, `date_last_update`, `date_insertion`, `active`) VALUES
-(1, 'inovacao-C4TKENUTMF', 'center', 'bottom', 'inovacao-GAKR1WA3KK', 'inovacao-BG9Y7X3JT1', 'INOVAÇÃO', 'Em produtos parao bem-estar dahumanidade', 'call-to-next-inovacao-WVUG5YUPH6', 'Visando atender às expectativas da Classe Médica, a Marjan Farma constantemente realiza pesquisas de novas tecnologias para potencializar a ação terapêutica de drogas já existentes.<br/><br/>Sempre pioneira no lançamento de produtos inovadores com novas concepções tecnológicas, a Marjan Farma ocupa ', 0, 0, 1, '2017-06-23 16:26:17', '2017-06-23 21:26:17', 1);
+(1, 'inovacao-C4TKENUTMF', 'center', 'bottom', 'inovacao-GAKR1WA3KK', 'inovacao-BG9Y7X3JT1', 'INOVAÇÃO', 'Em produtos para<br/>o bem-estar da<br/>humanidade', 'call-to-next-inovacao-WVUG5YUPH6', 'Visando atender às expectativas da Classe Médica, a Marjan Farma constantemente realiza pesquisas de novas tecnologias para potencializar a ação terapêutica de drogas já existentes.<br/><br/>Sempre pioneira no lançamento de produtos inovadores com novas concepções tecnológicas, a Marjan Farma ocupa uma posição relevante no mercado farmacêutico brasileiro, com um portfólio de produtos que abrange as principais especilidades médicas.<br/><br/>Através do desenvolvimento de pesquisas técnicas, a Marjan Farma introduz novos produtos no mercado e sempre aprimora os já existentes.<br/><br/>Além disso, maném um canal permanente de comunicação com classe médica, governo, sociedade e colaboradores, a fim de trocar experiências e informações que possam contribuir para o aprimoramento do Sistema de Gestão.', 0, 0, 1, '2017-06-23 16:26:17', '2017-06-23 21:26:17', 1);
 
 -- --------------------------------------------------------
 
@@ -252,7 +252,7 @@ CREATE TABLE `ws_about_us_new_business` (
 --
 
 INSERT INTO `ws_about_us_new_business` (`id`, `principal_image`, `principal_image_horizontal_align`, `principal_image_vertical_align`, `principal_image_mobile`, `principal_image_tablet`, `principal_left_text`, `principal_right_text`, `calltonext_section_image`, `call_text_secion`, `deleted`, `order`, `inserted_by`, `date_last_update`, `date_insertion`, `active`) VALUES
-(1, 'negocios-YWN53Y77RN', 'center', 'bottom', 'negocios-FVPG2BY81J', 'negocios-H9D3Y2P2QN', 'NOVOS<br />\r\nNEGÓCIOS', 'Vislumbramos a introdução<br />\r\nde novos negócios eo<br />\r\nparcerias com empresaso<br />\r\nbrasileiras, estrangeiras,o<br />\r\nfornecedores...', 'call-to-next-novos-negocios-7W57SB5TYG', 'A Marjan Farma vislumbra a introdução de novos negócios e novas parcerias com Empresas Nacionais e Estrangeiras, Fornecedores, Instituições de Pesquisa Científica e Universidades.<br />\r\n<br />\r\nCaso tenha interesse em ser um parceiro de negócios da Marjan Farma, preencha o formulário abaixo e em br', 0, 0, 1, '2017-06-23 13:26:17', '2017-06-23 18:26:17', 1);
+(1, 'negocios-YWN53Y77RN', 'center', 'bottom', 'negocios-FVPG2BY81J', 'negocios-H9D3Y2P2QN', 'NOVOS<br/>NEGÓCIOS', 'Vislumbramos a introdução<br/>de novos negócios eo<br/>parcerias com empresaso<br/>brasileiras, estrangeiras,o<br/>fornecedores...', 'call-to-next-novos-negocios-7W57SB5TYG', 'A Marjan Farma vislumbra a introdução de novos negócios e novas parcerias com Empresas Nacionais e Estrangeiras, Fornecedores, Instituições de Pesquisa Científica e Universidades.<br/><br/>Caso tenha interesse em ser um parceiro de negócios da Marjan Farma, preencha o formulário abaixo e em breve entraremos em contato:', 0, 0, 1, '2017-06-23 13:26:17', '2017-06-23 18:26:17', 1);
 
 -- --------------------------------------------------------
 
@@ -312,7 +312,7 @@ CREATE TABLE `ws_about_us_our_history` (
 --
 
 INSERT INTO `ws_about_us_our_history` (`id`, `principal_image`, `principal_image_horizontal_align`, `principal_image_vertical_align`, `principal_image_mobile`, `principal_image_tablet`, `principal_left_text`, `principal_right_text`, `calltonext_section_image`, `call_text_secion`, `deleted`, `order`, `inserted_by`, `date_last_update`, `date_insertion`, `active`) VALUES
-(1, 'nossa-historia-topo-DQ3YCNTTF3', 'center', 'bottom', 'nossa-historia-topo-VDGHNHWQAJ', 'nossa-historia-topo-8U9M21XKDJ', 'NOSSA <br/>HISTÓRIA', 'Desde 1961 a marjan vemfazendo a diferença. conheçanossa história', 'call-to-next-C1DH2QFP3G', 'Desde 1961 a Marjan Farma caminha com o compromisso de atuar a favor da melhoria da qualidade de vida. Ao longo de sua trajetória, orgulha-se de ter construído uma empresa 100% nacional, fundamentada na integridade, ética e transparência em seus relacionamentos, seja com seus colaboradores, classe médica, comunidade ou parceiros de negócios.<br/><br/>Em sintonia com as novas tecnologias, a empresa prepara seu lugar no futuro. Futuro que se faz presente a cada dia, tal a rapidez com que as novas descobertas científicas transformam-se em novos produtos.', 0, 0, 1, '2017-06-23 16:26:17', '2017-06-23 21:26:17', 1);
+(1, 'nossa-historia-topo-DQ3YCNTTF3', 'center', 'bottom', 'nossa-historia-topo-VDGHNHWQAJ', 'nossa-historia-topo-8U9M21XKDJ', 'NOSSA<br/>HISTÓRIA', 'Desde 1961 a marjan vem<br/>fazendo a diferença. conheça<br/>nossa história', 'call-to-next-C1DH2QFP3G', 'Desde 1961 a Marjan Farma caminha com o compromisso de atuar a favor da melhoria da qualidade de vida. Ao longo de sua trajetória, orgulha-se de ter construído uma empresa 100% nacional, fundamentada na integridade, ética e transparência em seus relacionamentos, seja com seus colaboradores, classe médica, comunidade ou parceiros de negócios.<br/><br/>Em sintonia com as novas tecnologias, a empresa prepara seu lugar no futuro. Futuro que se faz presente a cada dia, tal a rapidez com que as novas descobertas científicas transformam-se em novos produtos.', 0, 0, 1, '2017-06-23 16:26:17', '2017-06-23 21:26:17', 1);
 
 -- --------------------------------------------------------
 
@@ -344,7 +344,7 @@ CREATE TABLE `ws_about_us_quality` (
 --
 
 INSERT INTO `ws_about_us_quality` (`id`, `principal_image`, `principal_image_horizontal_align`, `principal_image_vertical_align`, `principal_image_mobile`, `principal_image_tablet`, `principal_left_text`, `principal_right_text`, `calltonext_section_image`, `call_text_secion`, `deleted`, `order`, `inserted_by`, `date_last_update`, `date_insertion`, `active`) VALUES
-(1, 'qualidade-ERPHP15J4U', 'center', 'bottom', 'qualidade-9XHN5D21SS', 'qualidade-CDHD3FV8JN', 'QUALIDADE', 'Padrões internacionaisde boas práticasde fabricação', 'call-to-next-qualidade-DQ7NR4SV1S', 'A adoção de padrões internacionais de boas práticas de fabricação é prova contundente do investimento que a Marjan Farma aplica na busca pela qualidade. Soma-se a esta conquista o empenho e comprometimento efetivo de seus colaboradores, visando preservar a qualidade já alcançada e buscar uma melhori', 0, 0, 1, '2017-06-23 16:26:17', '2017-06-23 21:26:17', 1);
+(1, 'qualidade-ERPHP15J4U', 'center', 'bottom', 'qualidade-9XHN5D21SS', 'qualidade-CDHD3FV8JN', 'QUALIDADE', 'Padrões internacionais<br/>de boas práticas<br/>de fabricação', 'call-to-next-qualidade-DQ7NR4SV1S', 'A adoção de padrões internacionais de boas práticas de fabricação é prova contundente do investimento que a Marjan Farma aplica na busca pela qualidade. Soma-se a esta conquista o empenho e comprometimento efetivo de seus colaboradores, visando preservar a qualidade já alcançada e buscar uma melhoria contínua de forma a atingir a excelência em suas atividades.<br/><br/>Através da utilização de técnicas de gestão, a Marjan Farma garante o atendimento aos requisitos legais, normativos e estatutários aplicáveis à produção com elevado padrão de qualidade e mínimo impacto ambiental; assegurando os recursos necessários para o seu cumprimento.<br/><br/>Esse é o compromisso com a melhoria contínua de seus processos, produtos e Sistema de Gestão.', 0, 0, 1, '2017-06-23 16:26:17', '2017-06-23 21:26:17', 1);
 
 -- --------------------------------------------------------
 
@@ -688,7 +688,7 @@ CREATE TABLE `ws_admin_user` (
 --
 
 INSERT INTO `ws_admin_user` (`id`, `code`, `name`, `email`, `password`, `avatar`, `deleted`, `order`, `date_last_login`, `inserted_by`, `date_last_update`, `date_insertion`, `active`) VALUES
-(1, 'e78cb21adced6f0787b6ef6c1d80499e8dd1f000', 'André Smolianinoff', 'andre.ninoff@gmail.com', '128b71e8c9e4a91a36e17169be20ec960784705e', '', 0, 0, '2017-07-10 14:24:09', 0, '2017-07-10 22:24:09', '2016-11-11 06:00:00', 1),
+(1, 'e78cb21adced6f0787b6ef6c1d80499e8dd1f000', 'André Smolianinoff', 'andre.ninoff@gmail.com', '128b71e8c9e4a91a36e17169be20ec960784705e', '', 0, 0, '2017-07-11 14:53:03', 0, '2017-07-10 22:24:09', '2016-11-11 06:00:00', 1),
 (2, 'c378866dd5a6bf0893c282e3c38990d02fdf4798', 'Administrador', 'admin@apptecbr.com', '601f1889667efaebb33b8c12572835da3f027f78', '', 0, 0, '2017-06-23 10:11:19', 1, '2017-06-23 18:11:19', '2017-05-12 22:17:10', 1);
 
 -- --------------------------------------------------------

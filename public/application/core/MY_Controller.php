@@ -33,8 +33,8 @@ class MY_Controller extends CI_Controller {
 			$this->lang_selected = $this->lang_default;
 		}
 
-		$this->view_data['controller_module'] = '';
-		$this->view_data['action_module'] = '';
+		$this->view_data['controller_module'] = $this->lang_selected = $this->uri->segment(1);
+		$this->view_data['action_module'] = $this->lang_selected = $this->uri->segment(2) ? $this->lang_selected = $this->uri->segment(2) : 'index';
 
 		$this->footer();
 

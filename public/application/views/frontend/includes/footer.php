@@ -161,7 +161,6 @@
 		<?php if ($controller_module  == 'home'): ?>
 
 			<script language="javascript">
-				/*alert("Largura: " + $(window).width() + " - Altura: " + $(window).height());*/
 				window.onload = function(){
 					Application.beforeStart(true);
 					menu_fns.Initialize(true);
@@ -181,7 +180,19 @@
 			$(document).ready(Application.documentReady);
 			</script>
 
-		<?php elseif ($controller_module  == 'newbusiness'): ?>
+		<?php elseif ($controller_module  == 'about' && $action_module  == 'index'): ?>
+
+			<script language="javascript">
+				window.onload = function(){
+					Application.beforeStart(false);
+					menu_fns.Initialize(false);
+					about_us_fns.Initialize();
+					timeline_fns.Initialize('auto', 600);
+				}
+			$(document).ready(Application.documentReady);
+			</script>
+
+		<?php elseif ($controller_module  == 'about' && $action_module  == 'newbusiness'): ?>
 
 			<script language="javascript">
 				window.onload = function(){
@@ -189,48 +200,41 @@
 					menu_fns.Initialize(false);
 					social_stream_sec.Initialize();
 					novos_negocios_fns.Initialize();
-					//pharmaco_vig_fns.Initialize();
-					//$( "#bday-date-picker" ).datepicker("option", "altFormat", "dd-mm-yy");
 				}
 				$(document).ready(Application.documentReady);
 
 			</script>
 
-		<?php elseif ($controller_module  == 'environment'): ?>
+		<?php elseif ($controller_module  == 'about' && $action_module  == 'environment'): ?>
 
 			<script language="javascript">
 				window.onload = function(){
 					Application.beforeStart(false);
 					menu_fns.Initialize(false);
 					social_stream_sec.Initialize();
-					//pharmaco_vig_fns.Initialize();
-					//$( "#bday-date-picker" ).datepicker("option", "altFormat", "dd-mm-yy");
 				}
 				$(document).ready(Application.documentReady);
 
 			</script>
 
-		<?php elseif ($controller_module  == 'quality'): ?>
+		<?php elseif ($controller_module  == 'about' && $action_module  == 'quality'): ?>
 
 			<script language="javascript">
 				window.onload = function(){
 					Application.beforeStart(false);
 					menu_fns.Initialize(false);
 					social_stream_sec.Initialize();
-					//pharmaco_vig_fns.Initialize();
-					//$( "#bday-date-picker" ).datepicker("option", "altFormat", "dd-mm-yy");
 				}
 				$(document).ready(Application.documentReady);
 
 			</script>
 
-		<?php elseif ($controller_module  == 'ourhistory'): ?>
+		<?php elseif ($controller_module  == 'about' && $action_module  == 'ourhistory'): ?>
 
 			<script type="text/javascript">
 				$(document).ready(function(){
 					Application.documentReady();
 					timeline_fns.Initialize();
-					//timeline_fns.documentReady();
 				});
 
 				window.onload = function(){
