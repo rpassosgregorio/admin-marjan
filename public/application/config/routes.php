@@ -78,6 +78,11 @@ foreach($route['url_languages_allowed'] as $lang){
 $route[$base_cms.'/(.+)'] = $cms_dir_default.'/$1';
 
 $route['sobre-nos'] = $public_controller_dir.'/about';
+$route['sobre-nos/qualidade'] = $public_controller_dir.'/about/quality';
+$route['sobre-nos/inovacao'] = $public_controller_dir.'/about/innovation';
+$route['sobre-nos/meio-ambiente'] = $public_controller_dir.'/about/environment';
+$route['sobre-nos/nossa-historia'] = $public_controller_dir.'/about/ourhistory';
+$route['sobre-nos/novos-negocios'] = $public_controller_dir.'/about/newbusiness';
 $route['sobre-nos/novos-negocios'] = $public_controller_dir.'/about/newbusiness';
 $route['responsabilidade-social'] = $public_controller_dir.'/socialresponsability';
 $route['produtos'] = $public_controller_dir.'/products';

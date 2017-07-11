@@ -34,6 +34,7 @@ class MY_Controller extends CI_Controller {
 		}
 
 		$this->view_data['controller_module'] = '';
+		$this->view_data['action_module'] = '';
 
 		$this->footer();
 

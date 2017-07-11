@@ -18,30 +18,35 @@
 	<link href="<?php echo base_url(PATH_ASSETS.'/css/menus.css'); ?>" rel="stylesheet" type="text/css">
 	<link href="<?php echo base_url(PATH_ASSETS.'/css/footer.css'); ?>" rel="stylesheet" type="text/css">
 	<link href="<?php echo base_url(PATH_ASSETS.'/css/libs/dcsns_wall.css'); ?>" rel="stylesheet" type="text/css">
-
-	<?php if ($controller_module == 'contact'): ?>
-		<link href="<?php echo base_url(PATH_ASSETS.'/css/contact.css'); ?>" rel="stylesheet" type="text/css">
-	<?php endif ?>
-
-	<link href="<?php echo base_url(PATH_ASSETS.'/css/home.css'); ?>" rel="stylesheet" type="text/css"> <!-- css customizado da página -->
-	<link href="<?php echo base_url(PATH_ASSETS.'/css/know-more-about-mj.css'); ?>" rel="stylesheet" type="text/css">
 	<link href="<?php echo base_url(PATH_ASSETS.'/css/page-header.css'); ?>" rel="stylesheet" type="text/css">
+
+	<link href="<?php echo base_url(PATH_ASSETS.'/css/contact.css'); ?>" rel="stylesheet" type="text/css"> <!-- css customizado da página -->
+	<link href="<?php echo base_url(PATH_ASSETS.'/css/home.css'); ?>" rel="stylesheet" type="text/css"> <!-- css customizado da página -->
+	<link href="<?php echo base_url(PATH_ASSETS.'/css/sobre-nos-sec-page.css'); ?>" rel="stylesheet" type="text/css"> <!-- css customizado da página -->
+	<link href="<?php echo base_url(PATH_ASSETS.'/css/know-more-about-mj.css'); ?>" rel="stylesheet" type="text/css"> <!-- css customizado da página -->
+	<link href="<?php echo base_url(PATH_ASSETS.'/css/timeline.css'); ?>" rel="stylesheet" type="text/css"> <!-- css customizado da página -->
+	<link href="<?php echo base_url(PATH_ASSETS.'/css/our-history.css'); ?>" rel="stylesheet" type="text/css"> <!-- css customizado da página -->
+	<link href="<?php echo base_url(PATH_ASSETS.'/css/jquery.timeline.css'); ?>" rel="stylesheet" type="text/css"> <!-- css customizado da página -->
+
 
     <script src="<?php echo base_url(PATH_ASSETS.'/js/libs/jquery/jquery-3.2.1.min.js'); ?>"></script>
 	<script src="<?php echo base_url(PATH_ASSETS.'/js/jquery.social.stream.1.6.1.js'); ?>"></script>
 	<script src="<?php echo base_url(PATH_ASSETS.'/js/jquery.social.stream.wall.1.8.js'); ?>"></script>
 	<script src="<?php echo base_url(PATH_ASSETS.'/js/libs/greensock-js/TweenMax.js'); ?>"></script>
 	<script src="<?php echo base_url(PATH_ASSETS.'/js/libs/greensock-js/plugins/ScrollToPlugin.js'); ?>"></script>
-
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-route.js"></script>
-
 	<script src="<?php echo base_url(PATH_ASSETS.'/js/common.js'); ?>"></script>
 	<script src="<?php echo base_url(PATH_ASSETS.'/js/controllers.js'); ?>"></script>
 	<script src="<?php echo base_url(PATH_ASSETS.'/js/application.js'); ?>"></script>
 	<script src="<?php echo base_url(PATH_ASSETS.'/js/menu.js'); ?>"></script>
     <script src="<?php echo base_url(PATH_ASSETS.'/js/slider.js'); ?>"></script>
-	<script src="<?php echo base_url(PATH_ASSETS.'/js/home.js'); ?>"></script> <!-- js customizado da página -->
+
+    <script src="<?php echo base_url(PATH_ASSETS.'/js/home.js'); ?>"></script> <!-- js customizado da página -->
+	<script src="<?php echo base_url(PATH_ASSETS.'/js/novos_negocios.js'); ?>"></script> <!-- js customizado da página -->
+	<script src="<?php echo base_url(PATH_ASSETS.'/js/pharmacovigilance.js'); ?>"></script> <!-- js customizado da página -->
+	<script src="<?php echo base_url(PATH_ASSETS.'/js/timeline.js'); ?>"></script> <!-- js customizado da página -->
+
 </head>
 
 <body class="no-home body-mj" data-base="<?php echo base_url(); ?>">
@@ -112,9 +117,9 @@
 					<ul class="submenu-desc-summary text-left">
 						<li><p><a href="<?php echo base_url('sobre-nos'); ?>">Sobre Nós</a></p></li>
 						<li><p><a href="<?php echo base_url('sobre-nos'); ?>#mission-value-section">Missão</a> | <a href="<?php echo base_url('sobre-nos'); ?>#mission-value-section">Valores</a></p></li>
-						<li><p><a href="<?php echo base_url('sobre-nos'); ?>#inovacao">Inovação</a> | <a href="<?php echo base_url('sobre-nos'); ?>#qualidade">Qualidade</a> | <a href="<?php echo base_url('sobre-nos'); ?>#meio-ambiente">Meio Ambiente</a></p></li>
-						<li><p><a href="<?php echo base_url('sobre-nos'); ?>#novos-negocios">Novos Negócios e Parcerias</a></p></li>
-						<li><p><a href="<?php echo base_url('sobre-nos'); ?>#nossa-historia">Conheça nossa história</a></p></li>
+						<li><p><a href="<?php echo base_url('sobre-nos'); ?>/inovacao">Inovação</a> | <a href="<?php echo base_url('sobre-nos'); ?>/qualidade">Qualidade</a> | <a href="<?php echo base_url('sobre-nos'); ?>/meio-ambiente">Meio Ambiente</a></p></li>
+						<li><p><a href="<?php echo base_url('sobre-nos'); ?>/novos-negocios">Novos Negócios e Parcerias</a></p></li>
+						<li><p><a href="<?php echo base_url('sobre-nos'); ?>/nossa-historia">Conheça nossa história</a></p></li>
 						<li><p><a href="<?php echo base_url('contato'); ?>">Contato</a></p></li>
 					</ul>
   				</div>

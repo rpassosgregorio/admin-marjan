@@ -181,6 +181,65 @@
 			$(document).ready(Application.documentReady);
 			</script>
 
+		<?php elseif ($controller_module  == 'newbusiness'): ?>
+
+			<script language="javascript">
+				window.onload = function(){
+					Application.beforeStart(false);
+					menu_fns.Initialize(false);
+					social_stream_sec.Initialize();
+					novos_negocios_fns.Initialize();
+					//pharmaco_vig_fns.Initialize();
+					//$( "#bday-date-picker" ).datepicker("option", "altFormat", "dd-mm-yy");
+				}
+				$(document).ready(Application.documentReady);
+
+			</script>
+
+		<?php elseif ($controller_module  == 'environment'): ?>
+
+			<script language="javascript">
+				window.onload = function(){
+					Application.beforeStart(false);
+					menu_fns.Initialize(false);
+					social_stream_sec.Initialize();
+					//pharmaco_vig_fns.Initialize();
+					//$( "#bday-date-picker" ).datepicker("option", "altFormat", "dd-mm-yy");
+				}
+				$(document).ready(Application.documentReady);
+
+			</script>
+
+		<?php elseif ($controller_module  == 'quality'): ?>
+
+			<script language="javascript">
+				window.onload = function(){
+					Application.beforeStart(false);
+					menu_fns.Initialize(false);
+					social_stream_sec.Initialize();
+					//pharmaco_vig_fns.Initialize();
+					//$( "#bday-date-picker" ).datepicker("option", "altFormat", "dd-mm-yy");
+				}
+				$(document).ready(Application.documentReady);
+
+			</script>
+
+		<?php elseif ($controller_module  == 'ourhistory'): ?>
+
+			<script type="text/javascript">
+				$(document).ready(function(){
+					Application.documentReady();
+					timeline_fns.Initialize();
+					//timeline_fns.documentReady();
+				});
+
+				window.onload = function(){
+					Application.beforeStart(false);
+					menu_fns.Initialize(false);
+
+				}
+			</script>
+
 		<?php endif ?>
 
 	</body>
