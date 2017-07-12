@@ -30,20 +30,26 @@
 		<link href="<?php echo base_url(PATH_ASSETS.'/css/contact.css'); ?>" rel="stylesheet" type="text/css"> <!-- css customizado da página -->
 
 	<?php elseif ($controller_module  == 'sobre-nos'): ?>
-		
-		<link href="<?php echo base_url(PATH_ASSETS.'/css/timeline.css'); ?>" rel="stylesheet" type="text/css"> <!-- css customizado da página -->		
+
+		<link href="<?php echo base_url(PATH_ASSETS.'/css/timeline.css'); ?>" rel="stylesheet" type="text/css"> <!-- css customizado da página -->
 		<link href="<?php echo base_url(PATH_ASSETS.'/css/jquery.timeline.css'); ?>" rel="stylesheet" type="text/css"> <!-- css customizado da página -->
 		<link href="<?php echo base_url(PATH_ASSETS.'/css/about-us.css'); ?>" rel="stylesheet" type="text/css"> <!-- css customizado da página -->
+		<link href="<?php echo base_url(PATH_ASSETS.'/css/sobre-nos-sec-page.css'); ?>" rel="stylesheet" type="text/css"> <!-- css customizado da página -->
+		<link href="<?php echo base_url(PATH_ASSETS.'/css/our-history.css'); ?>" rel="stylesheet" type="text/css"> <!-- css customizado da página -->
+
+		<link rel="stylesheet" href="<?php echo base_url(PATH_ASSETS.'/js/libs/jquery/ui/jquery-ui-1.12.1.custom/jquery-ui.css'); ?>">
+	    <link rel="stylesheet" href="<?php echo base_url(PATH_ASSETS.'/js/libs/jquery/ui/jquery-ui-1.12.1.custom/jquery-ui.theme.css'); ?>">
+	    <link rel="stylesheet" href="<?php echo base_url(PATH_ASSETS.'/js/libs/jquery/ui/jquery-ui-1.12.1.custom/jquery-ui.structure.css'); ?>">
 
 	<?php elseif ($controller_module  == 'sobre-nos' && $action_module  == 'index'): ?>
 
-	<?php elseif ($controller_module  == 'sobre-nos' && $action_module  == 'newbusiness'): ?>
+	<?php elseif ($controller_module  == 'sobre-nos' && $action_module  == 'novos-negocios'): ?>
 
-	<?php elseif ($controller_module  == 'sobre-nos' && $action_module  == 'environment'): ?>
+	<?php elseif ($controller_module  == 'sobre-nos' && $action_module  == 'meio-ambiente'): ?>
 
-	<?php elseif ($controller_module  == 'sobre-nos' && $action_module  == 'quality'): ?>
+	<?php elseif ($controller_module  == 'sobre-nos' && $action_module  == 'qualidade'): ?>
 
-	<?php elseif ($controller_module  == 'sobre-nos' && $action_module  == 'ourhistory'): ?>
+	<?php elseif ($controller_module  == 'sobre-nos' && $action_module  == 'nossa-historia'): ?>
 
 	<?php elseif ($controller_module  == 'responsabilidade-social'): ?>
 
@@ -80,15 +86,19 @@
 		<script src="<?php echo base_url(PATH_ASSETS.'/js/timeline.js'); ?>"></script> <!-- js customizado da página -->
 		<script src="<?php echo base_url(PATH_ASSETS.'/js/about_us.js'); ?>"></script> <!-- js customizado da página -->
 
+		<script src="<?php echo base_url(PATH_ASSETS.'/js/libs/jquery/ui/jquery-ui-1.12.1.custom/jquery-ui.js'); ?>"></script>
+		<script src="https://cdn.jsdelivr.net/jquery.mask/1.14.10/jquery.mask.min.js"></script>
+		<script src="<?php echo base_url(PATH_ASSETS.'/js/social-feed-secundary.js'); ?>"></script>
+
 	<?php elseif ($controller_module  == 'sobre-nos' && $action_module  == 'index'): ?>
 
-	<?php elseif ($controller_module  == 'sobre-nos' && $action_module  == 'newbusiness'): ?>
+	<?php elseif ($controller_module  == 'sobre-nos' && $action_module  == 'novos-negocios'): ?>
 
-	<?php elseif ($controller_module  == 'sobre-nos' && $action_module  == 'environment'): ?>
+	<?php elseif ($controller_module  == 'sobre-nos' && $action_module  == 'meio-ambiente'): ?>
 
-	<?php elseif ($controller_module  == 'sobre-nos' && $action_module  == 'quality'): ?>
+	<?php elseif ($controller_module  == 'sobre-nos' && $action_module  == 'qualidade'): ?>
 
-	<?php elseif ($controller_module  == 'sobre-nos' && $action_module  == 'ourhistory'): ?>
+	<?php elseif ($controller_module  == 'sobre-nos' && $action_module  == 'nossa-historia'): ?>
 
 	<?php elseif ($controller_module  == 'responsabilidade-social'): ?>
 

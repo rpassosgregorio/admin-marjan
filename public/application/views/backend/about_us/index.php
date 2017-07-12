@@ -132,7 +132,7 @@
 
 								<?php if(isset($object->id)){ ?>
 
-									<div class="admingrid-fullbanner-item" data-thumb-title="<?php echo !empty($object->vision_mission_slide1_title) ? $object->vision_mission_slide1_title : 'Conteúdo 1'; ?>" style="background-image: url( <?php echo MY_Controller_CMS::get_path_file('about', $object->vision_mission_slide1_image); ?> )">
+									<div class="admingrid-fullbanner-item" data-thumb-title="<?php echo !empty($object->vision_mission_slide1_title) ? MY_Controller_CMS::nl2br_str_decode($object->vision_mission_slide1_title) : 'Conteúdo 1'; ?>" style="background-image: url( <?php echo MY_Controller_CMS::get_path_file('about', $object->vision_mission_slide1_image); ?> )">
 										<a href="#" class="admingrid-edit-btn" data-open-modal="#fullbanner1">
 											<span>Clique para editar esse conteúdo</span>
 										</a>
@@ -149,7 +149,7 @@
 										</div>
 									</div>
 
-									<div class="admingrid-fullbanner-item" data-thumb-title="<?php echo !empty($object->vision_mission_slide2_title) ? $object->vision_mission_slide2_title : 'Conteúdo 2'; ?>" style="background-image: url( <?php echo MY_Controller_CMS::get_path_file('about', $object->vision_mission_slide2_image); ?> )">
+									<div class="admingrid-fullbanner-item" data-thumb-title="<?php echo !empty($object->vision_mission_slide2_title) ? MY_Controller_CMS::nl2br_str_decode($object->vision_mission_slide2_title) : 'Conteúdo 2'; ?>" style="background-image: url( <?php echo MY_Controller_CMS::get_path_file('about', $object->vision_mission_slide2_image); ?> )">
 										<a href="#" class="admingrid-edit-btn" data-open-modal="#fullbanner2">
 											<span>Clique para editar esse conteúdo</span>
 										</a>
@@ -167,7 +167,7 @@
 										</div>
 									</div>
 
-									<div class="admingrid-fullbanner-item" data-thumb-title="<?php echo !empty($object->vision_mission_slide3_title) ? $object->vision_mission_slide3_title : 'Conteúdo 3'; ?>" style="background-image: url( <?php echo MY_Controller_CMS::get_path_file('about', $object->vision_mission_slide3_image); ?> )">
+									<div class="admingrid-fullbanner-item" data-thumb-title="<?php echo !empty($object->vision_mission_slide3_title) ? MY_Controller_CMS::nl2br_str_decode($object->vision_mission_slide3_title) : 'Conteúdo 3'; ?>" style="background-image: url( <?php echo MY_Controller_CMS::get_path_file('about', $object->vision_mission_slide3_image); ?> )">
 										<a href="#" class="admingrid-edit-btn" data-open-modal="#fullbanner3">
 											<span>Clique para editar esse conteúdo</span>
 										</a>
@@ -185,7 +185,7 @@
 										</div>
 									</div>
 
-									<div class="admingrid-fullbanner-item" data-thumb-title="<?php echo !empty($object->vision_mission_slide4_title) ? $object->vision_mission_slide4_title : 'Conteúdo 4'; ?>" style="background-image: url( <?php echo MY_Controller_CMS::get_path_file('about', $object->vision_mission_slide4_image); ?> )">
+									<div class="admingrid-fullbanner-item" data-thumb-title="<?php echo !empty($object->vision_mission_slide4_title) ? MY_Controller_CMS::nl2br_str_decode($object->vision_mission_slide4_title): 'Conteúdo 4'; ?>" style="background-image: url( <?php echo MY_Controller_CMS::get_path_file('about', $object->vision_mission_slide4_image); ?> )">
 										<a href="#" class="admingrid-edit-btn" data-open-modal="#fullbanner4">
 											<span>Clique para editar esse conteúdo</span>
 										</a>
@@ -203,7 +203,7 @@
 										</div>
 									</div>
 
-									<div class="admingrid-fullbanner-item" data-thumb-title="<?php echo !empty($object->vision_mission_slide5_title) ? $object->vision_mission_slide5_title : 'Conteúdo 5'; ?>" style="background-image: url( <?php echo MY_Controller_CMS::get_path_file('about', $object->vision_mission_slide5_image); ?> )">
+									<div class="admingrid-fullbanner-item" data-thumb-title="<?php echo !empty($object->vision_mission_slide5_title) ? MY_Controller_CMS::nl2br_str_decode($object->vision_mission_slide5_title) : 'Conteúdo 5'; ?>" style="background-image: url( <?php echo MY_Controller_CMS::get_path_file('about', $object->vision_mission_slide5_image); ?> )">
 										<a href="#" class="admingrid-edit-btn" data-open-modal="#fullbanner5">
 											<span>Clique para editar esse conteúdo</span>
 										</a>
@@ -458,38 +458,6 @@
 
 						<?php if(isset($object->id)){ ?>
 
-							<article class="admingrid-item admingrid-item--5">
-								<a href="#" class="admingrid-edit-btn" data-open-modal="#item5">
-									<span>Clique para editar esse conteúdo</span>
-								</a>
-
-								<div class="admingrid-item-content">
-									<h2><?php echo !empty($object->assistance_programs_title) ? $object->assistance_programs_title : 'Lorem ipsum'; ?></h2>
-									<p><?php echo !empty($object->assistance_programs_text) ? $object->assistance_programs_text : 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, voluptas?'; ?></p>
-								</div>
-
-								<div class="admingrid-item-image" style="background-image: url( <?php echo MY_Controller_CMS::get_path_file('about', $object->assistance_programs_image); ?> )"></div>
-							</article>
-
-						<?php }else{ ?>
-
-							<article class="admingrid-item admingrid-item--5">
-								<a href="#" class="admingrid-edit-btn" data-open-modal="#item5">
-									<span>Clique para editar esse conteúdo</span>
-								</a>
-
-								<div class="admingrid-item-content">
-									<h2>Lorem ipsum</h2>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, voluptas?</p>
-								</div>
-
-								<div class="admingrid-item-image" style="background-image: url(URL_AQUI)"></div>
-							</article>
-
-						<?php } ?>
-
-						<?php if(isset($object->id)){ ?>
-
 							<article class="admingrid-item admingrid-item--6">
 								<a href="#" class="admingrid-edit-btn" data-open-modal="#item6">
 									<span>Clique para editar esse conteúdo</span>
@@ -523,63 +491,6 @@
 							</article>
 
 						<?php } ?>
-
-
-						<?php if(isset($object->id)){ ?>
-
-							<article class="admingrid-item admingrid-item--7">
-								<a href="#" class="admingrid-edit-btn" data-open-modal="#item7">
-									<span>Clique para editar esse conteúdo</span>
-								</a>
-
-								<div class="admingrid-item-image" style="background-image: url( <?php echo MY_Controller_CMS::get_path_file('about', $object->our_products_image); ?> )"></div>
-								<div class="admingrid-item-content">
-									<h2><?php echo !empty($object->our_products_title) ? $object->our_products_title : 'Lorem ipsum'; ?></h2>
-									<p><?php echo !empty($object->our_products_text) ? $object->our_products_text : 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, voluptas?'; ?></p>
-								</div>
-							</article>
-
-						<?php }else{ ?>
-
-							<article class="admingrid-item admingrid-item--7">
-								<a href="#" class="admingrid-edit-btn" data-open-modal="#item7">
-									<span>Clique para editar esse conteúdo</span>
-								</a>
-
-								<div class="admingrid-item-image" style="background-image: url(URL_AQUI)"></div>
-								<div class="admingrid-item-content">
-									<h2>Lorem psum</h2>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, voluptas?</p>
-								</div>
-							</article>
-
-
-
-						<?php } ?>
-
-						<!--
-						<article class="admingrid-marjanmore-title">
-							<a href="#" class="admingrid-edit-btn" data-open-modal="#marjanmore">
-								<span>Clique para editar esse conteúdo</span>
-							</a>
-							<h2>Lorem ipsum dolor sit amet</h2>
-						</article>
-
-
-						<div class="admingrid-marjanmore-items">
-
-							<?php for($i = 0; $i < 4; $i++) { ?>
-								<article class="admingrid-marjanmore-item admingrid-marjanmore-item--<?php echo $i+1; ?>">
-									<a href="#" class="admingrid-edit-btn" data-open-modal="#marjanmore<?php echo $i+1; ?>">
-										<span>Clique para editar esse conteúdo</span>
-									</a>
-									<img src="http://i.imgur.com/9sbWBb5.jpg" alt="">
-									<p>Lorem ipsum</p>
-								</article>
-							<?php } ?>
-
-						</div>
-						-->
 
 
 						<!-- MODALS -->
@@ -705,14 +616,14 @@
 										<div class="col-xs-6">
 											<div class="form-group">
 												<label>Texto Esquerda</label>
-												<textarea class="form-control" name="principal_left_text" placeholder="Texto esquerda"><?php echo isset($object->id) ? strip_tags($object->principal_left_text) : ''; ?></textarea>
+												<textarea class="form-control" name="principal_left_text" placeholder="..."><?php echo isset($object->id) ? MY_Controller_CMS::nl2br_str_decode($object->principal_left_text) : ''; ?></textarea>
 											</div>
 										</div>
 
 										<div class="col-xs-6">
 											<div class="form-group">
 												<label>Texto direita</label>
-												<textarea class="form-control" name="principal_right_text" placeholder="Texto direita"><?php echo isset($object->id) ? strip_tags($object->principal_right_text) : ''; ?></textarea>
+												<textarea class="form-control" name="principal_right_text" placeholder="..."><?php echo isset($object->id) ? MY_Controller_CMS::nl2br_str_decode($object->principal_right_text) : ''; ?></textarea>
 											</div>
 										</div>
 									</div>
@@ -767,7 +678,7 @@
 										<div class="col-xs-6">
 											<div class="form-group">
 												<label>Título Central</label>
-												<input type="text" class="form-control" name="company_text" placeholder="Nossa empresa" value="<?php echo isset($object->id) ? $object->company_text : ''; ?>">
+												<textarea class="form-control" name="company_text" placeholder="..."><?php echo isset($object->id) ? MY_Controller_CMS::nl2br_str_decode($object->company_text) : ''; ?></textarea>
 											</div>
 										</div>
 
@@ -777,13 +688,13 @@
 										<div class="col-xs-6">
 											<div class="form-group">
 												<label>Título Esquerda</label>
-												<input type="text" class="form-control" name="mission_section_title" placeholder="Missão Título" value="<?php echo isset($object->id) ? $object->mission_section_title : ''; ?>">
+												<textarea class="form-control" name="mission_section_title" placeholder="..."><?php echo isset($object->id) ? MY_Controller_CMS::nl2br_str_decode($object->mission_section_title) : ''; ?></textarea>
 											</div>
 										</div>
 										<div class="col-xs-6">
 											<div class="form-group">
 												<label>Texto Esquerda</label>
-												<textarea class="form-control" name="mission_section_text" placeholder="Missão Texto"><?php echo isset($object->id) ? strip_tags($object->mission_section_text) : ''; ?></textarea>
+												<textarea class="form-control" name="mission_section_text" placeholder="Missão Texto"><?php echo isset($object->id) ? MY_Controller_CMS::nl2br_str_decode($object->mission_section_text) : ''; ?></textarea>
 											</div>
 										</div>
 									</div>
@@ -792,13 +703,13 @@
 										<div class="col-xs-6">
 											<div class="form-group">
 												<label>Título Direita</label>
-												<input type="text" class="form-control" name="vision_section_title" placeholder="Visão Título" value="<?php echo isset($object->id) ? $object->vision_section_title : ''; ?>">
+												<textarea class="form-control" name="vision_section_title" placeholder="..."><?php echo isset($object->id) ? MY_Controller_CMS::nl2br_str_decode($object->vision_section_title) : ''; ?></textarea>
 											</div>
 										</div>
 										<div class="col-xs-6">
 											<div class="form-group">
 												<label>Texto Direita</label>
-												<textarea class="form-control" name="vision_section_text" placeholder="Visão Texto"><?php echo isset($object->id) ? strip_tags($object->vision_section_text) : ''; ?></textarea>
+												<textarea class="form-control" name="vision_section_text" placeholder="Visão Texto"><?php echo isset($object->id) ? MY_Controller_CMS::nl2br_str_decode($object->vision_section_text) : ''; ?></textarea>
 											</div>
 										</div>
 									</div>
@@ -807,7 +718,7 @@
 										<div class="col-xs-12">
 											<div class="form-group">
 												<label>Frase destaque</label>
-												<textarea class="form-control" name="vision_mission_catchphrase" placeholder="Visão Texto"><?php echo isset($object->id) ? strip_tags($object->vision_mission_catchphrase) : ''; ?></textarea>
+												<textarea class="form-control" name="vision_mission_catchphrase" placeholder="Visão Texto"><?php echo isset($object->id) ? MY_Controller_CMS::nl2br_str_decode($object->vision_mission_catchphrase) : ''; ?></textarea>
 											</div>
 										</div>
 									</div>
@@ -905,14 +816,14 @@
 										<div class="col-xs-6">
 											<div class="form-group">
 												<label>Título</label>
-												<input type="text" class="form-control" name="vision_mission_slide1_title" placeholder="Título" value="<?php echo isset($object->id) ? $object->vision_mission_slide1_title : ''; ?>">
+												<textarea class="form-control" name="vision_mission_slide1_title" placeholder="..."><?php echo isset($object->id) ? MY_Controller_CMS::nl2br_str_decode($object->vision_mission_slide1_title) : ''; ?></textarea>
 											</div>
 										</div>
 
 										<div class="col-xs-6">
 											<div class="form-group">
 												<label>Texto direita</label>
-												<textarea class="form-control" name="vision_mission_slide1_text" placeholder="Texto"><?php echo isset($object->id) ? strip_tags($object->vision_mission_slide1_text) : ''; ?></textarea>
+												<textarea class="form-control" name="vision_mission_slide1_text" placeholder="Texto"><?php echo isset($object->id) ? MY_Controller_CMS::nl2br_str_decode($object->vision_mission_slide1_text) : ''; ?></textarea>
 											</div>
 										</div>
 									</div>
@@ -921,7 +832,7 @@
 										<div class="col-xs-6">
 											<div class="form-group">
 												<label>Botão texto</label>
-												<input type="text" class="form-control" name="vision_mission_slide1_button_text" placeholder="Botão Texto" value="<?php echo isset($object->id) ? $object->vision_mission_slide1_button_text : ''; ?>">
+												<textarea class="form-control" name="vision_mission_slide1_button_text" placeholder="..."><?php echo isset($object->id) ? MY_Controller_CMS::nl2br_str_decode($object->vision_mission_slide1_button_text) : ''; ?></textarea>
 											</div>
 										</div>
 
@@ -1024,14 +935,14 @@
 										<div class="col-xs-6">
 											<div class="form-group">
 												<label>Título</label>
-												<input type="text" class="form-control" name="vision_mission_slide2_title" placeholder="Título" value="<?php echo isset($object->id) ? $object->vision_mission_slide2_title : ''; ?>">
+												<textarea class="form-control" name="vision_mission_slide2_title" placeholder="..."><?php echo isset($object->id) ? MY_Controller_CMS::nl2br_str_decode($object->vision_mission_slide2_title) : ''; ?></textarea>
 											</div>
 										</div>
 
 										<div class="col-xs-6">
 											<div class="form-group">
 												<label>Texto direita</label>
-												<textarea class="form-control" name="vision_mission_slide2_text" placeholder="Texto"><?php echo isset($object->id) ? strip_tags($object->vision_mission_slide2_text) : ''; ?></textarea>
+												<textarea class="form-control" name="vision_mission_slide2_text" placeholder="Texto"><?php echo isset($object->id) ? MY_Controller_CMS::nl2br_str_decode($object->vision_mission_slide2_text) : ''; ?></textarea>
 											</div>
 										</div>
 									</div>
@@ -1040,7 +951,7 @@
 										<div class="col-xs-6">
 											<div class="form-group">
 												<label>Botão texto</label>
-												<input type="text" class="form-control" name="vision_mission_slide2_button_text" placeholder="Botão Texto" value="<?php echo isset($object->id) ? $object->vision_mission_slide2_button_text : ''; ?>">
+												<textarea class="form-control" name="vision_mission_slide2_button_text" placeholder="..."><?php echo isset($object->id) ? MY_Controller_CMS::nl2br_str_decode($object->vision_mission_slide2_button_text) : ''; ?></textarea>
 											</div>
 										</div>
 
@@ -1143,14 +1054,14 @@
 										<div class="col-xs-6">
 											<div class="form-group">
 												<label>Título</label>
-												<input type="text" class="form-control" name="vision_mission_slide3_title" placeholder="Título" value="<?php echo isset($object->id) ? $object->vision_mission_slide3_title : ''; ?>">
+												<textarea class="form-control" name="vision_mission_slide3_title" placeholder="..."><?php echo isset($object->id) ? MY_Controller_CMS::nl2br_str_decode($object->vision_mission_slide3_title) : ''; ?></textarea>
 											</div>
 										</div>
 
 										<div class="col-xs-6">
 											<div class="form-group">
 												<label>Texto direita</label>
-												<textarea class="form-control" name="vision_mission_slide3_text" placeholder="Texto"><?php echo isset($object->id) ? strip_tags($object->vision_mission_slide3_text) : ''; ?></textarea>
+												<textarea class="form-control" name="vision_mission_slide3_text" placeholder="Texto"><?php echo isset($object->id) ? MY_Controller_CMS::nl2br_str_decode($object->vision_mission_slide3_text) : ''; ?></textarea>
 											</div>
 										</div>
 									</div>
@@ -1159,7 +1070,7 @@
 										<div class="col-xs-6">
 											<div class="form-group">
 												<label>Botão texto</label>
-												<input type="text" class="form-control" name="vision_mission_slide3_button_text" placeholder="Botão Texto" value="<?php echo isset($object->id) ? $object->vision_mission_slide3_button_text : ''; ?>">
+												<textarea class="form-control" name="vision_mission_slide3_button_text" placeholder="..."><?php echo isset($object->id) ? MY_Controller_CMS::nl2br_str_decode($object->vision_mission_slide3_button_text) : ''; ?></textarea>
 											</div>
 										</div>
 
@@ -1262,14 +1173,14 @@
 										<div class="col-xs-6">
 											<div class="form-group">
 												<label>Título</label>
-												<input type="text" class="form-control" name="vision_mission_slide4_title" placeholder="Título" value="<?php echo isset($object->id) ? $object->vision_mission_slide4_title : ''; ?>">
+												<textarea class="form-control" name="vision_mission_slide4_title" placeholder="..."><?php echo isset($object->id) ? MY_Controller_CMS::nl2br_str_decode($object->vision_mission_slide4_title) : ''; ?></textarea>
 											</div>
 										</div>
 
 										<div class="col-xs-6">
 											<div class="form-group">
 												<label>Texto direita</label>
-												<textarea class="form-control" name="vision_mission_slide4_text" placeholder="Texto"><?php echo isset($object->id) ? strip_tags($object->vision_mission_slide4_text) : ''; ?></textarea>
+												<textarea class="form-control" name="vision_mission_slide4_text" placeholder="Texto"><?php echo isset($object->id) ? MY_Controller_CMS::nl2br_str_decode($object->vision_mission_slide4_text) : ''; ?></textarea>
 											</div>
 										</div>
 									</div>
@@ -1278,7 +1189,7 @@
 										<div class="col-xs-6">
 											<div class="form-group">
 												<label>Botão texto</label>
-												<input type="text" class="form-control" name="vision_mission_slide4_button_text" placeholder="Botão Texto" value="<?php echo isset($object->id) ? $object->vision_mission_slide4_button_text : ''; ?>">
+												<textarea class="form-control" name="vision_mission_slide4_button_text" placeholder="..."><?php echo isset($object->id) ? MY_Controller_CMS::nl2br_str_decode($object->vision_mission_slide4_button_text) : ''; ?></textarea>
 											</div>
 										</div>
 
@@ -1381,14 +1292,14 @@
 										<div class="col-xs-6">
 											<div class="form-group">
 												<label>Título</label>
-												<input type="text" class="form-control" name="vision_mission_slide5_title" placeholder="Título" value="<?php echo isset($object->id) ? $object->vision_mission_slide5_title : ''; ?>">
+												<textarea class="form-control" name="vision_mission_slide5_title" placeholder="..."><?php echo isset($object->id) ? MY_Controller_CMS::nl2br_str_decode($object->vision_mission_slide5_title) : ''; ?></textarea>
 											</div>
 										</div>
 
 										<div class="col-xs-6">
 											<div class="form-group">
 												<label>Texto direita</label>
-												<textarea class="form-control" name="vision_mission_slide5_text" placeholder="Texto"><?php echo isset($object->id) ? strip_tags($object->vision_mission_slide5_text) : ''; ?></textarea>
+												<textarea class="form-control" name="vision_mission_slide5_text" placeholder="Texto"><?php echo isset($object->id) ? MY_Controller_CMS::nl2br_str_decode($object->vision_mission_slide5_text) : ''; ?></textarea>
 											</div>
 										</div>
 									</div>
@@ -1397,7 +1308,7 @@
 										<div class="col-xs-6">
 											<div class="form-group">
 												<label>Botão texto</label>
-												<input type="text" class="form-control" name="vision_mission_slide5_button_text" placeholder="Botão Texto" value="<?php echo isset($object->id) ? $object->vision_mission_slide5_button_text : ''; ?>">
+												<textarea class="form-control" name="vision_mission_slide5_button_text" placeholder="..."><?php echo isset($object->id) ? MY_Controller_CMS::nl2br_str_decode($object->vision_mission_slide5_button_text) : ''; ?></textarea>
 											</div>
 										</div>
 
@@ -1429,13 +1340,13 @@
 										<div class="col-xs-6">
 											<div class="form-group">
 												<label>Título</label>
-												<input type="text" class="form-control" name="who_we_are_title" placeholder="Quem somos" value="<?php echo isset($object->id) ? $object->who_we_are_title : ''; ?>">
+												<textarea class="form-control" name="who_we_are_title" placeholder="..."><?php echo isset($object->id) ? MY_Controller_CMS::nl2br_str_decode($object->who_we_are_title) : ''; ?></textarea>
 											</div>
 										</div>
 										<div class="col-xs-6">
 											<div class="form-group">
 												<label>Texto</label>
-												<textarea class="form-control" name="who_we_are_text"><?php echo isset($object->id) ? strip_tags($object->who_we_are_text) : ''; ?></textarea>
+												<textarea class="form-control" name="who_we_are_text"><?php echo isset($object->id) ? MY_Controller_CMS::nl2br_str_decode($object->who_we_are_text) : ''; ?></textarea>
 											</div>
 										</div>
 
@@ -1461,7 +1372,7 @@
 										<div class="col-xs-6">
 											<div class="form-group">
 												<label>Título</label>
-												<input type="text" class="form-control" name="who_we_are1_title" value="<?php echo isset($object->id) ? $object->who_we_are1_title : ''; ?>">
+												<textarea class="form-control" name="who_we_are1_title" placeholder="..."><?php echo isset($object->id) ? MY_Controller_CMS::nl2br_str_decode($object->who_we_are1_title) : ''; ?></textarea>
 											</div>
 										</div>
 									</div>
@@ -1491,7 +1402,7 @@
 										<div class="col-xs-6">
 											<div class="form-group">
 												<label>Texto rodapé</label>
-												<input type="text" class="form-control" name="who_we_are1_box_text" value="<?php echo isset($object->id) ? $object->who_we_are1_box_text : ''; ?>">
+												<textarea class="form-control" name="who_we_are1_box_text" placeholder="..."><?php echo isset($object->id) ? MY_Controller_CMS::nl2br_str_decode($object->who_we_are1_box_text) : ''; ?></textarea>
 											</div>
 										</div>
 									</div>
@@ -1514,7 +1425,7 @@
 										<div class="col-xs-6">
 											<div class="form-group">
 												<label>Título</label>
-												<input type="text" class="form-control" name="who_we_are2_title" value="<?php echo isset($object->id) ? $object->who_we_are2_title : ''; ?>">
+												<textarea class="form-control" name="who_we_are2_title" placeholder="..."><?php echo isset($object->id) ? MY_Controller_CMS::nl2br_str_decode($object->who_we_are2_title) : ''; ?></textarea>
 											</div>
 										</div>
 									</div>
@@ -1544,7 +1455,7 @@
 										<div class="col-xs-6">
 											<div class="form-group">
 												<label>Texto rodapé</label>
-												<input type="text" class="form-control" name="who_we_are2_box_text" value="<?php echo isset($object->id) ? $object->who_we_are2_box_text : ''; ?>">
+												<textarea class="form-control" name="who_we_are2_box_text" placeholder="..."><?php echo isset($object->id) ? MY_Controller_CMS::nl2br_str_decode($object->who_we_are2_box_text) : ''; ?></textarea>
 											</div>
 										</div>
 									</div>
@@ -1567,7 +1478,7 @@
 										<div class="col-xs-6">
 											<div class="form-group">
 												<label>Título</label>
-												<input type="text" class="form-control" name="who_we_are3_title" value="<?php echo isset($object->id) ? $object->who_we_are3_title : ''; ?>">
+												<textarea class="form-control" name="who_we_are3_title" placeholder="..."><?php echo isset($object->id) ? MY_Controller_CMS::nl2br_str_decode($object->who_we_are3_title) : ''; ?></textarea>
 											</div>
 										</div>
 									</div>
@@ -1597,7 +1508,7 @@
 										<div class="col-xs-6">
 											<div class="form-group">
 												<label>Texto rodapé</label>
-												<input type="text" class="form-control" name="who_we_are3_box_text" value="<?php echo isset($object->id) ? $object->who_we_are3_box_text : ''; ?>">
+												<textarea class="form-control" name="who_we_are3_box_text" placeholder="..."><?php echo isset($object->id) ? MY_Controller_CMS::nl2br_str_decode($object->who_we_are3_box_text) : ''; ?></textarea>
 											</div>
 										</div>
 									</div>
@@ -1620,7 +1531,7 @@
 										<div class="col-xs-6">
 											<div class="form-group">
 												<label>Título</label>
-												<input type="text" class="form-control" name="who_we_are4_title" value="<?php echo isset($object->id) ? $object->who_we_are4_title : ''; ?>">
+												<textarea class="form-control" name="who_we_are4_title" placeholder="..."><?php echo isset($object->id) ? MY_Controller_CMS::nl2br_str_decode($object->who_we_are4_title) : ''; ?></textarea>
 											</div>
 										</div>
 									</div>
@@ -1650,7 +1561,7 @@
 										<div class="col-xs-6">
 											<div class="form-group">
 												<label>Texto rodapé</label>
-												<input type="text" class="form-control" name="who_we_are4_box_text" value="<?php echo isset($object->id) ? $object->who_we_are4_box_text : ''; ?>">
+												<textarea class="form-control" name="who_we_are4_box_text" placeholder="..."><?php echo isset($object->id) ? MY_Controller_CMS::nl2br_str_decode($object->who_we_are4_box_text) : ''; ?></textarea>
 											</div>
 										</div>
 									</div>
@@ -1747,13 +1658,13 @@
 										<div class="col-xs-6">
 											<div class="form-group">
 												<label>Título</label>
-												<input type="text" class="form-control" name="social_responsability_title" value="<?php echo isset($object->id) ? $object->social_responsability_title : ''; ?>">
+												<textarea class="form-control" name="social_responsability_title" placeholder="..."><?php echo isset($object->id) ? MY_Controller_CMS::nl2br_str_decode($object->social_responsability_title) : ''; ?></textarea>
 											</div>
 										</div>
 										<div class="col-xs-6">
 											<div class="form-group">
 												<label>Texto</label>
-												<textarea class="form-control" name="social_responsability_text"><?php echo isset($object->id) ? strip_tags($object->social_responsability_text) : ''; ?></textarea>
+												<textarea class="form-control" name="social_responsability_text"><?php echo isset($object->id) ? MY_Controller_CMS::nl2br_str_decode($object->social_responsability_text) : ''; ?></textarea>
 											</div>
 										</div>
 									</div>
@@ -1762,7 +1673,7 @@
 										<div class="col-xs-6">
 											<div class="form-group">
 												<label>Botão texto</label>
-												<input type="text" class="form-control" name="social_responsability_button_text" value="<?php echo isset($object->id) ? $object->social_responsability_button_text : ''; ?>">
+												<textarea class="form-control" name="social_responsability_button_text" placeholder="..."><?php echo isset($object->id) ? MY_Controller_CMS::nl2br_str_decode($object->social_responsability_button_text) : ''; ?></textarea>
 											</div>
 										</div>
 									</div>
@@ -1862,13 +1773,13 @@
 										<div class="col-xs-6">
 											<div class="form-group">
 												<label>Título</label>
-												<input type="text" class="form-control" name="assistance_programs_title" value="<?php echo isset($object->id) ? $object->assistance_programs_title : ''; ?>">
+												<textarea class="form-control" name="assistance_programs_title" placeholder="..."><?php echo isset($object->id) ? MY_Controller_CMS::nl2br_str_decode($object->assistance_programs_title) : ''; ?></textarea>
 											</div>
 										</div>
 										<div class="col-xs-6">
 											<div class="form-group">
 												<label>Texto</label>
-												<textarea class="form-control" name="assistance_programs_text"><?php echo isset($object->id) ? strip_tags($object->assistance_programs_text) : ''; ?></textarea>
+												<textarea class="form-control" name="assistance_programs_text"><?php echo isset($object->id) ? MY_Controller_CMS::nl2br_str_decode($object->assistance_programs_text) : ''; ?></textarea>
 											</div>
 										</div>
 									</div>
@@ -1966,13 +1877,13 @@
 										<div class="col-xs-6">
 											<div class="form-group">
 												<label>Título</label>
-												<input type="text" class="form-control" name="our_history_programs_title" value="<?php echo isset($object->id) ? $object->our_history_programs_title : ''; ?>">
+												<textarea class="form-control" name="our_history_programs_title" placeholder="..."><?php echo isset($object->id) ? MY_Controller_CMS::nl2br_str_decode($object->our_history_programs_title) : ''; ?></textarea>
 											</div>
 										</div>
 										<div class="col-xs-6">
 											<div class="form-group">
 												<label>Texto</label>
-												<textarea class="form-control" name="our_history_programs_text"><?php echo isset($object->id) ? strip_tags($object->our_history_programs_text) : ''; ?></textarea>
+												<textarea class="form-control" name="our_history_programs_text"><?php echo isset($object->id) ? MY_Controller_CMS::nl2br_str_decode($object->our_history_programs_text) : ''; ?></textarea>
 											</div>
 										</div>
 									</div>
@@ -1981,13 +1892,13 @@
 										<div class="col-xs-6">
 											<div class="form-group">
 												<label>Botão texto</label>
-												<input type="text" class="form-control" name="our_history_button_text" value="<?php echo isset($object->id) ? $object->our_history_button_text : ''; ?>">
+												<textarea class="form-control" name="our_history_button_text" placeholder="..."><?php echo isset($object->id) ? MY_Controller_CMS::nl2br_str_decode($object->our_history_button_text) : ''; ?></textarea>
 											</div>
 										</div>
 										<div class="col-xs-6">
 											<div class="form-group">
 												<label>Texto rodapé</label>
-												<input type="text" class="form-control" name="our_history_low_title" value="<?php echo isset($object->id) ? $object->our_history_low_title : ''; ?>">
+												<textarea class="form-control" name="our_history_low_title" placeholder="..."><?php echo isset($object->id) ? MY_Controller_CMS::nl2br_str_decode($object->our_history_low_title) : ''; ?></textarea>
 											</div>
 										</div>
 									</div>
@@ -2085,13 +1996,13 @@
 										<div class="col-xs-6">
 											<div class="form-group">
 												<label>Título</label>
-												<input type="text" class="form-control" name="our_products_title" value="<?php echo isset($object->id) ? $object->our_products_title : ''; ?>">
+												<textarea class="form-control" name="our_products_title" placeholder="..."><?php echo isset($object->id) ? MY_Controller_CMS::nl2br_str_decode($object->our_products_title) : ''; ?></textarea>
 											</div>
 										</div>
 										<div class="col-xs-6">
 											<div class="form-group">
 												<label>Texto</label>
-												<textarea class="form-control" name="our_products_text"><?php echo isset($object->id) ? strip_tags($object->our_products_text) : ''; ?></textarea>
+												<textarea class="form-control" name="our_products_text"><?php echo isset($object->id) ? MY_Controller_CMS::nl2br_str_decode($object->our_products_text) : ''; ?></textarea>
 											</div>
 										</div>
 									</div>
@@ -2117,7 +2028,7 @@
 										<div class="col-xs-6">
 											<div class="form-group">
 												<label>Título</label>
-												<input type="text" class="form-control" name="know_more_section_title" value="<?php echo isset($object->id) ? $object->our_products_title : ''; ?>">
+												<textarea class="form-control" name="know_more_section_title" placeholder="..."><?php echo isset($object->id) ? MY_Controller_CMS::nl2br_str_decode($object->know_more_section_title) : ''; ?></textarea>
 											</div>
 										</div>
 

@@ -184,14 +184,14 @@
 										<div class="col-xs-6">
 											<div class="form-group">
 												<label>Texto Esquerda</label>
-												<textarea class="form-control" name="principal_left_text" placeholder="Texto esquerda"><?php echo isset($object->id) ? strip_tags($object->principal_left_text) : ''; ?></textarea>
+												<textarea class="form-control" name="principal_left_text" placeholder="Texto esquerda"><?php echo isset($object->id) ? MY_Controller_CMS::nl2br_str_decode($object->principal_left_text) : ''; ?></textarea>
 											</div>
 										</div>
 
 										<div class="col-xs-6">
 											<div class="form-group">
 												<label>Texto direita</label>
-												<textarea class="form-control" name="principal_right_text" placeholder="Texto direita"><?php echo isset($object->id) ? strip_tags($object->principal_right_text) : ''; ?></textarea>
+												<textarea class="form-control" name="principal_right_text" placeholder="Texto direita"><?php echo isset($object->id) ? MY_Controller_CMS::nl2br_str_decode($object->principal_right_text) : ''; ?></textarea>
 											</div>
 										</div>
 									</div>
@@ -284,7 +284,7 @@
 										<div class="col-xs-6">
 											<div class="form-group">
 												<label>Botão texto</label>
-												<textarea class="form-control" name="button_text" placeholder=""><?php echo isset($object->id) ? strip_tags($object->button_text) : ''; ?></textarea>
+												<textarea class="form-control" name="button_text" placeholder=""><?php echo isset($object->id) ? MY_Controller_CMS::nl2br_str_decode($object->button_text) : ''; ?></textarea>
 											</div>
 										</div>
 									</div>

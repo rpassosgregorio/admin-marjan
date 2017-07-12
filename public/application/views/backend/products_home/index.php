@@ -334,7 +334,7 @@
 
 										<div class="form-group">
 											<label>Texto</label>
-											<textarea class="form-control" name="products_text" placeholder="...."><?php echo isset($object->id) && $object->products_text ? strip_tags($object->products_text) : '' ?></textarea>
+											<textarea class="form-control" name="products_text" placeholder="...."><?php echo isset($object->id) && $object->products_text ? MY_Controller_CMS::nl2br_str_decode($object->products_text) : '' ?></textarea>
 										</div>
 
 									</div>
@@ -358,7 +358,7 @@
 
 										<div class="form-group">
 											<label>Texto</label>
-											<textarea class="form-control" name="search_indicator" placeholder="...."><?php echo isset($object->id) && $object->search_indicator ? strip_tags($object->search_indicator) : '' ?></textarea>
+											<textarea class="form-control" name="search_indicator" placeholder="...."><?php echo isset($object->id) && $object->search_indicator ? MY_Controller_CMS::nl2br_str_decode($object->search_indicator) : '' ?></textarea>
 										</div>
 
 									</div>
@@ -382,7 +382,7 @@
 
 										<div class="form-group">
 											<label>Texto</label>
-											<textarea class="form-control" name="healthcare_professional_text" placeholder="...."><?php echo isset($object->id) && $object->healthcare_professional_text ? strip_tags($object->healthcare_professional_text) : '' ?></textarea>
+											<textarea class="form-control" name="healthcare_professional_text" placeholder="...."><?php echo isset($object->id) && $object->healthcare_professional_text ? MY_Controller_CMS::nl2br_str_decode($object->healthcare_professional_text) : '' ?></textarea>
 										</div>
 
 									</div>
@@ -435,7 +435,7 @@
 										<div class="col-xs-6">
 											<div class="form-group">
 												<label>Texto</label>
-												<textarea class="form-control" name="filter_under_prescription_text" placeholder="...."><?php echo isset($object->id) && $object->filter_under_prescription_text ? strip_tags($object->filter_under_prescription_text) : '' ?></textarea>
+												<textarea class="form-control" name="filter_under_prescription_text" placeholder="...."><?php echo isset($object->id) && $object->filter_under_prescription_text ? MY_Controller_CMS::nl2br_str_decode($object->filter_under_prescription_text) : '' ?></textarea>
 											</div>
 										</div>
 									</div>
@@ -474,7 +474,7 @@
 										<div class="col-xs-6">
 											<div class="form-group">
 												<label>Texto</label>
-												<textarea class="form-control" name="filter_no_prescription_text" placeholder="...."><?php echo isset($object->id) && $object->filter_no_prescription_text ? strip_tags($object->filter_no_prescription_text) : '' ?></textarea>
+												<textarea class="form-control" name="filter_no_prescription_text" placeholder="...."><?php echo isset($object->id) && $object->filter_no_prescription_text ? MY_Controller_CMS::nl2br_str_decode($object->filter_no_prescription_text) : '' ?></textarea>
 											</div>
 										</div>
 									</div>
@@ -513,7 +513,7 @@
 										<div class="col-xs-6">
 											<div class="form-group">
 												<label>Texto</label>
-												<textarea class="form-control" name="filter_foods_text" placeholder="...."><?php echo isset($object->id) && $object->filter_foods_text ? strip_tags($object->filter_foods_text) : '' ?></textarea>
+												<textarea class="form-control" name="filter_foods_text" placeholder="...."><?php echo isset($object->id) && $object->filter_foods_text ? MY_Controller_CMS::nl2br_str_decode($object->filter_foods_text) : '' ?></textarea>
 											</div>
 										</div>
 									</div>
@@ -554,13 +554,13 @@
 										<div class="col-xs-6">
 											<div class="form-group">
 												<label>Título</label>
-												<textarea class="form-control" name="healthcare_professional_box_title" placeholder="...."><?php echo isset($object->id) && $object->healthcare_professional_box_title ? strip_tags($object->healthcare_professional_box_title) : '' ?></textarea>
+												<textarea class="form-control" name="healthcare_professional_box_title" placeholder="...."><?php echo isset($object->id) && $object->healthcare_professional_box_title ? MY_Controller_CMS::nl2br_str_decode($object->healthcare_professional_box_title) : '' ?></textarea>
 											</div>
 										</div>
 										<div class="col-xs-6">
 											<div class="form-group">
 												<label>Subtítulo</label>
-												<textarea class="form-control" name="healthcare_professional_box_subtitle" placeholder="...."><?php echo isset($object->id) && $object->healthcare_professional_box_subtitle ? strip_tags($object->healthcare_professional_box_subtitle) : '' ?></textarea>
+												<textarea class="form-control" name="healthcare_professional_box_subtitle" placeholder="...."><?php echo isset($object->id) && $object->healthcare_professional_box_subtitle ? MY_Controller_CMS::nl2br_str_decode($object->healthcare_professional_box_subtitle) : '' ?></textarea>
 											</div>
 										</div>
 									</div>
@@ -569,7 +569,7 @@
 										<div class="col-xs-6">
 											<div class="form-group">
 												<label>Texto do botão</label>
-												<textarea class="form-control" name="healthcare_professional_box_btn_text" placeholder="...."><?php echo isset($object->id) && $object->healthcare_professional_box_btn_text ? strip_tags($object->healthcare_professional_box_btn_text) : '' ?></textarea>
+												<textarea class="form-control" name="healthcare_professional_box_btn_text" placeholder="...."><?php echo isset($object->id) && $object->healthcare_professional_box_btn_text ? MY_Controller_CMS::nl2br_str_decode($object->healthcare_professional_box_btn_text) : '' ?></textarea>
 											</div>
 										</div>
 									</div>

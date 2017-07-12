@@ -414,14 +414,14 @@
 										<div class="col-xs-6">
 											<div class="form-group">
 												<label>Texto Esquerda</label>
-												<textarea class="form-control" name="principal_left_text" placeholder="Texto esquerda"><?php echo isset($object->id) ? strip_tags($object->principal_left_text) : ''; ?></textarea>
+												<textarea class="form-control" name="principal_left_text" placeholder="Texto esquerda"><?php echo isset($object->id) ? MY_Controller_CMS::nl2br_str_decode($object->principal_left_text) : ''; ?></textarea>
 											</div>
 										</div>
 
 										<div class="col-xs-6">
 											<div class="form-group">
 												<label>Texto direita</label>
-												<textarea class="form-control" name="principal_right_text" placeholder="Texto direita"><?php echo isset($object->id) ? strip_tags($object->principal_right_text) : ''; ?></textarea>
+												<textarea class="form-control" name="principal_right_text" placeholder="Texto direita"><?php echo isset($object->id) ? MY_Controller_CMS::nl2br_str_decode($object->principal_right_text) : ''; ?></textarea>
 											</div>
 										</div>
 									</div>
@@ -477,7 +477,7 @@
 										<div class="col-xs-12">
 											<div class="form-group">
 												<label>Texto</label>
-												<textarea class="form-control" name="call_text_secion" placeholder="Missão Texto"><?php echo isset($object->id) ? strip_tags($object->call_text_secion) : ''; ?></textarea>
+												<textarea class="form-control" name="call_text_secion" placeholder="Missão Texto"><?php echo isset($object->id) ? MY_Controller_CMS::nl2br_str_decode($object->call_text_secion) : ''; ?></textarea>
 											</div>
 										</div>
 									</div>
@@ -503,7 +503,7 @@
 										<div class="col-xs-6">
 											<div class="form-group">
 												<label>Título da Campnha</label>
-												<input type="text" class="form-control" name="section1_title" value="<?php echo isset($object->id) ? strip_tags($object->section1_title) : ''; ?>">
+												<input type="text" class="form-control" name="section1_title" value="<?php echo isset($object->id) ? MY_Controller_CMS::nl2br_str_decode($object->section1_title) : ''; ?>">
 											</div>
 										</div>
 
@@ -626,7 +626,7 @@
 										<div class="col-xs-12">
 											<div class="form-group">
 												<label>Texto</label>
-												<textarea class="form-control" name="section1_short_text" placeholder="Texto esquerda"><?php echo isset($object->id) ? strip_tags($object->section1_short_text) : ''; ?></textarea>
+												<textarea class="form-control" name="section1_short_text" placeholder="Texto esquerda"><?php echo isset($object->id) ? MY_Controller_CMS::nl2br_str_decode($object->section1_short_text) : ''; ?></textarea>
 											</div>
 										</div>
 
@@ -637,14 +637,14 @@
 										<div class="col-xs-6">
 											<div class="form-group">
 												<label>Texto Link</label>
-												<input type="text" class="form-control" name="section1_text_link" value="<?php echo isset($object->id) ? strip_tags($object->section1_text_link) : ''; ?>">
+												<input type="text" class="form-control" name="section1_text_link" value="<?php echo isset($object->id) ? MY_Controller_CMS::nl2br_str_decode($object->section1_text_link) : ''; ?>">
 											</div>
 										</div>
 
 										<div class="col-xs-6">
 											<div class="form-group">
 												<label>Link</label>
-												<input type="text" class="form-control" name="section1_link" value="<?php echo isset($object->id) ? strip_tags($object->section1_link) : ''; ?>">
+												<input type="text" class="form-control" name="section1_link" value="<?php echo isset($object->id) ? MY_Controller_CMS::nl2br_str_decode($object->section1_link) : ''; ?>">
 											</div>
 										</div>
 
@@ -685,14 +685,14 @@
 										<div class="col-xs-6">
 											<div class="form-group">
 												<label>Texto do Link da Rede Social (1)</label>
-												<input type="text" class="form-control" name="section1_social_media1_text_link" value="<?php echo isset($object->id) ? strip_tags($object->section1_social_media1_text_link) : ''; ?>">
+												<input type="text" class="form-control" name="section1_social_media1_text_link" value="<?php echo isset($object->id) ? MY_Controller_CMS::nl2br_str_decode($object->section1_social_media1_text_link) : ''; ?>">
 											</div>
 										</div>
 
 										<div class="col-xs-6">
 											<div class="form-group">
 												<label>Link da Rede Social (1)</label>
-												<input type="text" class="form-control" name="section1_social_media1_link" value="<?php echo isset($object->id) ? strip_tags($object->section1_social_media1_link) : ''; ?>">
+												<input type="text" class="form-control" name="section1_social_media1_link" value="<?php echo isset($object->id) ? MY_Controller_CMS::nl2br_str_decode($object->section1_social_media1_link) : ''; ?>">
 											</div>
 										</div>
 
@@ -717,14 +717,14 @@
 										<div class="col-xs-6">
 											<div class="form-group">
 												<label>Texto do Link da Rede Social (2)</label>
-												<input type="text" class="form-control" name="section1_social_media2_text_link" value="<?php echo isset($object->id) ? strip_tags($object->section1_social_media2_text_link) : ''; ?>">
+												<input type="text" class="form-control" name="section1_social_media2_text_link" value="<?php echo isset($object->id) ? MY_Controller_CMS::nl2br_str_decode($object->section1_social_media2_text_link) : ''; ?>">
 											</div>
 										</div>
 
 										<div class="col-xs-6">
 											<div class="form-group">
 												<label>Link da Rede Social (2)</label>
-												<input type="text" class="form-control" name="section1_social_media2_link" value="<?php echo isset($object->id) ? strip_tags($object->section1_social_media2_link) : ''; ?>">
+												<input type="text" class="form-control" name="section1_social_media2_link" value="<?php echo isset($object->id) ? MY_Controller_CMS::nl2br_str_decode($object->section1_social_media2_link) : ''; ?>">
 											</div>
 										</div>
 
@@ -750,7 +750,7 @@
 										<div class="col-xs-6">
 											<div class="form-group">
 												<label>Título</label>
-												<input type="text" class="form-control" name="section2_title" value="<?php echo isset($object->id) ? strip_tags($object->section2_title) : ''; ?>">
+												<input type="text" class="form-control" name="section2_title" value="<?php echo isset($object->id) ? MY_Controller_CMS::nl2br_str_decode($object->section2_title) : ''; ?>">
 											</div>
 										</div>
 
@@ -873,7 +873,7 @@
 										<div class="col-xs-12">
 											<div class="form-group">
 												<label>Texto</label>
-												<textarea class="form-control" name="section2_short_text" placeholder="Texto esquerda"><?php echo isset($object->id) ? strip_tags($object->section2_short_text) : ''; ?></textarea>
+												<textarea class="form-control" name="section2_short_text" placeholder="Texto esquerda"><?php echo isset($object->id) ? MY_Controller_CMS::nl2br_str_decode($object->section2_short_text) : ''; ?></textarea>
 											</div>
 										</div>
 
@@ -884,14 +884,14 @@
 										<div class="col-xs-6">
 											<div class="form-group">
 												<label>Texto Link</label>
-												<input type="text" class="form-control" name="section2_text_link" value="<?php echo isset($object->id) ? strip_tags($object->section2_text_link) : ''; ?>">
+												<input type="text" class="form-control" name="section2_text_link" value="<?php echo isset($object->id) ? MY_Controller_CMS::nl2br_str_decode($object->section2_text_link) : ''; ?>">
 											</div>
 										</div>
 
 										<div class="col-xs-6">
 											<div class="form-group">
 												<label>Link</label>
-												<input type="text" class="form-control" name="section2_link" value="<?php echo isset($object->id) ? strip_tags($object->section2_link) : ''; ?>">
+												<input type="text" class="form-control" name="section2_link" value="<?php echo isset($object->id) ? MY_Controller_CMS::nl2br_str_decode($object->section2_link) : ''; ?>">
 											</div>
 										</div>
 
@@ -933,14 +933,14 @@
 										<div class="col-xs-6">
 											<div class="form-group">
 												<label>Texto do Link da Rede Social (1)</label>
-												<input type="text" class="form-control" name="section2_social_media1_text_link" value="<?php echo isset($object->id) ? strip_tags($object->section2_social_media1_text_link) : ''; ?>">
+												<input type="text" class="form-control" name="section2_social_media1_text_link" value="<?php echo isset($object->id) ? MY_Controller_CMS::nl2br_str_decode($object->section2_social_media1_text_link) : ''; ?>">
 											</div>
 										</div>
 
 										<div class="col-xs-6">
 											<div class="form-group">
 												<label>Link da Rede Social (1)</label>
-												<input type="text" class="form-control" name="section2_social_media1_link" value="<?php echo isset($object->id) ? strip_tags($object->section2_social_media1_link) : ''; ?>">
+												<input type="text" class="form-control" name="section2_social_media1_link" value="<?php echo isset($object->id) ? MY_Controller_CMS::nl2br_str_decode($object->section2_social_media1_link) : ''; ?>">
 											</div>
 										</div>
 
@@ -965,14 +965,14 @@
 										<div class="col-xs-6">
 											<div class="form-group">
 												<label>Texto do Link da Rede Social (2)</label>
-												<input type="text" class="form-control" name="section2_social_media2_text_link" value="<?php echo isset($object->id) ? strip_tags($object->section2_social_media2_text_link) : ''; ?>">
+												<input type="text" class="form-control" name="section2_social_media2_text_link" value="<?php echo isset($object->id) ? MY_Controller_CMS::nl2br_str_decode($object->section2_social_media2_text_link) : ''; ?>">
 											</div>
 										</div>
 
 										<div class="col-xs-6">
 											<div class="form-group">
 												<label>Link da Rede Social (2)</label>
-												<input type="text" class="form-control" name="section2_social_media2_link" value="<?php echo isset($object->id) ? strip_tags($object->section2_social_media2_link) : ''; ?>">
+												<input type="text" class="form-control" name="section2_social_media2_link" value="<?php echo isset($object->id) ? MY_Controller_CMS::nl2br_str_decode($object->section2_social_media2_link) : ''; ?>">
 											</div>
 										</div>
 
@@ -997,7 +997,7 @@
 										<div class="col-xs-6">
 											<div class="form-group">
 												<label>Título</label>
-												<input type="text" class="form-control" name="section3_title" value="<?php echo isset($object->id) ? strip_tags($object->section3_title) : ''; ?>">
+												<input type="text" class="form-control" name="section3_title" value="<?php echo isset($object->id) ? MY_Controller_CMS::nl2br_str_decode($object->section3_title) : ''; ?>">
 											</div>
 										</div>
 
@@ -1120,7 +1120,7 @@
 										<div class="col-xs-12">
 											<div class="form-group">
 												<label>Texto</label>
-												<textarea class="form-control" name="section3_short_text" placeholder="Texto esquerda"><?php echo isset($object->id) ? strip_tags($object->section3_short_text) : ''; ?></textarea>
+												<textarea class="form-control" name="section3_short_text" placeholder="Texto esquerda"><?php echo isset($object->id) ? MY_Controller_CMS::nl2br_str_decode($object->section3_short_text) : ''; ?></textarea>
 											</div>
 										</div>
 
@@ -1131,14 +1131,14 @@
 										<div class="col-xs-6">
 											<div class="form-group">
 												<label>Texto Link</label>
-												<input type="text" class="form-control" name="section3_text_link" value="<?php echo isset($object->id) ? strip_tags($object->section3_text_link) : ''; ?>">
+												<input type="text" class="form-control" name="section3_text_link" value="<?php echo isset($object->id) ? MY_Controller_CMS::nl2br_str_decode($object->section3_text_link) : ''; ?>">
 											</div>
 										</div>
 
 										<div class="col-xs-6">
 											<div class="form-group">
 												<label>Link</label>
-												<input type="text" class="form-control" name="section3_link" value="<?php echo isset($object->id) ? strip_tags($object->section3_link) : ''; ?>">
+												<input type="text" class="form-control" name="section3_link" value="<?php echo isset($object->id) ? MY_Controller_CMS::nl2br_str_decode($object->section3_link) : ''; ?>">
 											</div>
 										</div>
 
@@ -1179,14 +1179,14 @@
 										<div class="col-xs-6">
 											<div class="form-group">
 												<label>Texto do Link da Rede Social (1)</label>
-												<input type="text" class="form-control" name="section3_social_media1_text_link" value="<?php echo isset($object->id) ? strip_tags($object->section3_social_media1_text_link) : ''; ?>">
+												<input type="text" class="form-control" name="section3_social_media1_text_link" value="<?php echo isset($object->id) ? MY_Controller_CMS::nl2br_str_decode($object->section3_social_media1_text_link) : ''; ?>">
 											</div>
 										</div>
 
 										<div class="col-xs-6">
 											<div class="form-group">
 												<label>Link da Rede Social (1)</label>
-												<input type="text" class="form-control" name="section3_social_media1_link" value="<?php echo isset($object->id) ? strip_tags($object->section3_social_media1_link) : ''; ?>">
+												<input type="text" class="form-control" name="section3_social_media1_link" value="<?php echo isset($object->id) ? MY_Controller_CMS::nl2br_str_decode($object->section3_social_media1_link) : ''; ?>">
 											</div>
 										</div>
 
@@ -1211,14 +1211,14 @@
 										<div class="col-xs-6">
 											<div class="form-group">
 												<label>Texto do Link da Rede Social (2)</label>
-												<input type="text" class="form-control" name="section3_social_media2_text_link" value="<?php echo isset($object->id) ? strip_tags($object->section3_social_media2_text_link) : ''; ?>">
+												<input type="text" class="form-control" name="section3_social_media2_text_link" value="<?php echo isset($object->id) ? MY_Controller_CMS::nl2br_str_decode($object->section3_social_media2_text_link) : ''; ?>">
 											</div>
 										</div>
 
 										<div class="col-xs-6">
 											<div class="form-group">
 												<label>Link da Rede Social (2)</label>
-												<input type="text" class="form-control" name="section3_social_media2_link" value="<?php echo isset($object->id) ? strip_tags($object->section3_social_media2_link) : ''; ?>">
+												<input type="text" class="form-control" name="section3_social_media2_link" value="<?php echo isset($object->id) ? MY_Controller_CMS::nl2br_str_decode($object->section3_social_media2_link) : ''; ?>">
 											</div>
 										</div>
 

@@ -181,9 +181,10 @@
 			</script>
 
 		<?php elseif ($controller_module  == 'sobre-nos' && $action_module  == 'index'): ?>
-            
+
             <script type="text/javascript" src="<?php echo base_url(PATH_ASSETS.'/js/vendors.js '); ?>"></script>
-            <script type="text/javascript" src="<?php echo base_url(PATH_ASSETS.'/js/jquery.timeline.js '); ?>"></script>            
+            <script type="text/javascript" src="<?php echo base_url(PATH_ASSETS.'/js/jquery.timeline.js '); ?>"></script>
+
 			<script language="javascript">
 				window.onload = function(){
 					Application.beforeStart(false);
@@ -194,7 +195,19 @@
 			$(document).ready(Application.documentReady);
 			</script>
 
-		<?php elseif ($controller_module  == 'sobre-nos' && $action_module  == 'newbusiness'): ?>
+		<?php elseif ($controller_module  == 'sobre-nos' && $action_module  == 'inovacao'): ?>
+
+			<script language="javascript">
+			window.onload = function(){
+				Application.beforeStart(false);
+				menu_fns.Initialize(false);
+				social_stream_sec.Initialize();
+			}
+			$(document).ready(Application.documentReady);
+
+		</script>
+
+		<?php elseif ($controller_module  == 'sobre-nos' && $action_module  == 'novos-negocios'): ?>
 
 			<script language="javascript">
 				window.onload = function(){
@@ -207,7 +220,7 @@
 
 			</script>
 
-		<?php elseif ($controller_module  == 'sobre-nos' && $action_module  == 'environment'): ?>
+		<?php elseif ($controller_module  == 'sobre-nos' && $action_module  == 'meio-ambiente'): ?>
 
 			<script language="javascript">
 				window.onload = function(){
@@ -219,7 +232,7 @@
 
 			</script>
 
-		<?php elseif ($controller_module  == 'sobre-nos' && $action_module  == 'quality'): ?>
+		<?php elseif ($controller_module  == 'sobre-nos' && $action_module  == 'qualidade'): ?>
 
 			<script language="javascript">
 				window.onload = function(){
@@ -231,7 +244,7 @@
 
 			</script>
 
-		<?php elseif ($controller_module  == 'sobre-nos' && $action_module  == 'ourhistory'): ?>
+		<?php elseif ($controller_module  == 'sobre-nos' && $action_module  == 'nossa-historia'): ?>
 
 			<script type="text/javascript">
 				$(document).ready(function(){

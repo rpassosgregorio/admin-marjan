@@ -175,11 +175,11 @@
     		<div class="slider-controller-wrapper">
 				<div class="about-us slider-controller" id="slider_controller" >
 					<ul>
-						<li class="slider-controller-1"><p><?php echo $object->vision_mission_slide1_title; ?></p></li>
-						<li class="slider-controller-2"><p><?php echo $object->vision_mission_slide2_title; ?></p></li>
-						<li class="slider-controller-3"><p><?php echo $object->vision_mission_slide3_title; ?></p></li>
-						<li class="slider-controller-4"><p><?php echo $object->vision_mission_slide4_title; ?></p></li>
-						<li class="slider-controller-5"><p><?php echo $object->vision_mission_slide5_title; ?></p></li>
+						<li class="slider-controller-1"><p><?php echo strip_tags($object->vision_mission_slide1_title); ?></p></li>
+						<li class="slider-controller-2"><p><?php echo strip_tags($object->vision_mission_slide2_title); ?></p></li>
+						<li class="slider-controller-3"><p><?php echo strip_tags($object->vision_mission_slide3_title); ?></p></li>
+						<li class="slider-controller-4"><p><?php echo strip_tags($object->vision_mission_slide4_title); ?></p></li>
+						<li class="slider-controller-5"><p><?php echo strip_tags($object->vision_mission_slide5_title); ?></p></li>
 					</ul>
 				</div>
 			</div>
@@ -499,14 +499,14 @@
 		<div class="fourth-section-wrapper" id="fourth_section_wrapper">
 			<div class="fourth-section-filter-wrapper">
 				<div class="fourth-filter-wrapper">
-					<div class="fourth-section-col-02" id="fourth-section-col-02" style="background-image: url(<?php echo MY_Controller_CMS::get_path_file('about', $object->our_products_image); ?>); background-position: right top;">
+					<div class="fourth-section-col-02" id="fourth-section-col-02" style="background-image: url(<?php echo MY_Controller_CMS::get_path_file('about', $object->our_history_programs_image); ?>); background-position: right top;">
 					</div>
 					<div class="fourth-section-col-01">
 						<div class="fourth-section-col-01-title center-text">
-							<h4><?php echo $object->our_products_title; ?></h4>
+							<h4><?php echo $object->our_history_programs_title; ?></h4>
 						</div>
 						<div class="fourth-section-col-01-subtitle text-left">
-							<h4><?php echo $object->our_products_text; ?></h4>
+							<h4><?php echo $object->our_history_programs_text; ?></h4>
 						</div>
 						<div class="fourth-section-col-01-button center-text">
 							<button><h6><a href="<?php echo base_url('produtos') ?>">CONHEÇA NOSSO PORTFÓLIO</a></h6></button>

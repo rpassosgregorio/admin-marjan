@@ -238,13 +238,13 @@
 											<div class="col-xs-6">
 												<div class="form-group">
 													<label>Título</label>
-													<textarea class="form-control" name="slide1_title" placeholder="...."><?php echo isset($object->id) && $object->slide1_title ? strip_tags($object->slide1_title) : '' ?></textarea>
+													<textarea class="form-control" name="slide1_title" placeholder="...."><?php echo isset($object->id) && $object->slide1_title ? MY_Controller_CMS::nl2br_str_decode($object->slide1_title) : '' ?></textarea>
 												</div>
 											</div>
 											<div class="col-xs-6">
 												<div class="form-group">
 													<label>Subtítulo</label>
-													<textarea class="form-control" name="slide1_subtitle" placeholder="...."><?php echo isset($object->id) && $object->slide1_subtitle ? strip_tags($object->slide1_subtitle) : '' ?></textarea>
+													<textarea class="form-control" name="slide1_subtitle" placeholder="...."><?php echo isset($object->id) && $object->slide1_subtitle ? MY_Controller_CMS::nl2br_str_decode($object->slide1_subtitle) : '' ?></textarea>
 												</div>
 											</div>
 										</div>
@@ -412,13 +412,13 @@
 										<div class="col-xs-6">
 											<div class="form-group">
 												<label>Título</label>
-												<textarea class="form-control" name="slide2_title" placeholder="...."><?php echo isset($object->id) && $object->slide2_title ? strip_tags($object->slide2_title) : '' ?></textarea>
+												<textarea class="form-control" name="slide2_title" placeholder="...."><?php echo isset($object->id) && $object->slide2_title ? MY_Controller_CMS::nl2br_str_decode($object->slide2_title) : '' ?></textarea>
 											</div>
 										</div>
 										<div class="col-xs-6">
 											<div class="form-group">
 												<label>Subtítulo</label>
-												<textarea class="form-control" name="slide2_subtitle" placeholder="...."><?php echo isset($object->id) && $object->slide2_subtitle ? strip_tags($object->slide2_subtitle) : '' ?></textarea>
+												<textarea class="form-control" name="slide2_subtitle" placeholder="...."><?php echo isset($object->id) && $object->slide2_subtitle ? MY_Controller_CMS::nl2br_str_decode($object->slide2_subtitle) : '' ?></textarea>
 											</div>
 										</div>
 									</div>
@@ -562,13 +562,13 @@
 										<div class="col-xs-6">
 											<div class="form-group">
 												<label>Título</label>
-												<textarea class="form-control" name="slide3_title" placeholder="...."><?php echo isset($object->id) && $object->slide3_title ? strip_tags($object->slide3_title) : '' ?></textarea>
+												<textarea class="form-control" name="slide3_title" placeholder="...."><?php echo isset($object->id) && $object->slide3_title ? MY_Controller_CMS::nl2br_str_decode($object->slide3_title) : '' ?></textarea>
 											</div>
 										</div>
 										<div class="col-xs-6">
 											<div class="form-group">
 												<label>Subtítulo</label>
-												<textarea class="form-control" name="slide3_subtitle" placeholder="...."><?php echo isset($object->id) && $object->slide3_subtitle ? strip_tags($object->slide3_subtitle) : '' ?></textarea>
+												<textarea class="form-control" name="slide3_subtitle" placeholder="...."><?php echo isset($object->id) && $object->slide3_subtitle ? MY_Controller_CMS::nl2br_str_decode($object->slide3_subtitle) : '' ?></textarea>
 											</div>
 										</div>
 									</div>
@@ -711,13 +711,13 @@
 										<div class="col-xs-6">
 											<div class="form-group">
 												<label>Título</label>
-												<textarea class="form-control" name="slide4_title" placeholder="...."><?php echo isset($object->id) && $object->slide4_title ? strip_tags($object->slide4_title) : '' ?></textarea>
+												<textarea class="form-control" name="slide4_title" placeholder="...."><?php echo isset($object->id) && $object->slide4_title ? MY_Controller_CMS::nl2br_str_decode($object->slide4_title) : '' ?></textarea>
 											</div>
 										</div>
 										<div class="col-xs-6">
 											<div class="form-group">
 												<label>Subtítulo</label>
-												<textarea class="form-control" name="slide4_subtitle" placeholder="...."><?php echo isset($object->id) && $object->slide4_subtitle ? strip_tags($object->slide4_subtitle) : '' ?></textarea>
+												<textarea class="form-control" name="slide4_subtitle" placeholder="...."><?php echo isset($object->id) && $object->slide4_subtitle ? MY_Controller_CMS::nl2br_str_decode($object->slide4_subtitle) : '' ?></textarea>
 											</div>
 										</div>
 									</div>
@@ -860,13 +860,13 @@
 										<div class="col-xs-6">
 											<div class="form-group">
 												<label>Título</label>
-												<textarea class="form-control" name="slide5_title" placeholder="...."><?php echo isset($object->id) && $object->slide5_title ? strip_tags($object->slide5_title) : '' ?></textarea>
+												<textarea class="form-control" name="slide5_title" placeholder="...."><?php echo isset($object->id) && $object->slide5_title ? MY_Controller_CMS::nl2br_str_decode($object->slide5_title) : '' ?></textarea>
 											</div>
 										</div>
 										<div class="col-xs-6">
 											<div class="form-group">
 												<label>Subtítulo</label>
-												<textarea class="form-control" name="slide5_subtitle" placeholder="...."><?php echo isset($object->id) && $object->slide5_subtitle ? strip_tags($object->slide5_subtitle) : '' ?></textarea>
+												<textarea class="form-control" name="slide5_subtitle" placeholder="...."><?php echo isset($object->id) && $object->slide5_subtitle ? MY_Controller_CMS::nl2br_str_decode($object->slide5_subtitle) : '' ?></textarea>
 											</div>
 										</div>
 									</div>
