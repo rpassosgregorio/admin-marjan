@@ -488,14 +488,14 @@
 										<div class="col-xs-6">
 											<div class="form-group">
 												<label>Texto Esquerda</label>
-												<textarea class="form-control" name="principal_left_text" placeholder="Texto esquerda"><?php echo isset($object->id) ? strip_tags($object->principal_left_text) : ''; ?></textarea>
+												<textarea class="form-control" name="principal_left_text" placeholder="..."><?php echo isset($object->id) ? strip_tags($object->principal_left_text) : ''; ?></textarea>
 											</div>
 										</div>
 
 										<div class="col-xs-6">
 											<div class="form-group">
 												<label>Texto direita</label>
-												<textarea class="form-control" name="principal_right_text" placeholder="Texto direita"><?php echo isset($object->id) ? strip_tags($object->principal_right_text) : ''; ?></textarea>
+												<textarea class="form-control" name="principal_right_text" placeholder="..."><?php echo isset($object->id) ? strip_tags($object->principal_right_text) : ''; ?></textarea>
 											</div>
 										</div>
 									</div>
@@ -576,8 +576,8 @@
 
 										<div class="col-xs-6">
 											<div class="form-group">
-												<label>Título da Campnha</label>
-												<input type="text" class="form-control" name="section1_title" value="<?php echo isset($object->id) ? strip_tags($object->section1_title) : ''; ?>">
+												<label>Título da Campanha</label>
+												<textarea class="form-control" name="section1_title" placeholder="Missão Texto"><?php echo isset($object->id) ? strip_tags($object->section1_title) : ''; ?></textarea>
 											</div>
 										</div>
 
@@ -699,8 +699,19 @@
 
 										<div class="col-xs-12">
 											<div class="form-group">
-												<label>Texto</label>
-												<textarea class="form-control" name="section1_short_text" placeholder="Texto esquerda"><?php echo isset($object->id) ? strip_tags($object->section1_short_text) : ''; ?></textarea>
+												<label>Texto Curto</label>
+												<textarea class="form-control" name="section1_short_text" placeholder="..."><?php echo isset($object->id) ? strip_tags($object->section1_short_text) : ''; ?></textarea>
+											</div>
+										</div>
+
+									</div>
+
+									<div class="row">
+
+										<div class="col-xs-12">
+											<div class="form-group">
+												<label>Texto Longo</label>
+												<textarea class="form-control" name="section1_text" placeholder="..."><?php echo isset($object->id) ? strip_tags($object->section1_text) : ''; ?></textarea>
 											</div>
 										</div>
 
@@ -824,7 +835,7 @@
 										<div class="col-xs-6">
 											<div class="form-group">
 												<label>Título</label>
-												<input type="text" class="form-control" name="section2_title" value="<?php echo isset($object->id) ? strip_tags($object->section2_title) : ''; ?>">
+												<textarea class="form-control" name="section2_title" placeholder="Missão Texto"><?php echo isset($object->id) ? strip_tags($object->section2_title) : ''; ?></textarea>
 											</div>
 										</div>
 
@@ -946,8 +957,19 @@
 
 										<div class="col-xs-12">
 											<div class="form-group">
-												<label>Texto</label>
-												<textarea class="form-control" name="section2_short_text" placeholder="Texto direita"><?php echo isset($object->id) ? strip_tags($object->section2_short_text) : ''; ?></textarea>
+												<label>Texto Curto</label>
+												<textarea class="form-control" name="section2_short_text" placeholder="..."><?php echo isset($object->id) ? strip_tags($object->section2_short_text) : ''; ?></textarea>
+											</div>
+										</div>
+
+									</div>
+
+									<div class="row">
+
+										<div class="col-xs-12">
+											<div class="form-group">
+												<label>Texto Longo</label>
+												<textarea class="form-control" name="section2_text" placeholder="..."><?php echo isset($object->id) ? strip_tags($object->section2_text) : ''; ?></textarea>
 											</div>
 										</div>
 
@@ -1071,7 +1093,7 @@
 										<div class="col-xs-6">
 											<div class="form-group">
 												<label>Título</label>
-												<input type="text" class="form-control" name="section3_title" value="<?php echo isset($object->id) ? strip_tags($object->section3_title) : ''; ?>">
+												<textarea class="form-control" name="section3_title" placeholder="Missão Texto"><?php echo isset($object->id) ? strip_tags($object->section3_title) : ''; ?></textarea>
 											</div>
 										</div>
 
@@ -1193,8 +1215,19 @@
 
 										<div class="col-xs-12">
 											<div class="form-group">
-												<label>Texto</label>
-												<textarea class="form-control" name="section3_short_text" placeholder="Texto esquerda"><?php echo isset($object->id) ? strip_tags($object->section3_short_text) : ''; ?></textarea>
+												<label>Texto Curto</label>
+												<textarea class="form-control" name="section3_short_text" placeholder="..."><?php echo isset($object->id) ? strip_tags($object->section3_short_text) : ''; ?></textarea>
+											</div>
+										</div>
+
+									</div>
+
+									<div class="row">
+
+										<div class="col-xs-12">
+											<div class="form-group">
+												<label>Texto Longo</label>
+												<textarea class="form-control" name="section3_text" placeholder="..."><?php echo isset($object->id) ? strip_tags($object->section3_text) : ''; ?></textarea>
 											</div>
 										</div>
 
@@ -1317,7 +1350,7 @@
 										<div class="col-xs-6">
 											<div class="form-group">
 												<label>Título</label>
-												<input type="text" class="form-control" name="section4_title" value="<?php echo isset($object->id) ? strip_tags($object->section4_title) : ''; ?>">
+												<textarea class="form-control" name="section4_title" placeholder="Missão Texto"><?php echo isset($object->id) ? strip_tags($object->section4_title) : ''; ?></textarea>
 											</div>
 										</div>
 
@@ -1439,8 +1472,19 @@
 
 										<div class="col-xs-14">
 											<div class="form-group">
-												<label>Texto</label>
-												<textarea class="form-control" name="section4_short_text" placeholder="Texto direita"><?php echo isset($object->id) ? strip_tags($object->section4_short_text) : ''; ?></textarea>
+												<label>Texto Curto</label>
+												<textarea class="form-control" name="section4_short_text" placeholder="..."><?php echo isset($object->id) ? strip_tags($object->section4_short_text) : ''; ?></textarea>
+											</div>
+										</div>
+
+									</div>
+
+									<div class="row">
+
+										<div class="col-xs-12">
+											<div class="form-group">
+												<label>Texto Longo</label>
+												<textarea class="form-control" name="section4_text" placeholder="..."><?php echo isset($object->id) ? strip_tags($object->section4_text) : ''; ?></textarea>
 											</div>
 										</div>
 
