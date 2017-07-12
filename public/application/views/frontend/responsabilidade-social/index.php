@@ -34,7 +34,7 @@
 
 	<section class="resp-social-campaign-01" id="resp-social-campaign-01">
 		<div class="resp-social-wrapper" id="resp-social-wrapper-01">
-			<div class="resp-social-col01-wrapper" style="background-image: url(<?php echo MY_Controller_CMS::get_path_file('social_responsability', $object->section1_image); ?>); background-position: center">
+			<div class="resp-social-col01-wrapper" style="background-image: url(<?php echo base_url(PATH_ASSETS.'/img/sections/responsabilidade-social/resp-social-iomp-side.png'); ?>); background-position: center">
 				<div class="resp-social-campaign-short-text">
 					<h4><?php echo $object->section1_title; ?></h4>
 					<p class="line-clamp line-clamp-8"><?php echo $object->section1_short_text; ?></p>
@@ -47,7 +47,7 @@
 				</div>
 			</div>
 			<div class="resp-social-col02-wrapper">
-				<div class="resp-social-video-wrapper resp-social-bg-wrapper resp-social-vd-bg-wrapper-01"  style="background-image: url(<?php echo base_url(PATH_ASSETS.'/img/sections/responsabilidade-social/resp-social-iomp.jpg'); ?>; background-position: center top">
+				<div class="resp-social-video-wrapper resp-social-bg-wrapper resp-social-vd-bg-wrapper-01"  style="background-image: url(<?php echo MY_Controller_CMS::get_path_file('social_responsability', $object->section1_image); ?>); background-position: center top">
 
 					<?php $video = MY_Controller_CMS::get_path_file('social_responsability/video', $object->section1_video); ?>
 
