@@ -11,5 +11,6 @@ doc
 doc/*
 public/application/views/backend/assets/node_modules
 public/application/views/backend/assets/node_modules/*
+public/application/config/database.php
 
 
