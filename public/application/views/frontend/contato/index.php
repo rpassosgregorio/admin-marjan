@@ -126,7 +126,7 @@
 					</div>
 
 					<div class="third-section-col-01-button center-text">
-						<a href="../../sections/farmacovigilancia/home.html"><button><h6><?php echo $object->section3_text; ?></h6></button></a>
+						<a href="<?php echo base_url('farmacovigilancia') ?>"><button><h6><?php echo $object->section3_text; ?></h6></button></a>
 					</div>
 				</div>
 			</div>
