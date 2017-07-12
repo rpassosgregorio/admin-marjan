@@ -6,7 +6,6 @@ class Pharmacovigilance extends MY_Controller {
 	public function __construct(){
 
 		parent::__construct();
-		$this->view_data['controller_module'] = 'pharmacovigilance';
 
 	}
 

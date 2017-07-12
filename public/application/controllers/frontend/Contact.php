@@ -7,12 +7,11 @@ class Contact extends MY_Controller {
 
 		parent::__construct();
 
-		$this->view_data['controller_module'] = 'contact';
-		$this->load->model('ContactUs_model', '', TRUE);
-
 	}
 
 	public function index(){
+
+		$this->load->model('ContactUs_model', '', TRUE);
 
 		$this->view_data['object'] = $this->ContactUs_model->find_unique(array(), array(), '', array(), array(), 1, 1);
 

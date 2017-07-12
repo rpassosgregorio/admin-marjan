@@ -169,7 +169,7 @@
 				$(document).ready(Application.documentReady);
 			</script>
 
-		<?php elseif ($controller_module  == 'contact'): ?>
+		<?php elseif ($controller_module  == 'contato'): ?>
 
 			<script language="javascript">
 				window.onload = function(){
@@ -180,7 +180,7 @@
 			$(document).ready(Application.documentReady);
 			</script>
 
-		<?php elseif ($controller_module  == 'about' && $action_module  == 'index'): ?>
+		<?php elseif ($controller_module  == 'sobre-nos' && $action_module  == 'index'): ?>
 
 			<script language="javascript">
 				window.onload = function(){
@@ -192,7 +192,7 @@
 			$(document).ready(Application.documentReady);
 			</script>
 
-		<?php elseif ($controller_module  == 'about' && $action_module  == 'newbusiness'): ?>
+		<?php elseif ($controller_module  == 'sobre-nos' && $action_module  == 'newbusiness'): ?>
 
 			<script language="javascript">
 				window.onload = function(){
@@ -205,7 +205,7 @@
 
 			</script>
 
-		<?php elseif ($controller_module  == 'about' && $action_module  == 'environment'): ?>
+		<?php elseif ($controller_module  == 'sobre-nos' && $action_module  == 'environment'): ?>
 
 			<script language="javascript">
 				window.onload = function(){
@@ -217,7 +217,7 @@
 
 			</script>
 
-		<?php elseif ($controller_module  == 'about' && $action_module  == 'quality'): ?>
+		<?php elseif ($controller_module  == 'sobre-nos' && $action_module  == 'quality'): ?>
 
 			<script language="javascript">
 				window.onload = function(){
@@ -229,7 +229,7 @@
 
 			</script>
 
-		<?php elseif ($controller_module  == 'about' && $action_module  == 'ourhistory'): ?>
+		<?php elseif ($controller_module  == 'sobre-nos' && $action_module  == 'ourhistory'): ?>
 
 			<script type="text/javascript">
 				$(document).ready(function(){
@@ -244,7 +244,7 @@
 				}
 			</script>
 
-		<?php elseif ($controller_module  == 'socialresponsability'): ?>
+		<?php elseif ($controller_module  == 'responsabilidade-social'): ?>
 
 			<script language="javascript">
 				window.onload = function(){

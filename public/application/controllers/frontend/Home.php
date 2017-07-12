@@ -7,7 +7,6 @@ class Home extends MY_Controller {
 
 		parent::__construct();
 
-		$this->view_data['controller_module'] = 'home';
 		$this->load->model('Home_model', '', TRUE);
 
 	}

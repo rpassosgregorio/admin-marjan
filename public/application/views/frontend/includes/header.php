@@ -25,11 +25,11 @@
 
 		<link href="<?php echo base_url(PATH_ASSETS.'/css/home.css'); ?>" rel="stylesheet" type="text/css"> <!-- css customizado da página -->
 
-	<?php elseif ($controller_module  == 'contact'): ?>
+	<?php elseif ($controller_module  == 'contato'): ?>
 
 		<link href="<?php echo base_url(PATH_ASSETS.'/css/contact.css'); ?>" rel="stylesheet" type="text/css"> <!-- css customizado da página -->
 
-	<?php elseif ($controller_module  == 'about'): ?>
+	<?php elseif ($controller_module  == 'sobre-nos'): ?>
 
 		<link href="<?php echo base_url(PATH_ASSETS.'/css/sobre-nos-sec-page.css'); ?>" rel="stylesheet" type="text/css"> <!-- css customizado da página -->
 		<link href="<?php echo base_url(PATH_ASSETS.'/css/timeline.css'); ?>" rel="stylesheet" type="text/css"> <!-- css customizado da página -->
@@ -37,17 +37,17 @@
 		<link href="<?php echo base_url(PATH_ASSETS.'/css/jquery.timeline.css'); ?>" rel="stylesheet" type="text/css"> <!-- css customizado da página -->
 		<link href="<?php echo base_url(PATH_ASSETS.'/css/about-us.css'); ?>" rel="stylesheet" type="text/css"> <!-- css customizado da página -->
 
-	<?php elseif ($controller_module  == 'about' && $action_module  == 'index'): ?>
+	<?php elseif ($controller_module  == 'sobre-nos' && $action_module  == 'index'): ?>
 
-	<?php elseif ($controller_module  == 'about' && $action_module  == 'newbusiness'): ?>
+	<?php elseif ($controller_module  == 'sobre-nos' && $action_module  == 'newbusiness'): ?>
 
-	<?php elseif ($controller_module  == 'about' && $action_module  == 'environment'): ?>
+	<?php elseif ($controller_module  == 'sobre-nos' && $action_module  == 'environment'): ?>
 
-	<?php elseif ($controller_module  == 'about' && $action_module  == 'quality'): ?>
+	<?php elseif ($controller_module  == 'sobre-nos' && $action_module  == 'quality'): ?>
 
-	<?php elseif ($controller_module  == 'about' && $action_module  == 'ourhistory'): ?>
+	<?php elseif ($controller_module  == 'sobre-nos' && $action_module  == 'ourhistory'): ?>
 
-	<?php elseif ($controller_module  == 'socialresponsability'): ?>
+	<?php elseif ($controller_module  == 'responsabilidade-social'): ?>
 
 		<link href="<?php echo base_url(PATH_ASSETS.'/css/resp-social.css'); ?>" rel="stylesheet" type="text/css"> <!-- css customizado da página -->
 
@@ -71,28 +71,28 @@
 
     	<script src="<?php echo base_url(PATH_ASSETS.'/js/home.js'); ?>"></script> <!-- js customizado da página -->
 
-	<?php elseif ($controller_module  == 'contact'): ?>
+	<?php elseif ($controller_module  == 'contato'): ?>
 
 		<script src="<?php echo base_url(PATH_ASSETS.'/js/contact.js'); ?>"></script> <!-- js customizado da página -->
 
-	<?php elseif ($controller_module  == 'about'): ?>
+	<?php elseif ($controller_module  == 'sobre-nos'): ?>
 
 		<script src="<?php echo base_url(PATH_ASSETS.'/js/novos_negocios.js'); ?>"></script> <!-- js customizado da página -->
 		<script src="<?php echo base_url(PATH_ASSETS.'/js/pharmacovigilance.js'); ?>"></script> <!-- js customizado da página -->
 		<script src="<?php echo base_url(PATH_ASSETS.'/js/timeline.js'); ?>"></script> <!-- js customizado da página -->
 		<script src="<?php echo base_url(PATH_ASSETS.'/js/about_us.js'); ?>"></script> <!-- js customizado da página -->
 
-	<?php elseif ($controller_module  == 'about' && $action_module  == 'index'): ?>
+	<?php elseif ($controller_module  == 'sobre-nos' && $action_module  == 'index'): ?>
 
-	<?php elseif ($controller_module  == 'about' && $action_module  == 'newbusiness'): ?>
+	<?php elseif ($controller_module  == 'sobre-nos' && $action_module  == 'newbusiness'): ?>
 
-	<?php elseif ($controller_module  == 'about' && $action_module  == 'environment'): ?>
+	<?php elseif ($controller_module  == 'sobre-nos' && $action_module  == 'environment'): ?>
 
-	<?php elseif ($controller_module  == 'about' && $action_module  == 'quality'): ?>
+	<?php elseif ($controller_module  == 'sobre-nos' && $action_module  == 'quality'): ?>
 
-	<?php elseif ($controller_module  == 'about' && $action_module  == 'ourhistory'): ?>
+	<?php elseif ($controller_module  == 'sobre-nos' && $action_module  == 'ourhistory'): ?>
 
-	<?php elseif ($controller_module  == 'socialresponsability'): ?>
+	<?php elseif ($controller_module  == 'responsabilidade-social'): ?>
 
 		<script src="<?php echo base_url(PATH_ASSETS.'/js/resp-social.js'); ?>"></script> <!-- js customizado da página -->
 
