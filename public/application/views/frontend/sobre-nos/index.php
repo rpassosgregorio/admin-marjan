@@ -210,7 +210,7 @@
 						</div>
 					</div>
 					<div class="au-indicator-02-wrapper au-indicator-wrapper-itens" id="au-indicator-02-wrapper">
-						<div class="au-indicator-row-01 au-indicator-row-wrp" style="background-image: url(<?php echo base_url(PATH_ASSETS.'/img/sections/sobre-nos/blue-button.png'); ?>)); background-size: 100% 100%; background-position: center center">
+						<div class="au-indicator-row-01 au-indicator-row-wrp" style="background-image: url(<?php echo base_url(PATH_ASSETS.'/img/sections/sobre-nos/blue-button.png'); ?>); background-size: 100% 100%; background-position: center center">
 							<div class="au-indicator-info-wrapper">
 								<div class="au-indicator-info">
 									<div class="title"><span><h5><?php echo $object->who_we_are2_title; ?></h5></span></div>
@@ -223,7 +223,7 @@
 				</div>
 				<div class="colcol">
 				<div class="au-indicator-03-wrapper au-indicator-wrapper-itens" id="au-indicator-03-wrapper">
-					<div class="au-indicator-row-01 au-indicator-row-wrp" style="background-image: url(<?php echo base_url(PATH_ASSETS.'/img/sections/sobre-nos/blue-button.png'); ?>)); background-size: 100% 100%; background-position: center center">
+					<div class="au-indicator-row-01 au-indicator-row-wrp" style="background-image: url(<?php echo base_url(PATH_ASSETS.'/img/sections/sobre-nos/blue-button.png'); ?>); background-size: 100% 100%; background-position: center center">
 						<div class="au-indicator-info-wrapper">
 							<div class="au-indicator-info">
 								<div class="title"><span><h5><?php echo $object->who_we_are3_title; ?></h5></span></div>
@@ -234,7 +234,7 @@
 					</div>
 				</div>
 				<div class="au-indicator-04-wrapper au-indicator-wrapper-itens" id="au-indicator-04-wrapper">
-					<div class="au-indicator-row-01 au-indicator-row-wrp" style="background-image: url(<?php echo base_url(PATH_ASSETS.'/img/sections/sobre-nos/blue-button.png'); ?>)); background-size: 100% 100%; background-position: center center">
+					<div class="au-indicator-row-01 au-indicator-row-wrp" style="background-image: url(<?php echo base_url(PATH_ASSETS.'/img/sections/sobre-nos/blue-button.png'); ?>); background-size: 100% 100%; background-position: center center">
 						<div class="au-indicator-info-wrapper">
 							<div class="au-indicator-info">
 								<div class="title"><span><h5><?php echo $object->who_we_are4_title; ?></h5></span></div>
