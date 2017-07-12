@@ -271,7 +271,7 @@
 		<div class="our-history-section-wrapper">
 			<div class="our-history-section-text-wrapper">
 				<h4 class="our-history-section-text pre-line title">CONHEÇA A HISTÓRIA DA MARJAN FARMA</h4>
-				<div class="our-history-section-text-div"><div class="our-history-section-text-div-first-line"><h5 class="our-history-section-text pre-line">Clique em qualquer "</h5><img src="images/scrollbar_mark.png" alt=""><h5 class="our-history-section-text pre-line">" ponto da linha do tempo, ou arraste com o mouse a barra</h5></div><h5 class="our-history-section-text pre-line adjust" style="float: none;">de navegação ou clique na própria imagem e arraste.</h5></div>
+				<div class="our-history-section-text-div"><div class="our-history-section-text-div-first-line"><h5 class="our-history-section-text pre-line">Clique em qualquer "</h5><img src="<?php echo base_url(PATH_ASSETS.'/img/sections/sobre-nos/scrollbar_mark.png'); ?>" alt=""><h5 class="our-history-section-text pre-line">" ponto da linha do tempo, ou arraste com o mouse a barra</h5></div><h5 class="our-history-section-text pre-line adjust" style="float: none;">de navegação ou clique na própria imagem e arraste.</h5></div>
 			</div>
 		</div>
 		<!-- TIMELINE WRAPPER -->
@@ -349,7 +349,7 @@
 							</div>
 
 							<!-- DRAGGER -->
-							<div class="dragger"><img src="images/scrollbar_dragger.png" alt="" /></div>
+							<div class="dragger"><img src="<?php echo base_url(PATH_ASSETS.'/img/sections/sobre-nos/scrollbar_dragger.png'); ?>" alt="" /></div>
 						</div>
 					</div>
 

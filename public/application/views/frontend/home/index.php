@@ -1,11 +1,11 @@
 <main class="main-home" id="main_home">
     <div class="home slider-controller" id="slider_controller">
         <ul>
-            <li class="slider-controller-1"><a><img src="<?php echo My_Controller::get_path_file('home', $object->slide1_thumb); ?>"></a></li>
-            <li class="slider-controller-2"><a><img src="<?php echo My_Controller::get_path_file('home', $object->slide2_thumb); ?>"></a></li>
-            <li class="slider-controller-3"><a><img src="<?php echo My_Controller::get_path_file('home', $object->slide3_thumb); ?>"></a></li>
-            <li class="slider-controller-4"><a><img src="<?php echo My_Controller::get_path_file('home', $object->slide4_thumb); ?>"></a></li>
-            <li class="slider-controller-5"><a><img src="<?php echo My_Controller::get_path_file('home', $object->slide5_thumb); ?>"></a></li>
+            <li class="slider-controller-1"><a><img src="<?php echo MY_Controller::get_path_file('home', $object->slide1_thumb); ?>"></a></li>
+            <li class="slider-controller-2"><a><img src="<?php echo MY_Controller::get_path_file('home', $object->slide2_thumb); ?>"></a></li>
+            <li class="slider-controller-3"><a><img src="<?php echo MY_Controller::get_path_file('home', $object->slide3_thumb); ?>"></a></li>
+            <li class="slider-controller-4"><a><img src="<?php echo MY_Controller::get_path_file('home', $object->slide4_thumb); ?>"></a></li>
+            <li class="slider-controller-5"><a><img src="<?php echo MY_Controller::get_path_file('home', $object->slide5_thumb); ?>"></a></li>
         </ul>
     </div>
 
@@ -27,7 +27,7 @@
 
 				<?php endif ?>
 
-				<div class="slide-item-caption-container" style="background-image: url(<?php echo My_Controller::get_path_file('home', $object->slide1_band); ?>); background-position: left center; background-size: 100% 100%">
+				<div class="slide-item-caption-container" style="background-image: url(<?php echo MY_Controller::get_path_file('home', $object->slide1_band); ?>); background-position: left center; background-size: 100% 100%">
 					<div class="slide-title"><h1><?php echo $object->slide1_title; ?></h1></div>
 					<div class="slide-sub_title"><h3><?php echo $object->slide1_subtitle; ?></h3></div>
 				</div>
@@ -48,7 +48,7 @@
 
 				<?php endif ?>
 
-				<div class="slide-item-caption-container" style="background-image: url(<?php echo My_Controller::get_path_file('home', $object->slide2_band); ?>); background-position: left center; background-size: 100% 100%">
+				<div class="slide-item-caption-container" style="background-image: url(<?php echo MY_Controller::get_path_file('home', $object->slide2_band); ?>); background-position: left center; background-size: 100% 100%">
 					<div class="slide-title"><h1><?php echo $object->slide2_title; ?></h1></div>
 					<div class="slide-sub_title"><h3><?php echo $object->slide2_subtitle; ?></h3></div>
 				</div>
@@ -69,7 +69,7 @@
 
 				<?php endif ?>
 
-				<div class="slide-item-caption-container" style="background-image: url(<?php echo My_Controller::get_path_file('home', $object->slide3_band); ?>); background-position: left center; background-size: 100% 100%">
+				<div class="slide-item-caption-container" style="background-image: url(<?php echo MY_Controller::get_path_file('home', $object->slide3_band); ?>); background-position: left center; background-size: 100% 100%">
 					<div class="slide-title"><h1><?php echo $object->slide3_title; ?></h1></div>
 					<div class="slide-sub_title"><h3><?php echo $object->slide3_subtitle; ?></h3></div>
 				</div>
@@ -90,7 +90,7 @@
 
 				<?php endif ?>
 
-				<div class="slide-item-caption-container" style="background-image: url(<?php echo My_Controller::get_path_file('home', $object->slide4_band); ?>); background-position: left center; background-size: 100% 100%">
+				<div class="slide-item-caption-container" style="background-image: url(<?php echo MY_Controller::get_path_file('home', $object->slide4_band); ?>); background-position: left center; background-size: 100% 100%">
 					<div class="slide-title"><h1><?php echo $object->slide4_title; ?></h1></div>
 					<div class="slide-sub_title"><h3><?php echo $object->slide4_subtitle; ?></h3></div>
 				</div>
@@ -112,7 +112,7 @@
 				<?php endif ?>
 
 
-				<div class="slide-item-caption-container" style="background-image: url(<?php echo My_Controller::get_path_file('home', $object->slide5_band); ?>); background-position: left center; background-size: 100% 100%">
+				<div class="slide-item-caption-container" style="background-image: url(<?php echo MY_Controller::get_path_file('home', $object->slide5_band); ?>); background-position: left center; background-size: 100% 100%">
 					<div class="slide-title"><h1><?php echo $object->slide5_title; ?></h1></div>
 					<div class="slide-sub_title"><h3><?php echo $object->slide5_subtitle; ?></h3></div>
 				</div>

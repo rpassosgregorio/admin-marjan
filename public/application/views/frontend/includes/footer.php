@@ -244,6 +244,17 @@
 				}
 			</script>
 
+		<?php elseif ($controller_module  == 'socialresponsability'): ?>
+
+			<script language="javascript">
+				window.onload = function(){
+					Application.beforeStart(false);
+					menu_fns.Initialize(false);
+					resp_social.Initialize();
+				}
+			    $(document).ready(Application.documentReady);
+			</script>
+
 		<?php endif ?>
 
 	</body>

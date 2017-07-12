@@ -28,6 +28,7 @@
 	<link href="<?php echo base_url(PATH_ASSETS.'/css/our-history.css'); ?>" rel="stylesheet" type="text/css"> <!-- css customizado da página -->
 	<link href="<?php echo base_url(PATH_ASSETS.'/css/jquery.timeline.css'); ?>" rel="stylesheet" type="text/css"> <!-- css customizado da página -->
 	<link href="<?php echo base_url(PATH_ASSETS.'/css/about-us.css'); ?>" rel="stylesheet" type="text/css"> <!-- css customizado da página -->
+	<link href="<?php echo base_url(PATH_ASSETS.'/css/resp-social.css'); ?>" rel="stylesheet" type="text/css"> <!-- css customizado da página -->
 
 
     <script src="<?php echo base_url(PATH_ASSETS.'/js/libs/jquery/jquery-3.2.1.min.js'); ?>"></script>
@@ -48,6 +49,7 @@
 	<script src="<?php echo base_url(PATH_ASSETS.'/js/pharmacovigilance.js'); ?>"></script> <!-- js customizado da página -->
 	<script src="<?php echo base_url(PATH_ASSETS.'/js/timeline.js'); ?>"></script> <!-- js customizado da página -->
 	<script src="<?php echo base_url(PATH_ASSETS.'/js/about_us.js'); ?>"></script> <!-- js customizado da página -->
+	<script src="<?php echo base_url(PATH_ASSETS.'/js/resp-social.js'); ?>"></script> <!-- js customizado da página -->
 
 </head>
 
