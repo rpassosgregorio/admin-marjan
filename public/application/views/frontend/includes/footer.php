@@ -181,7 +181,9 @@
 			</script>
 
 		<?php elseif ($controller_module  == 'sobre-nos' && $action_module  == 'index'): ?>
-
+            
+            <script type="text/javascript" src="<?php echo base_url(PATH_ASSETS.'/js/vendors.js '); ?>"></script>
+            <script type="text/javascript" src="<?php echo base_url(PATH_ASSETS.'/js/jquery.timeline.js '); ?>"></script>            
 			<script language="javascript">
 				window.onload = function(){
 					Application.beforeStart(false);
