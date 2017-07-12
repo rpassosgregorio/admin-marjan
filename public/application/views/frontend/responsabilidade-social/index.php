@@ -138,7 +138,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="resp-social-col01-wrapper" style="background-image: url(<?php echo MY_Controller_CMS::get_path_file('social_responsability', $object->section2_image); ?>); background-position: center">
+			<div class="resp-social-col01-wrapper" style="background-image: url(<?php echo base_url(PATH_ASSETS.'/img/sections/responsabilidade-social/resp-social-iomp-side.png'); ?>); background-position: center">
 				<div class="resp-social-campaign-short-text">
 					<h4><?php echo $object->section2_title; ?></h4>
 					<p class="line-clamp line-clamp-8"><?php echo $object->section2_short_text; ?></p>
@@ -155,7 +155,7 @@
 
 	<section class="resp-social-campaign-03"  id="resp-social-campaign-03">
 		<div class="resp-social-wrapper" id="resp-social-wrapper-03">
-			<div class="resp-social-col01-wrapper" style="background-image: url( <?php echo MY_Controller_CMS::get_path_file('social_responsability', $object->section3_image); ?> ); background-position: center">
+			<div class="resp-social-col01-wrapper" style="background-image: url(<?php echo base_url(PATH_ASSETS.'/imgs/sections/responsabilidade-social/resp-social-iomp-side.png'); ?>); background-position: center">
 				<div class="resp-social-campaign-short-text">
 					<h4><?php echo $object->section3_title; ?></h4>
 					<p class="line-clamp line-clamp-8"><?php echo $object->section3_short_text; ?></p>
