@@ -44,6 +44,36 @@ var about_us_fns = {
 		this.counter02 = parseInt($("#counter02").html());
 		this.counter03 = parseInt($("#counter03").html());
 		this.counter04 = parseInt($("#counter04").html());
+		
+		var hgt = 0;
+		
+		$(".au-indicator-info .title").each(function(index, item){
+			if(item.clientHeight > hgt){
+				hgt = item.clientHeight;				
+			}
+			item.clientHeight = hgt;
+			item.style.height = hgt + "px";
+		});
+		
+		hgt = 0;
+		
+		$(".au-indicator-info .text").each(function(index, item){
+			if(item.clientHeight > hgt){
+				hgt = item.clientHeight;				
+			}
+			item.clientHeight = hgt;
+			item.style.height = hgt + "px";
+		});
+		
+		hgt = 0;
+		
+		$(".au-indicator-info-wrapper .bottom-text").each(function(index, item){
+			if(item.clientHeight > hgt){
+				hgt = item.clientHeight;				
+			}
+			item.clientHeight = hgt;
+			item.style.height = hgt + "px";
+		});
 	},
 	
 	showIndicators: function(){
