@@ -55,6 +55,10 @@
 
 		<link href="<?php echo base_url(PATH_ASSETS.'/css/resp-social.css'); ?>" rel="stylesheet" type="text/css"> <!-- css customizado da página -->
 
+	<?php elseif ($controller_module  == 'saude-e-bem-estar'): ?>
+
+		<link href="<?php echo base_url(PATH_ASSETS.'/css/health.css'); ?>" rel="stylesheet" type="text/css"> <!-- css customizado da página -->
+
 	<?php endif ?>
 
     <script src="<?php echo base_url(PATH_ASSETS.'/js/libs/jquery/jquery-3.2.1.min.js'); ?>"></script>
@@ -103,6 +107,10 @@
 	<?php elseif ($controller_module  == 'responsabilidade-social'): ?>
 
 		<script src="<?php echo base_url(PATH_ASSETS.'/js/resp-social.js'); ?>"></script> <!-- js customizado da página -->
+
+	<?php elseif ($controller_module  == 'saude-e-bem-estar'): ?>
+
+		<script src="<?php echo base_url(PATH_ASSETS.'/js/health.js'); ?>"></script> <!-- js customizado da página -->
 
 	<?php endif ?>
 

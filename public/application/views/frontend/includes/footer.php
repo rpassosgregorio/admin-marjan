@@ -270,6 +270,17 @@
 			    $(document).ready(Application.documentReady);
 			</script>
 
+		<?php elseif ($controller_module  == 'saude-e-bem-estar'): ?>
+
+			<script language="javascript">
+				window.onload = function(){
+					Application.beforeStart(false);
+					menu_fns.Initialize(false);
+					healthFns.Initialize();
+				}
+			$(document).ready(Application.documentReady);
+			</script>
+
 		<?php endif ?>
 
 	</body>

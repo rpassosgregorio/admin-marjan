@@ -20,7 +20,7 @@
 
 						<?php if(isset($object->id)){ ?>
 
-							<article class="admingrid-item admingrid-item--0" style="background-image: url( <?php echo MY_Controller_CMS::get_path_file('social_responsability', $object->principal_image); ?> )">
+							<article class="admingrid-item admingrid-item--0" style="background-image: url( <?php echo MY_Controller_CMS::get_path_file('health_wellness', $object->principal_image); ?> )">
 
 								<a href="#" class="admingrid-edit-btn" data-open-modal="#item0">
 									<span>Clique aqui para editar esse conteúdo</span>
@@ -57,7 +57,7 @@
 
 						<?php if(isset($object->id)){ ?>
 
-							<article class="admingrid-item admingrid-item--1" style="background-image: url( <?php echo MY_Controller_CMS::get_path_file('social_responsability', $object->calltonext_section_image); ?> )">
+							<article class="admingrid-item admingrid-item--1" style="background-image: url( <?php echo MY_Controller_CMS::get_path_file('health_wellness', $object->calltonext_section_image); ?> )">
 								<a href="#" class="admingrid-edit-btn" data-open-modal="#item1">
 									<span>Clique para editar esse conteúdo</span>
 								</a>
@@ -113,21 +113,21 @@
 											<h2><?php echo !empty($object->section1_title) ? $object->section1_title : 'lorem ipsum'; ?></h2>
 											<p><?php echo !empty($object->section1_short_text) ? $object->section1_short_text : 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores unde assumenda tenetur nisi quisquam aspernatur eveniet error architecto doloremque blanditiis?'; ?></p>
 										</div>
-										<img src="<?php echo MY_Controller_CMS::get_path_file('social_responsability', $object->section1_campaign_logo); ?>" width='50' alt="">
+										<img src="<?php echo MY_Controller_CMS::get_path_file('health_wellness', $object->section1_campaign_logo); ?>" width='50' alt="">
 									</div>
 								</div>
 
-								<div class="admingrid-item-image" style="background-image: url( <?php echo MY_Controller_CMS::get_path_file('social_responsability', $object->section1_image); ?> )">
+								<div class="admingrid-item-image" style="background-image: url( <?php echo MY_Controller_CMS::get_path_file('health_wellness', $object->section1_image); ?> )">
 									<p class="admingrid-item-toplink"><?php echo !empty($object->section1_text_link) ? $object->section1_text_link : 'www.loremipsum.com.br' ?></p>
 									<div class="admingrid-item-links">
 										<div class="admingrid-item-link admingrid-item-link--0">
 											<p>
-												<img src="<?php echo MY_Controller_CMS::get_path_file('social_responsability', $object->section1_social_media1_icon); ?>" width="30" heigth="30" alt=""> <?php echo !empty($object->section1_social_media1_text_link) ? $object->section1_social_media1_text_link : 'lorem ipsum dolor' ?>
+												<img src="<?php echo MY_Controller_CMS::get_path_file('health_wellness', $object->section1_social_media1_icon); ?>" width="30" heigth="30" alt=""> <?php echo !empty($object->section1_social_media1_text_link) ? $object->section1_social_media1_text_link : 'lorem ipsum dolor' ?>
 											</p>
 										</div>
 										<div class="admingrid-item-link admingrid-item-link--1">
 											<p>
-												<img src="<?php echo MY_Controller_CMS::get_path_file('social_responsability', $object->section1_social_media2_icon); ?>" width="30" heigth="30" alt=""> <?php echo !empty($object->section1_social_media2_text_link) ? $object->section1_social_media2_text_link : 'lorem ipsum dolor' ?>
+												<img src="<?php echo MY_Controller_CMS::get_path_file('health_wellness', $object->section1_social_media2_icon); ?>" width="30" heigth="30" alt=""> <?php echo !empty($object->section1_social_media2_text_link) ? $object->section1_social_media2_text_link : 'lorem ipsum dolor' ?>
 											</p>
 										</div>
 									</div>
@@ -185,17 +185,17 @@
 									<span>Clique aqui para editar esse conteúdo</span>
 								</a>
 
-								<div class="admingrid-item-image" style="background-image: url( <?php echo MY_Controller_CMS::get_path_file('social_responsability', $object->section2_image); ?> )">
+								<div class="admingrid-item-image" style="background-image: url( <?php echo MY_Controller_CMS::get_path_file('health_wellness', $object->section2_image); ?> )">
 									<p class="admingrid-item-toplink"><?php echo !empty($object->section2_text_link) ? $object->section2_text_link : 'www.loremipsum.com.br' ?></p>
 									<div class="admingrid-item-links">
 										<div class="admingrid-item-link admingrid-item-link--0">
 											<p>
-												<img src="<?php echo MY_Controller_CMS::get_path_file('social_responsability', $object->section2_social_media1_icon); ?>" width="30" heigth="30" alt=""> <?php echo !empty($object->section2_social_media1_text_link) ? $object->section2_social_media1_text_link : 'lorem ipsum dolor' ?>
+												<img src="<?php echo MY_Controller_CMS::get_path_file('health_wellness', $object->section2_social_media1_icon); ?>" width="30" heigth="30" alt=""> <?php echo !empty($object->section2_social_media1_text_link) ? $object->section2_social_media1_text_link : 'lorem ipsum dolor' ?>
 											</p>
 										</div>
 										<div class="admingrid-item-link admingrid-item-link--1">
 											<p>
-												<img src="<?php echo MY_Controller_CMS::get_path_file('social_responsability', $object->section2_social_media2_icon); ?>" width="30" heigth="30" alt=""> <?php echo !empty($object->section2_social_media2_text_link) ? $object->section2_social_media2_text_link : 'lorem ipsum dolor' ?>
+												<img src="<?php echo MY_Controller_CMS::get_path_file('health_wellness', $object->section2_social_media2_icon); ?>" width="30" heigth="30" alt=""> <?php echo !empty($object->section2_social_media2_text_link) ? $object->section2_social_media2_text_link : 'lorem ipsum dolor' ?>
 											</p>
 										</div>
 									</div>
@@ -206,7 +206,7 @@
 											<h2><?php echo !empty($object->section2_title) ? $object->section2_title : 'lorem ipsum'; ?></h2>
 											<p><?php echo !empty($object->section2_short_text) ? $object->section2_short_text : 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores unde assumenda tenetur nisi quisquam aspernatur eveniet error architecto doloremque blanditiis?'; ?></p>
 										</div>
-										<img src="<?php echo MY_Controller_CMS::get_path_file('social_responsability', $object->section2_campaign_logo); ?>" width="100" alt="">
+										<img src="<?php echo MY_Controller_CMS::get_path_file('health_wellness', $object->section2_campaign_logo); ?>" width="100" alt="">
 									</div>
 								</div>
 
@@ -266,21 +266,21 @@
 											<h2><?php echo !empty($object->section3_title) ? $object->section3_title : 'lorem ipsum'; ?></h2>
 											<p><?php echo !empty($object->section3_short_text) ? $object->section3_short_text : 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores unde assumenda tenetur nisi quisquam aspernatur eveniet error architecto doloremque blanditiis?'; ?></p>
 										</div>
-										<img src="<?php echo MY_Controller_CMS::get_path_file('social_responsability', $object->section3_campaign_logo); ?>" width='50' alt="">
+										<img src="<?php echo MY_Controller_CMS::get_path_file('health_wellness', $object->section3_campaign_logo); ?>" width='50' alt="">
 									</div>
 								</div>
 
-								<div class="admingrid-item-image" style="background-image: url( <?php echo MY_Controller_CMS::get_path_file('social_responsability', $object->section3_image); ?> )">
+								<div class="admingrid-item-image" style="background-image: url( <?php echo MY_Controller_CMS::get_path_file('health_wellness', $object->section3_image); ?> )">
 									<p class="admingrid-item-toplink"><?php echo !empty($object->section3_text_link) ? $object->section3_text_link : 'www.loremipsum.com.br' ?></p>
 									<div class="admingrid-item-links">
 										<div class="admingrid-item-link admingrid-item-link--0">
 											<p>
-												<img src="<?php echo MY_Controller_CMS::get_path_file('social_responsability', $object->section3_social_media1_icon); ?>" width="30" heigth="30" alt=""> <?php echo !empty($object->section3_social_media1_text_link) ? $object->section3_social_media1_text_link : 'lorem ipsum dolor' ?>
+												<img src="<?php echo MY_Controller_CMS::get_path_file('health_wellness', $object->section3_social_media1_icon); ?>" width="30" heigth="30" alt=""> <?php echo !empty($object->section3_social_media1_text_link) ? $object->section3_social_media1_text_link : 'lorem ipsum dolor' ?>
 											</p>
 										</div>
 										<div class="admingrid-item-link admingrid-item-link--1">
 											<p>
-												<img src="<?php echo MY_Controller_CMS::get_path_file('social_responsability', $object->section3_social_media2_icon); ?>" width="30" heigth="30" alt=""> <?php echo !empty($object->section3_social_media2_text_link) ? $object->section3_social_media2_text_link : 'lorem ipsum dolor' ?>
+												<img src="<?php echo MY_Controller_CMS::get_path_file('health_wellness', $object->section3_social_media2_icon); ?>" width="30" heigth="30" alt=""> <?php echo !empty($object->section3_social_media2_text_link) ? $object->section3_social_media2_text_link : 'lorem ipsum dolor' ?>
 											</p>
 										</div>
 									</div>
@@ -340,8 +340,8 @@
 									<div class="row">
 
 										<div class="col-xs-6">
-											<?php if(isset($object->id) && MY_Controller_CMS::get_path_file('social_responsability', $object->principal_image)){ ?>
-												<span><img src='<?php echo MY_Controller_CMS::get_path_file('social_responsability', $object->principal_image); ?>' width='50' alt=''></span>
+											<?php if(isset($object->id) && MY_Controller_CMS::get_path_file('health_wellness', $object->principal_image)){ ?>
+												<span><img src='<?php echo MY_Controller_CMS::get_path_file('health_wellness', $object->principal_image); ?>' width='50' alt=''></span>
 											<?php }else{ ?>
 												<span><img src='https://dummyimage.com/50x50' alt=''></span>
 											<?php } ?>
@@ -386,8 +386,8 @@
 
 									<div class="row">
 										<div class="col-xs-6">
-											<?php if(isset($object->id) && MY_Controller_CMS::get_path_file('social_responsability', $object->principal_image_mobile)){ ?>
-												<span><img src='<?php echo MY_Controller_CMS::get_path_file('social_responsability', $object->principal_image_mobile); ?>' width='50' alt=''></span>
+											<?php if(isset($object->id) && MY_Controller_CMS::get_path_file('health_wellness', $object->principal_image_mobile)){ ?>
+												<span><img src='<?php echo MY_Controller_CMS::get_path_file('health_wellness', $object->principal_image_mobile); ?>' width='50' alt=''></span>
 											<?php }else{ ?>
 												<span><img src='https://dummyimage.com/50x50' alt=''></span>
 											<?php } ?>
@@ -398,8 +398,8 @@
 										</div>
 
 										<div class="col-xs-6">
-											<?php if(isset($object->id) && MY_Controller_CMS::get_path_file('social_responsability', $object->principal_image_tablet)){ ?>
-												<span><img src='<?php echo MY_Controller_CMS::get_path_file('social_responsability', $object->principal_image_tablet); ?>' width='50' alt=''></span>
+											<?php if(isset($object->id) && MY_Controller_CMS::get_path_file('health_wellness', $object->principal_image_tablet)){ ?>
+												<span><img src='<?php echo MY_Controller_CMS::get_path_file('health_wellness', $object->principal_image_tablet); ?>' width='50' alt=''></span>
 											<?php }else{ ?>
 												<span><img src='https://dummyimage.com/50x50' alt=''></span>
 											<?php } ?>
@@ -414,14 +414,14 @@
 										<div class="col-xs-6">
 											<div class="form-group">
 												<label>Texto Esquerda</label>
-												<textarea class="form-control" name="principal_left_text" placeholder="Texto esquerda"><?php echo isset($object->id) ? MY_Controller_CMS::nl2br_str_decode($object->principal_left_text) : ''; ?></textarea>
+												<textarea class="form-control" name="principal_left_text" placeholder="..."><?php echo isset($object->id) ? MY_Controller_CMS::nl2br_str_decode($object->principal_left_text) : ''; ?></textarea>
 											</div>
 										</div>
 
 										<div class="col-xs-6">
 											<div class="form-group">
 												<label>Texto direita</label>
-												<textarea class="form-control" name="principal_right_text" placeholder="Texto direita"><?php echo isset($object->id) ? MY_Controller_CMS::nl2br_str_decode($object->principal_right_text) : ''; ?></textarea>
+												<textarea class="form-control" name="principal_right_text" placeholder="..."><?php echo isset($object->id) ? MY_Controller_CMS::nl2br_str_decode($object->principal_right_text) : ''; ?></textarea>
 											</div>
 										</div>
 									</div>
@@ -444,8 +444,8 @@
 									<div class="row">
 
 										<div class="col-xs-6">
-											<?php if(isset($object->id) && MY_Controller_CMS::get_path_file('social_responsability', $object->calltonext_section_image)){ ?>
-												<span><img src='<?php echo MY_Controller_CMS::get_path_file('social_responsability', $object->calltonext_section_image); ?>' width='50' alt=''></span>
+											<?php if(isset($object->id) && MY_Controller_CMS::get_path_file('health_wellness', $object->calltonext_section_image)){ ?>
+												<span><img src='<?php echo MY_Controller_CMS::get_path_file('health_wellness', $object->calltonext_section_image); ?>' width='50' alt=''></span>
 											<?php }else{ ?>
 												<span><img src='https://dummyimage.com/50x50' alt=''></span>
 											<?php } ?>
@@ -502,8 +502,8 @@
 
 										<div class="col-xs-6">
 											<div class="form-group">
-												<label>Título da Campnha</label>
-												<input type="text" class="form-control" name="section1_title" value="<?php echo isset($object->id) ? MY_Controller_CMS::nl2br_str_decode($object->section1_title) : ''; ?>">
+												<label>Título</label>
+												<textarea class="form-control" name="section1_title" placeholder="..."><?php echo isset($object->id) ? MY_Controller_CMS::nl2br_str_decode($object->section1_title) : ''; ?></textarea>
 											</div>
 										</div>
 
@@ -512,8 +512,8 @@
 									<div class="row">
 
 										<div class="col-xs-6">
-											<?php if(isset($object->id) && MY_Controller_CMS::get_path_file('social_responsability', $object->section1_image)){ ?>
-												<span><img src='<?php echo MY_Controller_CMS::get_path_file('social_responsability', $object->section1_image); ?>' width='50' alt=''></span>
+											<?php if(isset($object->id) && MY_Controller_CMS::get_path_file('health_wellness', $object->section1_image)){ ?>
+												<span><img src='<?php echo MY_Controller_CMS::get_path_file('health_wellness', $object->section1_image); ?>' width='50' alt=''></span>
 											<?php }else{ ?>
 												<span><img src='https://dummyimage.com/50x50' alt=''></span>
 											<?php } ?>
@@ -525,10 +525,10 @@
 
 										<div class="col-xs-6">
 
-											<?php if(isset($object->id) && MY_Controller_CMS::get_path_file('social_responsability/video', $object->section1_video)){ ?>
-												<span><img src='<?php echo MY_Controller_CMS::get_path_file('social_responsability/video', $object->section1_video); ?>' width='50' alt=''></span>
-											<?php }else if(isset($object->id) && MY_Controller_CMS::get_path_file('social_responsability', $object->section1_image)){ ?>
-												<span><img src='<?php echo MY_Controller_CMS::get_path_file('social_responsability', $object->section1_image); ?>' width='50' alt=''></span>
+											<?php if(isset($object->id) && MY_Controller_CMS::get_path_file('health_wellness/video', $object->section1_video)){ ?>
+												<span><img src='<?php echo MY_Controller_CMS::get_path_file('health_wellness/video', $object->section1_video); ?>' width='50' alt=''></span>
+											<?php }else if(isset($object->id) && MY_Controller_CMS::get_path_file('health_wellness', $object->section1_image)){ ?>
+												<span><img src='<?php echo MY_Controller_CMS::get_path_file('health_wellness', $object->section1_image); ?>' width='50' alt=''></span>
 											<?php }else{ ?>
 												<span><img src='https://dummyimage.com/50x50' alt=''></span>
 											<?php } ?>
@@ -597,8 +597,8 @@
 
 									<div class="row">
 										<div class="col-xs-6">
-											<?php if(isset($object->id) && MY_Controller_CMS::get_path_file('social_responsability', $object->section1_image_mobile)){ ?>
-												<span><img src='<?php echo MY_Controller_CMS::get_path_file('social_responsability', $object->section1_image_mobile); ?>' width='50' alt=''></span>
+											<?php if(isset($object->id) && MY_Controller_CMS::get_path_file('health_wellness', $object->section1_image_mobile)){ ?>
+												<span><img src='<?php echo MY_Controller_CMS::get_path_file('health_wellness', $object->section1_image_mobile); ?>' width='50' alt=''></span>
 											<?php }else{ ?>
 												<span><img src='https://dummyimage.com/50x50' alt=''></span>
 											<?php } ?>
@@ -609,8 +609,8 @@
 										</div>
 
 										<div class="col-xs-6">
-											<?php if(isset($object->id) && MY_Controller_CMS::get_path_file('social_responsability', $object->section1_image_tablet)){ ?>
-												<span><img src='<?php echo MY_Controller_CMS::get_path_file('social_responsability', $object->section1_image_tablet); ?>' width='50' alt=''></span>
+											<?php if(isset($object->id) && MY_Controller_CMS::get_path_file('health_wellness', $object->section1_image_tablet)){ ?>
+												<span><img src='<?php echo MY_Controller_CMS::get_path_file('health_wellness', $object->section1_image_tablet); ?>' width='50' alt=''></span>
 											<?php }else{ ?>
 												<span><img src='https://dummyimage.com/50x50' alt=''></span>
 											<?php } ?>
@@ -625,8 +625,19 @@
 
 										<div class="col-xs-12">
 											<div class="form-group">
-												<label>Texto</label>
-												<textarea class="form-control" name="section1_short_text" placeholder="Texto esquerda"><?php echo isset($object->id) ? MY_Controller_CMS::nl2br_str_decode($object->section1_short_text) : ''; ?></textarea>
+												<label>Texto Curto</label>
+												<textarea class="form-control" name="section1_short_text" placeholder="..."><?php echo isset($object->id) ? MY_Controller_CMS::nl2br_str_decode($object->section1_short_text) : ''; ?></textarea>
+											</div>
+										</div>
+
+									</div>
+
+									<div class="row">
+
+										<div class="col-xs-12">
+											<div class="form-group">
+												<label>Texto Longo</label>
+												<textarea class="form-control" name="section1_text" placeholder="..."><?php echo isset($object->id) ? MY_Controller_CMS::nl2br_str_decode($object->section1_text) : ''; ?></textarea>
 											</div>
 										</div>
 
@@ -637,7 +648,7 @@
 										<div class="col-xs-6">
 											<div class="form-group">
 												<label>Texto Link</label>
-												<input type="text" class="form-control" name="section1_text_link" value="<?php echo isset($object->id) ? MY_Controller_CMS::nl2br_str_decode($object->section1_text_link) : ''; ?>">
+												<textarea class="form-control" name="section1_text_link" placeholder="..."><?php echo isset($object->id) ? MY_Controller_CMS::nl2br_str_decode($object->section1_text_link) : ''; ?></textarea>
 											</div>
 										</div>
 
@@ -653,8 +664,8 @@
 									<div class="row">
 
 										<div class="col-xs-6">
-											<?php if(isset($object->id) && MY_Controller_CMS::get_path_file('social_responsability', $object->section1_campaign_logo)){ ?>
-												<span><img src='<?php echo MY_Controller_CMS::get_path_file('social_responsability', $object->section1_campaign_logo); ?>' width='50' alt=''></span>
+											<?php if(isset($object->id) && MY_Controller_CMS::get_path_file('health_wellness', $object->section1_campaign_logo)){ ?>
+												<span><img src='<?php echo MY_Controller_CMS::get_path_file('health_wellness', $object->section1_campaign_logo); ?>' width='50' alt=''></span>
 											<?php }else{ ?>
 												<span><img src='https://dummyimage.com/50x50' alt=''></span>
 											<?php } ?>
@@ -668,8 +679,8 @@
 
 									<div class="row">
 										<div class="col-xs-6">
-											<?php if(isset($object->id) && MY_Controller_CMS::get_path_file('social_responsability', $object->section1_social_media1_icon)){ ?>
-												<span><img src='<?php echo MY_Controller_CMS::get_path_file('social_responsability', $object->section1_social_media1_icon); ?>' width='50' alt=''></span>
+											<?php if(isset($object->id) && MY_Controller_CMS::get_path_file('health_wellness', $object->section1_social_media1_icon)){ ?>
+												<span><img src='<?php echo MY_Controller_CMS::get_path_file('health_wellness', $object->section1_social_media1_icon); ?>' width='50' alt=''></span>
 											<?php }else{ ?>
 												<span><img src='https://dummyimage.com/50x50' alt=''></span>
 											<?php } ?>
@@ -700,8 +711,8 @@
 
 									<div class="row">
 										<div class="col-xs-6">
-											<?php if(isset($object->id) && MY_Controller_CMS::get_path_file('social_responsability', $object->section1_social_media2_icon)){ ?>
-												<span><img src='<?php echo MY_Controller_CMS::get_path_file('social_responsability', $object->section1_social_media2_icon); ?>' width='50' alt=''></span>
+											<?php if(isset($object->id) && MY_Controller_CMS::get_path_file('health_wellness', $object->section1_social_media2_icon)){ ?>
+												<span><img src='<?php echo MY_Controller_CMS::get_path_file('health_wellness', $object->section1_social_media2_icon); ?>' width='50' alt=''></span>
 											<?php }else{ ?>
 												<span><img src='https://dummyimage.com/50x50' alt=''></span>
 											<?php } ?>
@@ -750,7 +761,7 @@
 										<div class="col-xs-6">
 											<div class="form-group">
 												<label>Título</label>
-												<input type="text" class="form-control" name="section2_title" value="<?php echo isset($object->id) ? MY_Controller_CMS::nl2br_str_decode($object->section2_title) : ''; ?>">
+												<textarea class="form-control" name="section2_title" placeholder="..."><?php echo isset($object->id) ? MY_Controller_CMS::nl2br_str_decode($object->section2_title) : ''; ?></textarea>
 											</div>
 										</div>
 
@@ -759,8 +770,8 @@
 									<div class="row">
 
 										<div class="col-xs-6">
-											<?php if(isset($object->id) && MY_Controller_CMS::get_path_file('social_responsability', $object->section2_image)){ ?>
-												<span><img src='<?php echo MY_Controller_CMS::get_path_file('social_responsability', $object->section2_image); ?>' width='50' alt=''></span>
+											<?php if(isset($object->id) && MY_Controller_CMS::get_path_file('health_wellness', $object->section2_image)){ ?>
+												<span><img src='<?php echo MY_Controller_CMS::get_path_file('health_wellness', $object->section2_image); ?>' width='50' alt=''></span>
 											<?php }else{ ?>
 												<span><img src='https://dummyimage.com/50x50' alt=''></span>
 											<?php } ?>
@@ -772,10 +783,10 @@
 
 										<div class="col-xs-6">
 
-											<?php if(isset($object->id) && MY_Controller_CMS::get_path_file('social_responsability/video', $object->section2_video)){ ?>
-												<span><img src='<?php echo MY_Controller_CMS::get_path_file('social_responsability/video', $object->section2_video); ?>' width='50' alt=''></span>
-											<?php }else if(isset($object->id) && MY_Controller_CMS::get_path_file('social_responsability', $object->section2_image)){ ?>
-												<span><img src='<?php echo MY_Controller_CMS::get_path_file('social_responsability', $object->section2_image); ?>' width='50' alt=''></span>
+											<?php if(isset($object->id) && MY_Controller_CMS::get_path_file('health_wellness/video', $object->section2_video)){ ?>
+												<span><img src='<?php echo MY_Controller_CMS::get_path_file('health_wellness/video', $object->section2_video); ?>' width='50' alt=''></span>
+											<?php }else if(isset($object->id) && MY_Controller_CMS::get_path_file('health_wellness', $object->section2_image)){ ?>
+												<span><img src='<?php echo MY_Controller_CMS::get_path_file('health_wellness', $object->section2_image); ?>' width='50' alt=''></span>
 											<?php }else{ ?>
 												<span><img src='https://dummyimage.com/50x50' alt=''></span>
 											<?php } ?>
@@ -844,8 +855,8 @@
 
 									<div class="row">
 										<div class="col-xs-6">
-											<?php if(isset($object->id) && MY_Controller_CMS::get_path_file('social_responsability', $object->section2_image_mobile)){ ?>
-												<span><img src='<?php echo MY_Controller_CMS::get_path_file('social_responsability', $object->section2_image_mobile); ?>' width='50' alt=''></span>
+											<?php if(isset($object->id) && MY_Controller_CMS::get_path_file('health_wellness', $object->section2_image_mobile)){ ?>
+												<span><img src='<?php echo MY_Controller_CMS::get_path_file('health_wellness', $object->section2_image_mobile); ?>' width='50' alt=''></span>
 											<?php }else{ ?>
 												<span><img src='https://dummyimage.com/50x50' alt=''></span>
 											<?php } ?>
@@ -856,8 +867,8 @@
 										</div>
 
 										<div class="col-xs-6">
-											<?php if(isset($object->id) && MY_Controller_CMS::get_path_file('social_responsability', $object->section2_image_tablet)){ ?>
-												<span><img src='<?php echo MY_Controller_CMS::get_path_file('social_responsability', $object->section2_image_tablet); ?>' width='50' alt=''></span>
+											<?php if(isset($object->id) && MY_Controller_CMS::get_path_file('health_wellness', $object->section2_image_tablet)){ ?>
+												<span><img src='<?php echo MY_Controller_CMS::get_path_file('health_wellness', $object->section2_image_tablet); ?>' width='50' alt=''></span>
 											<?php }else{ ?>
 												<span><img src='https://dummyimage.com/50x50' alt=''></span>
 											<?php } ?>
@@ -872,8 +883,19 @@
 
 										<div class="col-xs-12">
 											<div class="form-group">
-												<label>Texto</label>
-												<textarea class="form-control" name="section2_short_text" placeholder="Texto esquerda"><?php echo isset($object->id) ? MY_Controller_CMS::nl2br_str_decode($object->section2_short_text) : ''; ?></textarea>
+												<label>Texto Curto</label>
+												<textarea class="form-control" name="section2_short_text" placeholder="..."><?php echo isset($object->id) ? MY_Controller_CMS::nl2br_str_decode($object->section2_short_text) : ''; ?></textarea>
+											</div>
+										</div>
+
+									</div>
+
+									<div class="row">
+
+										<div class="col-xs-12">
+											<div class="form-group">
+												<label>Texto Longo</label>
+												<textarea class="form-control" name="section2_text" placeholder="..."><?php echo isset($object->id) ? MY_Controller_CMS::nl2br_str_decode($object->section2_text) : ''; ?></textarea>
 											</div>
 										</div>
 
@@ -884,7 +906,7 @@
 										<div class="col-xs-6">
 											<div class="form-group">
 												<label>Texto Link</label>
-												<input type="text" class="form-control" name="section2_text_link" value="<?php echo isset($object->id) ? MY_Controller_CMS::nl2br_str_decode($object->section2_text_link) : ''; ?>">
+												<textarea class="form-control" name="section2_text_link" placeholder="..."><?php echo isset($object->id) ? MY_Controller_CMS::nl2br_str_decode($object->section2_text_link) : ''; ?></textarea>
 											</div>
 										</div>
 
@@ -901,8 +923,8 @@
 									<div class="row">
 
 										<div class="col-xs-6">
-											<?php if(isset($object->id) && MY_Controller_CMS::get_path_file('social_responsability', $object->section2_campaign_logo)){ ?>
-												<span><img src='<?php echo MY_Controller_CMS::get_path_file('social_responsability', $object->section2_campaign_logo); ?>' width='50' alt=''></span>
+											<?php if(isset($object->id) && MY_Controller_CMS::get_path_file('health_wellness', $object->section2_campaign_logo)){ ?>
+												<span><img src='<?php echo MY_Controller_CMS::get_path_file('health_wellness', $object->section2_campaign_logo); ?>' width='50' alt=''></span>
 											<?php }else{ ?>
 												<span><img src='https://dummyimage.com/50x50' alt=''></span>
 											<?php } ?>
@@ -916,8 +938,8 @@
 
 									<div class="row">
 										<div class="col-xs-6">
-											<?php if(isset($object->id) && MY_Controller_CMS::get_path_file('social_responsability', $object->section2_social_media1_icon)){ ?>
-												<span><img src='<?php echo MY_Controller_CMS::get_path_file('social_responsability', $object->section2_social_media1_icon); ?>' width='50' alt=''></span>
+											<?php if(isset($object->id) && MY_Controller_CMS::get_path_file('health_wellness', $object->section2_social_media1_icon)){ ?>
+												<span><img src='<?php echo MY_Controller_CMS::get_path_file('health_wellness', $object->section2_social_media1_icon); ?>' width='50' alt=''></span>
 											<?php }else{ ?>
 												<span><img src='https://dummyimage.com/50x50' alt=''></span>
 											<?php } ?>
@@ -948,8 +970,8 @@
 
 									<div class="row">
 										<div class="col-xs-6">
-											<?php if(isset($object->id) && MY_Controller_CMS::get_path_file('social_responsability', $object->section2_social_media2_icon)){ ?>
-												<span><img src='<?php echo MY_Controller_CMS::get_path_file('social_responsability', $object->section2_social_media2_icon); ?>' width='50' alt=''></span>
+											<?php if(isset($object->id) && MY_Controller_CMS::get_path_file('health_wellness', $object->section2_social_media2_icon)){ ?>
+												<span><img src='<?php echo MY_Controller_CMS::get_path_file('health_wellness', $object->section2_social_media2_icon); ?>' width='50' alt=''></span>
 											<?php }else{ ?>
 												<span><img src='https://dummyimage.com/50x50' alt=''></span>
 											<?php } ?>
@@ -997,7 +1019,7 @@
 										<div class="col-xs-6">
 											<div class="form-group">
 												<label>Título</label>
-												<input type="text" class="form-control" name="section3_title" value="<?php echo isset($object->id) ? MY_Controller_CMS::nl2br_str_decode($object->section3_title) : ''; ?>">
+												<textarea class="form-control" name="section3_title" placeholder="..."><?php echo isset($object->id) ? MY_Controller_CMS::nl2br_str_decode($object->section3_title) : ''; ?></textarea>
 											</div>
 										</div>
 
@@ -1006,8 +1028,8 @@
 									<div class="row">
 
 										<div class="col-xs-6">
-											<?php if(isset($object->id) && MY_Controller_CMS::get_path_file('social_responsability', $object->section3_image_mobile)){ ?>
-												<span><img src='<?php echo MY_Controller_CMS::get_path_file('social_responsability', $object->section3_image); ?>' width='50' alt=''></span>
+											<?php if(isset($object->id) && MY_Controller_CMS::get_path_file('health_wellness', $object->section3_image_mobile)){ ?>
+												<span><img src='<?php echo MY_Controller_CMS::get_path_file('health_wellness', $object->section3_image); ?>' width='50' alt=''></span>
 											<?php }else{ ?>
 												<span><img src='https://dummyimage.com/50x50' alt=''></span>
 											<?php } ?>
@@ -1019,10 +1041,10 @@
 
 										<div class="col-xs-6">
 
-											<?php if(isset($object->id) && MY_Controller_CMS::get_path_file('social_responsability/video', $object->section3_video)){ ?>
-												<span><img src='<?php echo MY_Controller_CMS::get_path_file('social_responsability/video', $object->section3_video); ?>' width='50' alt=''></span>
-											<?php }else if(isset($object->id) && MY_Controller_CMS::get_path_file('social_responsability', $object->section3_image)){ ?>
-												<span><img src='<?php echo MY_Controller_CMS::get_path_file('social_responsability', $object->section3_image); ?>' width='50' alt=''></span>
+											<?php if(isset($object->id) && MY_Controller_CMS::get_path_file('health_wellness/video', $object->section3_video)){ ?>
+												<span><img src='<?php echo MY_Controller_CMS::get_path_file('health_wellness/video', $object->section3_video); ?>' width='50' alt=''></span>
+											<?php }else if(isset($object->id) && MY_Controller_CMS::get_path_file('health_wellness', $object->section3_image)){ ?>
+												<span><img src='<?php echo MY_Controller_CMS::get_path_file('health_wellness', $object->section3_image); ?>' width='50' alt=''></span>
 											<?php }else{ ?>
 												<span><img src='https://dummyimage.com/50x50' alt=''></span>
 											<?php } ?>
@@ -1091,8 +1113,8 @@
 
 									<div class="row">
 										<div class="col-xs-6">
-											<?php if(isset($object->id) && MY_Controller_CMS::get_path_file('social_responsability', $object->section3_image_mobile)){ ?>
-												<span><img src='<?php echo MY_Controller_CMS::get_path_file('social_responsability', $object->section3_image_mobile); ?>' width='50' alt=''></span>
+											<?php if(isset($object->id) && MY_Controller_CMS::get_path_file('health_wellness', $object->section3_image_mobile)){ ?>
+												<span><img src='<?php echo MY_Controller_CMS::get_path_file('health_wellness', $object->section3_image_mobile); ?>' width='50' alt=''></span>
 											<?php }else{ ?>
 												<span><img src='https://dummyimage.com/50x50' alt=''></span>
 											<?php } ?>
@@ -1103,8 +1125,8 @@
 										</div>
 
 										<div class="col-xs-6">
-											<?php if(isset($object->id) && MY_Controller_CMS::get_path_file('social_responsability', $object->section3_image_tablet)){ ?>
-												<span><img src='<?php echo MY_Controller_CMS::get_path_file('social_responsability', $object->section3_image_tablet); ?>' width='50' alt=''></span>
+											<?php if(isset($object->id) && MY_Controller_CMS::get_path_file('health_wellness', $object->section3_image_tablet)){ ?>
+												<span><img src='<?php echo MY_Controller_CMS::get_path_file('health_wellness', $object->section3_image_tablet); ?>' width='50' alt=''></span>
 											<?php }else{ ?>
 												<span><img src='https://dummyimage.com/50x50' alt=''></span>
 											<?php } ?>
@@ -1119,8 +1141,19 @@
 
 										<div class="col-xs-12">
 											<div class="form-group">
-												<label>Texto</label>
-												<textarea class="form-control" name="section3_short_text" placeholder="Texto esquerda"><?php echo isset($object->id) ? MY_Controller_CMS::nl2br_str_decode($object->section3_short_text) : ''; ?></textarea>
+												<label>Texto Curto</label>
+												<textarea class="form-control" name="section3_short_text" placeholder="..."><?php echo isset($object->id) ? MY_Controller_CMS::nl2br_str_decode($object->section3_short_text) : ''; ?></textarea>
+											</div>
+										</div>
+
+									</div>
+
+									<div class="row">
+
+										<div class="col-xs-12">
+											<div class="form-group">
+												<label>Texto Longo</label>
+												<textarea class="form-control" name="section3_text" placeholder="..."><?php echo isset($object->id) ? MY_Controller_CMS::nl2br_str_decode($object->section3_text) : ''; ?></textarea>
 											</div>
 										</div>
 
@@ -1131,7 +1164,7 @@
 										<div class="col-xs-6">
 											<div class="form-group">
 												<label>Texto Link</label>
-												<input type="text" class="form-control" name="section3_text_link" value="<?php echo isset($object->id) ? MY_Controller_CMS::nl2br_str_decode($object->section3_text_link) : ''; ?>">
+												<textarea class="form-control" name="section3_text_link" placeholder="..."><?php echo isset($object->id) ? MY_Controller_CMS::nl2br_str_decode($object->section3_text_link) : ''; ?></textarea>
 											</div>
 										</div>
 
@@ -1147,8 +1180,8 @@
 									<div class="row">
 
 										<div class="col-xs-6">
-											<?php if(isset($object->id) && MY_Controller_CMS::get_path_file('social_responsability', $object->section3_campaign_logo)){ ?>
-												<span><img src='<?php echo MY_Controller_CMS::get_path_file('social_responsability', $object->section3_campaign_logo); ?>' width='50' alt=''></span>
+											<?php if(isset($object->id) && MY_Controller_CMS::get_path_file('health_wellness', $object->section3_campaign_logo)){ ?>
+												<span><img src='<?php echo MY_Controller_CMS::get_path_file('health_wellness', $object->section3_campaign_logo); ?>' width='50' alt=''></span>
 											<?php }else{ ?>
 												<span><img src='https://dummyimage.com/50x50' alt=''></span>
 											<?php } ?>
@@ -1162,8 +1195,8 @@
 
 									<div class="row">
 										<div class="col-xs-6">
-											<?php if(isset($object->id) && MY_Controller_CMS::get_path_file('social_responsability', $object->section3_social_media1_icon)){ ?>
-												<span><img src='<?php echo MY_Controller_CMS::get_path_file('social_responsability', $object->section3_social_media1_icon); ?>' width='50' alt=''></span>
+											<?php if(isset($object->id) && MY_Controller_CMS::get_path_file('health_wellness', $object->section3_social_media1_icon)){ ?>
+												<span><img src='<?php echo MY_Controller_CMS::get_path_file('health_wellness', $object->section3_social_media1_icon); ?>' width='50' alt=''></span>
 											<?php }else{ ?>
 												<span><img src='https://dummyimage.com/50x50' alt=''></span>
 											<?php } ?>
@@ -1194,8 +1227,8 @@
 
 									<div class="row">
 										<div class="col-xs-6">
-											<?php if(isset($object->id) && MY_Controller_CMS::get_path_file('social_responsability', $object->section3_social_media2_icon)){ ?>
-												<span><img src='<?php echo MY_Controller_CMS::get_path_file('social_responsability', $object->section3_social_media2_icon); ?>' width='50' alt=''></span>
+											<?php if(isset($object->id) && MY_Controller_CMS::get_path_file('health_wellness', $object->section3_social_media2_icon)){ ?>
+												<span><img src='<?php echo MY_Controller_CMS::get_path_file('health_wellness', $object->section3_social_media2_icon); ?>' width='50' alt=''></span>
 											<?php }else{ ?>
 												<span><img src='https://dummyimage.com/50x50' alt=''></span>
 											<?php } ?>

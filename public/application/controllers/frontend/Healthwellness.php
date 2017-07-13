@@ -10,6 +10,10 @@ class Healthwellness extends MY_Controller {
 	}
 
 	public function index(){
+
+		$this->load->model('HealthWellness_model', '', TRUE);
+		$this->view_data['object'] = $this->HealthWellness_model->find_unique(array(), array(), '', array(), array(), 1, 1);
+
 		$this->load_template('saude-e-bem-estar/index');
 	}
 
