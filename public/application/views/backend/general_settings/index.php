@@ -205,7 +205,7 @@
 
 										<div class="col-md-5">
 											<div class="form-group">
-												<label for="linkedin">Instagram</label>
+												<label for="linkedin">Linkedin</label>
 												<input type="text" class="form-control" id="linkedin" name="linkedin" placeholder="" value="<?php echo isset($object->id) ? $object->linkedin : set_value('linkedin'); ?>">
 											</div>
 										</div>
@@ -230,7 +230,7 @@
 										<div class="col-md-5">
 											<div class="form-group">
 												<label for="common_page_text">Texto</label>
-												<input type="text" class="form-control" id="common_page_text" name="common_page_text" placeholder="" value="<?php echo isset($object->id) ? $object->common_page_text : set_value('common_page_text'); ?>">
+												<textarea class="form-control" name="common_page_text" placeholder="Texto esquerda"><?php echo isset($object->id) ? MY_Controller_CMS::nl2br_str_decode($object->common_page_text) : ''; ?></textarea>
 											</div>
 										</div>
 

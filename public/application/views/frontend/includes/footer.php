@@ -291,7 +291,42 @@
 			$(document).ready(Application.documentReady);
 			</script>
 
+		<?php elseif ($controller_module  == 'carreira'): ?>
+
+			<script language="javascript">
+				window.onload = function(){
+					Application.beforeStart(false);
+					menu_fns.Initialize(false);
+					career_fns.Initialize();
+				}
+			$(document).ready(Application.documentReady);
+			</script>
+
+		<?php elseif ($controller_module  == 'sala-social'): ?>
+
+			<script language="javascript">
+				window.onload = function(){
+					Application.beforeStart(false);
+					menu_fns.Initialize(false);
+					social_stream_fns.Initialize();
+				}
+				$(document).ready(Application.documentReady);
+			</script>
+
+		<?php elseif ($controller_module  == 'farmacovigilancia'): ?>
+
+			<script language="javascript">
+				window.onload = function(){
+					Application.beforeStart(false);
+					menu_fns.Initialize(false);
+					pharmaco_vig_fns.Initialize();
+					//$( "#bday-date-picker" ).datepicker("option", "altFormat", "dd-mm-yy");
+				}
+			$(document).ready(Application.documentReady);
+			</script>
+
 		<?php endif ?>
+
 
 	</body>
 

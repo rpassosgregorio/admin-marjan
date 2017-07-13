@@ -52,17 +52,17 @@
 	<?php elseif ($controller_module  == 'sobre-nos' && $action_module  == 'nossa-historia'): ?>
 
 	<?php elseif ($controller_module  == 'responsabilidade-social'): ?>
-
 		<link href="<?php echo base_url(PATH_ASSETS.'/css/resp-social.css'); ?>" rel="stylesheet" type="text/css"> <!-- css customizado da página -->
-
 	<?php elseif ($controller_module  == 'saude-e-bem-estar'): ?>
-
 		<link href="<?php echo base_url(PATH_ASSETS.'/css/health.css'); ?>" rel="stylesheet" type="text/css"> <!-- css customizado da página -->
-
 	<?php elseif ($controller_module  == 'profissionais-da-saude'): ?>
-
 		<link href="<?php echo base_url(PATH_ASSETS.'/css/health-doctors.css'); ?>" rel="stylesheet" type="text/css"> <!-- css customizado da página -->
-
+	<?php elseif ($controller_module  == 'carreira'): ?>
+		<link href="<?php echo base_url(PATH_ASSETS.'/css/career.css'); ?>" rel="stylesheet" type="text/css"> <!-- css customizado da página -->
+	<?php elseif ($controller_module  == 'sala-social'): ?>
+		<link href="<?php echo base_url(PATH_ASSETS.'/css/social-stream.css'); ?>" rel="stylesheet" type="text/css"> <!-- css customizado da página -->
+	<?php elseif ($controller_module  == 'farmacovigilancia'): ?>
+		<link href="<?php echo base_url(PATH_ASSETS.'/css/pharmacovigilance.css'); ?>" rel="stylesheet" type="text/css"> <!-- css customizado da página -->
 	<?php endif ?>
 
     <script src="<?php echo base_url(PATH_ASSETS.'/js/libs/jquery/jquery-3.2.1.min.js'); ?>"></script>
@@ -109,17 +109,17 @@
 	<?php elseif ($controller_module  == 'sobre-nos' && $action_module  == 'nossa-historia'): ?>
 
 	<?php elseif ($controller_module  == 'responsabilidade-social'): ?>
-
 		<script src="<?php echo base_url(PATH_ASSETS.'/js/resp-social.js'); ?>"></script> <!-- js customizado da página -->
-
 	<?php elseif ($controller_module  == 'saude-e-bem-estar'): ?>
-
 		<script src="<?php echo base_url(PATH_ASSETS.'/js/health.js'); ?>"></script> <!-- js customizado da página -->
-
 	<?php elseif ($controller_module  == 'profissionais-da-saude'): ?>
-
 		<script src="<?php echo base_url(PATH_ASSETS.'/js/products_home.js'); ?>"></script> <!-- js customizado da página -->
-
+	<?php elseif ($controller_module  == 'carreira'): ?>
+		<script src="<?php echo base_url(PATH_ASSETS.'/js/career.js'); ?>"></script> <!-- js customizado da página -->
+	<?php elseif ($controller_module  == 'sala-social'): ?>
+		<script src="<?php echo base_url(PATH_ASSETS.'/js/socialstream.js'); ?>"></script> <!-- js customizado da página -->
+	<?php elseif ($controller_module  == 'farmacovigilancia'): ?>
+		<script src="<?php echo base_url(PATH_ASSETS.'/js/pharmacovigilance.js'); ?>"></script> <!-- js customizado da página -->
 	<?php endif ?>
 
 
