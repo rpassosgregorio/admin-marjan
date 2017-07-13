@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Jul 13, 2017 at 07:45 PM
+-- Generation Time: Jul 13, 2017 at 09:55 PM
 -- Server version: 10.1.21-MariaDB
 -- PHP Version: 5.6.30
 
@@ -974,7 +974,7 @@ CREATE TABLE `ws_health_professionals` (
 --
 
 INSERT INTO `ws_health_professionals` (`id`, `principal_image`, `principal_image_horizontal_align`, `principal_image_vertical_align`, `principal_image_mobile`, `principal_image_tablet`, `principal_left_text`, `principal_right_text`, `calltonext_section_image`, `call_text_secion`, `section1_image`, `section1_image_horizontal_align`, `section1_image_vertical_align`, `section1_image_mobile`, `section1_image_tablet`, `section1_title`, `section1_text`, `section1_button_text`, `section1_button_link`, `deleted`, `order`, `inserted_by`, `date_last_update`, `date_insertion`, `active`) VALUES
-(1, 'header-img-Q5K8J3BZTR', 'center', 'bottom', 'header-img-3ZZTDFJBU5', 'header-img-47RKE6SFM9', 'PROFISSIONAIS<br/>DA SAÚDE', 'Acesse nosso portal<br/>e mantenha-se sempre<br/>atualizado', 'call-to-next-415DYE713Q', 'Um portal com informações e conteúdo científico dedicado ao profissional da saúde! Faça o cadastro e tenha acesso a inúmeros materiais, escritos e gravados por médicos renomados, além de diversos outros materiais sobre os mais variados temas e assuntos relevantes à área médica.', 'prof-saude-inter-5BBP28WSK9', 'center', 'center', 'prof-saude-inter-D1BXTMQQ2C', 'prof-saude-inter-Z2FJ58RDRR', 'PORTAL MÉDICO CIENTÍFICO<br/>“MEDICAL NEWS”', 'Tenha acesso à periódicos, vídeo-aulas, bulas e mais.', 'ACESSE', 'http://www.marjanmedicalnews.com.br/', 0, 0, 1, '2017-06-08 20:53:47', '2017-06-09 01:53:47', 1);
+(1, 'header-img-Q5K8J3BZTR', 'center', 'bottom', 'header-img-3ZZTDFJBU5', 'header-img-47RKE6SFM9', 'PROFISSIONAIS<br/>DA SAÚDE', 'Acesse nosso portal<br/>e mantenha-se sempre<br/>atualizado', 'call-to-next-415DYE713Q', 'Um portal com informações e conteúdo científico dedicado ao profissional da saúde! Faça o cadastro e tenha acesso a inúmeros materiais, escritos e gravados por médicos renomados, além de diversos outros materiais sobre os mais variados temas e assuntos relevantes à área médica.', 'prof-saude-inter-AVFRY7VS3C', 'center', 'center', 'prof-saude-inter-P4HCEVHJRZ', 'prof-saude-inter-BX8XAQTM97', 'PORTAL MÉDICO CIENTÍFICO<br/>“MEDICAL NEWS”', 'Tenha acesso à periódicos, vídeo-aulas, bulas e mais.', 'ACESSE', 'http://www.marjanmedicalnews.com.br/', 0, 0, 1, '2017-06-08 20:53:47', '2017-06-09 01:53:47', 1);
 
 -- --------------------------------------------------------
 
