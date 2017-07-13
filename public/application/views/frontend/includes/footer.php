@@ -245,7 +245,10 @@
 			</script>
 
 		<?php elseif ($controller_module  == 'sobre-nos' && $action_module  == 'nossa-historia'): ?>
-
+			
+           	<script type="text/javascript" src="<?php echo base_url(PATH_ASSETS.'/js/vendors.js '); ?>"></script>
+            <script type="text/javascript" src="<?php echo base_url(PATH_ASSETS.'/js/jquery.timeline.js '); ?>"></script>
+            
 			<script type="text/javascript">
 				$(document).ready(function(){
 					Application.documentReady();

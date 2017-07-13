@@ -47,8 +47,6 @@ var Application = {
 			$(".secondary-navbar-wrapper .navbar-item a").css("line-height", "100%");		
 			$(".secondary-navbar-wrapper .navbar-link-container").css("display", "inline-flex");
 		}
-        
-        
 		
 		this.windowInitialWidth = $(window).width();
 		this.screenWidth = screen.width;
@@ -118,6 +116,8 @@ var Application = {
 		}
 		
 		Application.ArrangeElemsInDOM();
+		Application.getProducts();
+		Application.SetLanguage();
 	},
 	
 	ArrangeElemsInDOM: function(){
@@ -147,8 +147,6 @@ var Application = {
 	beforeStart: function(isHome){
 		this.isHomePage = isHome;
 		
-		this.getProducts();
-		this.SetLanguage();
 		this.LoadUserEvents();
 		this.Initialize(isHome);
 		this.currWindowWidth = $( window ).width();

@@ -20,6 +20,9 @@
 	<link href="<?php echo base_url(PATH_ASSETS.'/css/libs/dcsns_wall.css'); ?>" rel="stylesheet" type="text/css">
 	<link href="<?php echo base_url(PATH_ASSETS.'/css/page-header.css'); ?>" rel="stylesheet" type="text/css">
 	<link href="<?php echo base_url(PATH_ASSETS.'/css/know-more-about-mj.css'); ?>" rel="stylesheet" type="text/css"> <!-- css customizado da página -->
+	<link rel="stylesheet" href="<?php echo base_url(PATH_ASSETS.'/js/libs/jquery/ui/jquery-ui-1.12.1.custom/jquery-ui.css'); ?>">
+	<link rel="stylesheet" href="<?php echo base_url(PATH_ASSETS.'/js/libs/jquery/ui/jquery-ui-1.12.1.custom/jquery-ui.theme.css'); ?>">
+	<link rel="stylesheet" href="<?php echo base_url(PATH_ASSETS.'/js/libs/jquery/ui/jquery-ui-1.12.1.custom/jquery-ui.structure.css'); ?>">
 
 	<?php if ($controller_module  == 'home'): ?>
 
@@ -28,26 +31,29 @@
 	<?php elseif ($controller_module  == 'contato'): ?>
 
 		<link href="<?php echo base_url(PATH_ASSETS.'/css/contact.css'); ?>" rel="stylesheet" type="text/css"> <!-- css customizado da página -->
+	
+	<?php elseif ($controller_module  == 'sobre-nos' && $action_module  == 'novos-negocios'): ?>
+		<link href="<?php echo base_url(PATH_ASSETS.'/css/sobre-nos-sec-page.css'); ?>" rel="stylesheet" type="text/css"> <!-- css customizado da página -->
 
+	<?php elseif ($controller_module  == 'sobre-nos' && $action_module  == 'meio-ambiente'): ?>
+		<link href="<?php echo base_url(PATH_ASSETS.'/css/sobre-nos-sec-page.css'); ?>" rel="stylesheet" type="text/css"> <!-- css customizado da página -->
+
+	<?php elseif ($controller_module  == 'sobre-nos' && $action_module  == 'qualidade'): ?>
+		<link href="<?php echo base_url(PATH_ASSETS.'/css/sobre-nos-sec-page.css'); ?>" rel="stylesheet" type="text/css"> <!-- css customizado da página -->
+		
+	<?php elseif ($controller_module  == 'sobre-nos' && $action_module  == 'inovacao'): ?>
+		<link href="<?php echo base_url(PATH_ASSETS.'/css/sobre-nos-sec-page.css'); ?>" rel="stylesheet" type="text/css"> <!-- css customizado da página -->
+
+	<?php elseif ($controller_module  == 'sobre-nos' && $action_module  == 'nossa-historia'): ?>
+		<link href="<?php echo base_url(PATH_ASSETS.'/css/timeline.css'); ?>" rel="stylesheet" type="text/css"> <!-- css customizado da página -->
+		<link href="<?php echo base_url(PATH_ASSETS.'/css/jquery.timeline.css'); ?>" rel="stylesheet" type="text/css"> <!-- css customizado da página -->		
+		<link href="<?php echo base_url(PATH_ASSETS.'/css/our-history.css'); ?>" rel="stylesheet" type="text/css"> <!-- css customizado da página -->
+		
 	<?php elseif ($controller_module  == 'sobre-nos'): ?>
 
 		<link href="<?php echo base_url(PATH_ASSETS.'/css/timeline.css'); ?>" rel="stylesheet" type="text/css"> <!-- css customizado da página -->
 		<link href="<?php echo base_url(PATH_ASSETS.'/css/jquery.timeline.css'); ?>" rel="stylesheet" type="text/css"> <!-- css customizado da página -->
-		<link href="<?php echo base_url(PATH_ASSETS.'/css/about-us.css'); ?>" rel="stylesheet" type="text/css"> <!-- css customizado da página -->		
-
-		<link rel="stylesheet" href="<?php echo base_url(PATH_ASSETS.'/js/libs/jquery/ui/jquery-ui-1.12.1.custom/jquery-ui.css'); ?>">
-	    <link rel="stylesheet" href="<?php echo base_url(PATH_ASSETS.'/js/libs/jquery/ui/jquery-ui-1.12.1.custom/jquery-ui.theme.css'); ?>">
-	    <link rel="stylesheet" href="<?php echo base_url(PATH_ASSETS.'/js/libs/jquery/ui/jquery-ui-1.12.1.custom/jquery-ui.structure.css'); ?>">
-
-	<?php elseif ($controller_module  == 'sobre-nos' && $action_module  == 'index'): ?>
-
-	<?php elseif ($controller_module  == 'sobre-nos' && $action_module  == 'novos-negocios'): ?>
-
-	<?php elseif ($controller_module  == 'sobre-nos' && $action_module  == 'meio-ambiente'): ?>
-
-	<?php elseif ($controller_module  == 'sobre-nos' && $action_module  == 'qualidade'): ?>
-
-	<?php elseif ($controller_module  == 'sobre-nos' && $action_module  == 'nossa-historia'): ?>
+		<link href="<?php echo base_url(PATH_ASSETS.'/css/about-us.css'); ?>" rel="stylesheet" type="text/css"> <!-- css customizado da página -->
 
 	<?php elseif ($controller_module  == 'responsabilidade-social'): ?>
 		<link href="<?php echo base_url(PATH_ASSETS.'/css/resp-social.css'); ?>" rel="stylesheet" type="text/css"> <!-- css customizado da página -->
@@ -64,6 +70,8 @@
 	<?php endif ?>
 
     <script src="<?php echo base_url(PATH_ASSETS.'/js/libs/jquery/jquery-3.2.1.min.js'); ?>"></script>
+    <script src="<?php echo base_url(PATH_ASSETS.'/js/libs/jquery/ui/jquery-ui-1.12.1.custom/jquery-ui.js'); ?>"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.mask/1.14.10/jquery.mask.min.js"></script>
 	<script src="<?php echo base_url(PATH_ASSETS.'/js/jquery.social.stream.1.6.1.js'); ?>"></script>
 	<script src="<?php echo base_url(PATH_ASSETS.'/js/jquery.social.stream.wall.1.8.js'); ?>"></script>
 	<script src="<?php echo base_url(PATH_ASSETS.'/js/libs/greensock-js/TweenMax.js'); ?>"></script>
@@ -82,29 +90,27 @@
     	<script src="<?php echo base_url(PATH_ASSETS.'/js/home.js'); ?>"></script> <!-- js customizado da página -->
 
 	<?php elseif ($controller_module  == 'contato'): ?>
-
 		<script src="<?php echo base_url(PATH_ASSETS.'/js/contact.js'); ?>"></script> <!-- js customizado da página -->
 
-	<?php elseif ($controller_module  == 'sobre-nos'): ?>
-
-		<script src="<?php echo base_url(PATH_ASSETS.'/js/novos_negocios.js'); ?>"></script> <!-- js customizado da página -->
-		<script src="<?php echo base_url(PATH_ASSETS.'/js/pharmacovigilance.js'); ?>"></script> <!-- js customizado da página -->
-		<script src="<?php echo base_url(PATH_ASSETS.'/js/timeline.js'); ?>"></script> <!-- js customizado da página -->
-		<script src="<?php echo base_url(PATH_ASSETS.'/js/about_us.js'); ?>"></script> <!-- js customizado da página -->
-
-		<script src="<?php echo base_url(PATH_ASSETS.'/js/libs/jquery/ui/jquery-ui-1.12.1.custom/jquery-ui.js'); ?>"></script>
-		<script src="https://cdn.jsdelivr.net/jquery.mask/1.14.10/jquery.mask.min.js"></script>
-		<script src="<?php echo base_url(PATH_ASSETS.'/js/social-feed-secundary.js'); ?>"></script>
-
-	<?php elseif ($controller_module  == 'sobre-nos' && $action_module  == 'index'): ?>
-
 	<?php elseif ($controller_module  == 'sobre-nos' && $action_module  == 'novos-negocios'): ?>
+		<script src="<?php echo base_url(PATH_ASSETS.'/js/social-feed-secundary.js'); ?>"></script>
+		<script src="<?php echo base_url(PATH_ASSETS.'/js/novos_negocios.js'); ?>"></script>
 
 	<?php elseif ($controller_module  == 'sobre-nos' && $action_module  == 'meio-ambiente'): ?>
+		<script src="<?php echo base_url(PATH_ASSETS.'/js/social-feed-secundary.js'); ?>"></script>
 
 	<?php elseif ($controller_module  == 'sobre-nos' && $action_module  == 'qualidade'): ?>
+		<script src="<?php echo base_url(PATH_ASSETS.'/js/social-feed-secundary.js'); ?>"></script>
+		
+	<?php elseif ($controller_module  == 'sobre-nos' && $action_module  == 'inovacao'): ?>
+		<script src="<?php echo base_url(PATH_ASSETS.'/js/social-feed-secundary.js'); ?>"></script>
 
 	<?php elseif ($controller_module  == 'sobre-nos' && $action_module  == 'nossa-historia'): ?>
+		<script src="<?php echo base_url(PATH_ASSETS.'/js/timeline.js'); ?>"></script> <!-- js customizado da página -->
+		
+	<?php elseif ($controller_module  == 'sobre-nos'): ?>		
+		<script src="<?php echo base_url(PATH_ASSETS.'/js/timeline.js'); ?>"></script> <!-- js customizado da página -->
+		<script src="<?php echo base_url(PATH_ASSETS.'/js/about_us.js'); ?>"></script> <!-- js customizado da página -->
 
 	<?php elseif ($controller_module  == 'responsabilidade-social'): ?>
 		<script src="<?php echo base_url(PATH_ASSETS.'/js/resp-social.js'); ?>"></script> <!-- js customizado da página -->
