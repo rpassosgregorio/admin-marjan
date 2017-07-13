@@ -115,6 +115,7 @@
 									<div class="admingrid-item-col-wrapper">
 										<div class="admingrid-item-text">
 											<h4><?php echo !empty($object->section1_title) ? $object->section1_title : 'lorem ipsum'; ?></h4>
+											<p><?php echo !empty($object->section1_text) ? $object->section1_text : 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores unde assumenda tenetur nisi quisquam aspernatur eveniet error architecto doloremque blanditiis?'; ?></p>
 											<span class="admingrid-item-btn">
 												<?php echo !empty($object->section1_button_text) ? $object->section1_button_text : 'lorem ipsum'; ?>
 											</span>
@@ -327,6 +328,17 @@
 											<div class="form-group">
 												<label>Título</label>
 												<textarea class="form-control" name="section1_title" placeholder="Texto"><?php echo isset($object->id) ? MY_Controller_CMS::nl2br_str_decode($object->section1_title) : ''; ?></textarea>
+											</div>
+										</div>
+
+									</div>
+
+									<div class="row">
+
+										<div class="col-xs-6">
+											<div class="form-group">
+												<label>Texto</label>
+												<textarea class="form-control" name="section1_text" placeholder="Texto"><?php echo isset($object->id) ? MY_Controller_CMS::nl2br_str_decode($object->section1_text) : ''; ?></textarea>
 											</div>
 										</div>
 

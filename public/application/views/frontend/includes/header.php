@@ -59,6 +59,10 @@
 
 		<link href="<?php echo base_url(PATH_ASSETS.'/css/health.css'); ?>" rel="stylesheet" type="text/css"> <!-- css customizado da página -->
 
+	<?php elseif ($controller_module  == 'profissionais-da-saude'): ?>
+
+		<link href="<?php echo base_url(PATH_ASSETS.'/css/health-doctors.css'); ?>" rel="stylesheet" type="text/css"> <!-- css customizado da página -->
+
 	<?php endif ?>
 
     <script src="<?php echo base_url(PATH_ASSETS.'/js/libs/jquery/jquery-3.2.1.min.js'); ?>"></script>
@@ -111,6 +115,10 @@
 	<?php elseif ($controller_module  == 'saude-e-bem-estar'): ?>
 
 		<script src="<?php echo base_url(PATH_ASSETS.'/js/health.js'); ?>"></script> <!-- js customizado da página -->
+
+	<?php elseif ($controller_module  == 'profissionais-da-saude'): ?>
+
+		<script src="<?php echo base_url(PATH_ASSETS.'/js/products_home.js'); ?>"></script> <!-- js customizado da página -->
 
 	<?php endif ?>
 

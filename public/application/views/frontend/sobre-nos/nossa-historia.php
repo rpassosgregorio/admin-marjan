@@ -60,7 +60,6 @@
 							<img src="<?php echo base_url(PATH_ASSETS.'/img/sections/sobre-nos/tl-marjan/MF-timeline-img17.png'); ?>" alt="" />
 						</div>
 					</div>
-
 					<!-- SCROLLBAR (VIEW PLUGIN OPTIONS FOR STYLING) -->
 					<div class="scrollbar">
 						<div class="track">

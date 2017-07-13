@@ -281,6 +281,16 @@
 			$(document).ready(Application.documentReady);
 			</script>
 
+		<?php elseif ($controller_module  == 'profissionais-da-saude'): ?>
+
+			<script language="javascript">
+				window.onload = function(){
+					Application.beforeStart(false);
+					menu_fns.Initialize(false);
+				}
+			$(document).ready(Application.documentReady);
+			</script>
+
 		<?php endif ?>
 
 	</body>
