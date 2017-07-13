@@ -33,9 +33,7 @@
 
 		<link href="<?php echo base_url(PATH_ASSETS.'/css/timeline.css'); ?>" rel="stylesheet" type="text/css"> <!-- css customizado da página -->
 		<link href="<?php echo base_url(PATH_ASSETS.'/css/jquery.timeline.css'); ?>" rel="stylesheet" type="text/css"> <!-- css customizado da página -->
-		<link href="<?php echo base_url(PATH_ASSETS.'/css/about-us.css'); ?>" rel="stylesheet" type="text/css"> <!-- css customizado da página -->
-		<link href="<?php echo base_url(PATH_ASSETS.'/css/sobre-nos-sec-page.css'); ?>" rel="stylesheet" type="text/css"> <!-- css customizado da página -->
-		<link href="<?php echo base_url(PATH_ASSETS.'/css/our-history.css'); ?>" rel="stylesheet" type="text/css"> <!-- css customizado da página -->
+		<link href="<?php echo base_url(PATH_ASSETS.'/css/about-us.css'); ?>" rel="stylesheet" type="text/css"> <!-- css customizado da página -->		
 
 		<link rel="stylesheet" href="<?php echo base_url(PATH_ASSETS.'/js/libs/jquery/ui/jquery-ui-1.12.1.custom/jquery-ui.css'); ?>">
 	    <link rel="stylesheet" href="<?php echo base_url(PATH_ASSETS.'/js/libs/jquery/ui/jquery-ui-1.12.1.custom/jquery-ui.theme.css'); ?>">
